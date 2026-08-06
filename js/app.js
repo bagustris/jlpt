@@ -1,0 +1,793 @@
+const OPTIONS_COUNT = 4;
+
+const state = {
+  mode: 'kanji',
+  // The single JLPT level being drilled (1-5, matching N1-N5), or null in
+  // cumulative review mode (where the pool spans several levels and each
+  // *item* carries its own level — see sourceGrade in loadData/renderQuestion).
+  grade: null,
+  isReview: false,
+  itemList: [],
+  // {id, entry} candidates not yet picked this round — shrinks by one each
+  // time renderQuestion() calls QuestionSelector.select(). Kept as pool
+  // state rather than pre-picking every question upfront: with pools in the
+  // thousands (this dataset's N1 compounds pool is ~4,100; cumulative review
+  // pools ~10,000), eagerly running DistractorGenerator for every question
+  // in an "all" round before showing the first one measured at multiple
+  // minutes of blocked main thread. Picking + building one question at a
+  // time keeps each transition to ~50-120ms, however large the round is.
+  remainingPool: [],
+  roundTotal: 0,
+  currentQuestion: null,
+  index: 0,
+  score: 0,
+  missed: [],
+  correctItems: [],
+  // performance.now() stamp taken when the current question finished
+  // rendering; nulled once consumed so a re-render can't double-count.
+  questionShownAt: null,
+  screen: 'home',
+  // True between an answer being graded and the next question appearing,
+  // when autoNext is off — see armContinue()/onContinueClick().
+  awaitingContinue: false,
+};
+
+const el = {
+  screens: {
+    home: document.getElementById('screen-home'),
+    quiz: document.getElementById('screen-quiz'),
+    summary: document.getElementById('screen-summary'),
+  },
+  modeButtons: document.querySelectorAll('.mode-btn'),
+  gradeCounts: document.querySelectorAll('.grade-count'),
+  gradeButtons: document.querySelectorAll('.grade-btn'),
+  btnQuit: document.getElementById('btn-quit'),
+  btnRetry: document.getElementById('btn-retry'),
+  btnHome: document.getElementById('btn-home'),
+  quizProgress: document.getElementById('quiz-progress'),
+  quizKanji: document.getElementById('quiz-kanji'),
+  quizMeaning: document.getElementById('quiz-meaning'),
+  quizInstruction: document.getElementById('quiz-instruction'),
+  quizOptions: document.getElementById('quiz-options'),
+  quizDetail: document.getElementById('quiz-detail'),
+  btnReview: document.getElementById('btn-review'),
+  reviewCount: document.getElementById('review-count'),
+  summaryScore: document.getElementById('summary-score'),
+  summaryMissed: document.getElementById('summary-missed'),
+  summaryCorrect: document.getElementById('summary-correct'),
+  fileWarning: document.getElementById('file-protocol-warning'),
+  loadError: document.getElementById('load-error-banner'),
+  gradeProgressList: document.getElementById('grade-progress-list'),
+  btnSettings: document.getElementById('btn-settings'),
+  btnSettingsClose: document.getElementById('btn-settings-close'),
+  settingsOverlay: document.getElementById('settings-overlay'),
+  settingShowMeaning: document.getElementById('setting-show-meaning'),
+  settingAutoNext: document.getElementById('setting-auto-next'),
+  settingRoundSizeButtons: document.querySelectorAll('#setting-round-size .segmented-btn'),
+  installButton: document.getElementById('btn-install'),
+  installHint: document.getElementById('settings-install-hint'),
+};
+
+// Core screen navigation is wired up first, before dashboard rendering or
+// any other setup below — so a bug (or a stale-cache version mismatch
+// between index.html and this script, see js/sw.js's CACHE_VERSION) in
+// that later code can never leave the level/mode buttons unresponsive.
+
+// data-*-count attributes hold the exact label text to display (e.g.
+// "739字") — see registerTotalQuestionCounts() below.
+const COUNT_ATTR = { kanji: 'kanjiCount', word: 'wordCount' };
+
+el.modeButtons.forEach((btn) => {
+  btn.addEventListener('click', () => {
+    if (btn.classList.contains('active')) return;
+    el.modeButtons.forEach((b) => b.classList.toggle('active', b === btn));
+    const mode = btn.dataset.mode;
+    el.gradeCounts.forEach((span) => {
+      span.textContent = span.dataset[COUNT_ATTR[mode]];
+    });
+    el.gradeButtons.forEach((gbtn) => { gbtn.dataset.mode = mode; });
+    renderDashboard();
+  });
+});
+
+el.gradeButtons.forEach((btn) => {
+  btn.dataset.mode = 'kanji';
+  btn.addEventListener('click', () => startGrade(btn.dataset.mode, Number(btn.dataset.grade)));
+});
+
+el.btnReview.addEventListener('click', () => startReview(getSelectedMode()));
+
+el.btnQuit.addEventListener('click', () => showScreen('home'));
+el.btnHome.addEventListener('click', () => showScreen('home'));
+el.btnRetry.addEventListener('click', () => startRound());
+
+// The level name shown in the dashboard (e.g. "N3") is read straight off
+// the matching grade button rather than duplicated in a lookup table — strip
+// its key-badge/count child spans and what's left is the label text.
+function gradeDisplayName(grade) {
+  const btn = document.querySelector(`.grade-btn[data-grade="${grade}"]`);
+  if (!btn) return '';
+  const clone = btn.cloneNode(true);
+  clone.querySelectorAll('span').forEach((span) => span.remove());
+  return clone.textContent.trim();
+}
+
+// Total question counts per level/mode are already known statically (see the
+// grade-count data attributes in index.html) — register them once so the
+// dashboard can show a completion percentage without fetching any data.
+function registerTotalQuestionCounts() {
+  el.gradeButtons.forEach((btn) => {
+    const grade = Number(btn.dataset.grade);
+    const counts = btn.querySelector('.grade-count');
+    ProgressManager.setTotalQuestions('kanji', grade, parseInt(counts.dataset.kanjiCount, 10));
+    ProgressManager.setTotalQuestions('word', grade, parseInt(counts.dataset.wordCount, 10));
+  });
+}
+
+// The mode toggle only flips which mode the grade buttons will launch (see
+// its click handler below) — state.mode itself isn't set until a level is
+// actually started, so the dashboard reads the active toggle directly to
+// know which mode's per-level progress to show.
+function getSelectedMode() {
+  return document.querySelector('.mode-btn.active').dataset.mode;
+}
+
+function renderDashboard() {
+  const mode = getSelectedMode();
+  const grades = [...el.gradeButtons].map((btn) => {
+    const grade = Number(btn.dataset.grade);
+    return { grade, name: gradeDisplayName(grade) };
+  });
+  ProgressView.renderAll(mode, grades);
+  // Kept in step with the dashboard rather than called separately: the two
+  // read the same progress data, and finishing a level for the first time is
+  // exactly what flips review from unavailable to available.
+  renderReviewButton();
+}
+
+// Settings dialog: a plain modal (backdrop click / Escape / close button
+// dismiss it) rather than something wired into the arrow-key nav groups —
+// it's reached by mouse/touch or Tab, matching how a native <dialog> would
+// behave, without the added complexity of a full focus trap.
+function applyMeaningVisibility() {
+  el.quizMeaning.classList.toggle('hidden', !SettingsManager.get('showMeaning'));
+}
+
+function isSettingsOpen() {
+  return !el.settingsOverlay.classList.contains('hidden');
+}
+
+function openSettings() {
+  el.settingsOverlay.classList.remove('hidden');
+  renderInstallRow();
+  el.btnSettingsClose.focus();
+}
+
+function closeSettings() {
+  el.settingsOverlay.classList.add('hidden');
+  el.btnSettings.focus();
+}
+
+// PWA install: Chrome/Edge/Android fire `beforeinstallprompt`, which we
+// stash until the user taps the Settings button. Browsers with no such
+// event (iOS Safari, desktop Safari/Firefox) get manual "Add to Home
+// Screen" instructions instead, since there's no install API to call there.
+let deferredInstallPrompt = null;
+
+function isStandaloneDisplay() {
+  return window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+}
+
+function renderInstallRow() {
+  if (isStandaloneDisplay()) {
+    el.installButton.classList.add('hidden');
+    el.installHint.textContent = 'インストール済み — Already installed';
+    el.installHint.classList.remove('hidden');
+    return;
+  }
+  if (deferredInstallPrompt) {
+    el.installButton.classList.remove('hidden');
+    el.installHint.classList.add('hidden');
+    return;
+  }
+  el.installButton.classList.add('hidden');
+  const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
+  el.installHint.textContent = isIOS
+    ? '共有ボタン → ホーム画面に追加 — Share button → Add to Home Screen'
+    : 'ブラウザメニューの「インストール」から追加できます — Use your browser menu → Install app';
+  el.installHint.classList.remove('hidden');
+}
+
+window.addEventListener('beforeinstallprompt', (e) => {
+  e.preventDefault();
+  deferredInstallPrompt = e;
+  renderInstallRow();
+});
+
+window.addEventListener('appinstalled', () => {
+  deferredInstallPrompt = null;
+  renderInstallRow();
+});
+
+function initSettingsPanel() {
+  el.settingShowMeaning.checked = SettingsManager.get('showMeaning');
+  applyMeaningVisibility();
+
+  el.settingAutoNext.checked = SettingsManager.get('autoNext');
+
+  const roundSize = String(SettingsManager.get('roundSize'));
+  el.settingRoundSizeButtons.forEach((btn) => {
+    btn.classList.toggle('active', btn.dataset.value === roundSize);
+  });
+
+  el.settingShowMeaning.addEventListener('change', () => {
+    SettingsManager.set('showMeaning', el.settingShowMeaning.checked);
+    applyMeaningVisibility();
+  });
+
+  el.settingAutoNext.addEventListener('change', () => {
+    SettingsManager.set('autoNext', el.settingAutoNext.checked);
+  });
+
+  el.settingRoundSizeButtons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      el.settingRoundSizeButtons.forEach((b) => b.classList.toggle('active', b === btn));
+      SettingsManager.set('roundSize', btn.dataset.value === 'all' ? 'all' : Number(btn.dataset.value));
+    });
+  });
+
+  el.btnSettings.addEventListener('click', openSettings);
+  el.btnSettingsClose.addEventListener('click', closeSettings);
+  el.settingsOverlay.addEventListener('click', (e) => {
+    if (e.target === el.settingsOverlay) closeSettings();
+  });
+
+  el.installButton.addEventListener('click', async () => {
+    if (!deferredInstallPrompt) return;
+    deferredInstallPrompt.prompt();
+    await deferredInstallPrompt.userChoice;
+    deferredInstallPrompt = null;
+    renderInstallRow();
+  });
+
+  renderInstallRow();
+}
+
+initSettingsPanel();
+registerTotalQuestionCounts();
+ProgressView.init();
+renderDashboard();
+
+el.gradeProgressList.addEventListener('click', (e) => {
+  const btn = e.target.closest('.grade-row-reset');
+  if (!btn) return;
+  const grade = Number(btn.dataset.grade);
+  const mode = getSelectedMode();
+  const name = gradeDisplayName(grade);
+  if (!confirm(`${name}の成績をリセットしますか？\nReset progress for ${name}?`)) return;
+  ProgressManager.reset(mode, grade);
+  renderDashboard();
+});
+
+if (location.protocol === 'file:') {
+  el.fileWarning.classList.remove('hidden');
+}
+
+function showScreen(name) {
+  // Any screen change abandons a pending "tap/press a key to continue" —
+  // otherwise a leftover continue click could fire after navigating away
+  // (e.g. quitting mid-reveal) and re-render a question the learner just
+  // backed out of. See armContinue()/onContinueClick().
+  cancelContinue();
+  state.screen = name;
+  Object.entries(el.screens).forEach(([key, section]) => {
+    section.classList.toggle('hidden', key !== name);
+  });
+}
+
+// Advances past the current question, whether triggered by the autoNext
+// timer or by armContinue()'s tap/keypress gate — both paths funnel through
+// here so there's exactly one place that decides "next question vs. summary".
+function advanceQuestion() {
+  state.index++;
+  if (state.index < state.roundTotal) renderQuestion();
+  else showSummary();
+}
+
+// Fires once on the next click anywhere in the app while awaitingContinue is
+// true. Registered via a deferred (setTimeout 0) addEventListener rather
+// than directly in handleAnswer — the click that answered the question is
+// still bubbling up to `document` at that point, and attaching synchronously
+// would let that same click immediately satisfy its own "continue" gate.
+function onContinueClick() {
+  if (!state.awaitingContinue) return;
+  state.awaitingContinue = false;
+  advanceQuestion();
+}
+
+function armContinue() {
+  state.awaitingContinue = true;
+  el.quizInstruction.innerHTML = 'タップして次へ<span>Tap or press any key to continue</span>';
+  setTimeout(() => document.addEventListener('click', onContinueClick, { once: true }), 0);
+}
+
+function cancelContinue() {
+  if (!state.awaitingContinue) return;
+  state.awaitingContinue = false;
+  document.removeEventListener('click', onContinueClick);
+}
+
+function shuffle(array) {
+  const a = array.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+// Kanji entries use `kanji`, compound entries use `word` — same shape
+// otherwise.
+function itemText(entry) {
+  return entry.kanji ?? entry.word;
+}
+
+// Escapes a plain-text value pulled straight from the exported dataset
+// before it goes into an innerHTML template literal. Most of this app's data
+// is Japanese kana/kanji, which is inert, but English glosses aren't: e.g.
+// "counter for bows & stringed instruments" (kanji 張, N1) has a bare "&",
+// which is invalid HTML and can swallow whatever follows it. Every raw
+// string interpolated into innerHTML below (not textContent, which needs
+// none of this) goes through here first.
+function escapeHTML(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+// A reading like "おぼ.える" marks where kanji-derived reading ends and
+// okurigana (kana not carried by the kanji itself) begins. A leading/trailing
+// "-" (e.g. "ひと-", "-び") marks a bound (prefix/suffix-only) form; those are
+// filtered out of the quiz answer pool by the exporter but still shown as-is
+// here in the on'yomi/kun'yomi detail lists.
+function readingHTML(reading) {
+  const dot = reading.indexOf('.');
+  if (dot === -1) return escapeHTML(reading);
+  const core = escapeHTML(reading.slice(0, dot));
+  const okurigana = escapeHTML(reading.slice(dot + 1));
+  return `${core}<span class="okurigana">${okurigana}</span>`;
+}
+
+// {id, entry} candidates for a round, id = ProgressManager's stable question
+// ID. renderQuestion() repeatedly asks QuestionSelector for the next best
+// pick from this pool and splices it out, so a single round never repeats a
+// question (QuestionSelector's own recent-history queue additionally keeps
+// picks diverse across rounds/retries within the same page session).
+// `entry.sourceGrade` rather than a single round-wide grade: in cumulative
+// review the pool spans several levels, and a question's progress must stay
+// under the level it actually belongs to. Keying it any other way would fork
+// one kanji's history into two records.
+function buildRemainingPool(itemList, mode) {
+  return itemList.map((entry) => ({ id: ProgressManager.getQuestionId(mode, entry.sourceGrade, itemText(entry)), entry }));
+}
+
+// Distractor selection is delegated to the Adaptive Learning Engine's
+// DistractorGenerator (js/learning/distractors/) instead of a random pick —
+// see kanji-drill's README "Adaptive Distractor Generation" for how it ranks
+// candidates; this app reuses that engine unmodified.
+function buildQuestion(target, itemList, mode) {
+  const correctReading = shuffle(target.readings)[0];
+  const question = {
+    id: ProgressManager.getQuestionId(mode, target.sourceGrade, itemText(target)),
+    text: itemText(target),
+    reading: correctReading,
+    meaning: target.meaning,
+    // Feeds SimilarityFeatures' frequency-proximity term (kanji mode only —
+    // compound entries don't carry a corpus frequency rank).
+    frequency: target.freq,
+  };
+  const distractors = DistractorGenerator.generate(question, itemList);
+  const options = shuffle([correctReading, ...distractors]);
+  return {
+    text: question.text,
+    sourceGrade: target.sourceGrade,
+    meaning: target.meaning,
+    correctReading,
+    options,
+    // Full source entry (onyomi/kunyomi/compounds/accent/strokes/etc.) for
+    // the post-answer detail panel — see renderDetail().
+    detail: target,
+  };
+}
+
+const MODE_FILE_PREFIX = { kanji: 'kanji-n', word: 'compounds-n' };
+
+// Every entry is tagged with the JLPT level whose file it came from, in both
+// single-level and review rounds, so nothing downstream needs to branch on
+// which kind of round it is — see buildRemainingPool()/renderQuestion().
+async function loadData(mode, grade) {
+  const file = `${MODE_FILE_PREFIX[mode]}${grade}`;
+  const res = await fetch(`data/${file}.json`);
+  if (!res.ok) throw new Error(`Failed to load ${file} data (HTTP ${res.status})`);
+  const entries = await res.json();
+  return entries.map((entry) => ({ ...entry, sourceGrade: grade }));
+}
+
+// Levels that have actually been drilled. This is what makes review
+// *cumulative* rather than a firehose: it pools only what you've already
+// started, so it never introduces new material — it just stops earlier
+// levels from decaying while you work on a later one.
+function studiedGrades(mode) {
+  return [...el.gradeButtons]
+    .map((btn) => Number(btn.dataset.grade))
+    .filter((grade) => ProgressManager.getGradeStats(mode, grade).answered > 0);
+}
+
+// Enables/labels the review button for the currently selected mode. Called on
+// mode switch and after every round, since finishing a level for the first
+// time is exactly what makes review become available.
+function renderReviewButton() {
+  const mode = getSelectedMode();
+  const grades = studiedGrades(mode);
+  el.btnReview.disabled = grades.length === 0;
+  el.reviewCount.textContent = grades.length === 0
+    ? 'レベルを1つ終えると使えます'
+    : grades.map(gradeDisplayName).join('・');
+}
+
+async function startGrade(mode, grade) {
+  await startSession(mode, { grade, load: () => loadData(mode, grade) });
+}
+
+async function startReview(mode) {
+  const grades = studiedGrades(mode);
+  if (grades.length === 0) return;
+  await startSession(mode, {
+    grade: null,
+    isReview: true,
+    load: async () => (await Promise.all(grades.map((g) => loadData(mode, g)))).flat(),
+  });
+}
+
+async function startSession(mode, { grade, isReview = false, load }) {
+  el.loadError.classList.add('hidden');
+  try {
+    state.mode = mode;
+    state.grade = grade;
+    state.isReview = isReview;
+    state.itemList = await load();
+    renderDashboard();
+    startRound();
+  } catch (err) {
+    console.error(err);
+    el.loadError.textContent = location.protocol === 'file:'
+      ? '読み込みに失敗しました。サーバー経由で開いてください（上の注意を参照）。'
+      : '読み込みに失敗しました。ページを再読み込みしてください。';
+    el.loadError.classList.remove('hidden');
+  }
+}
+
+function startRound() {
+  const configuredSize = SettingsManager.get('roundSize');
+  const roundSize = configuredSize === 'all' ? state.itemList.length : configuredSize;
+  state.roundTotal = Math.min(roundSize, state.itemList.length);
+  state.remainingPool = buildRemainingPool(state.itemList, state.mode);
+  state.currentQuestion = null;
+  state.index = 0;
+  state.score = 0;
+  state.missed = [];
+  state.correctItems = [];
+  showScreen('quiz');
+  renderQuestion();
+}
+
+const DEFAULT_INSTRUCTION = ['正しい読み方は？', 'Choose the correct reading'];
+
+// Picks and builds exactly one question — including its distractor set —
+// right before it's shown, rather than the whole round upfront. See the
+// comment on state.remainingPool for why: this is a real fix for a real
+// freeze, not premature optimization.
+function renderQuestion() {
+  const choice = QuestionSelector.select(state.remainingPool);
+  if (!choice) { showSummary(); return; }
+  state.remainingPool.splice(state.remainingPool.findIndex((p) => p.id === choice.id), 1);
+  const q = buildQuestion(choice.entry, state.itemList, state.mode);
+  state.currentQuestion = q;
+
+  // Flagged in review mode: the pool spans levels there, so without this a
+  // higher-level kanji surfacing mid-round just looks like a bug.
+  const counter = `${state.index + 1} / ${state.roundTotal}`;
+  el.quizProgress.textContent = state.isReview ? `ふくしゅう ${counter}` : counter;
+  el.quizKanji.classList.toggle('is-word', state.mode === 'word');
+  el.quizKanji.textContent = q.text;
+  el.quizMeaning.textContent = q.meaning;
+  const [instructionMain, instructionSub] = DEFAULT_INSTRUCTION;
+  el.quizInstruction.innerHTML = `${instructionMain}<span>${instructionSub}</span>`;
+  el.quizOptions.innerHTML = '';
+  q.options.forEach((reading, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'option-btn';
+    btn.innerHTML = `<span class="key-badge key-badge-corner">${i + 1}</span>${readingHTML(reading)}`;
+    btn.dataset.reading = reading;
+    btn.addEventListener('click', () => handleAnswer(reading, btn));
+    el.quizOptions.appendChild(btn);
+  });
+  el.quizDetail.innerHTML = '';
+  el.quizDetail.classList.add('hidden');
+
+  // Stamped last, once the options are actually on screen, so the measured
+  // latency is time-to-answer rather than time-to-answer plus render.
+  state.questionShownAt = performance.now();
+}
+
+// Up to `limit` compound examples with kanjium pitch accent, shown in the
+// post-answer detail panel (kanji mode) — see renderDetail().
+function renderCompoundList(compounds, limit) {
+  if (!compounds || compounds.length === 0) return '';
+  const items = compounds.slice(0, limit).map((c) => {
+    const accent = c.accent ? `<span class="detail-accent">${escapeHTML(c.accent)}</span>` : '';
+    return `<li><span class="detail-word">${escapeHTML(c.word)}</span><span class="detail-reading">${readingHTML(c.reading)}</span>${accent}<span class="detail-gloss">${escapeHTML(c.meaning)}</span></li>`;
+  }).join('');
+  const rest = compounds.length - limit;
+  const more = rest > 0 ? `<li class="detail-more">ほか${rest}語<span>+${rest} more</span></li>` : '';
+  return `<ul class="detail-compounds">${items}${more}</ul>`;
+}
+
+function detailRow(labelJa, labelEn, valueHTML) {
+  if (!valueHTML) return '';
+  return `<div class="detail-row"><span class="detail-label">${labelJa}<span>${labelEn}</span></span><span class="detail-value">${valueHTML}</span></div>`;
+}
+
+// Reveals everything the exported dataset carries beyond the reading itself
+// (on'yomi/kun'yomi split, strokes, an example sentence and compound words
+// with pitch accent for kanji; pitch accent and source kanji for compound
+// words) — shown only after answering, since on'yomi/kun'yomi or the accent
+// number would otherwise give the reading away before the question is
+// answered.
+function renderDetail(q) {
+  const entry = q.detail;
+  let html = '';
+
+  if (state.mode === 'kanji') {
+    html += detailRow('音読み', "On'yomi", (entry.onyomi || []).map(readingHTML).join('、'));
+    html += detailRow('訓読み', "Kun'yomi", (entry.kunyomi || []).map(readingHTML).join('、'));
+    if (entry.strokes) html += detailRow('画数', 'Strokes', `${entry.strokes}`);
+    if (entry.sentence) html += detailRow('例文', 'Example', escapeHTML(entry.sentence));
+    html += renderCompoundList(entry.compounds, 4);
+  } else {
+    html += detailRow('アクセント', 'Pitch accent', entry.accent ? escapeHTML(entry.accent) : null);
+    if (entry.sourceKanji && entry.sourceKanji.length) html += detailRow('漢字', 'Kanji', entry.sourceKanji.map(escapeHTML).join('、'));
+  }
+
+  el.quizDetail.innerHTML = html;
+  el.quizDetail.classList.toggle('hidden', html === '');
+}
+
+// Arrow-key navigation: each screen exposes an ordered list of button
+// groups (each with a column count matching its on-screen grid/row/stack
+// layout). Left/Right move within a group's row; Up/Down move within a
+// group's column and, at a group's top/bottom edge, jump to the
+// neighboring group in the same column. Buttons are real <button>
+// elements, so once focused, Enter/Space activate them via native
+// browser behavior — no extra handling needed here.
+function getNavGroups() {
+  if (state.screen === 'home') {
+    const grids = document.querySelectorAll('.grade-grid');
+    return [
+      // cols tracks the on-screen layout: the mode toggle is a single flex
+      // row, so its column count is however many mode buttons there are.
+      { items: [...el.modeButtons], cols: el.modeButtons.length },
+      { items: [...grids[0].children], cols: 2 },
+      // The review row is a single full-width button, and it's disabled until
+      // a level has been studied — so this group is empty on a fresh install
+      // and gets dropped below rather than stranding focus on a dead cell.
+      { items: [...grids[1].children].filter((item) => !item.disabled), cols: 1 },
+    ].filter((group) => group.items.length > 0);
+  }
+  if (state.screen === 'quiz') {
+    return [
+      { items: [el.btnQuit], cols: 1 },
+      { items: [...el.quizOptions.children], cols: 2 },
+    ];
+  }
+  if (state.screen === 'summary') {
+    return [{ items: [el.btnRetry, el.btnHome], cols: 1 }];
+  }
+  return [];
+}
+
+function findFocusPosition(groups) {
+  for (let g = 0; g < groups.length; g++) {
+    const i = groups[g].items.indexOf(document.activeElement);
+    if (i !== -1) return { g, i };
+  }
+  return null;
+}
+
+function navigate(dRow, dCol) {
+  const groups = getNavGroups().filter((grp) => grp.items.length > 0);
+  if (groups.length === 0) return;
+
+  const pos = findFocusPosition(groups);
+  if (!pos) {
+    groups[0].items[0].focus();
+    return;
+  }
+
+  const { g, i } = pos;
+  const group = groups[g];
+  const row = Math.floor(i / group.cols);
+  const col = i % group.cols;
+
+  if (dCol !== 0) {
+    const newCol = col + dCol;
+    if (newCol < 0 || newCol >= group.cols) return;
+    const newIndex = row * group.cols + newCol;
+    if (newIndex >= group.items.length) return;
+    group.items[newIndex].focus();
+    return;
+  }
+
+  const newRow = row + dRow;
+  const withinIndex = newRow * group.cols + col;
+  if (newRow >= 0 && withinIndex < group.items.length) {
+    group.items[withinIndex].focus();
+    return;
+  }
+
+  const targetGroupIndex = g + dRow;
+  if (targetGroupIndex < 0 || targetGroupIndex >= groups.length) return;
+  const targetGroup = groups[targetGroupIndex];
+  let targetIndex;
+  if (dRow > 0) {
+    targetIndex = Math.min(col, targetGroup.cols - 1, targetGroup.items.length - 1);
+  } else {
+    const lastRow = Math.floor((targetGroup.items.length - 1) / targetGroup.cols);
+    const candidate = lastRow * targetGroup.cols + Math.min(col, targetGroup.cols - 1);
+    targetIndex = candidate < targetGroup.items.length ? candidate : targetGroup.items.length - 1;
+  }
+  targetGroup.items[targetIndex].focus();
+}
+
+const ARROW_DELTAS = {
+  ArrowUp: [-1, 0],
+  ArrowDown: [1, 0],
+  ArrowLeft: [0, -1],
+  ArrowRight: [0, 1],
+};
+
+// Keyboard shortcuts, mirrored by the on-screen key-badges: k/w switch mode
+// and 1-5 pick N1-N5 on the home screen, 1-4 pick a quiz option (matching
+// the 2x2 grid order) and 0 quits, 1/2 retry or return home on the summary
+// screen. Arrow keys move focus between on-screen buttons on every screen.
+document.addEventListener('keydown', (e) => {
+  if (isSettingsOpen()) {
+    if (e.key === 'Escape') closeSettings();
+    return;
+  }
+
+  if (e.ctrlKey || e.metaKey || e.altKey) return;
+
+  // "Tap or press any key to continue" — see armContinue(). Takes priority
+  // over every other shortcut below, matching what the instruction line
+  // actually promises.
+  if (state.awaitingContinue) {
+    state.awaitingContinue = false;
+    document.removeEventListener('click', onContinueClick);
+    advanceQuestion();
+    return;
+  }
+
+  if (ARROW_DELTAS[e.key]) {
+    e.preventDefault();
+    navigate(...ARROW_DELTAS[e.key]);
+    return;
+  }
+
+  if (state.screen === 'home') {
+    const key = e.key.toLowerCase();
+    if (key === 'k') {
+      document.querySelector('.mode-btn[data-mode="kanji"]').click();
+      return;
+    }
+    if (key === 'w') {
+      document.querySelector('.mode-btn[data-mode="word"]').click();
+      return;
+    }
+    if (key === 'r') {
+      if (!el.btnReview.disabled) el.btnReview.click();
+      return;
+    }
+    const btn = document.querySelector(`.grade-btn[data-grade="${e.key}"]`);
+    if (btn) btn.click();
+    return;
+  }
+
+  if (state.screen === 'quiz') {
+    if (e.key === '0') {
+      el.btnQuit.click();
+      return;
+    }
+    const index = Number(e.key) - 1;
+    if (!(index >= 0 && index < OPTIONS_COUNT)) return;
+    const btn = el.quizOptions.children[index];
+    if (!btn || btn.disabled) return;
+    btn.click();
+    return;
+  }
+
+  if (state.screen === 'summary') {
+    if (e.key === '1') el.btnRetry.click();
+    else if (e.key === '2') el.btnHome.click();
+  }
+});
+
+function handleAnswer(selected, btnEl) {
+  const q = state.currentQuestion;
+  const isCorrect = selected === q.correctReading;
+
+  const latencyMs = state.questionShownAt === null ? null : performance.now() - state.questionShownAt;
+  state.questionShownAt = null;
+
+  [...el.quizOptions.children].forEach((btn) => {
+    btn.disabled = true;
+    if (btn.dataset.reading === q.correctReading) btn.classList.add('correct');
+    else if (btn === btnEl) btn.classList.add('incorrect');
+  });
+
+  renderDetail(q);
+
+  // q.sourceGrade, not state.grade — in review mode state.grade is null and
+  // each question belongs to its own level's progress record.
+  ProgressManager.recordAnswer(state.mode, q.sourceGrade, q.text, isCorrect, selected, latencyMs);
+  if (isCorrect) { state.score++; state.correctItems.push(q); }
+  else state.missed.push(q);
+
+  renderDashboard();
+
+  if (SettingsManager.get('autoNext')) {
+    // A wrong answer gets a longer pause than a correct one: that's the
+    // moment the revealed reading and detail panel actually need to be read.
+    setTimeout(advanceQuestion, isCorrect ? 900 : 2400);
+  } else {
+    armContinue();
+  }
+}
+
+function showSummary() {
+  showScreen('summary');
+  // state.index, not state.roundTotal: they match on the normal path, but
+  // index is the actual count answered even if a round ended early (the
+  // defensive "pool exhausted" branch in renderQuestion).
+  el.summaryScore.innerHTML = `${state.score} / ${state.index} 正解<span>Correct</span>`;
+  el.summaryMissed.innerHTML = '';
+  if (state.missed.length > 0) {
+    const heading = document.createElement('h3');
+    heading.textContent = 'まちがえたもの';
+    el.summaryMissed.appendChild(heading);
+    state.missed.forEach((q) => {
+      const row = document.createElement('div');
+      row.className = 'missed-item';
+      row.innerHTML = `<span>${escapeHTML(q.text)}</span><span class="missed-item-meaning">${escapeHTML(q.meaning)}</span><span>${readingHTML(q.correctReading)}</span>`;
+      el.summaryMissed.appendChild(row);
+    });
+  }
+
+  el.summaryCorrect.innerHTML = '';
+  if (state.correctItems.length > 0) {
+    const details = document.createElement('details');
+    details.className = 'summary-correct-details';
+    const summary = document.createElement('summary');
+    summary.textContent = `せいかいしたもの（${state.correctItems.length}）`;
+    details.appendChild(summary);
+    state.correctItems.forEach((q) => {
+      const row = document.createElement('div');
+      row.className = 'missed-item';
+      row.innerHTML = `<span>${escapeHTML(q.text)}</span><span class="missed-item-meaning">${escapeHTML(q.meaning)}</span><span>${readingHTML(q.correctReading)}</span>`;
+      details.appendChild(row);
+    });
+    el.summaryCorrect.appendChild(details);
+  }
+}

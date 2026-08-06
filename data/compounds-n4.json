@@ -1,0 +1,8080 @@
+[
+ {
+  "word": "不足",
+  "reading": "ふそく",
+  "readings": [
+   "ふそく"
+  ],
+  "accent": "0",
+  "meaning": "insufficiency, shortage",
+  "sourceKanji": [
+   "不"
+  ]
+ },
+ {
+  "word": "不安",
+  "reading": "ふあん",
+  "readings": [
+   "ふあん"
+  ],
+  "accent": "0",
+  "meaning": "anxiety, uneasiness",
+  "sourceKanji": [
+   "不"
+  ]
+ },
+ {
+  "word": "不当",
+  "reading": "ふとう",
+  "readings": [
+   "ふとう"
+  ],
+  "accent": "0",
+  "meaning": "injustice, unfair",
+  "sourceKanji": [
+   "不"
+  ]
+ },
+ {
+  "word": "不全",
+  "reading": "ふぜん",
+  "readings": [
+   "ふぜん"
+  ],
+  "accent": "0",
+  "meaning": "partial, incomplete",
+  "sourceKanji": [
+   "不"
+  ]
+ },
+ {
+  "word": "不動",
+  "reading": "ふどう",
+  "readings": [
+   "ふどう"
+  ],
+  "accent": "0,1",
+  "meaning": "immobility, motionless",
+  "sourceKanji": [
+   "不",
+   "動"
+  ]
+ },
+ {
+  "word": "世界",
+  "reading": "せかい",
+  "readings": [
+   "せかい"
+  ],
+  "accent": "1",
+  "meaning": "world, society",
+  "sourceKanji": [
+   "世",
+   "界"
+  ]
+ },
+ {
+  "word": "世代",
+  "reading": "せだい",
+  "readings": [
+   "せだい"
+  ],
+  "accent": "1,0",
+  "meaning": "generation, age",
+  "sourceKanji": [
+   "世",
+   "代"
+  ]
+ },
+ {
+  "word": "世話",
+  "reading": "せわ",
+  "readings": [
+   "せわ"
+  ],
+  "accent": "2",
+  "meaning": "looking after, help",
+  "sourceKanji": [
+   "世"
+  ]
+ },
+ {
+  "word": "世話人",
+  "reading": "せわにん",
+  "readings": [
+   "せわにん"
+  ],
+  "accent": "0",
+  "meaning": "manager, sponsor, agent",
+  "sourceKanji": [
+   "世"
+  ]
+ },
+ {
+  "word": "主",
+  "reading": "おも",
+  "readings": [
+   "おも"
+  ],
+  "accent": "1",
+  "meaning": "main, principal, important",
+  "sourceKanji": [
+   "主"
+  ]
+ },
+ {
+  "word": "主人",
+  "reading": "しゅじん",
+  "readings": [
+   "しゅじん"
+  ],
+  "accent": "1",
+  "meaning": "master, landlord, husband, employer",
+  "sourceKanji": [
+   "主"
+  ]
+ },
+ {
+  "word": "主食",
+  "reading": "しゅしょく",
+  "readings": [
+   "しゅしょく"
+  ],
+  "accent": "0",
+  "meaning": "staple food",
+  "sourceKanji": [
+   "主"
+  ]
+ },
+ {
+  "word": "主語",
+  "reading": "しゅご",
+  "readings": [
+   "しゅご"
+  ],
+  "accent": "1",
+  "meaning": "subject",
+  "sourceKanji": [
+   "主"
+  ]
+ },
+ {
+  "word": "持ち主",
+  "reading": "もちぬし",
+  "readings": [
+   "もちぬし"
+  ],
+  "accent": "2",
+  "meaning": "owner, proprietor",
+  "sourceKanji": [
+   "主"
+  ]
+ },
+ {
+  "word": "乗る",
+  "reading": "のる",
+  "readings": [
+   "のる"
+  ],
+  "accent": "0",
+  "meaning": "to ride, to board, to get on",
+  "sourceKanji": [
+   "乗"
+  ]
+ },
+ {
+  "word": "乗せる",
+  "reading": "のせる",
+  "readings": [
+   "のせる"
+  ],
+  "accent": "0",
+  "meaning": "to give a ride, to let (one) take part",
+  "sourceKanji": [
+   "乗"
+  ]
+ },
+ {
+  "word": "乗員",
+  "reading": "じょういん",
+  "readings": [
+   "じょういん"
+  ],
+  "accent": "0",
+  "meaning": "crew",
+  "sourceKanji": [
+   "乗"
+  ]
+ },
+ {
+  "word": "乗り場",
+  "reading": "のりば",
+  "readings": [
+   "のりば"
+  ],
+  "accent": "0",
+  "meaning": "place for boarding vehicles",
+  "sourceKanji": [
+   "乗"
+  ]
+ },
+ {
+  "word": "乗り物",
+  "reading": "のりもの",
+  "readings": [
+   "のりもの"
+  ],
+  "accent": "0",
+  "meaning": "vehicle",
+  "sourceKanji": [
+   "乗"
+  ]
+ },
+ {
+  "word": "仕事",
+  "reading": "しごと",
+  "readings": [
+   "しごと"
+  ],
+  "accent": "0",
+  "meaning": "work, occupation",
+  "sourceKanji": [
+   "事",
+   "仕"
+  ]
+ },
+ {
+  "word": "火事",
+  "reading": "かじ",
+  "readings": [
+   "かじ"
+  ],
+  "accent": "1",
+  "meaning": "fire",
+  "sourceKanji": [
+   "事"
+  ]
+ },
+ {
+  "word": "食事",
+  "reading": "しょくじ",
+  "readings": [
+   "しょくじ"
+  ],
+  "accent": "0",
+  "meaning": "meal",
+  "sourceKanji": [
+   "事"
+  ]
+ },
+ {
+  "word": "行事",
+  "reading": "ぎょうじ",
+  "readings": [
+   "ぎょうじ"
+  ],
+  "accent": "1,0",
+  "meaning": "event, function",
+  "sourceKanji": [
+   "事"
+  ]
+ },
+ {
+  "word": "出来事",
+  "reading": "できごと",
+  "readings": [
+   "できごと"
+  ],
+  "accent": "2",
+  "meaning": "incident, affair, event",
+  "sourceKanji": [
+   "事"
+  ]
+ },
+ {
+  "word": "東京",
+  "reading": "とうきょう",
+  "readings": [
+   "とうきょう"
+  ],
+  "accent": "0",
+  "meaning": "Tokyo - Capital of Japan",
+  "sourceKanji": [
+   "京"
+  ]
+ },
+ {
+  "word": "京子",
+  "reading": "きょうこ",
+  "readings": [
+   "きょうこ"
+  ],
+  "accent": null,
+  "meaning": "kyoko",
+  "sourceKanji": [
+   "京"
+  ]
+ },
+ {
+  "word": "京都",
+  "reading": "きょうと",
+  "readings": [
+   "きょうと"
+  ],
+  "accent": "1",
+  "meaning": "kyoto",
+  "sourceKanji": [
+   "京",
+   "都"
+  ]
+ },
+ {
+  "word": "上京",
+  "reading": "じょうきょう",
+  "readings": [
+   "じょうきょう"
+  ],
+  "accent": "0",
+  "meaning": "heading to the capital",
+  "sourceKanji": [
+   "京"
+  ]
+ },
+ {
+  "word": "仕える",
+  "reading": "つかえる",
+  "readings": [
+   "つかえる"
+  ],
+  "accent": "3,0",
+  "meaning": "to serve, to work for",
+  "sourceKanji": [
+   "仕"
+  ]
+ },
+ {
+  "word": "仕事場",
+  "reading": "しごとば",
+  "readings": [
+   "しごとば"
+  ],
+  "accent": "0",
+  "meaning": "place where one works",
+  "sourceKanji": [
+   "仕"
+  ]
+ },
+ {
+  "word": "仕上げる",
+  "reading": "しあげる",
+  "readings": [
+   "しあげる"
+  ],
+  "accent": "3",
+  "meaning": "to finish up, to complete",
+  "sourceKanji": [
+   "仕"
+  ]
+ },
+ {
+  "word": "代わる",
+  "reading": "かわる",
+  "readings": [
+   "かわる"
+  ],
+  "accent": "0",
+  "meaning": "to take the place of",
+  "sourceKanji": [
+   "代"
+  ]
+ },
+ {
+  "word": "時代",
+  "reading": "じだい",
+  "readings": [
+   "じだい"
+  ],
+  "accent": "0",
+  "meaning": "period, era",
+  "sourceKanji": [
+   "代"
+  ]
+ },
+ {
+  "word": "代金",
+  "reading": "だいきん",
+  "readings": [
+   "だいきん"
+  ],
+  "accent": "1,0",
+  "meaning": "price, payment, cost, the bill",
+  "sourceKanji": [
+   "代"
+  ]
+ },
+ {
+  "word": "以上",
+  "reading": "いじょう",
+  "readings": [
+   "いじょう"
+  ],
+  "accent": "1",
+  "meaning": "more than, over, this is all",
+  "sourceKanji": [
+   "以"
+  ]
+ },
+ {
+  "word": "以下",
+  "reading": "いか",
+  "readings": [
+   "いか"
+  ],
+  "accent": "1",
+  "meaning": "less than, below, under",
+  "sourceKanji": [
+   "以"
+  ]
+ },
+ {
+  "word": "以内",
+  "reading": "いない",
+  "readings": [
+   "いない"
+  ],
+  "accent": "1",
+  "meaning": "within, inside of",
+  "sourceKanji": [
+   "以"
+  ]
+ },
+ {
+  "word": "以外",
+  "reading": "いがい",
+  "readings": [
+   "いがい"
+  ],
+  "accent": "1",
+  "meaning": "with the exception of",
+  "sourceKanji": [
+   "以"
+  ]
+ },
+ {
+  "word": "低い",
+  "reading": "ひくい",
+  "readings": [
+   "ひくい"
+  ],
+  "accent": "2",
+  "meaning": "short, low, humble",
+  "sourceKanji": [
+   "低"
+  ]
+ },
+ {
+  "word": "低音",
+  "reading": "ていおん",
+  "readings": [
+   "ていおん"
+  ],
+  "accent": "0",
+  "meaning": "low tone, bass",
+  "sourceKanji": [
+   "低"
+  ]
+ },
+ {
+  "word": "低下",
+  "reading": "ていか",
+  "readings": [
+   "ていか"
+  ],
+  "accent": "0",
+  "meaning": "fall, decline, deterioration",
+  "sourceKanji": [
+   "低"
+  ]
+ },
+ {
+  "word": "高低",
+  "reading": "こうてい",
+  "readings": [
+   "こうてい"
+  ],
+  "accent": "0,1",
+  "meaning": "high and low, rise and fall",
+  "sourceKanji": [
+   "低"
+  ]
+ },
+ {
+  "word": "低地",
+  "reading": "ていち",
+  "readings": [
+   "ていち"
+  ],
+  "accent": "0",
+  "meaning": "lowland, plain, low ground",
+  "sourceKanji": [
+   "低"
+  ]
+ },
+ {
+  "word": "住む",
+  "reading": "すむ",
+  "readings": [
+   "すむ"
+  ],
+  "accent": "1",
+  "meaning": "to reside, to live in",
+  "sourceKanji": [
+   "住"
+  ]
+ },
+ {
+  "word": "住所",
+  "reading": "じゅうしょ",
+  "readings": [
+   "じゅうしょ"
+  ],
+  "accent": "1",
+  "meaning": "address (eg house), residence",
+  "sourceKanji": [
+   "住",
+   "所"
+  ]
+ },
+ {
+  "word": "安住",
+  "reading": "あんじゅう",
+  "readings": [
+   "あんじゅう"
+  ],
+  "accent": "0",
+  "meaning": "living peaceably",
+  "sourceKanji": [
+   "住"
+  ]
+ },
+ {
+  "word": "体",
+  "reading": "からだ",
+  "readings": [
+   "からだ"
+  ],
+  "accent": "0",
+  "meaning": "body, health",
+  "sourceKanji": [
+   "体"
+  ]
+ },
+ {
+  "word": "本体",
+  "reading": "ほんたい",
+  "readings": [
+   "ほんたい"
+  ],
+  "accent": "1,0",
+  "meaning": "substance, real form",
+  "sourceKanji": [
+   "体"
+  ]
+ },
+ {
+  "word": "死体",
+  "reading": "したい",
+  "readings": [
+   "したい"
+  ],
+  "accent": "0",
+  "meaning": "corpse",
+  "sourceKanji": [
+   "体"
+  ]
+ },
+ {
+  "word": "人体",
+  "reading": "じんたい",
+  "readings": [
+   "じんたい"
+  ],
+  "accent": "1",
+  "meaning": "human body",
+  "sourceKanji": [
+   "体"
+  ]
+ },
+ {
+  "word": "正体",
+  "reading": "しょうたい",
+  "readings": [
+   "しょうたい"
+  ],
+  "accent": "1",
+  "meaning": "natural shape, true character",
+  "sourceKanji": [
+   "体",
+   "正"
+  ]
+ },
+ {
+  "word": "作る",
+  "reading": "つくる",
+  "readings": [
+   "つくる"
+  ],
+  "accent": "2",
+  "meaning": "to make, to create",
+  "sourceKanji": [
+   "作"
+  ]
+ },
+ {
+  "word": "作家",
+  "reading": "さっか",
+  "readings": [
+   "さっか"
+  ],
+  "accent": "0",
+  "meaning": "author, writer",
+  "sourceKanji": [
+   "作",
+   "家"
+  ]
+ },
+ {
+  "word": "工作",
+  "reading": "こうさく",
+  "readings": [
+   "こうさく"
+  ],
+  "accent": "0",
+  "meaning": "work, handicraft",
+  "sourceKanji": [
+   "作"
+  ]
+ },
+ {
+  "word": "作り話",
+  "reading": "つくりはなし",
+  "readings": [
+   "つくりはなし"
+  ],
+  "accent": "4",
+  "meaning": "fiction, made-up story, myth",
+  "sourceKanji": [
+   "作"
+  ]
+ },
+ {
+  "word": "使う",
+  "reading": "つかう",
+  "readings": [
+   "つかう"
+  ],
+  "accent": "0",
+  "meaning": "to use",
+  "sourceKanji": [
+   "使"
+  ]
+ },
+ {
+  "word": "使い方",
+  "reading": "つかいかた",
+  "readings": [
+   "つかいかた"
+  ],
+  "accent": "0",
+  "meaning": "way to use something",
+  "sourceKanji": [
+   "使"
+  ]
+ },
+ {
+  "word": "天使",
+  "reading": "てんし",
+  "readings": [
+   "てんし"
+  ],
+  "accent": "1",
+  "meaning": "angel",
+  "sourceKanji": [
+   "使"
+  ]
+ },
+ {
+  "word": "使者",
+  "reading": "ししゃ",
+  "readings": [
+   "ししゃ"
+  ],
+  "accent": "1",
+  "meaning": "messenger",
+  "sourceKanji": [
+   "使"
+  ]
+ },
+ {
+  "word": "便",
+  "reading": "びん",
+  "readings": [
+   "びん"
+  ],
+  "accent": "1",
+  "meaning": "mail, post",
+  "sourceKanji": [
+   "便"
+  ]
+ },
+ {
+  "word": "不便",
+  "reading": "ふべん",
+  "readings": [
+   "ふべん"
+  ],
+  "accent": "1",
+  "meaning": "inconvenience",
+  "sourceKanji": [
+   "便"
+  ]
+ },
+ {
+  "word": "小便",
+  "reading": "しょうべん",
+  "readings": [
+   "しょうべん"
+  ],
+  "accent": "3",
+  "meaning": "urine",
+  "sourceKanji": [
+   "便"
+  ]
+ },
+ {
+  "word": "大便",
+  "reading": "だいべん",
+  "readings": [
+   "だいべん"
+  ],
+  "accent": "3",
+  "meaning": "feces, excrement",
+  "sourceKanji": [
+   "便"
+  ]
+ },
+ {
+  "word": "借りる",
+  "reading": "かりる",
+  "readings": [
+   "かりる"
+  ],
+  "accent": "0",
+  "meaning": "to borrow",
+  "sourceKanji": [
+   "借"
+  ]
+ },
+ {
+  "word": "借金",
+  "reading": "しゃっきん",
+  "readings": [
+   "しゃっきん"
+  ],
+  "accent": "3",
+  "meaning": "debt, loan, liabilities",
+  "sourceKanji": [
+   "借"
+  ]
+ },
+ {
+  "word": "借り物",
+  "reading": "かりもの",
+  "readings": [
+   "かりもの"
+  ],
+  "accent": "0",
+  "meaning": "borrowed thing",
+  "sourceKanji": [
+   "借"
+  ]
+ },
+ {
+  "word": "働く",
+  "reading": "はたらく",
+  "readings": [
+   "はたらく"
+  ],
+  "accent": "0",
+  "meaning": "to work, to labour",
+  "sourceKanji": [
+   "働"
+  ]
+ },
+ {
+  "word": "働き者",
+  "reading": "はたらきもの",
+  "readings": [
+   "はたらきもの"
+  ],
+  "accent": "0",
+  "meaning": "hardworker, hard working person",
+  "sourceKanji": [
+   "働"
+  ]
+ },
+ {
+  "word": "働き口",
+  "reading": "はたらきぐち",
+  "readings": [
+   "はたらきぐち"
+  ],
+  "accent": "0,4",
+  "meaning": "position, opening",
+  "sourceKanji": [
+   "働"
+  ]
+ },
+ {
+  "word": "労働",
+  "reading": "ろうどう",
+  "readings": [
+   "ろうどう"
+  ],
+  "accent": null,
+  "meaning": "labor, work",
+  "sourceKanji": [
+   "働"
+  ]
+ },
+ {
+  "word": "元々",
+  "reading": "もともと",
+  "readings": [
+   "もともと"
+  ],
+  "accent": "0",
+  "meaning": "originally, by nature, from the start",
+  "sourceKanji": [
+   "元"
+  ]
+ },
+ {
+  "word": "元気",
+  "reading": "げんき",
+  "readings": [
+   "げんき"
+  ],
+  "accent": "1",
+  "meaning": "health, spirit",
+  "sourceKanji": [
+   "元"
+  ]
+ },
+ {
+  "word": "耳元",
+  "reading": "みみもと",
+  "readings": [
+   "みみもと"
+  ],
+  "accent": "0,3",
+  "meaning": "close to the ear",
+  "sourceKanji": [
+   "元"
+  ]
+ },
+ {
+  "word": "地元",
+  "reading": "じもと",
+  "readings": [
+   "じもと"
+  ],
+  "accent": "0,3",
+  "meaning": "local",
+  "sourceKanji": [
+   "元"
+  ]
+ },
+ {
+  "word": "元日",
+  "reading": "がんじつ",
+  "readings": [
+   "がんじつ"
+  ],
+  "accent": "0",
+  "meaning": "new year's day",
+  "sourceKanji": [
+   "元"
+  ]
+ },
+ {
+  "word": "お兄さん",
+  "reading": "おにいさん",
+  "readings": [
+   "おにいさん"
+  ],
+  "accent": "2",
+  "meaning": "(someone else's) elder brother",
+  "sourceKanji": [
+   "兄"
+  ]
+ },
+ {
+  "word": "兄",
+  "reading": "あに",
+  "readings": [
+   "あに"
+  ],
+  "accent": "1",
+  "meaning": "(your own) elder brother",
+  "sourceKanji": [
+   "兄"
+  ]
+ },
+ {
+  "word": "父兄",
+  "reading": "ふけい",
+  "readings": [
+   "ふけい"
+  ],
+  "accent": "2,1",
+  "meaning": "guardians, parents and older brothers",
+  "sourceKanji": [
+   "兄"
+  ]
+ },
+ {
+  "word": "光",
+  "reading": "ひかり",
+  "readings": [
+   "ひかり"
+  ],
+  "accent": "3",
+  "meaning": "light",
+  "sourceKanji": [
+   "光"
+  ]
+ },
+ {
+  "word": "光る",
+  "reading": "ひかる",
+  "readings": [
+   "ひかる"
+  ],
+  "accent": "2",
+  "meaning": "to shine, to be bright",
+  "sourceKanji": [
+   "光"
+  ]
+ },
+ {
+  "word": "電光",
+  "reading": "でんこう",
+  "readings": [
+   "でんこう"
+  ],
+  "accent": "0",
+  "meaning": "lightning",
+  "sourceKanji": [
+   "光"
+  ]
+ },
+ {
+  "word": "月光",
+  "reading": "げっこう",
+  "readings": [
+   "げっこう"
+  ],
+  "accent": "0",
+  "meaning": "moonlight",
+  "sourceKanji": [
+   "光"
+  ]
+ },
+ {
+  "word": "日光",
+  "reading": "にっこう",
+  "readings": [
+   "にっこう"
+  ],
+  "accent": "1",
+  "meaning": "sunlight, Nikko (place name)",
+  "sourceKanji": [
+   "光"
+  ]
+ },
+ {
+  "word": "写す",
+  "reading": "うつす",
+  "readings": [
+   "うつす"
+  ],
+  "accent": "2",
+  "meaning": "to copy, to duplicate",
+  "sourceKanji": [
+   "写"
+  ]
+ },
+ {
+  "word": "写し",
+  "reading": "うつし",
+  "readings": [
+   "うつし"
+  ],
+  "accent": "3",
+  "meaning": "copy, fax, transcript",
+  "sourceKanji": [
+   "写"
+  ]
+ },
+ {
+  "word": "写真",
+  "reading": "しゃしん",
+  "readings": [
+   "しゃしん"
+  ],
+  "accent": "0",
+  "meaning": "photograph",
+  "sourceKanji": [
+   "写",
+   "真"
+  ]
+ },
+ {
+  "word": "生き写し",
+  "reading": "いきうつし",
+  "readings": [
+   "いきうつし"
+  ],
+  "accent": "0,3",
+  "meaning": "lifelike, exact resemblance",
+  "sourceKanji": [
+   "写"
+  ]
+ },
+ {
+  "word": "写真屋",
+  "reading": "しゃしんや",
+  "readings": [
+   "しゃしんや"
+  ],
+  "accent": "0",
+  "meaning": "photo studio, photographer",
+  "sourceKanji": [
+   "写"
+  ]
+ },
+ {
+  "word": "冬",
+  "reading": "ふゆ",
+  "readings": [
+   "ふゆ"
+  ],
+  "accent": "2",
+  "meaning": "winter",
+  "sourceKanji": [
+   "冬"
+  ]
+ },
+ {
+  "word": "冬場",
+  "reading": "ふゆば",
+  "readings": [
+   "ふゆば"
+  ],
+  "accent": "0",
+  "meaning": "winter season",
+  "sourceKanji": [
+   "冬"
+  ]
+ },
+ {
+  "word": "冬物",
+  "reading": "ふゆもの",
+  "readings": [
+   "ふゆもの"
+  ],
+  "accent": "0",
+  "meaning": "winter clothing",
+  "sourceKanji": [
+   "冬"
+  ]
+ },
+ {
+  "word": "冬日",
+  "reading": "ふゆび",
+  "readings": [
+   "ふゆび"
+  ],
+  "accent": "0,2",
+  "meaning": "the winter sun",
+  "sourceKanji": [
+   "冬"
+  ]
+ },
+ {
+  "word": "切る",
+  "reading": "きる",
+  "readings": [
+   "きる"
+  ],
+  "accent": "1",
+  "meaning": "to cut, to chop",
+  "sourceKanji": [
+   "切"
+  ]
+ },
+ {
+  "word": "大切",
+  "reading": "たいせつ",
+  "readings": [
+   "たいせつ"
+  ],
+  "accent": "0",
+  "meaning": "important, valuable",
+  "sourceKanji": [
+   "切"
+  ]
+ },
+ {
+  "word": "切手",
+  "reading": "きって",
+  "readings": [
+   "きって"
+  ],
+  "accent": "0",
+  "meaning": "postage stamp",
+  "sourceKanji": [
+   "切"
+  ]
+ },
+ {
+  "word": "親切",
+  "reading": "しんせつ",
+  "readings": [
+   "しんせつ"
+  ],
+  "accent": "1,0",
+  "meaning": "kind, gentle",
+  "sourceKanji": [
+   "切",
+   "親"
+  ]
+ },
+ {
+  "word": "不親切",
+  "reading": "ふしんせつ",
+  "readings": [
+   "ふしんせつ"
+  ],
+  "accent": "2",
+  "meaning": "unkindness, unfriendliness",
+  "sourceKanji": [
+   "切"
+  ]
+ },
+ {
+  "word": "思い切り",
+  "reading": "おもいきり",
+  "readings": [
+   "おもいきり"
+  ],
+  "accent": "0",
+  "meaning": "with all one's strength (heart)",
+  "sourceKanji": [
+   "切"
+  ]
+ },
+ {
+  "word": "別",
+  "reading": "べつ",
+  "readings": [
+   "べつ"
+  ],
+  "accent": "0",
+  "meaning": "another, particular",
+  "sourceKanji": [
+   "別"
+  ]
+ },
+ {
+  "word": "別に",
+  "reading": "べつに",
+  "readings": [
+   "べつに"
+  ],
+  "accent": "0",
+  "meaning": "(not) particularly, nothing",
+  "sourceKanji": [
+   "別"
+  ]
+ },
+ {
+  "word": "別々に",
+  "reading": "べつべつに",
+  "readings": [
+   "べつべつに"
+  ],
+  "accent": null,
+  "meaning": "separately, individually",
+  "sourceKanji": [
+   "別"
+  ]
+ },
+ {
+  "word": "特別",
+  "reading": "とくべつ",
+  "readings": [
+   "とくべつ"
+  ],
+  "accent": "0",
+  "meaning": "special",
+  "sourceKanji": [
+   "別",
+   "特"
+  ]
+ },
+ {
+  "word": "別れる",
+  "reading": "わかれる",
+  "readings": [
+   "わかれる"
+  ],
+  "accent": "3",
+  "meaning": "to be divided, to part from",
+  "sourceKanji": [
+   "別"
+  ]
+ },
+ {
+  "word": "別名",
+  "reading": "べつめい",
+  "readings": [
+   "べつめい"
+  ],
+  "accent": "0",
+  "meaning": "alias, pseudonym",
+  "sourceKanji": [
+   "別"
+  ]
+ },
+ {
+  "word": "力",
+  "reading": "ちから",
+  "readings": [
+   "ちから"
+  ],
+  "accent": "3",
+  "meaning": "force, strength, energy",
+  "sourceKanji": [
+   "力"
+  ]
+ },
+ {
+  "word": "電力",
+  "reading": "でんりょく",
+  "readings": [
+   "でんりょく"
+  ],
+  "accent": "1,0",
+  "meaning": "electric power",
+  "sourceKanji": [
+   "力"
+  ]
+ },
+ {
+  "word": "全力",
+  "reading": "ぜんりょく",
+  "readings": [
+   "ぜんりょく"
+  ],
+  "accent": "0",
+  "meaning": "all one's power",
+  "sourceKanji": [
+   "力"
+  ]
+ },
+ {
+  "word": "力持ち",
+  "reading": "ちからもち",
+  "readings": [
+   "ちからもち"
+  ],
+  "accent": "3",
+  "meaning": "muscle man, strong man",
+  "sourceKanji": [
+   "力"
+  ]
+ },
+ {
+  "word": "有力者",
+  "reading": "ゆうりょくしゃ",
+  "readings": [
+   "ゆうりょくしゃ"
+  ],
+  "accent": "3,4",
+  "meaning": "influential person",
+  "sourceKanji": [
+   "力"
+  ]
+ },
+ {
+  "word": "力士",
+  "reading": "りきし",
+  "readings": [
+   "りきし"
+  ],
+  "accent": "1,0",
+  "meaning": "Japanese sumo wrestler, strongman",
+  "sourceKanji": [
+   "力"
+  ]
+ },
+ {
+  "word": "力作",
+  "reading": "りきさく",
+  "readings": [
+   "りきさく"
+  ],
+  "accent": "0",
+  "meaning": "literary or artistic masterpiece",
+  "sourceKanji": [
+   "力"
+  ]
+ },
+ {
+  "word": "馬力",
+  "reading": "ばりき",
+  "readings": [
+   "ばりき"
+  ],
+  "accent": "0",
+  "meaning": "horse-power, h.p",
+  "sourceKanji": [
+   "力"
+  ]
+ },
+ {
+  "word": "水力",
+  "reading": "すいりょく",
+  "readings": [
+   "すいりょく"
+  ],
+  "accent": "1",
+  "meaning": "hydraulic power",
+  "sourceKanji": [
+   "力"
+  ]
+ },
+ {
+  "word": "勉強",
+  "reading": "べんきょう",
+  "readings": [
+   "べんきょう"
+  ],
+  "accent": "0",
+  "meaning": "study, diligence",
+  "sourceKanji": [
+   "勉",
+   "強"
+  ]
+ },
+ {
+  "word": "勉学",
+  "reading": "べんがく",
+  "readings": [
+   "べんがく"
+  ],
+  "accent": "0",
+  "meaning": "study, pursuit of knowledge",
+  "sourceKanji": [
+   "勉"
+  ]
+ },
+ {
+  "word": "不勉強",
+  "reading": "ふべんきょう",
+  "readings": [
+   "ふべんきょう"
+  ],
+  "accent": "2",
+  "meaning": "idleness, lack of application",
+  "sourceKanji": [
+   "勉"
+  ]
+ },
+ {
+  "word": "動く",
+  "reading": "うごく",
+  "readings": [
+   "うごく"
+  ],
+  "accent": "2",
+  "meaning": "to move",
+  "sourceKanji": [
+   "動"
+  ]
+ },
+ {
+  "word": "動物",
+  "reading": "どうぶつ",
+  "readings": [
+   "どうぶつ"
+  ],
+  "accent": "0",
+  "meaning": "animal",
+  "sourceKanji": [
+   "動",
+   "物"
+  ]
+ },
+ {
+  "word": "自動",
+  "reading": "じどう",
+  "readings": [
+   "じどう"
+  ],
+  "accent": "0",
+  "meaning": "automatic, self-motion",
+  "sourceKanji": [
+   "動",
+   "自"
+  ]
+ },
+ {
+  "word": "手動",
+  "reading": "しゅどう",
+  "readings": [
+   "しゅどう"
+  ],
+  "accent": "0",
+  "meaning": "manual",
+  "sourceKanji": [
+   "動"
+  ]
+ },
+ {
+  "word": "区",
+  "reading": "く",
+  "readings": [
+   "く"
+  ],
+  "accent": "1",
+  "meaning": "ward, district, section",
+  "sourceKanji": [
+   "区"
+  ]
+ },
+ {
+  "word": "区別",
+  "reading": "くべつ",
+  "readings": [
+   "くべつ"
+  ],
+  "accent": "1",
+  "meaning": "distinction, differentiation, classification",
+  "sourceKanji": [
+   "区"
+  ]
+ },
+ {
+  "word": "区間",
+  "reading": "くかん",
+  "readings": [
+   "くかん"
+  ],
+  "accent": "1,2",
+  "meaning": "section (of track etc)",
+  "sourceKanji": [
+   "区"
+  ]
+ },
+ {
+  "word": "区切る",
+  "reading": "くぎる",
+  "readings": [
+   "くぎる"
+  ],
+  "accent": "2",
+  "meaning": "to punctate, to cut off, to put an end to",
+  "sourceKanji": [
+   "区"
+  ]
+ },
+ {
+  "word": "区々",
+  "reading": "まちまち",
+  "readings": [
+   "まちまち"
+  ],
+  "accent": "2,0",
+  "meaning": "(1) several, various, (2) trivial",
+  "sourceKanji": [
+   "区"
+  ]
+ },
+ {
+  "word": "医者",
+  "reading": "いしゃ",
+  "readings": [
+   "いしゃ"
+  ],
+  "accent": "0",
+  "meaning": "doctor (medical)",
+  "sourceKanji": [
+   "医",
+   "者"
+  ]
+ },
+ {
+  "word": "医学",
+  "reading": "いがく",
+  "readings": [
+   "いがく"
+  ],
+  "accent": "1",
+  "meaning": "medical science, medicine",
+  "sourceKanji": [
+   "医"
+  ]
+ },
+ {
+  "word": "医大",
+  "reading": "いだい",
+  "readings": [
+   "いだい"
+  ],
+  "accent": "0",
+  "meaning": "medical university, medical school",
+  "sourceKanji": [
+   "医"
+  ]
+ },
+ {
+  "word": "医院",
+  "reading": "いいん",
+  "readings": [
+   "いいん"
+  ],
+  "accent": "1",
+  "meaning": "doctor's office (surgery), clinic",
+  "sourceKanji": [
+   "医"
+  ]
+ },
+ {
+  "word": "医薬品",
+  "reading": "いやくひん",
+  "readings": [
+   "いやくひん"
+  ],
+  "accent": "0",
+  "meaning": "medical supplies",
+  "sourceKanji": [
+   "医"
+  ]
+ },
+ {
+  "word": "死去",
+  "reading": "しきょ",
+  "readings": [
+   "しきょ"
+  ],
+  "accent": "1,2",
+  "meaning": "death",
+  "sourceKanji": [
+   "去"
+  ]
+ },
+ {
+  "word": "去る",
+  "reading": "さる",
+  "readings": [
+   "さる"
+  ],
+  "accent": "1",
+  "meaning": "to leave, to go away",
+  "sourceKanji": [
+   "去"
+  ]
+ },
+ {
+  "word": "去年",
+  "reading": "きょねん",
+  "readings": [
+   "きょねん"
+  ],
+  "accent": "1",
+  "meaning": "last year",
+  "sourceKanji": [
+   "去"
+  ]
+ },
+ {
+  "word": "去来",
+  "reading": "きょらい",
+  "readings": [
+   "きょらい"
+  ],
+  "accent": "0",
+  "meaning": "coming and going",
+  "sourceKanji": [
+   "去"
+  ]
+ },
+ {
+  "word": "連れ去る",
+  "reading": "つれさる",
+  "readings": [
+   "つれさる"
+  ],
+  "accent": "3",
+  "meaning": "to take away",
+  "sourceKanji": [
+   "去"
+  ]
+ },
+ {
+  "word": "台",
+  "reading": "だい",
+  "readings": [
+   "だい"
+  ],
+  "accent": "1",
+  "meaning": "stand, rack",
+  "sourceKanji": [
+   "台"
+  ]
+ },
+ {
+  "word": "台風",
+  "reading": "たいふう",
+  "readings": [
+   "たいふう"
+  ],
+  "accent": "3",
+  "meaning": "typhoon",
+  "sourceKanji": [
+   "台",
+   "風"
+  ]
+ },
+ {
+  "word": "台所",
+  "reading": "だいどころ",
+  "readings": [
+   "だいどころ"
+  ],
+  "accent": "0",
+  "meaning": "kitchen",
+  "sourceKanji": [
+   "台"
+  ]
+ },
+ {
+  "word": "高台",
+  "reading": "たかだい",
+  "readings": [
+   "たかだい"
+  ],
+  "accent": "0",
+  "meaning": "elevation, high ground",
+  "sourceKanji": [
+   "台"
+  ]
+ },
+ {
+  "word": "一台",
+  "reading": "いちだい",
+  "readings": [
+   "いちだい"
+  ],
+  "accent": "2",
+  "meaning": "one machine, one vehicle",
+  "sourceKanji": [
+   "台"
+  ]
+ },
+ {
+  "word": "合う",
+  "reading": "あう",
+  "readings": [
+   "あう"
+  ],
+  "accent": "1",
+  "meaning": "to fit, to suit, to match",
+  "sourceKanji": [
+   "合"
+  ]
+ },
+ {
+  "word": "試合",
+  "reading": "しあい",
+  "readings": [
+   "しあい"
+  ],
+  "accent": "0",
+  "meaning": "match, tournament",
+  "sourceKanji": [
+   "合",
+   "試"
+  ]
+ },
+ {
+  "word": "会合",
+  "reading": "かいごう",
+  "readings": [
+   "かいごう"
+  ],
+  "accent": "0",
+  "meaning": "meeting",
+  "sourceKanji": [
+   "合"
+  ]
+ },
+ {
+  "word": "合理",
+  "reading": "ごうり",
+  "readings": [
+   "ごうり"
+  ],
+  "accent": "1",
+  "meaning": "rational, consistent",
+  "sourceKanji": [
+   "合"
+  ]
+ },
+ {
+  "word": "似合う",
+  "reading": "にあう",
+  "readings": [
+   "にあう"
+  ],
+  "accent": "2",
+  "meaning": "to suit, to match",
+  "sourceKanji": [
+   "合"
+  ]
+ },
+ {
+  "word": "不合理",
+  "reading": "ふごうり",
+  "readings": [
+   "ふごうり"
+  ],
+  "accent": "2",
+  "meaning": "unreasonable, irrational, inconsistent",
+  "sourceKanji": [
+   "合"
+  ]
+ },
+ {
+  "word": "同じ",
+  "reading": "おなじ",
+  "readings": [
+   "おなじ"
+  ],
+  "accent": "0",
+  "meaning": "same, similar",
+  "sourceKanji": [
+   "同"
+  ]
+ },
+ {
+  "word": "同時",
+  "reading": "どうじ",
+  "readings": [
+   "どうじ"
+  ],
+  "accent": "0,1",
+  "meaning": "simultaneously, concurrent, same time",
+  "sourceKanji": [
+   "同"
+  ]
+ },
+ {
+  "word": "同然",
+  "reading": "どうぜん",
+  "readings": [
+   "どうぜん"
+  ],
+  "accent": "0",
+  "meaning": "similar to, natural, just",
+  "sourceKanji": [
+   "同"
+  ]
+ },
+ {
+  "word": "同意",
+  "reading": "どうい",
+  "readings": [
+   "どうい"
+  ],
+  "accent": "0",
+  "meaning": "agreement, consent, approval",
+  "sourceKanji": [
+   "同"
+  ]
+ },
+ {
+  "word": "同じよう",
+  "reading": "おなじよう",
+  "readings": [
+   "おなじよう"
+  ],
+  "accent": null,
+  "meaning": "similarly",
+  "sourceKanji": [
+   "同"
+  ]
+ },
+ {
+  "word": "味",
+  "reading": "あじ",
+  "readings": [
+   "あじ"
+  ],
+  "accent": "0",
+  "meaning": "taste, flavour",
+  "sourceKanji": [
+   "味"
+  ]
+ },
+ {
+  "word": "意味",
+  "reading": "いみ",
+  "readings": [
+   "いみ"
+  ],
+  "accent": "1",
+  "meaning": "meaning, significance",
+  "sourceKanji": [
+   "味",
+   "意"
+  ]
+ },
+ {
+  "word": "地味",
+  "reading": "じみ",
+  "readings": [
+   "じみ"
+  ],
+  "accent": "2",
+  "meaning": "plain, simple",
+  "sourceKanji": [
+   "味",
+   "地"
+  ]
+ },
+ {
+  "word": "持ち味",
+  "reading": "もちあじ",
+  "readings": [
+   "もちあじ"
+  ],
+  "accent": "2,0",
+  "meaning": "inherent flavour, distinctive characteristic,",
+  "sourceKanji": [
+   "味",
+   "持"
+  ]
+ },
+ {
+  "word": "味わう",
+  "reading": "あじわう",
+  "readings": [
+   "あじわう"
+  ],
+  "accent": "3,0",
+  "meaning": "to taste, to savour, to relish",
+  "sourceKanji": [
+   "味"
+  ]
+ },
+ {
+  "word": "品物",
+  "reading": "しなもの",
+  "readings": [
+   "しなもの"
+  ],
+  "accent": "0",
+  "meaning": "goods, article, thing",
+  "sourceKanji": [
+   "品"
+  ]
+ },
+ {
+  "word": "部品",
+  "reading": "ぶひん",
+  "readings": [
+   "ぶひん"
+  ],
+  "accent": "0",
+  "meaning": "parts, accessories",
+  "sourceKanji": [
+   "品"
+  ]
+ },
+ {
+  "word": "上品",
+  "reading": "じょうひん",
+  "readings": [
+   "じょうひん"
+  ],
+  "accent": "3",
+  "meaning": "refined, elegant, polished",
+  "sourceKanji": [
+   "品"
+  ]
+ },
+ {
+  "word": "品名",
+  "reading": "ひんめい",
+  "readings": [
+   "ひんめい"
+  ],
+  "accent": "0",
+  "meaning": "product name",
+  "sourceKanji": [
+   "品"
+  ]
+ },
+ {
+  "word": "手品",
+  "reading": "てじな",
+  "readings": [
+   "てじな"
+  ],
+  "accent": "1",
+  "meaning": "trick, magic, juggling",
+  "sourceKanji": [
+   "品"
+  ]
+ },
+ {
+  "word": "店員",
+  "reading": "てんいん",
+  "readings": [
+   "てんいん"
+  ],
+  "accent": "0",
+  "meaning": "shop assistant, employee",
+  "sourceKanji": [
+   "員"
+  ]
+ },
+ {
+  "word": "工員",
+  "reading": "こういん",
+  "readings": [
+   "こういん"
+  ],
+  "accent": "0",
+  "meaning": "factory worker",
+  "sourceKanji": [
+   "員",
+   "工"
+  ]
+ },
+ {
+  "word": "楽員",
+  "reading": "がくいん",
+  "readings": [
+   "がくいん"
+  ],
+  "accent": "0",
+  "meaning": "band member",
+  "sourceKanji": [
+   "員"
+  ]
+ },
+ {
+  "word": "駅員さん",
+  "reading": "えきいんさん",
+  "readings": [
+   "えきいんさん"
+  ],
+  "accent": null,
+  "meaning": "station attendant",
+  "sourceKanji": [
+   "員"
+  ]
+ },
+ {
+  "word": "工作員",
+  "reading": "こうさくいん",
+  "readings": [
+   "こうさくいん"
+  ],
+  "accent": "4",
+  "meaning": "crafstman, handicraft worker",
+  "sourceKanji": [
+   "員"
+  ]
+ },
+ {
+  "word": "問題",
+  "reading": "もんだい",
+  "readings": [
+   "もんだい"
+  ],
+  "accent": "0",
+  "meaning": "problem, question",
+  "sourceKanji": [
+   "問",
+   "題"
+  ]
+ },
+ {
+  "word": "不問",
+  "reading": "ふもん",
+  "readings": [
+   "ふもん"
+  ],
+  "accent": "0",
+  "meaning": "ignorance",
+  "sourceKanji": [
+   "問"
+  ]
+ },
+ {
+  "word": "自問",
+  "reading": "じもん",
+  "readings": [
+   "じもん"
+  ],
+  "accent": "0",
+  "meaning": "asking oneself",
+  "sourceKanji": [
+   "問"
+  ]
+ },
+ {
+  "word": "回",
+  "reading": "かい",
+  "readings": [
+   "かい"
+  ],
+  "accent": "1",
+  "meaning": "counter for occurrences",
+  "sourceKanji": [
+   "回"
+  ]
+ },
+ {
+  "word": "回る",
+  "reading": "まわる",
+  "readings": [
+   "まわる"
+  ],
+  "accent": "0",
+  "meaning": "to turn, to revolve, to visit several places",
+  "sourceKanji": [
+   "回"
+  ]
+ },
+ {
+  "word": "何回",
+  "reading": "なんかい",
+  "readings": [
+   "なんかい"
+  ],
+  "accent": "1",
+  "meaning": "how many times?",
+  "sourceKanji": [
+   "回"
+  ]
+ },
+ {
+  "word": "乗り回す",
+  "reading": "のりまわす",
+  "readings": [
+   "のりまわす"
+  ],
+  "accent": "4,3",
+  "meaning": "to ride/drive around",
+  "sourceKanji": [
+   "回"
+  ]
+ },
+ {
+  "word": "図",
+  "reading": "ず",
+  "readings": [
+   "ず"
+  ],
+  "accent": "0",
+  "meaning": "drawing, picture, illustration",
+  "sourceKanji": [
+   "図"
+  ]
+ },
+ {
+  "word": "地図",
+  "reading": "ちず",
+  "readings": [
+   "ちず"
+  ],
+  "accent": "1",
+  "meaning": "map",
+  "sourceKanji": [
+   "図",
+   "地"
+  ]
+ },
+ {
+  "word": "意図",
+  "reading": "いと",
+  "readings": [
+   "いと"
+  ],
+  "accent": "1",
+  "meaning": "intention, aim, design",
+  "sourceKanji": [
+   "図"
+  ]
+ },
+ {
+  "word": "合図",
+  "reading": "あいず",
+  "readings": [
+   "あいず"
+  ],
+  "accent": "1",
+  "meaning": "sign, signal",
+  "sourceKanji": [
+   "図"
+  ]
+ },
+ {
+  "word": "図書館",
+  "reading": "としょかん",
+  "readings": [
+   "としょかん"
+  ],
+  "accent": "2",
+  "meaning": "library",
+  "sourceKanji": [
+   "図",
+   "館"
+  ]
+ },
+ {
+  "word": "地",
+  "reading": "ち",
+  "readings": [
+   "ち"
+  ],
+  "accent": "1",
+  "meaning": "earth",
+  "sourceKanji": [
+   "地"
+  ]
+ },
+ {
+  "word": "地下",
+  "reading": "ちか",
+  "readings": [
+   "ちか"
+  ],
+  "accent": "1,2",
+  "meaning": "basement, underground",
+  "sourceKanji": [
+   "地"
+  ]
+ },
+ {
+  "word": "地名",
+  "reading": "ちめい",
+  "readings": [
+   "ちめい"
+  ],
+  "accent": "0",
+  "meaning": "place name",
+  "sourceKanji": [
+   "地"
+  ]
+ },
+ {
+  "word": "地上",
+  "reading": "ちじょう",
+  "readings": [
+   "ちじょう"
+  ],
+  "accent": "0",
+  "meaning": "above ground",
+  "sourceKanji": [
+   "地"
+  ]
+ },
+ {
+  "word": "堂",
+  "reading": "どう",
+  "readings": [
+   "どう"
+  ],
+  "accent": "1,0",
+  "meaning": "temple, shrin, hall",
+  "sourceKanji": [
+   "堂"
+  ]
+ },
+ {
+  "word": "堂々",
+  "reading": "どうどう",
+  "readings": [
+   "どうどう"
+  ],
+  "accent": "0,3",
+  "meaning": "magnificent, impressive",
+  "sourceKanji": [
+   "堂"
+  ]
+ },
+ {
+  "word": "会堂",
+  "reading": "かいどう",
+  "readings": [
+   "かいどう"
+  ],
+  "accent": "0",
+  "meaning": "church, chapel",
+  "sourceKanji": [
+   "堂"
+  ]
+ },
+ {
+  "word": "本堂",
+  "reading": "ほんどう",
+  "readings": [
+   "ほんどう"
+  ],
+  "accent": "1",
+  "meaning": "main temple building",
+  "sourceKanji": [
+   "堂"
+  ]
+ },
+ {
+  "word": "場",
+  "reading": "ば",
+  "readings": [
+   "ば"
+  ],
+  "accent": "0",
+  "meaning": "place",
+  "sourceKanji": [
+   "場"
+  ]
+ },
+ {
+  "word": "立場",
+  "reading": "たちば",
+  "readings": [
+   "たちば"
+  ],
+  "accent": "3,1",
+  "meaning": "standpoint, position, situation",
+  "sourceKanji": [
+   "場"
+  ]
+ },
+ {
+  "word": "工場",
+  "reading": "こうじょう",
+  "readings": [
+   "こうじょう"
+  ],
+  "accent": "3",
+  "meaning": "factory, plant, mill",
+  "sourceKanji": [
+   "場",
+   "工"
+  ]
+ },
+ {
+  "word": "広場",
+  "reading": "ひろば",
+  "readings": [
+   "ひろば"
+  ],
+  "accent": "1",
+  "meaning": "plaza",
+  "sourceKanji": [
+   "場",
+   "広"
+  ]
+ },
+ {
+  "word": "式場",
+  "reading": "しきじょう",
+  "readings": [
+   "しきじょう"
+  ],
+  "accent": "0",
+  "meaning": "place of ceremony (eg wedding)",
+  "sourceKanji": [
+   "場"
+  ]
+ },
+ {
+  "word": "酒場",
+  "reading": "さかば",
+  "readings": [
+   "さかば"
+  ],
+  "accent": "0,3",
+  "meaning": "bar, bar room",
+  "sourceKanji": [
+   "場"
+  ]
+ },
+ {
+  "word": "声",
+  "reading": "こえ",
+  "readings": [
+   "こえ"
+  ],
+  "accent": "1",
+  "meaning": "voice",
+  "sourceKanji": [
+   "声"
+  ]
+ },
+ {
+  "word": "声楽",
+  "reading": "せいがく",
+  "readings": [
+   "せいがく"
+  ],
+  "accent": "0",
+  "meaning": "vocal music",
+  "sourceKanji": [
+   "声"
+  ]
+ },
+ {
+  "word": "小声",
+  "reading": "こごえ",
+  "readings": [
+   "こごえ"
+  ],
+  "accent": "0",
+  "meaning": "soft voice, whisper",
+  "sourceKanji": [
+   "声"
+  ]
+ },
+ {
+  "word": "話し声",
+  "reading": "はなしごえ",
+  "readings": [
+   "はなしごえ"
+  ],
+  "accent": "4",
+  "meaning": "speaking voice",
+  "sourceKanji": [
+   "声"
+  ]
+ },
+ {
+  "word": "金切り声",
+  "reading": "かなきりごえ",
+  "readings": [
+   "かなきりごえ"
+  ],
+  "accent": "5",
+  "meaning": "shrill voice, piercing cry, scream",
+  "sourceKanji": [
+   "声"
+  ]
+ },
+ {
+  "word": "売る",
+  "reading": "うる",
+  "readings": [
+   "うる"
+  ],
+  "accent": "0",
+  "meaning": "to sell",
+  "sourceKanji": [
+   "売"
+  ]
+ },
+ {
+  "word": "発売",
+  "reading": "はつばい",
+  "readings": [
+   "はつばい"
+  ],
+  "accent": "0",
+  "meaning": "sale",
+  "sourceKanji": [
+   "売"
+  ]
+ },
+ {
+  "word": "売り出す",
+  "reading": "うりだす",
+  "readings": [
+   "うりだす"
+  ],
+  "accent": "3",
+  "meaning": "to market, to put on sale",
+  "sourceKanji": [
+   "売"
+  ]
+ },
+ {
+  "word": "売り場",
+  "reading": "うりば",
+  "readings": [
+   "うりば"
+  ],
+  "accent": "0",
+  "meaning": "place where things are sold, counter",
+  "sourceKanji": [
+   "売"
+  ]
+ },
+ {
+  "word": "売り物",
+  "reading": "うりもの",
+  "readings": [
+   "うりもの"
+  ],
+  "accent": "0",
+  "meaning": "article for sale, For Sale",
+  "sourceKanji": [
+   "売"
+  ]
+ },
+ {
+  "word": "夏",
+  "reading": "なつ",
+  "readings": [
+   "なつ"
+  ],
+  "accent": "2",
+  "meaning": "summer",
+  "sourceKanji": [
+   "夏"
+  ]
+ },
+ {
+  "word": "夏休み",
+  "reading": "なつやすみ",
+  "readings": [
+   "なつやすみ"
+  ],
+  "accent": "3",
+  "meaning": "summer holiday",
+  "sourceKanji": [
+   "夏"
+  ]
+ },
+ {
+  "word": "夏時間",
+  "reading": "なつじかん",
+  "readings": [
+   "なつじかん"
+  ],
+  "accent": "3",
+  "meaning": "summer time, daylight savings time",
+  "sourceKanji": [
+   "夏"
+  ]
+ },
+ {
+  "word": "夏場",
+  "reading": "なつば",
+  "readings": [
+   "なつば"
+  ],
+  "accent": "0",
+  "meaning": "summertime",
+  "sourceKanji": [
+   "夏"
+  ]
+ },
+ {
+  "word": "夕べ",
+  "reading": "ゆうべ",
+  "readings": [
+   "ゆうべ"
+  ],
+  "accent": "3,0",
+  "meaning": "evening",
+  "sourceKanji": [
+   "夕"
+  ]
+ },
+ {
+  "word": "七夕",
+  "reading": "たなばた",
+  "readings": [
+   "たなばた"
+  ],
+  "accent": "0",
+  "meaning": "Star Festival",
+  "sourceKanji": [
+   "夕"
+  ]
+ },
+ {
+  "word": "夕方",
+  "reading": "ゆうがた",
+  "readings": [
+   "ゆうがた"
+  ],
+  "accent": "0",
+  "meaning": "evening",
+  "sourceKanji": [
+   "夕"
+  ]
+ },
+ {
+  "word": "夕飯",
+  "reading": "ゆうはん",
+  "readings": [
+   "ゆうはん"
+  ],
+  "accent": "0",
+  "meaning": "evening meal",
+  "sourceKanji": [
+   "夕",
+   "飯"
+  ]
+ },
+ {
+  "word": "夜",
+  "reading": "よる",
+  "readings": [
+   "よる"
+  ],
+  "accent": "1",
+  "meaning": "evening",
+  "sourceKanji": [
+   "夜"
+  ]
+ },
+ {
+  "word": "今夜",
+  "reading": "こんや",
+  "readings": [
+   "こんや"
+  ],
+  "accent": "1",
+  "meaning": "tonight, this evening",
+  "sourceKanji": [
+   "夜"
+  ]
+ },
+ {
+  "word": "夜学",
+  "reading": "やがく",
+  "readings": [
+   "やがく"
+  ],
+  "accent": "0",
+  "meaning": "night school, evening classes",
+  "sourceKanji": [
+   "夜"
+  ]
+ },
+ {
+  "word": "夜空",
+  "reading": "よぞら",
+  "readings": [
+   "よぞら"
+  ],
+  "accent": "1",
+  "meaning": "night sky",
+  "sourceKanji": [
+   "夜"
+  ]
+ },
+ {
+  "word": "太い",
+  "reading": "ふとい",
+  "readings": [
+   "ふとい"
+  ],
+  "accent": "2",
+  "meaning": "thick",
+  "sourceKanji": [
+   "太"
+  ]
+ },
+ {
+  "word": "太る",
+  "reading": "ふとる",
+  "readings": [
+   "ふとる"
+  ],
+  "accent": "2",
+  "meaning": "to be on the heavy side",
+  "sourceKanji": [
+   "太"
+  ]
+ },
+ {
+  "word": "太字",
+  "reading": "ふとじ",
+  "readings": [
+   "ふとじ"
+  ],
+  "accent": "0",
+  "meaning": "bold type, thick characters",
+  "sourceKanji": [
+   "太"
+  ]
+ },
+ {
+  "word": "先太",
+  "reading": "さきぶと",
+  "readings": [
+   "さきぶと"
+  ],
+  "accent": "0",
+  "meaning": "thicker towards the end, club-shaped",
+  "sourceKanji": [
+   "太"
+  ]
+ },
+ {
+  "word": "好き",
+  "reading": "すき",
+  "readings": [
+   "すき"
+  ],
+  "accent": "2",
+  "meaning": "to like",
+  "sourceKanji": [
+   "好"
+  ]
+ },
+ {
+  "word": "好意",
+  "reading": "こうい",
+  "readings": [
+   "こうい"
+  ],
+  "accent": "1",
+  "meaning": "good will, favour",
+  "sourceKanji": [
+   "好"
+  ]
+ },
+ {
+  "word": "好む",
+  "reading": "このむ",
+  "readings": [
+   "このむ"
+  ],
+  "accent": "2",
+  "meaning": "to like, to prefer",
+  "sourceKanji": [
+   "好"
+  ]
+ },
+ {
+  "word": "好色",
+  "reading": "こうしょく",
+  "readings": [
+   "こうしょく"
+  ],
+  "accent": "0",
+  "meaning": "lust, sensuality, lewdness",
+  "sourceKanji": [
+   "好"
+  ]
+ },
+ {
+  "word": "好都合",
+  "reading": "こうつごう",
+  "readings": [
+   "こうつごう"
+  ],
+  "accent": "3",
+  "meaning": "convenient, favourable",
+  "sourceKanji": [
+   "好"
+  ]
+ },
+ {
+  "word": "妹",
+  "reading": "いもうと",
+  "readings": [
+   "いもうと"
+  ],
+  "accent": "4",
+  "meaning": "younger sister",
+  "sourceKanji": [
+   "妹"
+  ]
+ },
+ {
+  "word": "姉妹",
+  "reading": "しまい",
+  "readings": [
+   "しまい"
+  ],
+  "accent": "1",
+  "meaning": "sisters",
+  "sourceKanji": [
+   "妹",
+   "姉"
+  ]
+ },
+ {
+  "word": "妹川",
+  "reading": "いもがわ",
+  "readings": [
+   "いもがわ"
+  ],
+  "accent": null,
+  "meaning": "Imogawa",
+  "sourceKanji": [
+   "妹"
+  ]
+ },
+ {
+  "word": "姉妹会社",
+  "reading": "しまいがいしゃ",
+  "readings": [
+   "しまいがいしゃ"
+  ],
+  "accent": null,
+  "meaning": "sister companies",
+  "sourceKanji": [
+   "妹"
+  ]
+ },
+ {
+  "word": "姉妹都市",
+  "reading": "しまいとし",
+  "readings": [
+   "しまいとし"
+  ],
+  "accent": "4",
+  "meaning": "sister cities",
+  "sourceKanji": [
+   "妹"
+  ]
+ },
+ {
+  "word": "姉",
+  "reading": "あね",
+  "readings": [
+   "あね"
+  ],
+  "accent": "0",
+  "meaning": "(your own) older sister",
+  "sourceKanji": [
+   "姉"
+  ]
+ },
+ {
+  "word": "お姉さん",
+  "reading": "おねえさん",
+  "readings": [
+   "おねえさん"
+  ],
+  "accent": "2",
+  "meaning": "(someone elses) older sister",
+  "sourceKanji": [
+   "姉"
+  ]
+ },
+ {
+  "word": "始める",
+  "reading": "はじめる",
+  "readings": [
+   "はじめる"
+  ],
+  "accent": "0",
+  "meaning": "to start, to begin",
+  "sourceKanji": [
+   "始"
+  ]
+ },
+ {
+  "word": "年始",
+  "reading": "ねんし",
+  "readings": [
+   "ねんし"
+  ],
+  "accent": "1",
+  "meaning": "new year",
+  "sourceKanji": [
+   "始"
+  ]
+ },
+ {
+  "word": "始業",
+  "reading": "しぎょう",
+  "readings": [
+   "しぎょう"
+  ],
+  "accent": "0",
+  "meaning": "start work, commencement, opening",
+  "sourceKanji": [
+   "始"
+  ]
+ },
+ {
+  "word": "始終",
+  "reading": "しじゅう",
+  "readings": [
+   "しじゅう"
+  ],
+  "accent": "1",
+  "meaning": "continuously, from beginning to end",
+  "sourceKanji": [
+   "始",
+   "終"
+  ]
+ },
+ {
+  "word": "字",
+  "reading": "じ",
+  "readings": [
+   "じ"
+  ],
+  "accent": "1",
+  "meaning": "character, letter, word",
+  "sourceKanji": [
+   "字"
+  ]
+ },
+ {
+  "word": "漢字",
+  "reading": "かんじ",
+  "readings": [
+   "かんじ"
+  ],
+  "accent": "0",
+  "meaning": "kanji, chinese characters",
+  "sourceKanji": [
+   "字",
+   "漢"
+  ]
+ },
+ {
+  "word": "赤字",
+  "reading": "あかじ",
+  "readings": [
+   "あかじ"
+  ],
+  "accent": "0",
+  "meaning": "deficit, in the red",
+  "sourceKanji": [
+   "字"
+  ]
+ },
+ {
+  "word": "名字",
+  "reading": "みょうじ",
+  "readings": [
+   "みょうじ"
+  ],
+  "accent": "1",
+  "meaning": "surname, family name",
+  "sourceKanji": [
+   "字"
+  ]
+ },
+ {
+  "word": "ローマ字",
+  "reading": "ロマー字",
+  "readings": [
+   "ロマー字"
+  ],
+  "accent": "3,0",
+  "meaning": "romanization, romaji",
+  "sourceKanji": [
+   "字"
+  ]
+ },
+ {
+  "word": "室",
+  "reading": "しつ",
+  "readings": [
+   "しつ"
+  ],
+  "accent": "2",
+  "meaning": "room",
+  "sourceKanji": [
+   "室"
+  ]
+ },
+ {
+  "word": "教室",
+  "reading": "きょうしつ",
+  "readings": [
+   "きょうしつ"
+  ],
+  "accent": "0",
+  "meaning": "classroom",
+  "sourceKanji": [
+   "室"
+  ]
+ },
+ {
+  "word": "室内",
+  "reading": "しつない",
+  "readings": [
+   "しつない"
+  ],
+  "accent": "2",
+  "meaning": "in the room",
+  "sourceKanji": [
+   "室"
+  ]
+ },
+ {
+  "word": "家",
+  "reading": "いえ",
+  "readings": [
+   "いえ"
+  ],
+  "accent": "2",
+  "meaning": "house, one's home",
+  "sourceKanji": [
+   "家"
+  ]
+ },
+ {
+  "word": "家族",
+  "reading": "かぞく",
+  "readings": [
+   "かぞく"
+  ],
+  "accent": "1",
+  "meaning": "family",
+  "sourceKanji": [
+   "家",
+   "族"
+  ]
+ },
+ {
+  "word": "画家",
+  "reading": "がか",
+  "readings": [
+   "がか"
+  ],
+  "accent": "0",
+  "meaning": "painter, artist",
+  "sourceKanji": [
+   "家",
+   "画"
+  ]
+ },
+ {
+  "word": "家事",
+  "reading": "かじ",
+  "readings": [
+   "かじ"
+  ],
+  "accent": "1",
+  "meaning": "housework, chores",
+  "sourceKanji": [
+   "家"
+  ]
+ },
+ {
+  "word": "寒い",
+  "reading": "さむい",
+  "readings": [
+   "さむい"
+  ],
+  "accent": "2",
+  "meaning": "cold (weather)",
+  "sourceKanji": [
+   "寒"
+  ]
+ },
+ {
+  "word": "寒がり",
+  "reading": "さむがり",
+  "readings": [
+   "さむがり"
+  ],
+  "accent": "3,4",
+  "meaning": "senstive to cold",
+  "sourceKanji": [
+   "寒"
+  ]
+ },
+ {
+  "word": "悪寒",
+  "reading": "おかん",
+  "readings": [
+   "おかん"
+  ],
+  "accent": "0",
+  "meaning": "chill, shakes",
+  "sourceKanji": [
+   "寒"
+  ]
+ },
+ {
+  "word": "小屋",
+  "reading": "こや",
+  "readings": [
+   "こや"
+  ],
+  "accent": "2,0",
+  "meaning": "hut, cabin, shed",
+  "sourceKanji": [
+   "屋"
+  ]
+ },
+ {
+  "word": "屋上",
+  "reading": "おくじょう",
+  "readings": [
+   "おくじょう"
+  ],
+  "accent": "0",
+  "meaning": "rooftop",
+  "sourceKanji": [
+   "屋"
+  ]
+ },
+ {
+  "word": "料理屋",
+  "reading": "りょうりや",
+  "readings": [
+   "りょうりや"
+  ],
+  "accent": "3",
+  "meaning": "restaurant",
+  "sourceKanji": [
+   "屋",
+   "料"
+  ]
+ },
+ {
+  "word": "屋外",
+  "reading": "おくがい",
+  "readings": [
+   "おくがい"
+  ],
+  "accent": "2",
+  "meaning": "outdoors",
+  "sourceKanji": [
+   "屋"
+  ]
+ },
+ {
+  "word": "屋内",
+  "reading": "おくない",
+  "readings": [
+   "おくない"
+  ],
+  "accent": "2",
+  "meaning": "indoors",
+  "sourceKanji": [
+   "屋"
+  ]
+ },
+ {
+  "word": "飲み屋",
+  "reading": "のみや",
+  "readings": [
+   "のみや"
+  ],
+  "accent": "2",
+  "meaning": "bar, pub",
+  "sourceKanji": [
+   "屋"
+  ]
+ },
+ {
+  "word": "人工",
+  "reading": "じんこう",
+  "readings": [
+   "じんこう"
+  ],
+  "accent": "0",
+  "meaning": "artificial, man-made",
+  "sourceKanji": [
+   "工"
+  ]
+ },
+ {
+  "word": "工学",
+  "reading": "こうがく",
+  "readings": [
+   "こうがく"
+  ],
+  "accent": "0,1",
+  "meaning": "engineering",
+  "sourceKanji": [
+   "工"
+  ]
+ },
+ {
+  "word": "木工",
+  "reading": "もっこう",
+  "readings": [
+   "もっこう"
+  ],
+  "accent": "0",
+  "meaning": "woodworking, woodworker",
+  "sourceKanji": [
+   "工"
+  ]
+ },
+ {
+  "word": "市",
+  "reading": "し",
+  "readings": [
+   "し"
+  ],
+  "accent": "1",
+  "meaning": "city, town",
+  "sourceKanji": [
+   "市"
+  ]
+ },
+ {
+  "word": "市民",
+  "reading": "しみん",
+  "readings": [
+   "しみん"
+  ],
+  "accent": "1",
+  "meaning": "citizen, townspeople",
+  "sourceKanji": [
+   "市"
+  ]
+ },
+ {
+  "word": "市内",
+  "reading": "しない",
+  "readings": [
+   "しない"
+  ],
+  "accent": "1",
+  "meaning": "within a city",
+  "sourceKanji": [
+   "市"
+  ]
+ },
+ {
+  "word": "市部",
+  "reading": "しぶ",
+  "readings": [
+   "しぶ"
+  ],
+  "accent": "1",
+  "meaning": "urban areas",
+  "sourceKanji": [
+   "市"
+  ]
+ },
+ {
+  "word": "帰る",
+  "reading": "かえる",
+  "readings": [
+   "かえる"
+  ],
+  "accent": "1",
+  "meaning": "to return, to go back, to go home",
+  "sourceKanji": [
+   "帰"
+  ]
+ },
+ {
+  "word": "帰す",
+  "reading": "かえす",
+  "readings": [
+   "かえす"
+  ],
+  "accent": "1",
+  "meaning": "to send back",
+  "sourceKanji": [
+   "帰"
+  ]
+ },
+ {
+  "word": "お帰り",
+  "reading": "おかえり",
+  "readings": [
+   "おかえり"
+  ],
+  "accent": "0",
+  "meaning": "return, welcome",
+  "sourceKanji": [
+   "帰"
+  ]
+ },
+ {
+  "word": "持ち帰り",
+  "reading": "もちかえり",
+  "readings": [
+   "もちかえり"
+  ],
+  "accent": "0",
+  "meaning": "takeout (ie food)",
+  "sourceKanji": [
+   "帰"
+  ]
+ },
+ {
+  "word": "復帰",
+  "reading": "ふっき",
+  "readings": [
+   "ふっき"
+  ],
+  "accent": null,
+  "meaning": "return, comeback",
+  "sourceKanji": [
+   "帰"
+  ]
+ },
+ {
+  "word": "広い",
+  "reading": "ひろい",
+  "readings": [
+   "ひろい"
+  ],
+  "accent": "2",
+  "meaning": "spacious, wide",
+  "sourceKanji": [
+   "広"
+  ]
+ },
+ {
+  "word": "広める",
+  "reading": "ひろめる",
+  "readings": [
+   "ひろめる"
+  ],
+  "accent": "3",
+  "meaning": "to broaden, to propogate",
+  "sourceKanji": [
+   "広"
+  ]
+ },
+ {
+  "word": "広大",
+  "reading": "こうだい",
+  "readings": [
+   "こうだい"
+  ],
+  "accent": "0",
+  "meaning": "huge, very large",
+  "sourceKanji": [
+   "広"
+  ]
+ },
+ {
+  "word": "何度",
+  "reading": "なんど",
+  "readings": [
+   "なんど"
+  ],
+  "accent": "1",
+  "meaning": "how many times? how often?",
+  "sourceKanji": [
+   "度"
+  ]
+ },
+ {
+  "word": "度",
+  "reading": "ど",
+  "readings": [
+   "ど"
+  ],
+  "accent": "0",
+  "meaning": "counter for occurrences",
+  "sourceKanji": [
+   "度"
+  ]
+ },
+ {
+  "word": "度合い",
+  "reading": "どあい",
+  "readings": [
+   "どあい"
+  ],
+  "accent": "0",
+  "meaning": "extent, degree",
+  "sourceKanji": [
+   "度"
+  ]
+ },
+ {
+  "word": "強度",
+  "reading": "きょうど",
+  "readings": [
+   "きょうど"
+  ],
+  "accent": "1",
+  "meaning": "strength, intensity",
+  "sourceKanji": [
+   "度"
+  ]
+ },
+ {
+  "word": "一度に",
+  "reading": "いちどに",
+  "readings": [
+   "いちどに"
+  ],
+  "accent": "3",
+  "meaning": "all at once",
+  "sourceKanji": [
+   "度"
+  ]
+ },
+ {
+  "word": "建物",
+  "reading": "たてもの",
+  "readings": [
+   "たてもの"
+  ],
+  "accent": "2,3",
+  "meaning": "building",
+  "sourceKanji": [
+   "建",
+   "物"
+  ]
+ },
+ {
+  "word": "建てる",
+  "reading": "たてる",
+  "readings": [
+   "たてる"
+  ],
+  "accent": "2",
+  "meaning": "to build, to construct",
+  "sourceKanji": [
+   "建"
+  ]
+ },
+ {
+  "word": "建前",
+  "reading": "たてまえ",
+  "readings": [
+   "たてまえ"
+  ],
+  "accent": "0,3,2",
+  "meaning": "official stance, public position",
+  "sourceKanji": [
+   "建"
+  ]
+ },
+ {
+  "word": "引く",
+  "reading": "ひく",
+  "readings": [
+   "ひく"
+  ],
+  "accent": "0",
+  "meaning": "to pull",
+  "sourceKanji": [
+   "引"
+  ]
+ },
+ {
+  "word": "引き出す",
+  "reading": "ひきだす",
+  "readings": [
+   "ひきだす"
+  ],
+  "accent": "3",
+  "meaning": "to pull out, to withdraw",
+  "sourceKanji": [
+   "引"
+  ]
+ },
+ {
+  "word": "引き出し",
+  "reading": "ひきだし",
+  "readings": [
+   "ひきだし"
+  ],
+  "accent": "0",
+  "meaning": "drawer",
+  "sourceKanji": [
+   "引"
+  ]
+ },
+ {
+  "word": "引用",
+  "reading": "いによう",
+  "readings": [
+   "いによう"
+  ],
+  "accent": "0",
+  "meaning": "quotation, citation",
+  "sourceKanji": [
+   "引"
+  ]
+ },
+ {
+  "word": "手引書",
+  "reading": "てびきしょ",
+  "readings": [
+   "てびきしょ"
+  ],
+  "accent": "0,4",
+  "meaning": "handbook, manual, guide",
+  "sourceKanji": [
+   "引"
+  ]
+ },
+ {
+  "word": "弟",
+  "reading": "おとうと",
+  "readings": [
+   "おとうと"
+  ],
+  "accent": "4",
+  "meaning": "younger brother",
+  "sourceKanji": [
+   "弟"
+  ]
+ },
+ {
+  "word": "子弟",
+  "reading": "してい",
+  "readings": [
+   "してい"
+  ],
+  "accent": "2,1",
+  "meaning": "younger people",
+  "sourceKanji": [
+   "弟"
+  ]
+ },
+ {
+  "word": "弟妹",
+  "reading": "ていまい",
+  "readings": [
+   "ていまい"
+  ],
+  "accent": "0",
+  "meaning": "younger brother and sister",
+  "sourceKanji": [
+   "弟"
+  ]
+ },
+ {
+  "word": "兄弟",
+  "reading": "きょうだい",
+  "readings": [
+   "きょうだい"
+  ],
+  "accent": "1",
+  "meaning": "siblings",
+  "sourceKanji": [
+   "弟"
+  ]
+ },
+ {
+  "word": "弱い",
+  "reading": "よわい",
+  "readings": [
+   "よわい"
+  ],
+  "accent": "2",
+  "meaning": "weak, frail, delicate",
+  "sourceKanji": [
+   "弱"
+  ]
+ },
+ {
+  "word": "弱者",
+  "reading": "じゃくしゃ",
+  "readings": [
+   "じゃくしゃ"
+  ],
+  "accent": "1",
+  "meaning": "the weak",
+  "sourceKanji": [
+   "弱"
+  ]
+ },
+ {
+  "word": "弱み",
+  "reading": "よわみ",
+  "readings": [
+   "よわみ"
+  ],
+  "accent": "3",
+  "meaning": "weakness",
+  "sourceKanji": [
+   "弱"
+  ]
+ },
+ {
+  "word": "弱虫",
+  "reading": "よわむし",
+  "readings": [
+   "よわむし"
+  ],
+  "accent": "2",
+  "meaning": "weakling, coward",
+  "sourceKanji": [
+   "弱"
+  ]
+ },
+ {
+  "word": "弱気",
+  "reading": "よわき",
+  "readings": [
+   "よわき"
+  ],
+  "accent": "0",
+  "meaning": "timid, faint-hearted",
+  "sourceKanji": [
+   "弱"
+  ]
+ },
+ {
+  "word": "強い",
+  "reading": "つよい",
+  "readings": [
+   "つよい"
+  ],
+  "accent": "2",
+  "meaning": "strong",
+  "sourceKanji": [
+   "強"
+  ]
+ },
+ {
+  "word": "強まる",
+  "reading": "つよまる",
+  "readings": [
+   "つよまる"
+  ],
+  "accent": "3",
+  "meaning": "to get strong",
+  "sourceKanji": [
+   "強"
+  ]
+ },
+ {
+  "word": "強気",
+  "reading": "つよき",
+  "readings": [
+   "つよき"
+  ],
+  "accent": "0",
+  "meaning": "firm, strong",
+  "sourceKanji": [
+   "強"
+  ]
+ },
+ {
+  "word": "強引",
+  "reading": "ごういん",
+  "readings": [
+   "ごういん"
+  ],
+  "accent": "0",
+  "meaning": "overbearing, coercive, pushy",
+  "sourceKanji": [
+   "強"
+  ]
+ },
+ {
+  "word": "待つ",
+  "reading": "まつ",
+  "readings": [
+   "まつ"
+  ],
+  "accent": "1",
+  "meaning": "to wait",
+  "sourceKanji": [
+   "待"
+  ]
+ },
+ {
+  "word": "待合",
+  "reading": "まちあい",
+  "readings": [
+   "まちあい"
+  ],
+  "accent": "0",
+  "meaning": "meeting place",
+  "sourceKanji": [
+   "待"
+  ]
+ },
+ {
+  "word": "心待ち",
+  "reading": "こころまち",
+  "readings": [
+   "こころまち"
+  ],
+  "accent": "0,5",
+  "meaning": "anticipation, expectation",
+  "sourceKanji": [
+   "待"
+  ]
+ },
+ {
+  "word": "心",
+  "reading": "こころ",
+  "readings": [
+   "こころ"
+  ],
+  "accent": "3,2",
+  "meaning": "heart, mind, spirit",
+  "sourceKanji": [
+   "心"
+  ]
+ },
+ {
+  "word": "安心",
+  "reading": "あんしん",
+  "readings": [
+   "あんしん"
+  ],
+  "accent": "0",
+  "meaning": "relief, peace of mind",
+  "sourceKanji": [
+   "心"
+  ]
+ },
+ {
+  "word": "心理学",
+  "reading": "しんりがく",
+  "readings": [
+   "しんりがく"
+  ],
+  "accent": "3",
+  "meaning": "psychology",
+  "sourceKanji": [
+   "心"
+  ]
+ },
+ {
+  "word": "心中",
+  "reading": "しんちゅう",
+  "readings": [
+   "しんちゅう"
+  ],
+  "accent": "1,0",
+  "meaning": "in one's heart, true motives",
+  "sourceKanji": [
+   "心"
+  ]
+ },
+ {
+  "word": "心地",
+  "reading": "ここち",
+  "readings": [
+   "ここち"
+  ],
+  "accent": "0",
+  "meaning": "feeling, sensation, mood",
+  "sourceKanji": [
+   "心"
+  ]
+ },
+ {
+  "word": "思う",
+  "reading": "おもう",
+  "readings": [
+   "おもう"
+  ],
+  "accent": "2",
+  "meaning": "to think, to feel",
+  "sourceKanji": [
+   "思"
+  ]
+ },
+ {
+  "word": "思い",
+  "reading": "おもい",
+  "readings": [
+   "おもい"
+  ],
+  "accent": "2",
+  "meaning": "thought",
+  "sourceKanji": [
+   "思"
+  ]
+ },
+ {
+  "word": "思い出す",
+  "reading": "おもいだす",
+  "readings": [
+   "おもいだす"
+  ],
+  "accent": "4,0",
+  "meaning": "to recall, to remember",
+  "sourceKanji": [
+   "思"
+  ]
+ },
+ {
+  "word": "思わず",
+  "reading": "おもわず",
+  "readings": [
+   "おもわず"
+  ],
+  "accent": "2",
+  "meaning": "spontaneous, unintentional",
+  "sourceKanji": [
+   "思"
+  ]
+ },
+ {
+  "word": "意思",
+  "reading": "いし",
+  "readings": [
+   "いし"
+  ],
+  "accent": null,
+  "meaning": "intention, will",
+  "sourceKanji": [
+   "思"
+  ]
+ },
+ {
+  "word": "急",
+  "reading": "きゅう",
+  "readings": [
+   "きゅう"
+  ],
+  "accent": "0",
+  "meaning": "urgent, sudden, steep",
+  "sourceKanji": [
+   "急"
+  ]
+ },
+ {
+  "word": "急ぐ",
+  "reading": "いそぐ",
+  "readings": [
+   "いそぐ"
+  ],
+  "accent": "2",
+  "meaning": "to hurry, to rush",
+  "sourceKanji": [
+   "急"
+  ]
+ },
+ {
+  "word": "急行",
+  "reading": "きゅうこう",
+  "readings": [
+   "きゅうこう"
+  ],
+  "accent": "0",
+  "meaning": "express train",
+  "sourceKanji": [
+   "急"
+  ]
+ },
+ {
+  "word": "急死",
+  "reading": "きゅうし",
+  "readings": [
+   "きゅうし"
+  ],
+  "accent": "0",
+  "meaning": "sudden death",
+  "sourceKanji": [
+   "急"
+  ]
+ },
+ {
+  "word": "悪い",
+  "reading": "わるい",
+  "readings": [
+   "わるい"
+  ],
+  "accent": "2",
+  "meaning": "bad, inferior",
+  "sourceKanji": [
+   "悪"
+  ]
+ },
+ {
+  "word": "最悪",
+  "reading": "さいあく",
+  "readings": [
+   "さいあく"
+  ],
+  "accent": "0",
+  "meaning": "the worst",
+  "sourceKanji": [
+   "悪"
+  ]
+ },
+ {
+  "word": "悪質",
+  "reading": "あくしつ",
+  "readings": [
+   "あくしつ"
+  ],
+  "accent": "0",
+  "meaning": "bad quality",
+  "sourceKanji": [
+   "悪",
+   "質"
+  ]
+ },
+ {
+  "word": "悪さ",
+  "reading": "わるさ",
+  "readings": [
+   "わるさ"
+  ],
+  "accent": "1",
+  "meaning": "badness",
+  "sourceKanji": [
+   "悪"
+  ]
+ },
+ {
+  "word": "意見",
+  "reading": "いけん",
+  "readings": [
+   "いけん"
+  ],
+  "accent": "1",
+  "meaning": "opinion, view",
+  "sourceKanji": [
+   "意"
+  ]
+ },
+ {
+  "word": "注意",
+  "reading": "ちゅうい",
+  "readings": [
+   "ちゅうい"
+  ],
+  "accent": "1",
+  "meaning": "caution, being careful",
+  "sourceKanji": [
+   "意",
+   "注"
+  ]
+ },
+ {
+  "word": "意外",
+  "reading": "いがい",
+  "readings": [
+   "いがい"
+  ],
+  "accent": "0,1",
+  "meaning": "unexpected, surprising",
+  "sourceKanji": [
+   "意"
+  ]
+ },
+ {
+  "word": "民意",
+  "reading": "みんい",
+  "readings": [
+   "みんい"
+  ],
+  "accent": "1",
+  "meaning": "popular will",
+  "sourceKanji": [
+   "意"
+  ]
+ },
+ {
+  "word": "所",
+  "reading": "ところ",
+  "readings": [
+   "ところ"
+  ],
+  "accent": "0",
+  "meaning": "place",
+  "sourceKanji": [
+   "所"
+  ]
+ },
+ {
+  "word": "場所",
+  "reading": "ばしょ",
+  "readings": [
+   "ばしょ"
+  ],
+  "accent": "0",
+  "meaning": "place, location",
+  "sourceKanji": [
+   "所"
+  ]
+ },
+ {
+  "word": "研究所",
+  "reading": "けんきゅうじょ",
+  "readings": [
+   "けんきゅうじょ"
+  ],
+  "accent": "0,5",
+  "meaning": "research place, laboratory",
+  "sourceKanji": [
+   "所"
+  ]
+ },
+ {
+  "word": "高所",
+  "reading": "こうしょ",
+  "readings": [
+   "こうしょ"
+  ],
+  "accent": "1",
+  "meaning": "heights, high altitude",
+  "sourceKanji": [
+   "所"
+  ]
+ },
+ {
+  "word": "持つ",
+  "reading": "もつ",
+  "readings": [
+   "もつ"
+  ],
+  "accent": "1",
+  "meaning": "to have, to hold, to carry",
+  "sourceKanji": [
+   "持"
+  ]
+ },
+ {
+  "word": "気持ち",
+  "reading": "きもち",
+  "readings": [
+   "きもち"
+  ],
+  "accent": "0",
+  "meaning": "feeling, sensation, mood",
+  "sourceKanji": [
+   "持"
+  ]
+ },
+ {
+  "word": "持ち出す",
+  "reading": "もちだす",
+  "readings": [
+   "もちだす"
+  ],
+  "accent": "0,3",
+  "meaning": "to take out",
+  "sourceKanji": [
+   "持"
+  ]
+ },
+ {
+  "word": "持ち帰る",
+  "reading": "もちかえる",
+  "readings": [
+   "もちかえる"
+  ],
+  "accent": "3,0",
+  "meaning": "to carry back/home, to take out (food)",
+  "sourceKanji": [
+   "持"
+  ]
+ },
+ {
+  "word": "保持",
+  "reading": "ほじ",
+  "readings": [
+   "ほじ"
+  ],
+  "accent": null,
+  "meaning": "retention, holding",
+  "sourceKanji": [
+   "持"
+  ]
+ },
+ {
+  "word": "教える",
+  "reading": "おしえる",
+  "readings": [
+   "おしえる"
+  ],
+  "accent": "0",
+  "meaning": "to teach, to inform",
+  "sourceKanji": [
+   "教"
+  ]
+ },
+ {
+  "word": "教え",
+  "reading": "おしえ",
+  "readings": [
+   "おしえ"
+  ],
+  "accent": "0",
+  "meaning": "teaching, lesson",
+  "sourceKanji": [
+   "教"
+  ]
+ },
+ {
+  "word": "文教",
+  "reading": "ぶんきょう",
+  "readings": [
+   "ぶんきょう"
+  ],
+  "accent": "0",
+  "meaning": "education",
+  "sourceKanji": [
+   "教"
+  ]
+ },
+ {
+  "word": "文",
+  "reading": "ぶん",
+  "readings": [
+   "ぶん"
+  ],
+  "accent": "1",
+  "meaning": "sentence",
+  "sourceKanji": [
+   "文"
+  ]
+ },
+ {
+  "word": "文学",
+  "reading": "ぶんがく",
+  "readings": [
+   "ぶんがく"
+  ],
+  "accent": "1",
+  "meaning": "literature",
+  "sourceKanji": [
+   "文"
+  ]
+ },
+ {
+  "word": "文書",
+  "reading": "ぶんしょ",
+  "readings": [
+   "ぶんしょ"
+  ],
+  "accent": "1",
+  "meaning": "document, writings, paperwork, records",
+  "sourceKanji": [
+   "文"
+  ]
+ },
+ {
+  "word": "注文",
+  "reading": "ちゅうもん",
+  "readings": [
+   "ちゅうもん"
+  ],
+  "accent": "0",
+  "meaning": "order, request",
+  "sourceKanji": [
+   "文",
+   "注"
+  ]
+ },
+ {
+  "word": "文学者",
+  "reading": "ぶんがくしゃ",
+  "readings": [
+   "ぶんがくしゃ"
+  ],
+  "accent": "3,4",
+  "meaning": "literary person",
+  "sourceKanji": [
+   "文"
+  ]
+ },
+ {
+  "word": "料理",
+  "reading": "りょうり",
+  "readings": [
+   "りょうり"
+  ],
+  "accent": "1",
+  "meaning": "cooking, cuisine",
+  "sourceKanji": [
+   "料",
+   "理"
+  ]
+ },
+ {
+  "word": "料金",
+  "reading": "りょうきん",
+  "readings": [
+   "りょうきん"
+  ],
+  "accent": "1",
+  "meaning": "fee, charge",
+  "sourceKanji": [
+   "料"
+  ]
+ },
+ {
+  "word": "試料",
+  "reading": "しりょう",
+  "readings": [
+   "しりょう"
+  ],
+  "accent": "1",
+  "meaning": "sample, test piece",
+  "sourceKanji": [
+   "料"
+  ]
+ },
+ {
+  "word": "方",
+  "reading": "かた",
+  "readings": [
+   "かた"
+  ],
+  "accent": "2",
+  "meaning": "(1) person, (2) way of doing",
+  "sourceKanji": [
+   "方"
+  ]
+ },
+ {
+  "word": "考え方",
+  "reading": "かんがえかた",
+  "readings": [
+   "かんがえかた"
+  ],
+  "accent": "5,6",
+  "meaning": "way of thinking",
+  "sourceKanji": [
+   "方",
+   "考"
+  ]
+ },
+ {
+  "word": "見方",
+  "reading": "みかた",
+  "readings": [
+   "みかた"
+  ],
+  "accent": "3,2",
+  "meaning": "viewpoint",
+  "sourceKanji": [
+   "方"
+  ]
+ },
+ {
+  "word": "味方",
+  "reading": "みかた",
+  "readings": [
+   "みかた"
+  ],
+  "accent": "0",
+  "meaning": "friend, person on side",
+  "sourceKanji": [
+   "方"
+  ]
+ },
+ {
+  "word": "旅",
+  "reading": "たび",
+  "readings": [
+   "たび"
+  ],
+  "accent": "2",
+  "meaning": "travel, trip, journey",
+  "sourceKanji": [
+   "旅"
+  ]
+ },
+ {
+  "word": "旅行",
+  "reading": "りょこう",
+  "readings": [
+   "りょこう"
+  ],
+  "accent": "0",
+  "meaning": "travel, trip",
+  "sourceKanji": [
+   "旅"
+  ]
+ },
+ {
+  "word": "旅館",
+  "reading": "りょかん",
+  "readings": [
+   "りょかん"
+  ],
+  "accent": "0",
+  "meaning": "Japanese-style hotel",
+  "sourceKanji": [
+   "旅",
+   "館"
+  ]
+ },
+ {
+  "word": "旅人",
+  "reading": "たびびと",
+  "readings": [
+   "たびびと"
+  ],
+  "accent": "0",
+  "meaning": "traveller",
+  "sourceKanji": [
+   "旅"
+  ]
+ },
+ {
+  "word": "旅先",
+  "reading": "たびさき",
+  "readings": [
+   "たびさき"
+  ],
+  "accent": "0",
+  "meaning": "destination, goal",
+  "sourceKanji": [
+   "旅"
+  ]
+ },
+ {
+  "word": "民族",
+  "reading": "みんぞく",
+  "readings": [
+   "みんぞく"
+  ],
+  "accent": "1",
+  "meaning": "people, race",
+  "sourceKanji": [
+   "族",
+   "民"
+  ]
+ },
+ {
+  "word": "水族館",
+  "reading": "すいぞくかん",
+  "readings": [
+   "すいぞくかん"
+  ],
+  "accent": "4,3",
+  "meaning": "aquarium",
+  "sourceKanji": [
+   "族"
+  ]
+ },
+ {
+  "word": "王族",
+  "reading": "おうぞく",
+  "readings": [
+   "おうぞく"
+  ],
+  "accent": "0",
+  "meaning": "royalty",
+  "sourceKanji": [
+   "族"
+  ]
+ },
+ {
+  "word": "早い",
+  "reading": "はやい",
+  "readings": [
+   "はやい"
+  ],
+  "accent": "2",
+  "meaning": "early",
+  "sourceKanji": [
+   "早"
+  ]
+ },
+ {
+  "word": "早める",
+  "reading": "はやめる",
+  "readings": [
+   "はやめる"
+  ],
+  "accent": "3",
+  "meaning": "to quicken, to expedite",
+  "sourceKanji": [
+   "早"
+  ]
+ },
+ {
+  "word": "早口",
+  "reading": "はやくち",
+  "readings": [
+   "はやくち"
+  ],
+  "accent": "2",
+  "meaning": "fast talking",
+  "sourceKanji": [
+   "早"
+  ]
+ },
+ {
+  "word": "早起き",
+  "reading": "はやおき",
+  "readings": [
+   "はやおき"
+  ],
+  "accent": "2,3",
+  "meaning": "early rising",
+  "sourceKanji": [
+   "早"
+  ]
+ },
+ {
+  "word": "明るい",
+  "reading": "あかるい",
+  "readings": [
+   "あかるい"
+  ],
+  "accent": "0,3",
+  "meaning": "bright, cheerful",
+  "sourceKanji": [
+   "明"
+  ]
+ },
+ {
+  "word": "説明",
+  "reading": "せつめい",
+  "readings": [
+   "せつめい"
+  ],
+  "accent": "0",
+  "meaning": "explanation",
+  "sourceKanji": [
+   "明",
+   "説"
+  ]
+ },
+ {
+  "word": "不明",
+  "reading": "ふめい",
+  "readings": [
+   "ふめい"
+  ],
+  "accent": "0",
+  "meaning": "unknown, ambiguous",
+  "sourceKanji": [
+   "明"
+  ]
+ },
+ {
+  "word": "明日",
+  "reading": "あした",
+  "readings": [
+   "あした"
+  ],
+  "accent": "3",
+  "meaning": "tomorrow",
+  "sourceKanji": [
+   "明"
+  ]
+ },
+ {
+  "word": "映画",
+  "reading": "えいが",
+  "readings": [
+   "えいが"
+  ],
+  "accent": "1,0",
+  "meaning": "movie, film",
+  "sourceKanji": [
+   "映",
+   "画"
+  ]
+ },
+ {
+  "word": "映る",
+  "reading": "うつる",
+  "readings": [
+   "うつる"
+  ],
+  "accent": "2",
+  "meaning": "to be reflected, to harmonize with",
+  "sourceKanji": [
+   "映"
+  ]
+ },
+ {
+  "word": "映画館",
+  "reading": "えいがかん",
+  "readings": [
+   "えいがかん"
+  ],
+  "accent": "3",
+  "meaning": "movie theatre, cinema",
+  "sourceKanji": [
+   "映",
+   "画",
+   "館"
+  ]
+ },
+ {
+  "word": "映える",
+  "reading": "はえる",
+  "readings": [
+   "はえる"
+  ],
+  "accent": "2",
+  "meaning": "to shine, to look attractive, to look pretty",
+  "sourceKanji": [
+   "映"
+  ]
+ },
+ {
+  "word": "春",
+  "reading": "はる",
+  "readings": [
+   "はる"
+  ],
+  "accent": "1",
+  "meaning": "spring",
+  "sourceKanji": [
+   "春"
+  ]
+ },
+ {
+  "word": "青春",
+  "reading": "せいしゅん",
+  "readings": [
+   "せいしゅん"
+  ],
+  "accent": null,
+  "meaning": "youth, springtime of life",
+  "sourceKanji": [
+   "春"
+  ]
+ },
+ {
+  "word": "昼食",
+  "reading": "ちゅうしょく",
+  "readings": [
+   "ちゅうしょく"
+  ],
+  "accent": "0",
+  "meaning": "lunch, midday meal",
+  "sourceKanji": [
+   "昼"
+  ]
+ },
+ {
+  "word": "暑い",
+  "reading": "あつい",
+  "readings": [
+   "あつい"
+  ],
+  "accent": "2",
+  "meaning": "hot",
+  "sourceKanji": [
+   "暑"
+  ]
+ },
+ {
+  "word": "暑さ",
+  "reading": "あつさ",
+  "readings": [
+   "あつさ"
+  ],
+  "accent": "1",
+  "meaning": "heat",
+  "sourceKanji": [
+   "暑"
+  ]
+ },
+ {
+  "word": "暑中",
+  "reading": "しょちゅう",
+  "readings": [
+   "しょちゅう"
+  ],
+  "accent": "0",
+  "meaning": "mid-summer",
+  "sourceKanji": [
+   "暑"
+  ]
+ },
+ {
+  "word": "暗い",
+  "reading": "くらい",
+  "readings": [
+   "くらい"
+  ],
+  "accent": "0",
+  "meaning": "dark, gloomy",
+  "sourceKanji": [
+   "暗"
+  ]
+ },
+ {
+  "word": "真っ暗",
+  "reading": "まっくら",
+  "readings": [
+   "まっくら"
+  ],
+  "accent": "3",
+  "meaning": "total darkness, pitch dark",
+  "sourceKanji": [
+   "暗"
+  ]
+ },
+ {
+  "word": "暗に",
+  "reading": "あんに",
+  "readings": [
+   "あんに"
+  ],
+  "accent": "1",
+  "meaning": "implicitly",
+  "sourceKanji": [
+   "暗"
+  ]
+ },
+ {
+  "word": "明暗",
+  "reading": "めいあん",
+  "readings": [
+   "めいあん"
+  ],
+  "accent": null,
+  "meaning": "light and darkness, prospects",
+  "sourceKanji": [
+   "暗"
+  ]
+ },
+ {
+  "word": "曜日",
+  "reading": "ようび",
+  "readings": [
+   "ようび"
+  ],
+  "accent": "0",
+  "meaning": "day of week",
+  "sourceKanji": [
+   "曜"
+  ]
+ },
+ {
+  "word": "木曜日",
+  "reading": "もくようび",
+  "readings": [
+   "もくようび"
+  ],
+  "accent": "3",
+  "meaning": "thursday",
+  "sourceKanji": [
+   "曜"
+  ]
+ },
+ {
+  "word": "火曜日",
+  "reading": "かようび",
+  "readings": [
+   "かようび"
+  ],
+  "accent": "2",
+  "meaning": "tuesday",
+  "sourceKanji": [
+   "曜"
+  ]
+ },
+ {
+  "word": "水曜日",
+  "reading": "すいようび",
+  "readings": [
+   "すいようび"
+  ],
+  "accent": "3",
+  "meaning": "wednesday",
+  "sourceKanji": [
+   "曜"
+  ]
+ },
+ {
+  "word": "有名",
+  "reading": "ゆうめい",
+  "readings": [
+   "ゆうめい"
+  ],
+  "accent": "0",
+  "meaning": "famous",
+  "sourceKanji": [
+   "有"
+  ]
+ },
+ {
+  "word": "有用",
+  "reading": "ゆうよう",
+  "readings": [
+   "ゆうよう"
+  ],
+  "accent": "0",
+  "meaning": "useful, helpful",
+  "sourceKanji": [
+   "有"
+  ]
+ },
+ {
+  "word": "有事",
+  "reading": "ゆうじ",
+  "readings": [
+   "ゆうじ"
+  ],
+  "accent": "1",
+  "meaning": "emergency",
+  "sourceKanji": [
+   "有"
+  ]
+ },
+ {
+  "word": "服",
+  "reading": "ふく",
+  "readings": [
+   "ふく"
+  ],
+  "accent": "2",
+  "meaning": "clothes",
+  "sourceKanji": [
+   "服"
+  ]
+ },
+ {
+  "word": "洋服",
+  "reading": "ようふく",
+  "readings": [
+   "ようふく"
+  ],
+  "accent": "0",
+  "meaning": "western clothes",
+  "sourceKanji": [
+   "服"
+  ]
+ },
+ {
+  "word": "朝",
+  "reading": "あさ",
+  "readings": [
+   "あさ"
+  ],
+  "accent": "1",
+  "meaning": "morning",
+  "sourceKanji": [
+   "朝"
+  ]
+ },
+ {
+  "word": "毎朝",
+  "reading": "まいあさ",
+  "readings": [
+   "まいあさ"
+  ],
+  "accent": "1,0",
+  "meaning": "every morning",
+  "sourceKanji": [
+   "朝"
+  ]
+ },
+ {
+  "word": "朝日",
+  "reading": "あさひ",
+  "readings": [
+   "あさひ"
+  ],
+  "accent": "1",
+  "meaning": "morning sun",
+  "sourceKanji": [
+   "朝"
+  ]
+ },
+ {
+  "word": "朝食",
+  "reading": "ちょうしょく",
+  "readings": [
+   "ちょうしょく"
+  ],
+  "accent": "0",
+  "meaning": "breakfast (formal)",
+  "sourceKanji": [
+   "朝"
+  ]
+ },
+ {
+  "word": "朝ご飯",
+  "reading": "あさご飯",
+  "readings": [
+   "あさご飯"
+  ],
+  "accent": "3",
+  "meaning": "breakfast",
+  "sourceKanji": [
+   "朝"
+  ]
+ },
+ {
+  "word": "今朝",
+  "reading": "けさ",
+  "readings": [
+   "けさ"
+  ],
+  "accent": "1",
+  "meaning": "this morning",
+  "sourceKanji": [
+   "朝"
+  ]
+ },
+ {
+  "word": "村",
+  "reading": "むら",
+  "readings": [
+   "むら"
+  ],
+  "accent": "2",
+  "meaning": "village",
+  "sourceKanji": [
+   "村"
+  ]
+ },
+ {
+  "word": "山村",
+  "reading": "さんそん",
+  "readings": [
+   "さんそん"
+  ],
+  "accent": "0",
+  "meaning": "mountain village",
+  "sourceKanji": [
+   "村"
+  ]
+ },
+ {
+  "word": "村人",
+  "reading": "むらびと",
+  "readings": [
+   "むらびと"
+  ],
+  "accent": "0",
+  "meaning": "villager",
+  "sourceKanji": [
+   "村"
+  ]
+ },
+ {
+  "word": "林",
+  "reading": "はやし",
+  "readings": [
+   "はやし"
+  ],
+  "accent": "3,0",
+  "meaning": "woods, forest",
+  "sourceKanji": [
+   "林"
+  ]
+ },
+ {
+  "word": "森林",
+  "reading": "しんりん",
+  "readings": [
+   "しんりん"
+  ],
+  "accent": "0",
+  "meaning": "forest",
+  "sourceKanji": [
+   "林",
+   "森"
+  ]
+ },
+ {
+  "word": "林業",
+  "reading": "りんぎょう",
+  "readings": [
+   "りんぎょう"
+  ],
+  "accent": "1,0",
+  "meaning": "forestry",
+  "sourceKanji": [
+   "林"
+  ]
+ },
+ {
+  "word": "森",
+  "reading": "もり",
+  "readings": [
+   "もり"
+  ],
+  "accent": "0",
+  "meaning": "forest",
+  "sourceKanji": [
+   "森"
+  ]
+ },
+ {
+  "word": "業者",
+  "reading": "ぎょうしゃ",
+  "readings": [
+   "ぎょうしゃ"
+  ],
+  "accent": "1",
+  "meaning": "trader",
+  "sourceKanji": [
+   "業",
+   "者"
+  ]
+ },
+ {
+  "word": "工業",
+  "reading": "こうぎょう",
+  "readings": [
+   "こうぎょう"
+  ],
+  "accent": "1",
+  "meaning": "manufacturing industry",
+  "sourceKanji": [
+   "業"
+  ]
+ },
+ {
+  "word": "休業",
+  "reading": "きゅうぎょう",
+  "readings": [
+   "きゅうぎょう"
+  ],
+  "accent": "0",
+  "meaning": "closed (store), shutdown",
+  "sourceKanji": [
+   "業"
+  ]
+ },
+ {
+  "word": "開業",
+  "reading": "かいぎょう",
+  "readings": [
+   "かいぎょう"
+  ],
+  "accent": "0",
+  "meaning": "opening of business",
+  "sourceKanji": [
+   "業"
+  ]
+ },
+ {
+  "word": "音楽",
+  "reading": "おんがく",
+  "readings": [
+   "おんがく"
+  ],
+  "accent": "1",
+  "meaning": "music",
+  "sourceKanji": [
+   "楽",
+   "音"
+  ]
+ },
+ {
+  "word": "楽しむ",
+  "reading": "たのしむ",
+  "readings": [
+   "たのしむ"
+  ],
+  "accent": "3",
+  "meaning": "to enjoy",
+  "sourceKanji": [
+   "楽"
+  ]
+ },
+ {
+  "word": "楽しい",
+  "reading": "たのしい",
+  "readings": [
+   "たのしい"
+  ],
+  "accent": "3",
+  "meaning": "enjoyable, fun",
+  "sourceKanji": [
+   "楽"
+  ]
+ },
+ {
+  "word": "歌",
+  "reading": "うた",
+  "readings": [
+   "うた"
+  ],
+  "accent": "2",
+  "meaning": "song, poetry",
+  "sourceKanji": [
+   "歌"
+  ]
+ },
+ {
+  "word": "歌う",
+  "reading": "うたう",
+  "readings": [
+   "うたう"
+  ],
+  "accent": "0",
+  "meaning": "to sing",
+  "sourceKanji": [
+   "歌"
+  ]
+ },
+ {
+  "word": "歌手",
+  "reading": "かしゅ",
+  "readings": [
+   "かしゅ"
+  ],
+  "accent": "1",
+  "meaning": "singer",
+  "sourceKanji": [
+   "歌"
+  ]
+ },
+ {
+  "word": "国歌",
+  "reading": "こっか",
+  "readings": [
+   "こっか"
+  ],
+  "accent": "1,0",
+  "meaning": "national anthem",
+  "sourceKanji": [
+   "歌"
+  ]
+ },
+ {
+  "word": "歌声",
+  "reading": "うたごえ",
+  "readings": [
+   "うたごえ"
+  ],
+  "accent": "0,3",
+  "meaning": "singing voice",
+  "sourceKanji": [
+   "歌"
+  ]
+ },
+ {
+  "word": "中止",
+  "reading": "ちゅうし",
+  "readings": [
+   "ちゅうし"
+  ],
+  "accent": "0",
+  "meaning": "suspension, stoppage, interruption",
+  "sourceKanji": [
+   "止"
+  ]
+ },
+ {
+  "word": "止める",
+  "reading": "とめる",
+  "readings": [
+   "とめる"
+  ],
+  "accent": "0",
+  "meaning": "to stop (something)",
+  "sourceKanji": [
+   "止"
+  ]
+ },
+ {
+  "word": "止まる",
+  "reading": "とまる",
+  "readings": [
+   "とまる"
+  ],
+  "accent": "0",
+  "meaning": "to remain, to stay",
+  "sourceKanji": [
+   "止"
+  ]
+ },
+ {
+  "word": "休止",
+  "reading": "きゅうし",
+  "readings": [
+   "きゅうし"
+  ],
+  "accent": "0",
+  "meaning": "pause, rest",
+  "sourceKanji": [
+   "止"
+  ]
+ },
+ {
+  "word": "止む",
+  "reading": "やむ",
+  "readings": [
+   "やむ"
+  ],
+  "accent": "0",
+  "meaning": "to cease, to stop, be over",
+  "sourceKanji": [
+   "止"
+  ]
+ },
+ {
+  "word": "正しい",
+  "reading": "ただしい",
+  "readings": [
+   "ただしい"
+  ],
+  "accent": "3",
+  "meaning": "correct, truthful, righteous",
+  "sourceKanji": [
+   "正"
+  ]
+ },
+ {
+  "word": "正月",
+  "reading": "しょうがつ",
+  "readings": [
+   "しょうがつ"
+  ],
+  "accent": "4",
+  "meaning": "New Year's Day, the first month",
+  "sourceKanji": [
+   "正"
+  ]
+ },
+ {
+  "word": "正す",
+  "reading": "ただす",
+  "readings": [
+   "ただす"
+  ],
+  "accent": "2",
+  "meaning": "to correct, to amend",
+  "sourceKanji": [
+   "正"
+  ]
+ },
+ {
+  "word": "正道",
+  "reading": "せいどう",
+  "readings": [
+   "せいどう"
+  ],
+  "accent": "0",
+  "meaning": "the right path, path of righteousness",
+  "sourceKanji": [
+   "正"
+  ]
+ },
+ {
+  "word": "歩く",
+  "reading": "あるく",
+  "readings": [
+   "あるく"
+  ],
+  "accent": "2",
+  "meaning": "to walk",
+  "sourceKanji": [
+   "歩"
+  ]
+ },
+ {
+  "word": "進歩",
+  "reading": "しんぽ",
+  "readings": [
+   "しんぽ"
+  ],
+  "accent": "1",
+  "meaning": "to progress, to develop",
+  "sourceKanji": [
+   "歩",
+   "進"
+  ]
+ },
+ {
+  "word": "牛歩",
+  "reading": "ぎゅうほ",
+  "readings": [
+   "ぎゅうほ"
+  ],
+  "accent": "1",
+  "meaning": "snail's pace, slow progress",
+  "sourceKanji": [
+   "歩",
+   "牛"
+  ]
+ },
+ {
+  "word": "初歩",
+  "reading": "しょほ",
+  "readings": [
+   "しょほ"
+  ],
+  "accent": "1",
+  "meaning": "rudiments, elements, ABC's of...",
+  "sourceKanji": [
+   "歩"
+  ]
+ },
+ {
+  "word": "死ぬ",
+  "reading": "しぬ",
+  "readings": [
+   "しぬ"
+  ],
+  "accent": "0",
+  "meaning": "to die",
+  "sourceKanji": [
+   "死"
+  ]
+ },
+ {
+  "word": "死人",
+  "reading": "しにん",
+  "readings": [
+   "しにん"
+  ],
+  "accent": "0",
+  "meaning": "corpse, dead person",
+  "sourceKanji": [
+   "死"
+  ]
+ },
+ {
+  "word": "死語",
+  "reading": "しご",
+  "readings": [
+   "しご"
+  ],
+  "accent": "1",
+  "meaning": "dead language, obsolete word",
+  "sourceKanji": [
+   "死"
+  ]
+ },
+ {
+  "word": "病死",
+  "reading": "びょうし",
+  "readings": [
+   "びょうし"
+  ],
+  "accent": "0",
+  "meaning": "natural death",
+  "sourceKanji": [
+   "死",
+   "病"
+  ]
+ },
+ {
+  "word": "安楽死",
+  "reading": "あんらくし",
+  "readings": [
+   "あんらくし"
+  ],
+  "accent": "4,3",
+  "meaning": "euthanasia",
+  "sourceKanji": [
+   "死"
+  ]
+ },
+ {
+  "word": "民",
+  "reading": "たみ",
+  "readings": [
+   "たみ"
+  ],
+  "accent": "1",
+  "meaning": "nation, people",
+  "sourceKanji": [
+   "民"
+  ]
+ },
+ {
+  "word": "民間",
+  "reading": "みんかん",
+  "readings": [
+   "みんかん"
+  ],
+  "accent": "0",
+  "meaning": "private, unofficial, civilian",
+  "sourceKanji": [
+   "民"
+  ]
+ },
+ {
+  "word": "民家",
+  "reading": "みんか",
+  "readings": [
+   "みんか"
+  ],
+  "accent": "1",
+  "meaning": "private house",
+  "sourceKanji": [
+   "民"
+  ]
+ },
+ {
+  "word": "民主",
+  "reading": "みんしゅ",
+  "readings": [
+   "みんしゅ"
+  ],
+  "accent": "1,0",
+  "meaning": "democratic, head of nation",
+  "sourceKanji": [
+   "民"
+  ]
+ },
+ {
+  "word": "池",
+  "reading": "いけ",
+  "readings": [
+   "いけ"
+  ],
+  "accent": "2",
+  "meaning": "pond",
+  "sourceKanji": [
+   "池"
+  ]
+ },
+ {
+  "word": "電池",
+  "reading": "でんち",
+  "readings": [
+   "でんち"
+  ],
+  "accent": "1",
+  "meaning": "battery",
+  "sourceKanji": [
+   "池"
+  ]
+ },
+ {
+  "word": "注ぐ",
+  "reading": "そそぐ",
+  "readings": [
+   "そそぐ"
+  ],
+  "accent": "0,2",
+  "meaning": "to pour, to fill, to feed (a fire)",
+  "sourceKanji": [
+   "注"
+  ]
+ },
+ {
+  "word": "注進",
+  "reading": "ちゅうしん",
+  "readings": [
+   "ちゅうしん"
+  ],
+  "accent": "0",
+  "meaning": "information",
+  "sourceKanji": [
+   "注"
+  ]
+ },
+ {
+  "word": "海洋",
+  "reading": "かいよう",
+  "readings": [
+   "かいよう"
+  ],
+  "accent": "0",
+  "meaning": "ocean",
+  "sourceKanji": [
+   "洋"
+  ]
+ },
+ {
+  "word": "西洋",
+  "reading": "せいよう",
+  "readings": [
+   "せいよう"
+  ],
+  "accent": "1",
+  "meaning": "west, western countries",
+  "sourceKanji": [
+   "洋"
+  ]
+ },
+ {
+  "word": "洋風",
+  "reading": "ようふう",
+  "readings": [
+   "ようふう"
+  ],
+  "accent": "0",
+  "meaning": "western style",
+  "sourceKanji": [
+   "洋",
+   "風"
+  ]
+ },
+ {
+  "word": "洋食",
+  "reading": "ようしょく",
+  "readings": [
+   "ようしょく"
+  ],
+  "accent": "0",
+  "meaning": "western style meal",
+  "sourceKanji": [
+   "洋"
+  ]
+ },
+ {
+  "word": "洗う",
+  "reading": "あらう",
+  "readings": [
+   "あらう"
+  ],
+  "accent": "0",
+  "meaning": "to wash",
+  "sourceKanji": [
+   "洗"
+  ]
+ },
+ {
+  "word": "洗濯",
+  "reading": "せんたく",
+  "readings": [
+   "せんたく"
+  ],
+  "accent": "0",
+  "meaning": "washing, laundry",
+  "sourceKanji": [
+   "洗"
+  ]
+ },
+ {
+  "word": "手洗い",
+  "reading": "てあらい",
+  "readings": [
+   "てあらい"
+  ],
+  "accent": "2",
+  "meaning": "washroom, lavatory",
+  "sourceKanji": [
+   "洗"
+  ]
+ },
+ {
+  "word": "洗車",
+  "reading": "せんしゃ",
+  "readings": [
+   "せんしゃ"
+  ],
+  "accent": "0",
+  "meaning": "car wash",
+  "sourceKanji": [
+   "洗"
+  ]
+ },
+ {
+  "word": "海",
+  "reading": "うみ",
+  "readings": [
+   "うみ"
+  ],
+  "accent": "1",
+  "meaning": "sea, beach",
+  "sourceKanji": [
+   "海"
+  ]
+ },
+ {
+  "word": "海外",
+  "reading": "かいがい",
+  "readings": [
+   "かいがい"
+  ],
+  "accent": "1",
+  "meaning": "overseas, abroad",
+  "sourceKanji": [
+   "海"
+  ]
+ },
+ {
+  "word": "海鳥",
+  "reading": "うみどり",
+  "readings": [
+   "うみどり"
+  ],
+  "accent": "2",
+  "meaning": "sea bird",
+  "sourceKanji": [
+   "海"
+  ]
+ },
+ {
+  "word": "北海道",
+  "reading": "ほっかいどう",
+  "readings": [
+   "ほっかいどう"
+  ],
+  "accent": "3",
+  "meaning": "hokkaido (most northern of 4 main islands of Japan)",
+  "sourceKanji": [
+   "海"
+  ]
+ },
+ {
+  "word": "牛",
+  "reading": "うし",
+  "readings": [
+   "うし"
+  ],
+  "accent": "0",
+  "meaning": "cow",
+  "sourceKanji": [
+   "牛"
+  ]
+ },
+ {
+  "word": "牛肉",
+  "reading": "ぎゅうにく",
+  "readings": [
+   "ぎゅうにく"
+  ],
+  "accent": "0",
+  "meaning": "beef",
+  "sourceKanji": [
+   "牛",
+   "肉"
+  ]
+ },
+ {
+  "word": "和牛",
+  "reading": "わぎゅう",
+  "readings": [
+   "わぎゅう"
+  ],
+  "accent": "0",
+  "meaning": "Japanese beef cow",
+  "sourceKanji": [
+   "牛"
+  ]
+ },
+ {
+  "word": "水牛",
+  "reading": "すいぎゅう",
+  "readings": [
+   "すいぎゅう"
+  ],
+  "accent": "0",
+  "meaning": "water buffalo",
+  "sourceKanji": [
+   "牛"
+  ]
+ },
+ {
+  "word": "物",
+  "reading": "もの",
+  "readings": [
+   "もの"
+  ],
+  "accent": "2,0",
+  "meaning": "thing, object",
+  "sourceKanji": [
+   "物"
+  ]
+ },
+ {
+  "word": "物語",
+  "reading": "ものがたり",
+  "readings": [
+   "ものがたり"
+  ],
+  "accent": "3",
+  "meaning": "tale, legend, story",
+  "sourceKanji": [
+   "物"
+  ]
+ },
+ {
+  "word": "買い物",
+  "reading": "かいもの",
+  "readings": [
+   "かいもの"
+  ],
+  "accent": "0",
+  "meaning": "shopping",
+  "sourceKanji": [
+   "物"
+  ]
+ },
+ {
+  "word": "特に",
+  "reading": "とくに",
+  "readings": [
+   "とくに"
+  ],
+  "accent": "1",
+  "meaning": "particularly, especially",
+  "sourceKanji": [
+   "特"
+  ]
+ },
+ {
+  "word": "特集",
+  "reading": "とくしゅう",
+  "readings": [
+   "とくしゅう"
+  ],
+  "accent": "0",
+  "meaning": "special feature, special edition",
+  "sourceKanji": [
+   "特"
+  ]
+ },
+ {
+  "word": "特急",
+  "reading": "とっきゅう",
+  "readings": [
+   "とっきゅう"
+  ],
+  "accent": "0",
+  "meaning": "limited express train",
+  "sourceKanji": [
+   "特"
+  ]
+ },
+ {
+  "word": "犬",
+  "reading": "いぬ",
+  "readings": [
+   "いぬ"
+  ],
+  "accent": "2",
+  "meaning": "dog",
+  "sourceKanji": [
+   "犬"
+  ]
+ },
+ {
+  "word": "野犬",
+  "reading": "やけん",
+  "readings": [
+   "やけん"
+  ],
+  "accent": "0",
+  "meaning": "stray dog",
+  "sourceKanji": [
+   "犬"
+  ]
+ },
+ {
+  "word": "理",
+  "reading": "り",
+  "readings": [
+   "り"
+  ],
+  "accent": "1,0",
+  "meaning": "reason",
+  "sourceKanji": [
+   "理"
+  ]
+ },
+ {
+  "word": "物理",
+  "reading": "ぶつり",
+  "readings": [
+   "ぶつり"
+  ],
+  "accent": "1",
+  "meaning": "physics",
+  "sourceKanji": [
+   "理"
+  ]
+ },
+ {
+  "word": "地理",
+  "reading": "ちり",
+  "readings": [
+   "ちり"
+  ],
+  "accent": "1",
+  "meaning": "geography",
+  "sourceKanji": [
+   "理"
+  ]
+ },
+ {
+  "word": "真理",
+  "reading": "しんり",
+  "readings": [
+   "しんり"
+  ],
+  "accent": "1",
+  "meaning": "truth",
+  "sourceKanji": [
+   "理",
+   "真"
+  ]
+ },
+ {
+  "word": "産業",
+  "reading": "さんぎょう",
+  "readings": [
+   "さんぎょう"
+  ],
+  "accent": "0",
+  "meaning": "industry",
+  "sourceKanji": [
+   "産"
+  ]
+ },
+ {
+  "word": "不動産",
+  "reading": "ふどうさん",
+  "readings": [
+   "ふどうさん"
+  ],
+  "accent": "2,0",
+  "meaning": "real estate",
+  "sourceKanji": [
+   "産"
+  ]
+ },
+ {
+  "word": "産む",
+  "reading": "うむ",
+  "readings": [
+   "うむ"
+  ],
+  "accent": "0",
+  "meaning": "to give birth, to produce",
+  "sourceKanji": [
+   "産"
+  ]
+ },
+ {
+  "word": "用",
+  "reading": "よう",
+  "readings": [
+   "よう"
+  ],
+  "accent": "1",
+  "meaning": "task, business, use",
+  "sourceKanji": [
+   "用"
+  ]
+ },
+ {
+  "word": "信用",
+  "reading": "しんよう",
+  "readings": [
+   "しんよう"
+  ],
+  "accent": "0",
+  "meaning": "confidence",
+  "sourceKanji": [
+   "用"
+  ]
+ },
+ {
+  "word": "起用",
+  "reading": "きよう",
+  "readings": [
+   "きよう"
+  ],
+  "accent": "0",
+  "meaning": "appointment, promotion",
+  "sourceKanji": [
+   "用"
+  ]
+ },
+ {
+  "word": "用地",
+  "reading": "ようち",
+  "readings": [
+   "ようち"
+  ],
+  "accent": "1",
+  "meaning": "site",
+  "sourceKanji": [
+   "用"
+  ]
+ },
+ {
+  "word": "用紙",
+  "reading": "ようし",
+  "readings": [
+   "ようし"
+  ],
+  "accent": "0,1",
+  "meaning": "blank form",
+  "sourceKanji": [
+   "用",
+   "紙"
+  ]
+ },
+ {
+  "word": "田",
+  "reading": "た",
+  "readings": [
+   "た"
+  ],
+  "accent": "1",
+  "meaning": "rice field",
+  "sourceKanji": [
+   "田"
+  ]
+ },
+ {
+  "word": "新田",
+  "reading": "しんでん",
+  "readings": [
+   "しんでん"
+  ],
+  "accent": "0",
+  "meaning": "a new rice field",
+  "sourceKanji": [
+   "田"
+  ]
+ },
+ {
+  "word": "町",
+  "reading": "まち",
+  "readings": [
+   "まち"
+  ],
+  "accent": "2",
+  "meaning": "town, street, road",
+  "sourceKanji": [
+   "町"
+  ]
+ },
+ {
+  "word": "町中",
+  "reading": "まちなか",
+  "readings": [
+   "まちなか"
+  ],
+  "accent": "0",
+  "meaning": "downtown",
+  "sourceKanji": [
+   "町"
+  ]
+ },
+ {
+  "word": "計画",
+  "reading": "けいかく",
+  "readings": [
+   "けいかく"
+  ],
+  "accent": "0",
+  "meaning": "plan, schedule",
+  "sourceKanji": [
+   "画",
+   "計"
+  ]
+ },
+ {
+  "word": "区画",
+  "reading": "くかく",
+  "readings": [
+   "くかく"
+  ],
+  "accent": "0",
+  "meaning": "division, section",
+  "sourceKanji": [
+   "画"
+  ]
+ },
+ {
+  "word": "学界",
+  "reading": "がっかい",
+  "readings": [
+   "がっかい"
+  ],
+  "accent": "0",
+  "meaning": "academic world",
+  "sourceKanji": [
+   "界"
+  ]
+ },
+ {
+  "word": "外界",
+  "reading": "がいかい",
+  "readings": [
+   "がいかい"
+  ],
+  "accent": "0",
+  "meaning": "physical world, the externals",
+  "sourceKanji": [
+   "界"
+  ]
+ },
+ {
+  "word": "病院",
+  "reading": "びょういん",
+  "readings": [
+   "びょういん"
+  ],
+  "accent": "0",
+  "meaning": "hospital",
+  "sourceKanji": [
+   "病",
+   "院"
+  ]
+ },
+ {
+  "word": "病気",
+  "reading": "びょうき",
+  "readings": [
+   "びょうき"
+  ],
+  "accent": "0",
+  "meaning": "sick",
+  "sourceKanji": [
+   "病"
+  ]
+ },
+ {
+  "word": "病人",
+  "reading": "びょうにん",
+  "readings": [
+   "びょうにん"
+  ],
+  "accent": "0",
+  "meaning": "sick person",
+  "sourceKanji": [
+   "病"
+  ]
+ },
+ {
+  "word": "発表",
+  "reading": "はっぴょう",
+  "readings": [
+   "はっぴょう"
+  ],
+  "accent": "0",
+  "meaning": "announcement, publication",
+  "sourceKanji": [
+   "発"
+  ]
+ },
+ {
+  "word": "発言",
+  "reading": "はつげん",
+  "readings": [
+   "はつげん"
+  ],
+  "accent": "0",
+  "meaning": "proposal, speech",
+  "sourceKanji": [
+   "発"
+  ]
+ },
+ {
+  "word": "発",
+  "reading": "はつ",
+  "readings": [
+   "はつ"
+  ],
+  "accent": "1",
+  "meaning": "counter for gunshots",
+  "sourceKanji": [
+   "発"
+  ]
+ },
+ {
+  "word": "出発",
+  "reading": "しゅっぱつ",
+  "readings": [
+   "しゅっぱつ"
+  ],
+  "accent": "0",
+  "meaning": "departure",
+  "sourceKanji": [
+   "発"
+  ]
+ },
+ {
+  "word": "発見",
+  "reading": "はっけん",
+  "readings": [
+   "はっけん"
+  ],
+  "accent": "0",
+  "meaning": "discovery, detection",
+  "sourceKanji": [
+   "発"
+  ]
+ },
+ {
+  "word": "県",
+  "reading": "けん",
+  "readings": [
+   "けん"
+  ],
+  "accent": "1",
+  "meaning": "prefecture",
+  "sourceKanji": [
+   "県"
+  ]
+ },
+ {
+  "word": "県内",
+  "reading": "けんない",
+  "readings": [
+   "けんない"
+  ],
+  "accent": "1",
+  "meaning": "within the prefecture",
+  "sourceKanji": [
+   "県"
+  ]
+ },
+ {
+  "word": "県外",
+  "reading": "けんがい",
+  "readings": [
+   "けんがい"
+  ],
+  "accent": "1",
+  "meaning": "outside the prefecture",
+  "sourceKanji": [
+   "県"
+  ]
+ },
+ {
+  "word": "真中",
+  "reading": "まんなか",
+  "readings": [
+   "まんなか"
+  ],
+  "accent": "0",
+  "meaning": "centre, mid-way",
+  "sourceKanji": [
+   "真"
+  ]
+ },
+ {
+  "word": "真っ白",
+  "reading": "まっしろ",
+  "readings": [
+   "まっしろ"
+  ],
+  "accent": "3",
+  "meaning": "pure white",
+  "sourceKanji": [
+   "真"
+  ]
+ },
+ {
+  "word": "着る",
+  "reading": "きる",
+  "readings": [
+   "きる"
+  ],
+  "accent": "0",
+  "meaning": "to wear",
+  "sourceKanji": [
+   "着"
+  ]
+ },
+ {
+  "word": "着く",
+  "reading": "つく",
+  "readings": [
+   "つく"
+  ],
+  "accent": "1,2",
+  "meaning": "to arrive",
+  "sourceKanji": [
+   "着"
+  ]
+ },
+ {
+  "word": "着物",
+  "reading": "きもの",
+  "readings": [
+   "きもの"
+  ],
+  "accent": "0",
+  "meaning": "kimono (Japanese-style dress)",
+  "sourceKanji": [
+   "着"
+  ]
+ },
+ {
+  "word": "下着",
+  "reading": "したぎ",
+  "readings": [
+   "したぎ"
+  ],
+  "accent": "0",
+  "meaning": "underwear",
+  "sourceKanji": [
+   "着"
+  ]
+ },
+ {
+  "word": "知る",
+  "reading": "しる",
+  "readings": [
+   "しる"
+  ],
+  "accent": "0",
+  "meaning": "to know",
+  "sourceKanji": [
+   "知"
+  ]
+ },
+ {
+  "word": "知恵",
+  "reading": "ちえ",
+  "readings": [
+   "ちえ"
+  ],
+  "accent": "2",
+  "meaning": "wisdom, wit",
+  "sourceKanji": [
+   "知"
+  ]
+ },
+ {
+  "word": "知らせる",
+  "reading": "しらせる",
+  "readings": [
+   "しらせる"
+  ],
+  "accent": "0",
+  "meaning": "to notice, to advise",
+  "sourceKanji": [
+   "知"
+  ]
+ },
+ {
+  "word": "知らせ",
+  "reading": "しらせ",
+  "readings": [
+   "しらせ"
+  ],
+  "accent": "0",
+  "meaning": "notice",
+  "sourceKanji": [
+   "知"
+  ]
+ },
+ {
+  "word": "人見知り",
+  "reading": "ひとみしり",
+  "readings": [
+   "ひとみしり"
+  ],
+  "accent": "0,3",
+  "meaning": "shyness",
+  "sourceKanji": [
+   "知"
+  ]
+ },
+ {
+  "word": "短い",
+  "reading": "みじかい",
+  "readings": [
+   "みじかい"
+  ],
+  "accent": "3",
+  "meaning": "short",
+  "sourceKanji": [
+   "短"
+  ]
+ },
+ {
+  "word": "短気",
+  "reading": "たんき",
+  "readings": [
+   "たんき"
+  ],
+  "accent": "1",
+  "meaning": "short temper",
+  "sourceKanji": [
+   "短"
+  ]
+ },
+ {
+  "word": "研究",
+  "reading": "けんきゅう",
+  "readings": [
+   "けんきゅう"
+  ],
+  "accent": "0",
+  "meaning": "research",
+  "sourceKanji": [
+   "研",
+   "究"
+  ]
+ },
+ {
+  "word": "研究者",
+  "reading": "けんきゅうしゃ",
+  "readings": [
+   "けんきゅうしゃ"
+  ],
+  "accent": "3",
+  "meaning": "researcher",
+  "sourceKanji": [
+   "研"
+  ]
+ },
+ {
+  "word": "研ぐ",
+  "reading": "とぐ",
+  "readings": [
+   "とぐ"
+  ],
+  "accent": "1",
+  "meaning": "to sharpen, to grind",
+  "sourceKanji": [
+   "研"
+  ]
+ },
+ {
+  "word": "私",
+  "reading": "わたし",
+  "readings": [
+   "わたし"
+  ],
+  "accent": "0",
+  "meaning": "Me, I",
+  "sourceKanji": [
+   "私"
+  ]
+ },
+ {
+  "word": "私学",
+  "reading": "しがく",
+  "readings": [
+   "しがく"
+  ],
+  "accent": "1,0",
+  "meaning": "private school",
+  "sourceKanji": [
+   "私"
+  ]
+ },
+ {
+  "word": "私服",
+  "reading": "しふく",
+  "readings": [
+   "しふく"
+  ],
+  "accent": "0",
+  "meaning": "plain clothes",
+  "sourceKanji": [
+   "私"
+  ]
+ },
+ {
+  "word": "私見",
+  "reading": "しけん",
+  "readings": [
+   "しけん"
+  ],
+  "accent": "0",
+  "meaning": "personal opinion",
+  "sourceKanji": [
+   "私"
+  ]
+ },
+ {
+  "word": "秋",
+  "reading": "あき",
+  "readings": [
+   "あき"
+  ],
+  "accent": "1",
+  "meaning": "autumn",
+  "sourceKanji": [
+   "秋"
+  ]
+ },
+ {
+  "word": "秋風",
+  "reading": "あきかぜ",
+  "readings": [
+   "あきかぜ"
+  ],
+  "accent": "2,3",
+  "meaning": "autumn breeze",
+  "sourceKanji": [
+   "秋"
+  ]
+ },
+ {
+  "word": "春秋",
+  "reading": "しゅんじゅう",
+  "readings": [
+   "しゅんじゅう"
+  ],
+  "accent": "0,1",
+  "meaning": "spring and autumn",
+  "sourceKanji": [
+   "秋"
+  ]
+ },
+ {
+  "word": "学究",
+  "reading": "がっきゅう",
+  "readings": [
+   "がっきゅう"
+  ],
+  "accent": "0",
+  "meaning": "scholar",
+  "sourceKanji": [
+   "究"
+  ]
+ },
+ {
+  "word": "究明",
+  "reading": "きゅうめい",
+  "readings": [
+   "きゅうめい"
+  ],
+  "accent": "0",
+  "meaning": "scientific investigation",
+  "sourceKanji": [
+   "究"
+  ]
+ },
+ {
+  "word": "研究員",
+  "reading": "けんきゅういん",
+  "readings": [
+   "けんきゅういん"
+  ],
+  "accent": "3",
+  "meaning": "researcher",
+  "sourceKanji": [
+   "究"
+  ]
+ },
+ {
+  "word": "答え",
+  "reading": "こたえ",
+  "readings": [
+   "こたえ"
+  ],
+  "accent": "2",
+  "meaning": "answer",
+  "sourceKanji": [
+   "答"
+  ]
+ },
+ {
+  "word": "問答",
+  "reading": "もんどう",
+  "readings": [
+   "もんどう"
+  ],
+  "accent": "3",
+  "meaning": "questions and answers",
+  "sourceKanji": [
+   "答"
+  ]
+ },
+ {
+  "word": "口答え",
+  "reading": "くちごたえ",
+  "readings": [
+   "くちごたえ"
+  ],
+  "accent": "3,0",
+  "meaning": "retort",
+  "sourceKanji": [
+   "答"
+  ]
+ },
+ {
+  "word": "紙",
+  "reading": "かみ",
+  "readings": [
+   "かみ"
+  ],
+  "accent": "2",
+  "meaning": "paper",
+  "sourceKanji": [
+   "紙"
+  ]
+ },
+ {
+  "word": "手紙",
+  "reading": "てがみ",
+  "readings": [
+   "てがみ"
+  ],
+  "accent": "0",
+  "meaning": "letter",
+  "sourceKanji": [
+   "紙"
+  ]
+ },
+ {
+  "word": "終わる",
+  "reading": "おわる",
+  "readings": [
+   "おわる"
+  ],
+  "accent": "0",
+  "meaning": "to finish, to close",
+  "sourceKanji": [
+   "終"
+  ]
+ },
+ {
+  "word": "終わり",
+  "reading": "おわり",
+  "readings": [
+   "おわり"
+  ],
+  "accent": "0",
+  "meaning": "the end",
+  "sourceKanji": [
+   "終"
+  ]
+ },
+ {
+  "word": "習う",
+  "reading": "ならう",
+  "readings": [
+   "ならう"
+  ],
+  "accent": "2",
+  "meaning": "to learn",
+  "sourceKanji": [
+   "習"
+  ]
+ },
+ {
+  "word": "教習",
+  "reading": "きょうしゅう",
+  "readings": [
+   "きょうしゅう"
+  ],
+  "accent": "0",
+  "meaning": "training, instruction",
+  "sourceKanji": [
+   "習"
+  ]
+ },
+ {
+  "word": "見習う",
+  "reading": "みならう",
+  "readings": [
+   "みならう"
+  ],
+  "accent": "3,0",
+  "meaning": "to follow another's example",
+  "sourceKanji": [
+   "習"
+  ]
+ },
+ {
+  "word": "考える",
+  "reading": "かんがえる",
+  "readings": [
+   "かんがえる"
+  ],
+  "accent": "4,3",
+  "meaning": "to think, to consider",
+  "sourceKanji": [
+   "考"
+  ]
+ },
+ {
+  "word": "考え",
+  "reading": "かんがえ",
+  "readings": [
+   "かんがえ"
+  ],
+  "accent": "3",
+  "meaning": "thought, idea",
+  "sourceKanji": [
+   "考"
+  ]
+ },
+ {
+  "word": "参考",
+  "reading": "さんこう",
+  "readings": [
+   "さんこう"
+  ],
+  "accent": null,
+  "meaning": "reference",
+  "sourceKanji": [
+   "考"
+  ]
+ },
+ {
+  "word": "者",
+  "reading": "もの",
+  "readings": [
+   "もの"
+  ],
+  "accent": "2",
+  "meaning": "person",
+  "sourceKanji": [
+   "者"
+  ]
+ },
+ {
+  "word": "死者",
+  "reading": "ししゃ",
+  "readings": [
+   "ししゃ"
+  ],
+  "accent": "1,2",
+  "meaning": "casualty, deceased (person)",
+  "sourceKanji": [
+   "者"
+  ]
+ },
+ {
+  "word": "科学者",
+  "reading": "かがくしゃ",
+  "readings": [
+   "かがくしゃ"
+  ],
+  "accent": "2,3",
+  "meaning": "scientist",
+  "sourceKanji": [
+   "者"
+  ]
+ },
+ {
+  "word": "肉",
+  "reading": "にく",
+  "readings": [
+   "にく"
+  ],
+  "accent": "2",
+  "meaning": "meat",
+  "sourceKanji": [
+   "肉"
+  ]
+ },
+ {
+  "word": "肉親",
+  "reading": "にくしん",
+  "readings": [
+   "にくしん"
+  ],
+  "accent": "0",
+  "meaning": "blood relative",
+  "sourceKanji": [
+   "肉"
+  ]
+ },
+ {
+  "word": "肉屋",
+  "reading": "にくや",
+  "readings": [
+   "にくや"
+  ],
+  "accent": "2",
+  "meaning": "butcher",
+  "sourceKanji": [
+   "肉"
+  ]
+ },
+ {
+  "word": "自分",
+  "reading": "じぶん",
+  "readings": [
+   "じぶん"
+  ],
+  "accent": "0",
+  "meaning": "oneself",
+  "sourceKanji": [
+   "自"
+  ]
+ },
+ {
+  "word": "自転車",
+  "reading": "じてんしゃ",
+  "readings": [
+   "じてんしゃ"
+  ],
+  "accent": "2,0",
+  "meaning": "bicycle",
+  "sourceKanji": [
+   "自",
+   "転"
+  ]
+ },
+ {
+  "word": "自国",
+  "reading": "じこく",
+  "readings": [
+   "じこく"
+  ],
+  "accent": "0,1",
+  "meaning": "one's home country",
+  "sourceKanji": [
+   "自"
+  ]
+ },
+ {
+  "word": "色",
+  "reading": "いろ",
+  "readings": [
+   "いろ"
+  ],
+  "accent": "2",
+  "meaning": "colour",
+  "sourceKanji": [
+   "色"
+  ]
+ },
+ {
+  "word": "特色",
+  "reading": "とくしょく",
+  "readings": [
+   "とくしょく"
+  ],
+  "accent": "0",
+  "meaning": "characteristic",
+  "sourceKanji": [
+   "色"
+  ]
+ },
+ {
+  "word": "黄色",
+  "reading": "きいろ",
+  "readings": [
+   "きいろ"
+  ],
+  "accent": "0",
+  "meaning": "yellow",
+  "sourceKanji": [
+   "色"
+  ]
+ },
+ {
+  "word": "色々",
+  "reading": "いろいろ",
+  "readings": [
+   "いろいろ"
+  ],
+  "accent": "0",
+  "meaning": "various",
+  "sourceKanji": [
+   "色"
+  ]
+ },
+ {
+  "word": "英語",
+  "reading": "えいご",
+  "readings": [
+   "えいご"
+  ],
+  "accent": "0",
+  "meaning": "the English language",
+  "sourceKanji": [
+   "英"
+  ]
+ },
+ {
+  "word": "英文",
+  "reading": "えいぶん",
+  "readings": [
+   "えいぶん"
+  ],
+  "accent": "0",
+  "meaning": "sentence in English",
+  "sourceKanji": [
+   "英"
+  ]
+ },
+ {
+  "word": "英明",
+  "reading": "えいめい",
+  "readings": [
+   "えいめい"
+  ],
+  "accent": "0",
+  "meaning": "intelligent, wise, bright",
+  "sourceKanji": [
+   "英"
+  ]
+ },
+ {
+  "word": "英知",
+  "reading": "えいち",
+  "readings": [
+   "えいち"
+  ],
+  "accent": "1",
+  "meaning": "intelligence",
+  "sourceKanji": [
+   "英"
+  ]
+ },
+ {
+  "word": "お茶",
+  "reading": "おちゃ",
+  "readings": [
+   "おちゃ"
+  ],
+  "accent": "0",
+  "meaning": "(green) tea",
+  "sourceKanji": [
+   "茶"
+  ]
+ },
+ {
+  "word": "茶色",
+  "reading": "ちゃいろ",
+  "readings": [
+   "ちゃいろ"
+  ],
+  "accent": "0",
+  "meaning": "brown",
+  "sourceKanji": [
+   "茶"
+  ]
+ },
+ {
+  "word": "茶道",
+  "reading": "さどう",
+  "readings": [
+   "さどう"
+  ],
+  "accent": "1",
+  "meaning": "Tea Ceremony",
+  "sourceKanji": [
+   "茶"
+  ]
+ },
+ {
+  "word": "野菜",
+  "reading": "やさい",
+  "readings": [
+   "やさい"
+  ],
+  "accent": "0",
+  "meaning": "vegetables",
+  "sourceKanji": [
+   "菜",
+   "野"
+  ]
+ },
+ {
+  "word": "白菜",
+  "reading": "はくさい",
+  "readings": [
+   "はくさい"
+  ],
+  "accent": "3,0",
+  "meaning": "Chinese cabbage, white rape",
+  "sourceKanji": [
+   "菜"
+  ]
+ },
+ {
+  "word": "菜食",
+  "reading": "さいしょく",
+  "readings": [
+   "さいしょく"
+  ],
+  "accent": "0",
+  "meaning": "vegetable diet",
+  "sourceKanji": [
+   "菜"
+  ]
+ },
+ {
+  "word": "薬",
+  "reading": "くすり",
+  "readings": [
+   "くすり"
+  ],
+  "accent": "0",
+  "meaning": "medicine, pharmaceuticals",
+  "sourceKanji": [
+   "薬"
+  ]
+ },
+ {
+  "word": "火薬",
+  "reading": "かやく",
+  "readings": [
+   "かやく"
+  ],
+  "accent": "0",
+  "meaning": "gun powder",
+  "sourceKanji": [
+   "薬"
+  ]
+ },
+ {
+  "word": "薬学",
+  "reading": "やくがく",
+  "readings": [
+   "やくがく"
+  ],
+  "accent": "0,2",
+  "meaning": "study of pharmacy",
+  "sourceKanji": [
+   "薬"
+  ]
+ },
+ {
+  "word": "親",
+  "reading": "おや",
+  "readings": [
+   "おや"
+  ],
+  "accent": "2",
+  "meaning": "parents",
+  "sourceKanji": [
+   "親"
+  ]
+ },
+ {
+  "word": "両親",
+  "reading": "りょうしん",
+  "readings": [
+   "りょうしん"
+  ],
+  "accent": "1",
+  "meaning": "parents",
+  "sourceKanji": [
+   "親"
+  ]
+ },
+ {
+  "word": "親しい",
+  "reading": "したしい",
+  "readings": [
+   "したしい"
+  ],
+  "accent": "3",
+  "meaning": "intimate, close (eg friend)",
+  "sourceKanji": [
+   "親"
+  ]
+ },
+ {
+  "word": "親友",
+  "reading": "しんゆう",
+  "readings": [
+   "しんゆう"
+  ],
+  "accent": "0",
+  "meaning": "close friend",
+  "sourceKanji": [
+   "親"
+  ]
+ },
+ {
+  "word": "時計",
+  "reading": "とけい",
+  "readings": [
+   "とけい"
+  ],
+  "accent": "0",
+  "meaning": "watch, clock",
+  "sourceKanji": [
+   "計"
+  ]
+ },
+ {
+  "word": "計る",
+  "reading": "はかる",
+  "readings": [
+   "はかる"
+  ],
+  "accent": "2",
+  "meaning": "to measure",
+  "sourceKanji": [
+   "計"
+  ]
+ },
+ {
+  "word": "試験",
+  "reading": "しけん",
+  "readings": [
+   "しけん"
+  ],
+  "accent": "2",
+  "meaning": "exam, test",
+  "sourceKanji": [
+   "試",
+   "験"
+  ]
+ },
+ {
+  "word": "試み",
+  "reading": "こころみ",
+  "readings": [
+   "こころみ"
+  ],
+  "accent": "0,4",
+  "meaning": "trial, experiment",
+  "sourceKanji": [
+   "試"
+  ]
+ },
+ {
+  "word": "試食",
+  "reading": "ししょく",
+  "readings": [
+   "ししょく"
+  ],
+  "accent": "0",
+  "meaning": "sampling food",
+  "sourceKanji": [
+   "試"
+  ]
+ },
+ {
+  "word": "小説",
+  "reading": "しょうせつ",
+  "readings": [
+   "しょうせつ"
+  ],
+  "accent": "0",
+  "meaning": "novel, short story",
+  "sourceKanji": [
+   "説"
+  ]
+ },
+ {
+  "word": "説",
+  "reading": "せつ",
+  "readings": [
+   "せつ"
+  ],
+  "accent": "1",
+  "meaning": "theory",
+  "sourceKanji": [
+   "説"
+  ]
+ },
+ {
+  "word": "学説",
+  "reading": "がくせつ",
+  "readings": [
+   "がくせつ"
+  ],
+  "accent": "0",
+  "meaning": "theory",
+  "sourceKanji": [
+   "説"
+  ]
+ },
+ {
+  "word": "貸す",
+  "reading": "かす",
+  "readings": [
+   "かす"
+  ],
+  "accent": "0",
+  "meaning": "to lend",
+  "sourceKanji": [
+   "貸"
+  ]
+ },
+ {
+  "word": "貸し",
+  "reading": "かし",
+  "readings": [
+   "かし"
+  ],
+  "accent": "0",
+  "meaning": "loan",
+  "sourceKanji": [
+   "貸"
+  ]
+ },
+ {
+  "word": "貸借",
+  "reading": "たいしゃく",
+  "readings": [
+   "たいしゃく"
+  ],
+  "accent": null,
+  "meaning": "lending and borrowing, loan",
+  "sourceKanji": [
+   "貸"
+  ]
+ },
+ {
+  "word": "質",
+  "reading": "しつ",
+  "readings": [
+   "しつ"
+  ],
+  "accent": "0,2",
+  "meaning": "quality",
+  "sourceKanji": [
+   "質"
+  ]
+ },
+ {
+  "word": "質問",
+  "reading": "しつもん",
+  "readings": [
+   "しつもん"
+  ],
+  "accent": "0",
+  "meaning": "question, inquiry",
+  "sourceKanji": [
+   "質"
+  ]
+ },
+ {
+  "word": "水質",
+  "reading": "すいしつ",
+  "readings": [
+   "すいしつ"
+  ],
+  "accent": "0",
+  "meaning": "water quality",
+  "sourceKanji": [
+   "質"
+  ]
+ },
+ {
+  "word": "赤い",
+  "reading": "あかい",
+  "readings": [
+   "あかい"
+  ],
+  "accent": "0",
+  "meaning": "red",
+  "sourceKanji": [
+   "赤"
+  ]
+ },
+ {
+  "word": "赤ちゃん",
+  "reading": "あかちゃん",
+  "readings": [
+   "あかちゃん"
+  ],
+  "accent": "1",
+  "meaning": "baby",
+  "sourceKanji": [
+   "赤"
+  ]
+ },
+ {
+  "word": "赤道",
+  "reading": "せきどう",
+  "readings": [
+   "せきどう"
+  ],
+  "accent": "0",
+  "meaning": "equator",
+  "sourceKanji": [
+   "赤"
+  ]
+ },
+ {
+  "word": "走る",
+  "reading": "はしる",
+  "readings": [
+   "はしる"
+  ],
+  "accent": "2",
+  "meaning": "to run",
+  "sourceKanji": [
+   "走"
+  ]
+ },
+ {
+  "word": "走り書き",
+  "reading": "はしりがき",
+  "readings": [
+   "はしりがき"
+  ],
+  "accent": "0",
+  "meaning": "scribble",
+  "sourceKanji": [
+   "走"
+  ]
+ },
+ {
+  "word": "競走",
+  "reading": "きょうそう",
+  "readings": [
+   "きょうそう"
+  ],
+  "accent": null,
+  "meaning": "race",
+  "sourceKanji": [
+   "走"
+  ]
+ },
+ {
+  "word": "起きる",
+  "reading": "おきる",
+  "readings": [
+   "おきる"
+  ],
+  "accent": "2",
+  "meaning": "to wake up",
+  "sourceKanji": [
+   "起"
+  ]
+ },
+ {
+  "word": "起こる",
+  "reading": "おこる",
+  "readings": [
+   "おこる"
+  ],
+  "accent": "2",
+  "meaning": "to occur, to happen",
+  "sourceKanji": [
+   "起"
+  ]
+ },
+ {
+  "word": "起床",
+  "reading": "きしょう",
+  "readings": [
+   "きしょう"
+  ],
+  "accent": null,
+  "meaning": "getting up, rising",
+  "sourceKanji": [
+   "起"
+  ]
+ },
+ {
+  "word": "転じる",
+  "reading": "てんじる",
+  "readings": [
+   "てんじる"
+  ],
+  "accent": "0,3",
+  "meaning": "to turn, to shift",
+  "sourceKanji": [
+   "転"
+  ]
+ },
+ {
+  "word": "転ぶ",
+  "reading": "ころぶ",
+  "readings": [
+   "ころぶ"
+  ],
+  "accent": "0",
+  "meaning": "to fall down, to fall over",
+  "sourceKanji": [
+   "転"
+  ]
+ },
+ {
+  "word": "転売",
+  "reading": "てんばい",
+  "readings": [
+   "てんばい"
+  ],
+  "accent": "0",
+  "meaning": "resale",
+  "sourceKanji": [
+   "転"
+  ]
+ },
+ {
+  "word": "軽い",
+  "reading": "かるい",
+  "readings": [
+   "かるい"
+  ],
+  "accent": "0",
+  "meaning": "light, non-serious",
+  "sourceKanji": [
+   "軽"
+  ]
+ },
+ {
+  "word": "手軽",
+  "reading": "てがる",
+  "readings": [
+   "てがる"
+  ],
+  "accent": "0",
+  "meaning": "easy, simple, informal",
+  "sourceKanji": [
+   "軽"
+  ]
+ },
+ {
+  "word": "気軽",
+  "reading": "きがる",
+  "readings": [
+   "きがる"
+  ],
+  "accent": "0",
+  "meaning": "cheerful, lighthearted",
+  "sourceKanji": [
+   "軽"
+  ]
+ },
+ {
+  "word": "軽々",
+  "reading": "かるがる",
+  "readings": [
+   "かるがる"
+  ],
+  "accent": "3",
+  "meaning": "lightly, easily",
+  "sourceKanji": [
+   "軽"
+  ]
+ },
+ {
+  "word": "軽口",
+  "reading": "かるくち",
+  "readings": [
+   "かるくち"
+  ],
+  "accent": "0",
+  "meaning": "talkative, loose-lipped",
+  "sourceKanji": [
+   "軽"
+  ]
+ },
+ {
+  "word": "軽音楽",
+  "reading": "けいおんがく",
+  "readings": [
+   "けいおんがく"
+  ],
+  "accent": "3",
+  "meaning": "light music",
+  "sourceKanji": [
+   "軽"
+  ]
+ },
+ {
+  "word": "近い",
+  "reading": "ちかい",
+  "readings": [
+   "ちかい"
+  ],
+  "accent": "2",
+  "meaning": "near, close by",
+  "sourceKanji": [
+   "近"
+  ]
+ },
+ {
+  "word": "近所",
+  "reading": "きんじょ",
+  "readings": [
+   "きんじょ"
+  ],
+  "accent": "1",
+  "meaning": "neighbourhood",
+  "sourceKanji": [
+   "近"
+  ]
+ },
+ {
+  "word": "近道",
+  "reading": "ちかみち",
+  "readings": [
+   "ちかみち"
+  ],
+  "accent": "2",
+  "meaning": "shortcut, short way",
+  "sourceKanji": [
+   "近"
+  ]
+ },
+ {
+  "word": "送る",
+  "reading": "おくる",
+  "readings": [
+   "おくる"
+  ],
+  "accent": "0",
+  "meaning": "to send, to see off (person)",
+  "sourceKanji": [
+   "送"
+  ]
+ },
+ {
+  "word": "先送り",
+  "reading": "さきおくり",
+  "readings": [
+   "さきおくり"
+  ],
+  "accent": "0",
+  "meaning": "postpone",
+  "sourceKanji": [
+   "送"
+  ]
+ },
+ {
+  "word": "送電",
+  "reading": "そうでん",
+  "readings": [
+   "そうでん"
+  ],
+  "accent": "0",
+  "meaning": "electric supply",
+  "sourceKanji": [
+   "送"
+  ]
+ },
+ {
+  "word": "送別",
+  "reading": "そうべつ",
+  "readings": [
+   "そうべつ"
+  ],
+  "accent": "0",
+  "meaning": "farewell, send off",
+  "sourceKanji": [
+   "送"
+  ]
+ },
+ {
+  "word": "通う",
+  "reading": "かよう",
+  "readings": [
+   "かよう"
+  ],
+  "accent": "0",
+  "meaning": "to commute, to go back and forth",
+  "sourceKanji": [
+   "通"
+  ]
+ },
+ {
+  "word": "通る",
+  "reading": "とおる",
+  "readings": [
+   "とおる"
+  ],
+  "accent": "1",
+  "meaning": "to pass by, to walk along",
+  "sourceKanji": [
+   "通"
+  ]
+ },
+ {
+  "word": "通い",
+  "reading": "かよい",
+  "readings": [
+   "かよい"
+  ],
+  "accent": "0",
+  "meaning": "coming and going, commuting",
+  "sourceKanji": [
+   "通"
+  ]
+ },
+ {
+  "word": "通す",
+  "reading": "とおす",
+  "readings": [
+   "とおす"
+  ],
+  "accent": "1",
+  "meaning": "to let pass, to overlook",
+  "sourceKanji": [
+   "通"
+  ]
+ },
+ {
+  "word": "通信社",
+  "reading": "つうしんしゃ",
+  "readings": [
+   "つうしんしゃ"
+  ],
+  "accent": "3",
+  "meaning": "newsagency",
+  "sourceKanji": [
+   "通"
+  ]
+ },
+ {
+  "word": "進む",
+  "reading": "すすむ",
+  "readings": [
+   "すすむ"
+  ],
+  "accent": "0",
+  "meaning": "to make progress",
+  "sourceKanji": [
+   "進"
+  ]
+ },
+ {
+  "word": "運",
+  "reading": "うん",
+  "readings": [
+   "うん"
+  ],
+  "accent": "1",
+  "meaning": "fortune, luck, (運がいい=to have good luck)",
+  "sourceKanji": [
+   "運"
+  ]
+ },
+ {
+  "word": "運ぶ",
+  "reading": "はこぶ",
+  "readings": [
+   "はこぶ"
+  ],
+  "accent": "0",
+  "meaning": "to transport",
+  "sourceKanji": [
+   "運"
+  ]
+ },
+ {
+  "word": "運動",
+  "reading": "うんどう",
+  "readings": [
+   "うんどう"
+  ],
+  "accent": "0",
+  "meaning": "exercise",
+  "sourceKanji": [
+   "運"
+  ]
+ },
+ {
+  "word": "運転",
+  "reading": "うんてん",
+  "readings": [
+   "うんてん"
+  ],
+  "accent": "0",
+  "meaning": "driving, motion",
+  "sourceKanji": [
+   "運"
+  ]
+ },
+ {
+  "word": "遠い",
+  "reading": "とおい",
+  "readings": [
+   "とおい"
+  ],
+  "accent": "0",
+  "meaning": "far, distant",
+  "sourceKanji": [
+   "遠"
+  ]
+ },
+ {
+  "word": "遠足",
+  "reading": "えんそく",
+  "readings": [
+   "えんそく"
+  ],
+  "accent": "0",
+  "meaning": "trip, hike, picnic",
+  "sourceKanji": [
+   "遠"
+  ]
+ },
+ {
+  "word": "遠まわし",
+  "reading": "とおまわし",
+  "readings": [
+   "とおまわし"
+  ],
+  "accent": "3,0",
+  "meaning": "indirect (roundabout) expression",
+  "sourceKanji": [
+   "遠"
+  ]
+ },
+ {
+  "word": "遠心力",
+  "reading": "えんしんりょく",
+  "readings": [
+   "えんしんりょく"
+  ],
+  "accent": "3",
+  "meaning": "centrifugal force",
+  "sourceKanji": [
+   "遠"
+  ]
+ },
+ {
+  "word": "都",
+  "reading": "みやこ",
+  "readings": [
+   "みやこ"
+  ],
+  "accent": "0",
+  "meaning": "capital",
+  "sourceKanji": [
+   "都"
+  ]
+ },
+ {
+  "word": "都会",
+  "reading": "とかい",
+  "readings": [
+   "とかい"
+  ],
+  "accent": "0",
+  "meaning": "city",
+  "sourceKanji": [
+   "都"
+  ]
+ },
+ {
+  "word": "重い",
+  "reading": "おもい",
+  "readings": [
+   "おもい"
+  ],
+  "accent": "0",
+  "meaning": "heavy",
+  "sourceKanji": [
+   "重"
+  ]
+ },
+ {
+  "word": "重ねる",
+  "reading": "かさねる",
+  "readings": [
+   "かさねる"
+  ],
+  "accent": "0",
+  "meaning": "to pile up, to heap",
+  "sourceKanji": [
+   "重"
+  ]
+ },
+ {
+  "word": "重大",
+  "reading": "じゅうだい",
+  "readings": [
+   "じゅうだい"
+  ],
+  "accent": "0",
+  "meaning": "serious, important, grave",
+  "sourceKanji": [
+   "重"
+  ]
+ },
+ {
+  "word": "体重",
+  "reading": "たいじゅう",
+  "readings": [
+   "たいじゅう"
+  ],
+  "accent": "0",
+  "meaning": "one's body weight",
+  "sourceKanji": [
+   "重"
+  ]
+ },
+ {
+  "word": "重さ",
+  "reading": "おもさ",
+  "readings": [
+   "おもさ"
+  ],
+  "accent": "0",
+  "meaning": "weight",
+  "sourceKanji": [
+   "重"
+  ]
+ },
+ {
+  "word": "野鳥",
+  "reading": "やちょう",
+  "readings": [
+   "やちょう"
+  ],
+  "accent": "0",
+  "meaning": "(wild) bird",
+  "sourceKanji": [
+   "野",
+   "鳥"
+  ]
+ },
+ {
+  "word": "野外",
+  "reading": "やがい",
+  "readings": [
+   "やがい"
+  ],
+  "accent": "1,0",
+  "meaning": "suburbs, outskirts",
+  "sourceKanji": [
+   "野"
+  ]
+ },
+ {
+  "word": "銀行",
+  "reading": "ぎんこう",
+  "readings": [
+   "ぎんこう"
+  ],
+  "accent": "0",
+  "meaning": "bank",
+  "sourceKanji": [
+   "銀"
+  ]
+ },
+ {
+  "word": "銀色",
+  "reading": "ぎんいろ",
+  "readings": [
+   "ぎんいろ"
+  ],
+  "accent": "0",
+  "meaning": "silver",
+  "sourceKanji": [
+   "銀"
+  ]
+ },
+ {
+  "word": "水銀",
+  "reading": "すいぎん",
+  "readings": [
+   "すいぎん"
+  ],
+  "accent": "0",
+  "meaning": "mercury",
+  "sourceKanji": [
+   "銀"
+  ]
+ },
+ {
+  "word": "門",
+  "reading": "もん",
+  "readings": [
+   "もん"
+  ],
+  "accent": "1",
+  "meaning": "gate",
+  "sourceKanji": [
+   "門"
+  ]
+ },
+ {
+  "word": "門下",
+  "reading": "もんか",
+  "readings": [
+   "もんか"
+  ],
+  "accent": "1",
+  "meaning": "one's pupil or follower",
+  "sourceKanji": [
+   "門"
+  ]
+ },
+ {
+  "word": "門外漢",
+  "reading": "もんがいかん",
+  "readings": [
+   "もんがいかん"
+  ],
+  "accent": "3",
+  "meaning": "amateur, outsider, layman",
+  "sourceKanji": [
+   "門"
+  ]
+ },
+ {
+  "word": "入門",
+  "reading": "にゅうもん",
+  "readings": [
+   "にゅうもん"
+  ],
+  "accent": "0",
+  "meaning": "primer, manual",
+  "sourceKanji": [
+   "門"
+  ]
+ },
+ {
+  "word": "開く",
+  "reading": "あく",
+  "readings": [
+   "あく"
+  ],
+  "accent": "0",
+  "meaning": "to open",
+  "sourceKanji": [
+   "開"
+  ]
+ },
+ {
+  "word": "公開",
+  "reading": "こうかい",
+  "readings": [
+   "こうかい"
+  ],
+  "accent": null,
+  "meaning": "public release, opening to the public",
+  "sourceKanji": [
+   "開"
+  ]
+ },
+ {
+  "word": "学院",
+  "reading": "がくいん",
+  "readings": [
+   "がくいん"
+  ],
+  "accent": "0",
+  "meaning": "institute, academy",
+  "sourceKanji": [
+   "院"
+  ]
+ },
+ {
+  "word": "大学院",
+  "reading": "だいがくいん",
+  "readings": [
+   "だいがくいん"
+  ],
+  "accent": "4",
+  "meaning": "graduate school",
+  "sourceKanji": [
+   "院"
+  ]
+ },
+ {
+  "word": "入院",
+  "reading": "にゅういん",
+  "readings": [
+   "にゅういん"
+  ],
+  "accent": "0",
+  "meaning": "hospital admission",
+  "sourceKanji": [
+   "院"
+  ]
+ },
+ {
+  "word": "集める",
+  "reading": "あつめる",
+  "readings": [
+   "あつめる"
+  ],
+  "accent": "3",
+  "meaning": "to gather, to assemble",
+  "sourceKanji": [
+   "集"
+  ]
+ },
+ {
+  "word": "集まる",
+  "reading": "あつまる",
+  "readings": [
+   "あつまる"
+  ],
+  "accent": "3",
+  "meaning": "to gather, to assemble",
+  "sourceKanji": [
+   "集"
+  ]
+ },
+ {
+  "word": "集中",
+  "reading": "しゅうちゅう",
+  "readings": [
+   "しゅうちゅう"
+  ],
+  "accent": "0",
+  "meaning": "concentration",
+  "sourceKanji": [
+   "集"
+  ]
+ },
+ {
+  "word": "集",
+  "reading": "しゅう",
+  "readings": [
+   "しゅう"
+  ],
+  "accent": "1",
+  "meaning": "collection",
+  "sourceKanji": [
+   "集"
+  ]
+ },
+ {
+  "word": "青",
+  "reading": "あお",
+  "readings": [
+   "あお"
+  ],
+  "accent": "1",
+  "meaning": "blue",
+  "sourceKanji": [
+   "青"
+  ]
+ },
+ {
+  "word": "青空",
+  "reading": "あおぞら",
+  "readings": [
+   "あおぞら"
+  ],
+  "accent": "3",
+  "meaning": "blue sky",
+  "sourceKanji": [
+   "青"
+  ]
+ },
+ {
+  "word": "音",
+  "reading": "おと",
+  "readings": [
+   "おと"
+  ],
+  "accent": "2",
+  "meaning": "sound",
+  "sourceKanji": [
+   "音"
+  ]
+ },
+ {
+  "word": "音質",
+  "reading": "おんしつ",
+  "readings": [
+   "おんしつ"
+  ],
+  "accent": "0",
+  "meaning": "tone quality",
+  "sourceKanji": [
+   "音"
+  ]
+ },
+ {
+  "word": "足音",
+  "reading": "あしおと",
+  "readings": [
+   "あしおと"
+  ],
+  "accent": "3,4",
+  "meaning": "sound of footsteps",
+  "sourceKanji": [
+   "音"
+  ]
+ },
+ {
+  "word": "物音",
+  "reading": "ものおと",
+  "readings": [
+   "ものおと"
+  ],
+  "accent": "3,4",
+  "meaning": "sounds",
+  "sourceKanji": [
+   "音"
+  ]
+ },
+ {
+  "word": "頭",
+  "reading": "あたま",
+  "readings": [
+   "あたま"
+  ],
+  "accent": "3,2",
+  "meaning": "head",
+  "sourceKanji": [
+   "頭"
+  ]
+ },
+ {
+  "word": "先頭",
+  "reading": "せんとう",
+  "readings": [
+   "せんとう"
+  ],
+  "accent": null,
+  "meaning": "head, front, lead",
+  "sourceKanji": [
+   "頭"
+  ]
+ },
+ {
+  "word": "宿題",
+  "reading": "しゅくだい",
+  "readings": [
+   "しゅくだい"
+  ],
+  "accent": "0",
+  "meaning": "homework",
+  "sourceKanji": [
+   "題"
+  ]
+ },
+ {
+  "word": "顔",
+  "reading": "かお",
+  "readings": [
+   "かお"
+  ],
+  "accent": "0",
+  "meaning": "face (person)",
+  "sourceKanji": [
+   "顔"
+  ]
+ },
+ {
+  "word": "笑顔",
+  "reading": "えがお",
+  "readings": [
+   "えがお"
+  ],
+  "accent": "1",
+  "meaning": "smiling face",
+  "sourceKanji": [
+   "顔"
+  ]
+ },
+ {
+  "word": "顔色",
+  "reading": "かおいろ",
+  "readings": [
+   "かおいろ"
+  ],
+  "accent": "0",
+  "meaning": "complexion, expression",
+  "sourceKanji": [
+   "顔"
+  ]
+ },
+ {
+  "word": "新顔",
+  "reading": "しんがお",
+  "readings": [
+   "しんがお"
+  ],
+  "accent": "0",
+  "meaning": "newcomer, new face",
+  "sourceKanji": [
+   "顔"
+  ]
+ },
+ {
+  "word": "風",
+  "reading": "かぜ",
+  "readings": [
+   "かぜ"
+  ],
+  "accent": "0",
+  "meaning": "wind",
+  "sourceKanji": [
+   "風"
+  ]
+ },
+ {
+  "word": "風習",
+  "reading": "ふうしゅう",
+  "readings": [
+   "ふうしゅう"
+  ],
+  "accent": "0",
+  "meaning": "custom",
+  "sourceKanji": [
+   "風"
+  ]
+ },
+ {
+  "word": "赤飯",
+  "reading": "せきはん",
+  "readings": [
+   "せきはん"
+  ],
+  "accent": "0,3",
+  "meaning": "red rice",
+  "sourceKanji": [
+   "飯"
+  ]
+ },
+ {
+  "word": "ご飯",
+  "reading": "ごはん",
+  "readings": [
+   "ごはん"
+  ],
+  "accent": "1",
+  "meaning": "meal, rice",
+  "sourceKanji": [
+   "飯"
+  ]
+ },
+ {
+  "word": "朝ご飯",
+  "reading": "あさごはん",
+  "readings": [
+   "あさごはん"
+  ],
+  "accent": "3",
+  "meaning": "breakfast",
+  "sourceKanji": [
+   "飯"
+  ]
+ },
+ {
+  "word": "本館",
+  "reading": "ほんかん",
+  "readings": [
+   "ほんかん"
+  ],
+  "accent": "0,1",
+  "meaning": "main building",
+  "sourceKanji": [
+   "館"
+  ]
+ },
+ {
+  "word": "首",
+  "reading": "くび",
+  "readings": [
+   "くび"
+  ],
+  "accent": "0",
+  "meaning": "neck",
+  "sourceKanji": [
+   "首"
+  ]
+ },
+ {
+  "word": "足首",
+  "reading": "あしくび",
+  "readings": [
+   "あしくび"
+  ],
+  "accent": "2,3",
+  "meaning": "ankle",
+  "sourceKanji": [
+   "首"
+  ]
+ },
+ {
+  "word": "手首",
+  "reading": "てくび",
+  "readings": [
+   "てくび"
+  ],
+  "accent": "1",
+  "meaning": "wrist",
+  "sourceKanji": [
+   "首"
+  ]
+ },
+ {
+  "word": "自首",
+  "reading": "じしゅ",
+  "readings": [
+   "じしゅ"
+  ],
+  "accent": "0,1",
+  "meaning": "to surrender, to give oneself up",
+  "sourceKanji": [
+   "首"
+  ]
+ },
+ {
+  "word": "体験",
+  "reading": "たいけん",
+  "readings": [
+   "たいけん"
+  ],
+  "accent": "0",
+  "meaning": "personal experience",
+  "sourceKanji": [
+   "験"
+  ]
+ },
+ {
+  "word": "鳥",
+  "reading": "とり",
+  "readings": [
+   "とり"
+  ],
+  "accent": "0",
+  "meaning": "bird",
+  "sourceKanji": [
+   "鳥"
+  ]
+ },
+ {
+  "word": "小鳥",
+  "reading": "ことり",
+  "readings": [
+   "ことり"
+  ],
+  "accent": "0",
+  "meaning": "small bird",
+  "sourceKanji": [
+   "鳥"
+  ]
+ },
+ {
+  "word": "一石二鳥",
+  "reading": "いっせきにちょう",
+  "readings": [
+   "いっせきにちょう"
+  ],
+  "accent": "0,5",
+  "meaning": "two birds with one stone",
+  "sourceKanji": [
+   "鳥"
+  ]
+ },
+ {
+  "word": "黒",
+  "reading": "くろ",
+  "readings": [
+   "くろ"
+  ],
+  "accent": "1",
+  "meaning": "black",
+  "sourceKanji": [
+   "黒"
+  ]
+ },
+ {
+  "word": "黒字",
+  "reading": "くろじ",
+  "readings": [
+   "くろじ"
+  ],
+  "accent": "0",
+  "meaning": "to be in the black",
+  "sourceKanji": [
+   "黒"
+  ]
+ },
+ {
+  "word": "白黒",
+  "reading": "しろくろ",
+  "readings": [
+   "しろくろ"
+  ],
+  "accent": "0,1",
+  "meaning": "black and white",
+  "sourceKanji": [
+   "黒"
+  ]
+ },
+ {
+  "word": "黒っぽい",
+  "reading": "くろっぽい",
+  "readings": [
+   "くろっぽい"
+  ],
+  "accent": "4",
+  "meaning": "dark, blackish",
+  "sourceKanji": [
+   "黒"
+  ]
+ }
+]

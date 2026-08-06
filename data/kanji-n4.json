@@ -1,0 +1,8400 @@
+[
+ {
+  "kanji": "不",
+  "onyomi": [
+   "ふ",
+   "ぶ"
+  ],
+  "kunyomi": [],
+  "readings": [
+   "ふ",
+   "ぶ"
+  ],
+  "meaning": "negative, non-",
+  "strokes": 4,
+  "freq": 101,
+  "sentence": "不妊症です。",
+  "compounds": [
+   {
+    "word": "不足",
+    "reading": "ふそく",
+    "accent": "0",
+    "meaning": "insufficiency, shortage"
+   },
+   {
+    "word": "不安",
+    "reading": "ふあん",
+    "accent": "0",
+    "meaning": "anxiety, uneasiness"
+   },
+   {
+    "word": "不当",
+    "reading": "ふとう",
+    "accent": "0",
+    "meaning": "injustice, unfair"
+   },
+   {
+    "word": "不全",
+    "reading": "ふぜん",
+    "accent": "0",
+    "meaning": "partial, incomplete"
+   },
+   {
+    "word": "不動",
+    "reading": "ふどう",
+    "accent": "0,1",
+    "meaning": "immobility, motionless"
+   }
+  ]
+ },
+ {
+  "kanji": "世",
+  "onyomi": [
+   "せい",
+   "せ",
+   "そう"
+  ],
+  "kunyomi": [
+   "よ"
+  ],
+  "readings": [
+   "せい",
+   "せ",
+   "そう",
+   "よ"
+  ],
+  "meaning": "world, generation, society, public",
+  "strokes": 5,
+  "freq": 135,
+  "sentence": "世論に聞け。",
+  "compounds": [
+   {
+    "word": "世界",
+    "reading": "せかい",
+    "accent": "1",
+    "meaning": "world, society"
+   },
+   {
+    "word": "世代",
+    "reading": "せだい",
+    "accent": "1,0",
+    "meaning": "generation, age"
+   },
+   {
+    "word": "世話",
+    "reading": "せわ",
+    "accent": "2",
+    "meaning": "looking after, help"
+   },
+   {
+    "word": "世話人",
+    "reading": "せわにん",
+    "accent": "0",
+    "meaning": "manager, sponsor, agent"
+   }
+  ]
+ },
+ {
+  "kanji": "主",
+  "onyomi": [
+   "しゅ",
+   "す",
+   "しゅう"
+  ],
+  "kunyomi": [
+   "ぬし",
+   "おも",
+   "あるじ"
+  ],
+  "readings": [
+   "しゅ",
+   "す",
+   "しゅう",
+   "ぬし",
+   "おも",
+   "あるじ"
+  ],
+  "meaning": "main, principle",
+  "strokes": 5,
+  "freq": 95,
+  "sentence": "私は主婦です。",
+  "compounds": [
+   {
+    "word": "主",
+    "reading": "おも",
+    "accent": "1",
+    "meaning": "main, principal, important"
+   },
+   {
+    "word": "主人",
+    "reading": "しゅじん",
+    "accent": "1",
+    "meaning": "master, landlord, husband, employer"
+   },
+   {
+    "word": "主食",
+    "reading": "しゅしょく",
+    "accent": "0",
+    "meaning": "staple food"
+   },
+   {
+    "word": "主語",
+    "reading": "しゅご",
+    "accent": "1",
+    "meaning": "subject"
+   },
+   {
+    "word": "持ち主",
+    "reading": "もちぬし",
+    "accent": "2",
+    "meaning": "owner, proprietor"
+   }
+  ]
+ },
+ {
+  "kanji": "乗",
+  "onyomi": [
+   "じょう",
+   "しょう"
+  ],
+  "kunyomi": [
+   "の.る",
+   "-の.り",
+   "の.せる"
+  ],
+  "readings": [
+   "じょう",
+   "しょう",
+   "の.る",
+   "の.せる"
+  ],
+  "meaning": "to ride, to board, to get on",
+  "strokes": 9,
+  "freq": 377,
+  "sentence": "乗船する。",
+  "compounds": [
+   {
+    "word": "乗る",
+    "reading": "のる",
+    "accent": "0",
+    "meaning": "to ride, to board, to get on"
+   },
+   {
+    "word": "乗せる",
+    "reading": "のせる",
+    "accent": "0",
+    "meaning": "to give a ride, to let (one) take part"
+   },
+   {
+    "word": "乗員",
+    "reading": "じょういん",
+    "accent": "0",
+    "meaning": "crew"
+   },
+   {
+    "word": "乗り場",
+    "reading": "のりば",
+    "accent": "0",
+    "meaning": "place for boarding vehicles"
+   },
+   {
+    "word": "乗り物",
+    "reading": "のりもの",
+    "accent": "0",
+    "meaning": "vehicle"
+   }
+  ]
+ },
+ {
+  "kanji": "事",
+  "onyomi": [
+   "じ",
+   "ず"
+  ],
+  "kunyomi": [
+   "こと",
+   "つか.う",
+   "つか.える"
+  ],
+  "readings": [
+   "じ",
+   "ず",
+   "こと",
+   "つか.う",
+   "つか.える"
+  ],
+  "meaning": "matter, thing, fact",
+  "strokes": 8,
+  "freq": 18,
+  "sentence": "お見事！",
+  "compounds": [
+   {
+    "word": "仕事",
+    "reading": "しごと",
+    "accent": "0",
+    "meaning": "work, occupation"
+   },
+   {
+    "word": "火事",
+    "reading": "かじ",
+    "accent": "1",
+    "meaning": "fire"
+   },
+   {
+    "word": "食事",
+    "reading": "しょくじ",
+    "accent": "0",
+    "meaning": "meal"
+   },
+   {
+    "word": "行事",
+    "reading": "ぎょうじ",
+    "accent": "1,0",
+    "meaning": "event, function"
+   },
+   {
+    "word": "出来事",
+    "reading": "できごと",
+    "accent": "2",
+    "meaning": "incident, affair, event"
+   }
+  ]
+ },
+ {
+  "kanji": "京",
+  "onyomi": [
+   "きょう",
+   "けい",
+   "きん"
+  ],
+  "kunyomi": [
+   "みやこ"
+  ],
+  "readings": [
+   "きょう",
+   "けい",
+   "きん",
+   "みやこ"
+  ],
+  "meaning": "capital",
+  "strokes": 8,
+  "freq": 74,
+  "sentence": "東京駅なう。",
+  "compounds": [
+   {
+    "word": "東京",
+    "reading": "とうきょう",
+    "accent": "0",
+    "meaning": "Tokyo - Capital of Japan"
+   },
+   {
+    "word": "京子",
+    "reading": "きょうこ",
+    "accent": null,
+    "meaning": "kyoko"
+   },
+   {
+    "word": "京都",
+    "reading": "きょうと",
+    "accent": "1",
+    "meaning": "kyoto"
+   },
+   {
+    "word": "上京",
+    "reading": "じょうきょう",
+    "accent": "0",
+    "meaning": "heading to the capital"
+   }
+  ]
+ },
+ {
+  "kanji": "仕",
+  "onyomi": [
+   "し",
+   "じ"
+  ],
+  "kunyomi": [
+   "つか.える"
+  ],
+  "readings": [
+   "し",
+   "じ",
+   "つか.える"
+  ],
+  "meaning": "attend, do",
+  "strokes": 5,
+  "freq": 439,
+  "sentence": "さあ仕事だ。",
+  "compounds": [
+   {
+    "word": "仕える",
+    "reading": "つかえる",
+    "accent": "3,0",
+    "meaning": "to serve, to work for"
+   },
+   {
+    "word": "仕事",
+    "reading": "しごと",
+    "accent": "0",
+    "meaning": "work, occupation"
+   },
+   {
+    "word": "仕事場",
+    "reading": "しごとば",
+    "accent": "0",
+    "meaning": "place where one works"
+   },
+   {
+    "word": "仕上げる",
+    "reading": "しあげる",
+    "accent": "3",
+    "meaning": "to finish up, to complete"
+   }
+  ]
+ },
+ {
+  "kanji": "代",
+  "onyomi": [
+   "だい",
+   "たい"
+  ],
+  "kunyomi": [
+   "か.わる",
+   "かわ.る",
+   "かわ.り",
+   "か.わり",
+   "-がわ.り",
+   "-が.わり",
+   "か.える",
+   "よ",
+   "しろ"
+  ],
+  "readings": [
+   "だい",
+   "たい",
+   "か.わる",
+   "かわ.る",
+   "かわ.り",
+   "か.わり",
+   "か.える",
+   "よ",
+   "しろ"
+  ],
+  "meaning": "age, generation, substitute",
+  "strokes": 5,
+  "freq": 66,
+  "sentence": "父は５０代です。",
+  "compounds": [
+   {
+    "word": "代わる",
+    "reading": "かわる",
+    "accent": "0",
+    "meaning": "to take the place of"
+   },
+   {
+    "word": "時代",
+    "reading": "じだい",
+    "accent": "0",
+    "meaning": "period, era"
+   },
+   {
+    "word": "世代",
+    "reading": "せだい",
+    "accent": "1,0",
+    "meaning": "generation, age"
+   },
+   {
+    "word": "代金",
+    "reading": "だいきん",
+    "accent": "1,0",
+    "meaning": "price, payment, cost, the bill"
+   }
+  ]
+ },
+ {
+  "kanji": "以",
+  "onyomi": [
+   "い"
+  ],
+  "kunyomi": [
+   "もっ.て"
+  ],
+  "readings": [
+   "い",
+   "もっ.て"
+  ],
+  "meaning": "by means of",
+  "strokes": 5,
+  "freq": 126,
+  "sentence": "以上ですか？",
+  "compounds": [
+   {
+    "word": "以上",
+    "reading": "いじょう",
+    "accent": "1",
+    "meaning": "more than, over, this is all"
+   },
+   {
+    "word": "以下",
+    "reading": "いか",
+    "accent": "1",
+    "meaning": "less than, below, under"
+   },
+   {
+    "word": "以内",
+    "reading": "いない",
+    "accent": "1",
+    "meaning": "within, inside of"
+   },
+   {
+    "word": "以外",
+    "reading": "いがい",
+    "accent": "1",
+    "meaning": "with the exception of"
+   }
+  ]
+ },
+ {
+  "kanji": "低",
+  "onyomi": [
+   "てい"
+  ],
+  "kunyomi": [
+   "ひく.い",
+   "ひく.める",
+   "ひく.まる"
+  ],
+  "readings": [
+   "てい",
+   "ひく.い",
+   "ひく.める",
+   "ひく.まる"
+  ],
+  "meaning": "short, humble",
+  "strokes": 7,
+  "freq": 435,
+  "sentence": "あの映画、最低！",
+  "compounds": [
+   {
+    "word": "低い",
+    "reading": "ひくい",
+    "accent": "2",
+    "meaning": "short, low, humble"
+   },
+   {
+    "word": "低音",
+    "reading": "ていおん",
+    "accent": "0",
+    "meaning": "low tone, bass"
+   },
+   {
+    "word": "低下",
+    "reading": "ていか",
+    "accent": "0",
+    "meaning": "fall, decline, deterioration"
+   },
+   {
+    "word": "高低",
+    "reading": "こうてい",
+    "accent": "0,1",
+    "meaning": "high and low, rise and fall"
+   },
+   {
+    "word": "低地",
+    "reading": "ていち",
+    "accent": "0",
+    "meaning": "lowland, plain, low ground"
+   }
+  ]
+ },
+ {
+  "kanji": "住",
+  "onyomi": [
+   "じゅう",
+   "ぢゅう",
+   "ちゅう"
+  ],
+  "kunyomi": [
+   "す.む",
+   "す.まう",
+   "-ず.まい"
+  ],
+  "readings": [
+   "じゅう",
+   "ぢゅう",
+   "ちゅう",
+   "す.む",
+   "す.まう"
+  ],
+  "meaning": "live, dwell, reside",
+  "strokes": 7,
+  "freq": 270,
+  "sentence": "住めば都。",
+  "compounds": [
+   {
+    "word": "住む",
+    "reading": "すむ",
+    "accent": "1",
+    "meaning": "to reside, to live in"
+   },
+   {
+    "word": "住所",
+    "reading": "じゅうしょ",
+    "accent": "1",
+    "meaning": "address (eg house), residence"
+   },
+   {
+    "word": "安住",
+    "reading": "あんじゅう",
+    "accent": "0",
+    "meaning": "living peaceably"
+   }
+  ]
+ },
+ {
+  "kanji": "体",
+  "onyomi": [
+   "たい",
+   "てい"
+  ],
+  "kunyomi": [
+   "からだ",
+   "かたち"
+  ],
+  "readings": [
+   "たい",
+   "てい",
+   "からだ",
+   "かたち"
+  ],
+  "meaning": "body, object, reality",
+  "strokes": 7,
+  "freq": 88,
+  "sentence": "金より体。",
+  "compounds": [
+   {
+    "word": "体",
+    "reading": "からだ",
+    "accent": "0",
+    "meaning": "body, health"
+   },
+   {
+    "word": "本体",
+    "reading": "ほんたい",
+    "accent": "1,0",
+    "meaning": "substance, real form"
+   },
+   {
+    "word": "死体",
+    "reading": "したい",
+    "accent": "0",
+    "meaning": "corpse"
+   },
+   {
+    "word": "人体",
+    "reading": "じんたい",
+    "accent": "1",
+    "meaning": "human body"
+   },
+   {
+    "word": "正体",
+    "reading": "しょうたい",
+    "accent": "1",
+    "meaning": "natural shape, true character"
+   }
+  ]
+ },
+ {
+  "kanji": "作",
+  "onyomi": [
+   "さく",
+   "さ"
+  ],
+  "kunyomi": [
+   "つく.る",
+   "つく.り",
+   "-づく.り"
+  ],
+  "readings": [
+   "さく",
+   "さ",
+   "つく.る",
+   "つく.り"
+  ],
+  "meaning": "make, create",
+  "strokes": 7,
+  "freq": 103,
+  "sentence": "何を作ったの？",
+  "compounds": [
+   {
+    "word": "作る",
+    "reading": "つくる",
+    "accent": "2",
+    "meaning": "to make, to create"
+   },
+   {
+    "word": "作家",
+    "reading": "さっか",
+    "accent": "0",
+    "meaning": "author, writer"
+   },
+   {
+    "word": "工作",
+    "reading": "こうさく",
+    "accent": "0",
+    "meaning": "work, handicraft"
+   },
+   {
+    "word": "作り話",
+    "reading": "つくりはなし",
+    "accent": "4",
+    "meaning": "fiction, made-up story, myth"
+   }
+  ]
+ },
+ {
+  "kanji": "使",
+  "onyomi": [
+   "し"
+  ],
+  "kunyomi": [
+   "つか.う",
+   "つか.い",
+   "-つか.い",
+   "-づか.い"
+  ],
+  "readings": [
+   "し",
+   "つか.う",
+   "つか.い"
+  ],
+  "meaning": "to use",
+  "strokes": 8,
+  "freq": 219,
+  "sentence": "何に使うの？",
+  "compounds": [
+   {
+    "word": "使う",
+    "reading": "つかう",
+    "accent": "0",
+    "meaning": "to use"
+   },
+   {
+    "word": "使い方",
+    "reading": "つかいかた",
+    "accent": "0",
+    "meaning": "way to use something"
+   },
+   {
+    "word": "天使",
+    "reading": "てんし",
+    "accent": "1",
+    "meaning": "angel"
+   },
+   {
+    "word": "使者",
+    "reading": "ししゃ",
+    "accent": "1",
+    "meaning": "messenger"
+   }
+  ]
+ },
+ {
+  "kanji": "便",
+  "onyomi": [
+   "べん",
+   "びん"
+  ],
+  "kunyomi": [
+   "たよ.り"
+  ],
+  "readings": [
+   "べん",
+   "びん",
+   "たよ.り"
+  ],
+  "meaning": "convenience, post",
+  "strokes": 9,
+  "freq": 729,
+  "sentence": "嘘も方便。",
+  "compounds": [
+   {
+    "word": "便",
+    "reading": "びん",
+    "accent": "1",
+    "meaning": "mail, post"
+   },
+   {
+    "word": "不便",
+    "reading": "ふべん",
+    "accent": "1",
+    "meaning": "inconvenience"
+   },
+   {
+    "word": "小便",
+    "reading": "しょうべん",
+    "accent": "3",
+    "meaning": "urine"
+   },
+   {
+    "word": "大便",
+    "reading": "だいべん",
+    "accent": "3",
+    "meaning": "feces, excrement"
+   }
+  ]
+ },
+ {
+  "kanji": "借",
+  "onyomi": [
+   "しゃく"
+  ],
+  "kunyomi": [
+   "か.りる"
+  ],
+  "readings": [
+   "しゃく",
+   "か.りる"
+  ],
+  "meaning": "borrow, rent",
+  "strokes": 10,
+  "freq": 932,
+  "sentence": "私には借金がない。",
+  "compounds": [
+   {
+    "word": "借りる",
+    "reading": "かりる",
+    "accent": "0",
+    "meaning": "to borrow"
+   },
+   {
+    "word": "借金",
+    "reading": "しゃっきん",
+    "accent": "3",
+    "meaning": "debt, loan, liabilities"
+   },
+   {
+    "word": "借り物",
+    "reading": "かりもの",
+    "accent": "0",
+    "meaning": "borrowed thing"
+   }
+  ]
+ },
+ {
+  "kanji": "働",
+  "onyomi": [
+   "どう"
+  ],
+  "kunyomi": [
+   "はたら.く"
+  ],
+  "readings": [
+   "どう",
+   "はたら.く"
+  ],
+  "meaning": "work",
+  "strokes": 13,
+  "freq": 417,
+  "sentence": "彼は働き者だ。",
+  "compounds": [
+   {
+    "word": "働く",
+    "reading": "はたらく",
+    "accent": "0",
+    "meaning": "to work, to labour"
+   },
+   {
+    "word": "働き者",
+    "reading": "はたらきもの",
+    "accent": "0",
+    "meaning": "hardworker, hard working person"
+   },
+   {
+    "word": "働き口",
+    "reading": "はたらきぐち",
+    "accent": "0,4",
+    "meaning": "position, opening"
+   },
+   {
+    "word": "労働",
+    "reading": "ろうどう",
+    "accent": null,
+    "meaning": "labor, work"
+   }
+  ]
+ },
+ {
+  "kanji": "元",
+  "onyomi": [
+   "げん",
+   "がん"
+  ],
+  "kunyomi": [
+   "もと"
+  ],
+  "readings": [
+   "げん",
+   "がん",
+   "もと"
+  ],
+  "meaning": "beginning, origin",
+  "strokes": 4,
+  "freq": 192,
+  "sentence": "元気？",
+  "compounds": [
+   {
+    "word": "元々",
+    "reading": "もともと",
+    "accent": "0",
+    "meaning": "originally, by nature, from the start"
+   },
+   {
+    "word": "元気",
+    "reading": "げんき",
+    "accent": "1",
+    "meaning": "health, spirit"
+   },
+   {
+    "word": "耳元",
+    "reading": "みみもと",
+    "accent": "0,3",
+    "meaning": "close to the ear"
+   },
+   {
+    "word": "地元",
+    "reading": "じもと",
+    "accent": "0,3",
+    "meaning": "local"
+   },
+   {
+    "word": "元日",
+    "reading": "がんじつ",
+    "accent": "0",
+    "meaning": "new year's day"
+   }
+  ]
+ },
+ {
+  "kanji": "兄",
+  "onyomi": [
+   "けい",
+   "きょう"
+  ],
+  "kunyomi": [
+   "あに"
+  ],
+  "readings": [
+   "けい",
+   "きょう",
+   "あに"
+  ],
+  "meaning": "elder brother",
+  "strokes": 5,
+  "freq": 1219,
+  "sentence": "兄がいます。",
+  "compounds": [
+   {
+    "word": "お兄さん",
+    "reading": "おにいさん",
+    "accent": "2",
+    "meaning": "(someone else's) elder brother"
+   },
+   {
+    "word": "兄",
+    "reading": "あに",
+    "accent": "1",
+    "meaning": "(your own) elder brother"
+   },
+   {
+    "word": "父兄",
+    "reading": "ふけい",
+    "accent": "2,1",
+    "meaning": "guardians, parents and older brothers"
+   }
+  ]
+ },
+ {
+  "kanji": "光",
+  "onyomi": [
+   "こう"
+  ],
+  "kunyomi": [
+   "ひか.る",
+   "ひかり"
+  ],
+  "readings": [
+   "こう",
+   "ひか.る",
+   "ひかり"
+  ],
+  "meaning": "ray, light",
+  "strokes": 6,
+  "freq": 527,
+  "sentence": "光は闇を貫く。",
+  "compounds": [
+   {
+    "word": "光",
+    "reading": "ひかり",
+    "accent": "3",
+    "meaning": "light"
+   },
+   {
+    "word": "光る",
+    "reading": "ひかる",
+    "accent": "2",
+    "meaning": "to shine, to be bright"
+   },
+   {
+    "word": "電光",
+    "reading": "でんこう",
+    "accent": "0",
+    "meaning": "lightning"
+   },
+   {
+    "word": "月光",
+    "reading": "げっこう",
+    "accent": "0",
+    "meaning": "moonlight"
+   },
+   {
+    "word": "日光",
+    "reading": "にっこう",
+    "accent": "1",
+    "meaning": "sunlight, Nikko (place name)"
+   }
+  ]
+ },
+ {
+  "kanji": "写",
+  "onyomi": [
+   "しゃ",
+   "じゃ"
+  ],
+  "kunyomi": [
+   "うつ.す",
+   "うつ.る",
+   "うつ-",
+   "うつ.し"
+  ],
+  "readings": [
+   "しゃ",
+   "じゃ",
+   "うつ.す",
+   "うつ.る",
+   "うつ.し"
+  ],
+  "meaning": "copy, describe",
+  "strokes": 5,
+  "freq": 453,
+  "sentence": "写真を撮ろう。",
+  "compounds": [
+   {
+    "word": "写す",
+    "reading": "うつす",
+    "accent": "2",
+    "meaning": "to copy, to duplicate"
+   },
+   {
+    "word": "写し",
+    "reading": "うつし",
+    "accent": "3",
+    "meaning": "copy, fax, transcript"
+   },
+   {
+    "word": "写真",
+    "reading": "しゃしん",
+    "accent": "0",
+    "meaning": "photograph"
+   },
+   {
+    "word": "生き写し",
+    "reading": "いきうつし",
+    "accent": "0,3",
+    "meaning": "lifelike, exact resemblance"
+   },
+   {
+    "word": "写真屋",
+    "reading": "しゃしんや",
+    "accent": "0",
+    "meaning": "photo studio, photographer"
+   }
+  ]
+ },
+ {
+  "kanji": "冬",
+  "onyomi": [
+   "とう"
+  ],
+  "kunyomi": [
+   "ふゆ"
+  ],
+  "readings": [
+   "とう",
+   "ふゆ"
+  ],
+  "meaning": "winter",
+  "strokes": 5,
+  "freq": 1090,
+  "sentence": "冬は去った。",
+  "compounds": [
+   {
+    "word": "冬",
+    "reading": "ふゆ",
+    "accent": "2",
+    "meaning": "winter"
+   },
+   {
+    "word": "冬場",
+    "reading": "ふゆば",
+    "accent": "0",
+    "meaning": "winter season"
+   },
+   {
+    "word": "冬物",
+    "reading": "ふゆもの",
+    "accent": "0",
+    "meaning": "winter clothing"
+   },
+   {
+    "word": "冬日",
+    "reading": "ふゆび",
+    "accent": "0,2",
+    "meaning": "the winter sun"
+   }
+  ]
+ },
+ {
+  "kanji": "切",
+  "onyomi": [
+   "せつ",
+   "さい"
+  ],
+  "kunyomi": [
+   "き.る",
+   "-き.る",
+   "き.り",
+   "-き.り",
+   "-ぎ.り",
+   "き.れる",
+   "-き.れる",
+   "き.れ",
+   "-き.れ",
+   "-ぎ.れ"
+  ],
+  "readings": [
+   "せつ",
+   "さい",
+   "き.る",
+   "き.り",
+   "き.れる",
+   "き.れ"
+  ],
+  "meaning": "cut, be sharp",
+  "strokes": 4,
+  "freq": 324,
+  "sentence": "ご親切に。",
+  "compounds": [
+   {
+    "word": "切る",
+    "reading": "きる",
+    "accent": "1",
+    "meaning": "to cut, to chop"
+   },
+   {
+    "word": "大切",
+    "reading": "たいせつ",
+    "accent": "0",
+    "meaning": "important, valuable"
+   },
+   {
+    "word": "切手",
+    "reading": "きって",
+    "accent": "0",
+    "meaning": "postage stamp"
+   },
+   {
+    "word": "親切",
+    "reading": "しんせつ",
+    "accent": "1,0",
+    "meaning": "kind, gentle"
+   },
+   {
+    "word": "不親切",
+    "reading": "ふしんせつ",
+    "accent": "2",
+    "meaning": "unkindness, unfriendliness"
+   },
+   {
+    "word": "思い切り",
+    "reading": "おもいきり",
+    "accent": "0",
+    "meaning": "with all one's strength (heart)"
+   }
+  ]
+ },
+ {
+  "kanji": "別",
+  "onyomi": [
+   "べつ"
+  ],
+  "kunyomi": [
+   "わか.れる",
+   "わ.ける"
+  ],
+  "readings": [
+   "べつ",
+   "わか.れる",
+   "わ.ける"
+  ],
+  "meaning": "separate, another, extra",
+  "strokes": 7,
+  "freq": 214,
+  "sentence": "それは別問題だ。",
+  "compounds": [
+   {
+    "word": "別",
+    "reading": "べつ",
+    "accent": "0",
+    "meaning": "another, particular"
+   },
+   {
+    "word": "別に",
+    "reading": "べつに",
+    "accent": "0",
+    "meaning": "(not) particularly, nothing"
+   },
+   {
+    "word": "別々に",
+    "reading": "べつべつに",
+    "accent": null,
+    "meaning": "separately, individually"
+   },
+   {
+    "word": "特別",
+    "reading": "とくべつ",
+    "accent": "0",
+    "meaning": "special"
+   },
+   {
+    "word": "別れる",
+    "reading": "わかれる",
+    "accent": "3",
+    "meaning": "to be divided, to part from"
+   },
+   {
+    "word": "別名",
+    "reading": "べつめい",
+    "accent": "0",
+    "meaning": "alias, pseudonym"
+   }
+  ]
+ },
+ {
+  "kanji": "力",
+  "onyomi": [
+   "りょく",
+   "りき",
+   "りい"
+  ],
+  "kunyomi": [
+   "ちから"
+  ],
+  "readings": [
+   "りょく",
+   "りき",
+   "りい",
+   "ちから"
+  ],
+  "meaning": "power, strength",
+  "strokes": 2,
+  "freq": 62,
+  "sentence": "全力でやれ。",
+  "compounds": [
+   {
+    "word": "力",
+    "reading": "ちから",
+    "accent": "3",
+    "meaning": "force, strength, energy"
+   },
+   {
+    "word": "電力",
+    "reading": "でんりょく",
+    "accent": "1,0",
+    "meaning": "electric power"
+   },
+   {
+    "word": "全力",
+    "reading": "ぜんりょく",
+    "accent": "0",
+    "meaning": "all one's power"
+   },
+   {
+    "word": "力持ち",
+    "reading": "ちからもち",
+    "accent": "3",
+    "meaning": "muscle man, strong man"
+   },
+   {
+    "word": "有力者",
+    "reading": "ゆうりょくしゃ",
+    "accent": "3,4",
+    "meaning": "influential person"
+   },
+   {
+    "word": "力士",
+    "reading": "りきし",
+    "accent": "1,0",
+    "meaning": "Japanese sumo wrestler, strongman"
+   },
+   {
+    "word": "力作",
+    "reading": "りきさく",
+    "accent": "0",
+    "meaning": "literary or artistic masterpiece"
+   },
+   {
+    "word": "馬力",
+    "reading": "ばりき",
+    "accent": "0",
+    "meaning": "horse-power, h.p"
+   },
+   {
+    "word": "水力",
+    "reading": "すいりょく",
+    "accent": "1",
+    "meaning": "hydraulic power"
+   }
+  ]
+ },
+ {
+  "kanji": "勉",
+  "onyomi": [
+   "べん"
+  ],
+  "kunyomi": [
+   "つと.める"
+  ],
+  "readings": [
+   "べん",
+   "つと.める"
+  ],
+  "meaning": "exertion",
+  "strokes": 10,
+  "freq": 1066,
+  "sentence": "勉強するな。",
+  "compounds": [
+   {
+    "word": "勉強",
+    "reading": "べんきょう",
+    "accent": "0",
+    "meaning": "study, diligence"
+   },
+   {
+    "word": "勉学",
+    "reading": "べんがく",
+    "accent": "0",
+    "meaning": "study, pursuit of knowledge"
+   },
+   {
+    "word": "不勉強",
+    "reading": "ふべんきょう",
+    "accent": "2",
+    "meaning": "idleness, lack of application"
+   }
+  ]
+ },
+ {
+  "kanji": "動",
+  "onyomi": [
+   "どう"
+  ],
+  "kunyomi": [
+   "うご.く",
+   "うご.かす"
+  ],
+  "readings": [
+   "どう",
+   "うご.く",
+   "うご.かす"
+  ],
+  "meaning": "move, motion, change",
+  "strokes": 11,
+  "freq": 73,
+  "sentence": "動かないで！",
+  "compounds": [
+   {
+    "word": "動く",
+    "reading": "うごく",
+    "accent": "2",
+    "meaning": "to move"
+   },
+   {
+    "word": "動物",
+    "reading": "どうぶつ",
+    "accent": "0",
+    "meaning": "animal"
+   },
+   {
+    "word": "自動",
+    "reading": "じどう",
+    "accent": "0",
+    "meaning": "automatic, self-motion"
+   },
+   {
+    "word": "手動",
+    "reading": "しゅどう",
+    "accent": "0",
+    "meaning": "manual"
+   },
+   {
+    "word": "不動",
+    "reading": "ふどう",
+    "accent": "0,1",
+    "meaning": "immobility, motionless"
+   }
+  ]
+ },
+ {
+  "kanji": "区",
+  "onyomi": [
+   "く",
+   "おう",
+   "こう"
+  ],
+  "kunyomi": [],
+  "readings": [
+   "く",
+   "おう",
+   "こう"
+  ],
+  "meaning": "section, area, zone",
+  "strokes": 4,
+  "freq": 137,
+  "sentence": "彼は善悪の区別がない。",
+  "compounds": [
+   {
+    "word": "区",
+    "reading": "く",
+    "accent": "1",
+    "meaning": "ward, district, section"
+   },
+   {
+    "word": "区別",
+    "reading": "くべつ",
+    "accent": "1",
+    "meaning": "distinction, differentiation, classification"
+   },
+   {
+    "word": "区間",
+    "reading": "くかん",
+    "accent": "1,2",
+    "meaning": "section (of track etc)"
+   },
+   {
+    "word": "区切る",
+    "reading": "くぎる",
+    "accent": "2",
+    "meaning": "to punctate, to cut off, to put an end to"
+   },
+   {
+    "word": "区々",
+    "reading": "まちまち",
+    "accent": "2,0",
+    "meaning": "(1) several, various, (2) trivial"
+   }
+  ]
+ },
+ {
+  "kanji": "医",
+  "onyomi": [
+   "い"
+  ],
+  "kunyomi": [
+   "い.やす",
+   "い.する",
+   "くすし"
+  ],
+  "readings": [
+   "い",
+   "い.やす",
+   "い.する",
+   "くすし"
+  ],
+  "meaning": "doctor, medicine",
+  "strokes": 7,
+  "freq": 437,
+  "sentence": "彼は医者だ。",
+  "compounds": [
+   {
+    "word": "医者",
+    "reading": "いしゃ",
+    "accent": "0",
+    "meaning": "doctor (medical)"
+   },
+   {
+    "word": "医学",
+    "reading": "いがく",
+    "accent": "1",
+    "meaning": "medical science, medicine"
+   },
+   {
+    "word": "医大",
+    "reading": "いだい",
+    "accent": "0",
+    "meaning": "medical university, medical school"
+   },
+   {
+    "word": "医院",
+    "reading": "いいん",
+    "accent": "1",
+    "meaning": "doctor's office (surgery), clinic"
+   },
+   {
+    "word": "医薬品",
+    "reading": "いやくひん",
+    "accent": "0",
+    "meaning": "medical supplies"
+   }
+  ]
+ },
+ {
+  "kanji": "去",
+  "onyomi": [
+   "きょ",
+   "こ"
+  ],
+  "kunyomi": [
+   "さ.る",
+   "-さ.る"
+  ],
+  "readings": [
+   "きょ",
+   "こ",
+   "さ.る"
+  ],
+  "meaning": "leave, gone, past",
+  "strokes": 5,
+  "freq": 440,
+  "sentence": "冬は去った。",
+  "compounds": [
+   {
+    "word": "死去",
+    "reading": "しきょ",
+    "accent": "1,2",
+    "meaning": "death"
+   },
+   {
+    "word": "去る",
+    "reading": "さる",
+    "accent": "1",
+    "meaning": "to leave, to go away"
+   },
+   {
+    "word": "去年",
+    "reading": "きょねん",
+    "accent": "1",
+    "meaning": "last year"
+   },
+   {
+    "word": "去来",
+    "reading": "きょらい",
+    "accent": "0",
+    "meaning": "coming and going"
+   },
+   {
+    "word": "連れ去る",
+    "reading": "つれさる",
+    "accent": "3",
+    "meaning": "to take away"
+   }
+  ]
+ },
+ {
+  "kanji": "台",
+  "onyomi": [
+   "だい",
+   "たい"
+  ],
+  "kunyomi": [
+   "うてな",
+   "われ",
+   "つかさ"
+  ],
+  "readings": [
+   "だい",
+   "たい",
+   "うてな",
+   "われ",
+   "つかさ"
+  ],
+  "meaning": "stand, pedestal, counter for machines/vehicles",
+  "strokes": 5,
+  "freq": 262,
+  "sentence": "台所にいます。",
+  "compounds": [
+   {
+    "word": "台",
+    "reading": "だい",
+    "accent": "1",
+    "meaning": "stand, rack"
+   },
+   {
+    "word": "台風",
+    "reading": "たいふう",
+    "accent": "3",
+    "meaning": "typhoon"
+   },
+   {
+    "word": "台所",
+    "reading": "だいどころ",
+    "accent": "0",
+    "meaning": "kitchen"
+   },
+   {
+    "word": "高台",
+    "reading": "たかだい",
+    "accent": "0",
+    "meaning": "elevation, high ground"
+   },
+   {
+    "word": "一台",
+    "reading": "いちだい",
+    "accent": "2",
+    "meaning": "one machine, one vehicle"
+   }
+  ]
+ },
+ {
+  "kanji": "合",
+  "onyomi": [
+   "ごう",
+   "がっ",
+   "かっ"
+  ],
+  "kunyomi": [
+   "あ.う",
+   "-あ.う",
+   "あ.い",
+   "あい-",
+   "-あ.い",
+   "-あい",
+   "あ.わす",
+   "あ.わせる",
+   "-あ.わせる"
+  ],
+  "readings": [
+   "ごう",
+   "がっ",
+   "かっ",
+   "あ.う",
+   "あ.い",
+   "あ.わす",
+   "あ.わせる"
+  ],
+  "meaning": "fit, suit, join",
+  "strokes": 6,
+  "freq": 41,
+  "sentence": "具合悪いの？",
+  "compounds": [
+   {
+    "word": "合う",
+    "reading": "あう",
+    "accent": "1",
+    "meaning": "to fit, to suit, to match"
+   },
+   {
+    "word": "試合",
+    "reading": "しあい",
+    "accent": "0",
+    "meaning": "match, tournament"
+   },
+   {
+    "word": "会合",
+    "reading": "かいごう",
+    "accent": "0",
+    "meaning": "meeting"
+   },
+   {
+    "word": "合理",
+    "reading": "ごうり",
+    "accent": "1",
+    "meaning": "rational, consistent"
+   },
+   {
+    "word": "似合う",
+    "reading": "にあう",
+    "accent": "2",
+    "meaning": "to suit, to match"
+   },
+   {
+    "word": "不合理",
+    "reading": "ふごうり",
+    "accent": "2",
+    "meaning": "unreasonable, irrational, inconsistent"
+   }
+  ]
+ },
+ {
+  "kanji": "同",
+  "onyomi": [
+   "どう"
+  ],
+  "kunyomi": [
+   "おな.じ"
+  ],
+  "readings": [
+   "どう",
+   "おな.じ"
+  ],
+  "meaning": "same, agree, equal",
+  "strokes": 6,
+  "freq": 15,
+  "sentence": "ご同様に。",
+  "compounds": [
+   {
+    "word": "同じ",
+    "reading": "おなじ",
+    "accent": "0",
+    "meaning": "same, similar"
+   },
+   {
+    "word": "同時",
+    "reading": "どうじ",
+    "accent": "0,1",
+    "meaning": "simultaneously, concurrent, same time"
+   },
+   {
+    "word": "同然",
+    "reading": "どうぜん",
+    "accent": "0",
+    "meaning": "similar to, natural, just"
+   },
+   {
+    "word": "同意",
+    "reading": "どうい",
+    "accent": "0",
+    "meaning": "agreement, consent, approval"
+   },
+   {
+    "word": "同じよう",
+    "reading": "おなじよう",
+    "accent": null,
+    "meaning": "similarly"
+   }
+  ]
+ },
+ {
+  "kanji": "味",
+  "onyomi": [
+   "み"
+  ],
+  "kunyomi": [
+   "あじ",
+   "あじ.わう"
+  ],
+  "readings": [
+   "み",
+   "あじ",
+   "あじ.わう"
+  ],
+  "meaning": "flavour, taste",
+  "strokes": 8,
+  "freq": 442,
+  "sentence": "後味が悪い。",
+  "compounds": [
+   {
+    "word": "味",
+    "reading": "あじ",
+    "accent": "0",
+    "meaning": "taste, flavour"
+   },
+   {
+    "word": "意味",
+    "reading": "いみ",
+    "accent": "1",
+    "meaning": "meaning, significance"
+   },
+   {
+    "word": "地味",
+    "reading": "じみ",
+    "accent": "2",
+    "meaning": "plain, simple"
+   },
+   {
+    "word": "持ち味",
+    "reading": "もちあじ",
+    "accent": "2,0",
+    "meaning": "inherent flavour, distinctive characteristic,"
+   },
+   {
+    "word": "味わう",
+    "reading": "あじわう",
+    "accent": "3,0",
+    "meaning": "to taste, to savour, to relish"
+   }
+  ]
+ },
+ {
+  "kanji": "品",
+  "onyomi": [
+   "ひん",
+   "ほん"
+  ],
+  "kunyomi": [
+   "しな"
+  ],
+  "readings": [
+   "ひん",
+   "ほん",
+   "しな"
+  ],
+  "meaning": "goods, refinement, dignity",
+  "strokes": 9,
+  "freq": 225,
+  "sentence": "返品お断り。",
+  "compounds": [
+   {
+    "word": "品物",
+    "reading": "しなもの",
+    "accent": "0",
+    "meaning": "goods, article, thing"
+   },
+   {
+    "word": "部品",
+    "reading": "ぶひん",
+    "accent": "0",
+    "meaning": "parts, accessories"
+   },
+   {
+    "word": "上品",
+    "reading": "じょうひん",
+    "accent": "3",
+    "meaning": "refined, elegant, polished"
+   },
+   {
+    "word": "品名",
+    "reading": "ひんめい",
+    "accent": "0",
+    "meaning": "product name"
+   },
+   {
+    "word": "手品",
+    "reading": "てじな",
+    "accent": "1",
+    "meaning": "trick, magic, juggling"
+   }
+  ]
+ },
+ {
+  "kanji": "員",
+  "onyomi": [
+   "いん"
+  ],
+  "kunyomi": [],
+  "readings": [
+   "いん"
+  ],
+  "meaning": "employee, member",
+  "strokes": 10,
+  "freq": 54,
+  "sentence": "乗組員が多い。",
+  "compounds": [
+   {
+    "word": "店員",
+    "reading": "てんいん",
+    "accent": "0",
+    "meaning": "shop assistant, employee"
+   },
+   {
+    "word": "工員",
+    "reading": "こういん",
+    "accent": "0",
+    "meaning": "factory worker"
+   },
+   {
+    "word": "楽員",
+    "reading": "がくいん",
+    "accent": "0",
+    "meaning": "band member"
+   },
+   {
+    "word": "駅員さん",
+    "reading": "えきいんさん",
+    "accent": null,
+    "meaning": "station attendant"
+   },
+   {
+    "word": "工作員",
+    "reading": "こうさくいん",
+    "accent": "4",
+    "meaning": "crafstman, handicraft worker"
+   }
+  ]
+ },
+ {
+  "kanji": "問",
+  "onyomi": [
+   "もん"
+  ],
+  "kunyomi": [
+   "と.う",
+   "と.い",
+   "とん"
+  ],
+  "readings": [
+   "もん",
+   "と.う",
+   "と.い",
+   "とん"
+  ],
+  "meaning": "question, ask, problem",
+  "strokes": 11,
+  "freq": 64,
+  "sentence": "よい質問だ。",
+  "compounds": [
+   {
+    "word": "問題",
+    "reading": "もんだい",
+    "accent": "0",
+    "meaning": "problem, question"
+   },
+   {
+    "word": "不問",
+    "reading": "ふもん",
+    "accent": "0",
+    "meaning": "ignorance"
+   },
+   {
+    "word": "自問",
+    "reading": "じもん",
+    "accent": "0",
+    "meaning": "asking oneself"
+   }
+  ]
+ },
+ {
+  "kanji": "回",
+  "onyomi": [
+   "かい",
+   "え"
+  ],
+  "kunyomi": [
+   "まわ.る",
+   "-まわ.る",
+   "-まわ.り",
+   "まわ.す",
+   "-まわ.す",
+   "まわ.し-",
+   "-まわ.し",
+   "もとお.る",
+   "か.える"
+  ],
+  "readings": [
+   "かい",
+   "え",
+   "まわ.る",
+   "まわ.す",
+   "もとお.る",
+   "か.える"
+  ],
+  "meaning": "-times, round, counter for occurrences",
+  "strokes": 6,
+  "freq": 50,
+  "sentence": "回れ右！",
+  "compounds": [
+   {
+    "word": "回",
+    "reading": "かい",
+    "accent": "1",
+    "meaning": "counter for occurrences"
+   },
+   {
+    "word": "回る",
+    "reading": "まわる",
+    "accent": "0",
+    "meaning": "to turn, to revolve, to visit several places"
+   },
+   {
+    "word": "何回",
+    "reading": "なんかい",
+    "accent": "1",
+    "meaning": "how many times?"
+   },
+   {
+    "word": "乗り回す",
+    "reading": "のりまわす",
+    "accent": "4,3",
+    "meaning": "to ride/drive around"
+   }
+  ]
+ },
+ {
+  "kanji": "図",
+  "onyomi": [
+   "ず",
+   "と"
+  ],
+  "kunyomi": [
+   "え",
+   "はか.る"
+  ],
+  "readings": [
+   "ず",
+   "と",
+   "え",
+   "はか.る"
+  ],
+  "meaning": "map, drawing, plan",
+  "strokes": 7,
+  "freq": 539,
+  "sentence": "図星ですか？",
+  "compounds": [
+   {
+    "word": "図",
+    "reading": "ず",
+    "accent": "0",
+    "meaning": "drawing, picture, illustration"
+   },
+   {
+    "word": "地図",
+    "reading": "ちず",
+    "accent": "1",
+    "meaning": "map"
+   },
+   {
+    "word": "意図",
+    "reading": "いと",
+    "accent": "1",
+    "meaning": "intention, aim, design"
+   },
+   {
+    "word": "合図",
+    "reading": "あいず",
+    "accent": "1",
+    "meaning": "sign, signal"
+   },
+   {
+    "word": "図書館",
+    "reading": "としょかん",
+    "accent": "2",
+    "meaning": "library"
+   }
+  ]
+ },
+ {
+  "kanji": "地",
+  "onyomi": [
+   "ち",
+   "じ"
+  ],
+  "kunyomi": [],
+  "readings": [
+   "ち",
+   "じ"
+  ],
+  "meaning": "ground, earth",
+  "strokes": 6,
+  "freq": 40,
+  "sentence": "土地を耕す。",
+  "compounds": [
+   {
+    "word": "地",
+    "reading": "ち",
+    "accent": "1",
+    "meaning": "earth"
+   },
+   {
+    "word": "地下",
+    "reading": "ちか",
+    "accent": "1,2",
+    "meaning": "basement, underground"
+   },
+   {
+    "word": "地図",
+    "reading": "ちず",
+    "accent": "1",
+    "meaning": "map"
+   },
+   {
+    "word": "地味",
+    "reading": "じみ",
+    "accent": "2",
+    "meaning": "plain, simple"
+   },
+   {
+    "word": "地名",
+    "reading": "ちめい",
+    "accent": "0",
+    "meaning": "place name"
+   },
+   {
+    "word": "地上",
+    "reading": "ちじょう",
+    "accent": "0",
+    "meaning": "above ground"
+   }
+  ]
+ },
+ {
+  "kanji": "堂",
+  "onyomi": [
+   "どう"
+  ],
+  "kunyomi": [],
+  "readings": [
+   "どう"
+  ],
+  "meaning": "public chamber, hall",
+  "strokes": 11,
+  "freq": 1010,
+  "sentence": "堂々としなさい。",
+  "compounds": [
+   {
+    "word": "堂",
+    "reading": "どう",
+    "accent": "1,0",
+    "meaning": "temple, shrin, hall"
+   },
+   {
+    "word": "堂々",
+    "reading": "どうどう",
+    "accent": "0,3",
+    "meaning": "magnificent, impressive"
+   },
+   {
+    "word": "会堂",
+    "reading": "かいどう",
+    "accent": "0",
+    "meaning": "church, chapel"
+   },
+   {
+    "word": "本堂",
+    "reading": "ほんどう",
+    "accent": "1",
+    "meaning": "main temple building"
+   }
+  ]
+ },
+ {
+  "kanji": "場",
+  "onyomi": [
+   "じょう",
+   "ちょう"
+  ],
+  "kunyomi": [
+   "ば"
+  ],
+  "readings": [
+   "じょう",
+   "ちょう",
+   "ば"
+  ],
+  "meaning": "location, place",
+  "strokes": 12,
+  "freq": 52,
+  "sentence": "入場無料。",
+  "compounds": [
+   {
+    "word": "場",
+    "reading": "ば",
+    "accent": "0",
+    "meaning": "place"
+   },
+   {
+    "word": "立場",
+    "reading": "たちば",
+    "accent": "3,1",
+    "meaning": "standpoint, position, situation"
+   },
+   {
+    "word": "工場",
+    "reading": "こうじょう",
+    "accent": "3",
+    "meaning": "factory, plant, mill"
+   },
+   {
+    "word": "広場",
+    "reading": "ひろば",
+    "accent": "1",
+    "meaning": "plaza"
+   },
+   {
+    "word": "式場",
+    "reading": "しきじょう",
+    "accent": "0",
+    "meaning": "place of ceremony (eg wedding)"
+   },
+   {
+    "word": "酒場",
+    "reading": "さかば",
+    "accent": "0,3",
+    "meaning": "bar, bar room"
+   }
+  ]
+ },
+ {
+  "kanji": "声",
+  "onyomi": [
+   "せい",
+   "しょう"
+  ],
+  "kunyomi": [
+   "こえ",
+   "こわ-"
+  ],
+  "readings": [
+   "せい",
+   "しょう",
+   "こえ"
+  ],
+  "meaning": "voice, sound",
+  "strokes": 7,
+  "freq": 388,
+  "sentence": "鼻声だね。",
+  "compounds": [
+   {
+    "word": "声",
+    "reading": "こえ",
+    "accent": "1",
+    "meaning": "voice"
+   },
+   {
+    "word": "声楽",
+    "reading": "せいがく",
+    "accent": "0",
+    "meaning": "vocal music"
+   },
+   {
+    "word": "小声",
+    "reading": "こごえ",
+    "accent": "0",
+    "meaning": "soft voice, whisper"
+   },
+   {
+    "word": "話し声",
+    "reading": "はなしごえ",
+    "accent": "4",
+    "meaning": "speaking voice"
+   },
+   {
+    "word": "金切り声",
+    "reading": "かなきりごえ",
+    "accent": "5",
+    "meaning": "shrill voice, piercing cry, scream"
+   }
+  ]
+ },
+ {
+  "kanji": "売",
+  "onyomi": [
+   "ばい"
+  ],
+  "kunyomi": [
+   "う.る",
+   "う.れる"
+  ],
+  "readings": [
+   "ばい",
+   "う.る",
+   "う.れる"
+  ],
+  "meaning": "sell",
+  "strokes": 7,
+  "freq": 202,
+  "sentence": "商売は商売。",
+  "compounds": [
+   {
+    "word": "売る",
+    "reading": "うる",
+    "accent": "0",
+    "meaning": "to sell"
+   },
+   {
+    "word": "発売",
+    "reading": "はつばい",
+    "accent": "0",
+    "meaning": "sale"
+   },
+   {
+    "word": "売り出す",
+    "reading": "うりだす",
+    "accent": "3",
+    "meaning": "to market, to put on sale"
+   },
+   {
+    "word": "売り場",
+    "reading": "うりば",
+    "accent": "0",
+    "meaning": "place where things are sold, counter"
+   },
+   {
+    "word": "売り物",
+    "reading": "うりもの",
+    "accent": "0",
+    "meaning": "article for sale, For Sale"
+   }
+  ]
+ },
+ {
+  "kanji": "夏",
+  "onyomi": [
+   "か",
+   "が",
+   "げ"
+  ],
+  "kunyomi": [
+   "なつ"
+  ],
+  "readings": [
+   "か",
+   "が",
+   "げ",
+   "なつ"
+  ],
+  "meaning": "summer",
+  "strokes": 10,
+  "freq": 659,
+  "sentence": "夏が来た。",
+  "compounds": [
+   {
+    "word": "夏",
+    "reading": "なつ",
+    "accent": "2",
+    "meaning": "summer"
+   },
+   {
+    "word": "夏休み",
+    "reading": "なつやすみ",
+    "accent": "3",
+    "meaning": "summer holiday"
+   },
+   {
+    "word": "夏時間",
+    "reading": "なつじかん",
+    "accent": "3",
+    "meaning": "summer time, daylight savings time"
+   },
+   {
+    "word": "夏場",
+    "reading": "なつば",
+    "accent": "0",
+    "meaning": "summertime"
+   }
+  ]
+ },
+ {
+  "kanji": "夕",
+  "onyomi": [
+   "せき"
+  ],
+  "kunyomi": [
+   "ゆう"
+  ],
+  "readings": [
+   "せき",
+   "ゆう"
+  ],
+  "meaning": "evening",
+  "strokes": 3,
+  "freq": 924,
+  "sentence": "夕方の五時です。",
+  "compounds": [
+   {
+    "word": "夕べ",
+    "reading": "ゆうべ",
+    "accent": "3,0",
+    "meaning": "evening"
+   },
+   {
+    "word": "七夕",
+    "reading": "たなばた",
+    "accent": "0",
+    "meaning": "Star Festival"
+   },
+   {
+    "word": "夕方",
+    "reading": "ゆうがた",
+    "accent": "0",
+    "meaning": "evening"
+   },
+   {
+    "word": "夕飯",
+    "reading": "ゆうはん",
+    "accent": "0",
+    "meaning": "evening meal"
+   }
+  ]
+ },
+ {
+  "kanji": "夜",
+  "onyomi": [
+   "や"
+  ],
+  "kunyomi": [
+   "よ",
+   "よる"
+  ],
+  "readings": [
+   "や",
+   "よ",
+   "よる"
+  ],
+  "meaning": "night, evening",
+  "strokes": 8,
+  "freq": 487,
+  "sentence": "夜だった。",
+  "compounds": [
+   {
+    "word": "夜",
+    "reading": "よる",
+    "accent": "1",
+    "meaning": "evening"
+   },
+   {
+    "word": "今夜",
+    "reading": "こんや",
+    "accent": "1",
+    "meaning": "tonight, this evening"
+   },
+   {
+    "word": "夜学",
+    "reading": "やがく",
+    "accent": "0",
+    "meaning": "night school, evening classes"
+   },
+   {
+    "word": "夜空",
+    "reading": "よぞら",
+    "accent": "1",
+    "meaning": "night sky"
+   }
+  ]
+ },
+ {
+  "kanji": "太",
+  "onyomi": [
+   "たい",
+   "た"
+  ],
+  "kunyomi": [
+   "ふと.い",
+   "ふと.る"
+  ],
+  "readings": [
+   "たい",
+   "た",
+   "ふと.い",
+   "ふと.る"
+  ],
+  "meaning": "thick, plump",
+  "strokes": 4,
+  "freq": 552,
+  "sentence": "笑って太れ。",
+  "compounds": [
+   {
+    "word": "太い",
+    "reading": "ふとい",
+    "accent": "2",
+    "meaning": "thick"
+   },
+   {
+    "word": "太る",
+    "reading": "ふとる",
+    "accent": "2",
+    "meaning": "to be on the heavy side"
+   },
+   {
+    "word": "太字",
+    "reading": "ふとじ",
+    "accent": "0",
+    "meaning": "bold type, thick characters"
+   },
+   {
+    "word": "先太",
+    "reading": "さきぶと",
+    "accent": "0",
+    "meaning": "thicker towards the end, club-shaped"
+   }
+  ]
+ },
+ {
+  "kanji": "好",
+  "onyomi": [
+   "こう"
+  ],
+  "kunyomi": [
+   "この.む",
+   "す.く",
+   "よ.い",
+   "い.い"
+  ],
+  "readings": [
+   "こう",
+   "この.む",
+   "す.く",
+   "よ.い",
+   "い.い"
+  ],
+  "meaning": "like something, pleasing",
+  "strokes": 6,
+  "freq": 423,
+  "sentence": "君が好きだ。",
+  "compounds": [
+   {
+    "word": "好き",
+    "reading": "すき",
+    "accent": "2",
+    "meaning": "to like"
+   },
+   {
+    "word": "好意",
+    "reading": "こうい",
+    "accent": "1",
+    "meaning": "good will, favour"
+   },
+   {
+    "word": "好む",
+    "reading": "このむ",
+    "accent": "2",
+    "meaning": "to like, to prefer"
+   },
+   {
+    "word": "好色",
+    "reading": "こうしょく",
+    "accent": "0",
+    "meaning": "lust, sensuality, lewdness"
+   },
+   {
+    "word": "好都合",
+    "reading": "こうつごう",
+    "accent": "3",
+    "meaning": "convenient, favourable"
+   }
+  ]
+ },
+ {
+  "kanji": "妹",
+  "onyomi": [
+   "まい"
+  ],
+  "kunyomi": [
+   "いもうと"
+  ],
+  "readings": [
+   "まい",
+   "いもうと"
+  ],
+  "meaning": "younger sister",
+  "strokes": 8,
+  "freq": 1446,
+  "sentence": "妹さんは元気？",
+  "compounds": [
+   {
+    "word": "妹",
+    "reading": "いもうと",
+    "accent": "4",
+    "meaning": "younger sister"
+   },
+   {
+    "word": "姉妹",
+    "reading": "しまい",
+    "accent": "1",
+    "meaning": "sisters"
+   },
+   {
+    "word": "妹川",
+    "reading": "いもがわ",
+    "accent": null,
+    "meaning": "Imogawa"
+   },
+   {
+    "word": "姉妹会社",
+    "reading": "しまいがいしゃ",
+    "accent": null,
+    "meaning": "sister companies"
+   },
+   {
+    "word": "姉妹都市",
+    "reading": "しまいとし",
+    "accent": "4",
+    "meaning": "sister cities"
+   }
+  ]
+ },
+ {
+  "kanji": "姉",
+  "onyomi": [
+   "し"
+  ],
+  "kunyomi": [
+   "あね",
+   "はは"
+  ],
+  "readings": [
+   "し",
+   "あね",
+   "はは"
+  ],
+  "meaning": "elder sister",
+  "strokes": 8,
+  "freq": 1473,
+  "sentence": "姉妹はいますか？",
+  "compounds": [
+   {
+    "word": "姉",
+    "reading": "あね",
+    "accent": "0",
+    "meaning": "(your own) older sister"
+   },
+   {
+    "word": "姉妹",
+    "reading": "しまい",
+    "accent": "1",
+    "meaning": "sisters"
+   },
+   {
+    "word": "お姉さん",
+    "reading": "おねえさん",
+    "accent": "2",
+    "meaning": "(someone elses) older sister"
+   }
+  ]
+ },
+ {
+  "kanji": "始",
+  "onyomi": [
+   "し"
+  ],
+  "kunyomi": [
+   "はじ.める",
+   "-はじ.める",
+   "はじ.まる"
+  ],
+  "readings": [
+   "し",
+   "はじ.める",
+   "はじ.まる"
+  ],
+  "meaning": "commence, begin",
+  "strokes": 8,
+  "freq": 244,
+  "sentence": "よし始め。",
+  "compounds": [
+   {
+    "word": "始める",
+    "reading": "はじめる",
+    "accent": "0",
+    "meaning": "to start, to begin"
+   },
+   {
+    "word": "年始",
+    "reading": "ねんし",
+    "accent": "1",
+    "meaning": "new year"
+   },
+   {
+    "word": "始業",
+    "reading": "しぎょう",
+    "accent": "0",
+    "meaning": "start work, commencement, opening"
+   },
+   {
+    "word": "始終",
+    "reading": "しじゅう",
+    "accent": "1",
+    "meaning": "continuously, from beginning to end"
+   }
+  ]
+ },
+ {
+  "kanji": "字",
+  "onyomi": [
+   "じ"
+  ],
+  "kunyomi": [
+   "あざ",
+   "あざな",
+   "-な"
+  ],
+  "readings": [
+   "じ",
+   "あざ",
+   "あざな"
+  ],
+  "meaning": "character, letter, word",
+  "strokes": 6,
+  "freq": 485,
+  "sentence": "商売は赤字だ。",
+  "compounds": [
+   {
+    "word": "字",
+    "reading": "じ",
+    "accent": "1",
+    "meaning": "character, letter, word"
+   },
+   {
+    "word": "漢字",
+    "reading": "かんじ",
+    "accent": "0",
+    "meaning": "kanji, chinese characters"
+   },
+   {
+    "word": "赤字",
+    "reading": "あかじ",
+    "accent": "0",
+    "meaning": "deficit, in the red"
+   },
+   {
+    "word": "名字",
+    "reading": "みょうじ",
+    "accent": "1",
+    "meaning": "surname, family name"
+   },
+   {
+    "word": "ローマ字",
+    "reading": "ロマー字",
+    "accent": "3,0",
+    "meaning": "romanization, romaji"
+   }
+  ]
+ },
+ {
+  "kanji": "室",
+  "onyomi": [
+   "しつ"
+  ],
+  "kunyomi": [
+   "むろ"
+  ],
+  "readings": [
+   "しつ",
+   "むろ"
+  ],
+  "meaning": "room, apartment",
+  "strokes": 9,
+  "freq": 550,
+  "sentence": "緊急室へ。",
+  "compounds": [
+   {
+    "word": "室",
+    "reading": "しつ",
+    "accent": "2",
+    "meaning": "room"
+   },
+   {
+    "word": "教室",
+    "reading": "きょうしつ",
+    "accent": "0",
+    "meaning": "classroom"
+   },
+   {
+    "word": "室内",
+    "reading": "しつない",
+    "accent": "2",
+    "meaning": "in the room"
+   }
+  ]
+ },
+ {
+  "kanji": "家",
+  "onyomi": [
+   "か",
+   "け"
+  ],
+  "kunyomi": [
+   "いえ",
+   "や",
+   "うち"
+  ],
+  "readings": [
+   "か",
+   "け",
+   "いえ",
+   "や",
+   "うち"
+  ],
+  "meaning": "house, home",
+  "strokes": 10,
+  "freq": 133,
+  "sentence": "家が火事だ。",
+  "compounds": [
+   {
+    "word": "家",
+    "reading": "いえ",
+    "accent": "2",
+    "meaning": "house, one's home"
+   },
+   {
+    "word": "家族",
+    "reading": "かぞく",
+    "accent": "1",
+    "meaning": "family"
+   },
+   {
+    "word": "作家",
+    "reading": "さっか",
+    "accent": "0",
+    "meaning": "writer, author"
+   },
+   {
+    "word": "画家",
+    "reading": "がか",
+    "accent": "0",
+    "meaning": "painter, artist"
+   },
+   {
+    "word": "家事",
+    "reading": "かじ",
+    "accent": "1",
+    "meaning": "housework, chores"
+   }
+  ]
+ },
+ {
+  "kanji": "寒",
+  "onyomi": [
+   "かん"
+  ],
+  "kunyomi": [
+   "さむ.い"
+  ],
+  "readings": [
+   "かん",
+   "さむ.い"
+  ],
+  "meaning": "cold",
+  "strokes": 12,
+  "freq": 1456,
+  "sentence": "かなり寒い。",
+  "compounds": [
+   {
+    "word": "寒い",
+    "reading": "さむい",
+    "accent": "2",
+    "meaning": "cold (weather)"
+   },
+   {
+    "word": "寒がり",
+    "reading": "さむがり",
+    "accent": "3,4",
+    "meaning": "senstive to cold"
+   },
+   {
+    "word": "悪寒",
+    "reading": "おかん",
+    "accent": "0",
+    "meaning": "chill, shakes"
+   }
+  ]
+ },
+ {
+  "kanji": "屋",
+  "onyomi": [
+   "おく"
+  ],
+  "kunyomi": [
+   "や"
+  ],
+  "readings": [
+   "おく",
+   "や"
+  ],
+  "meaning": "house, roof, shop",
+  "strokes": 9,
+  "freq": 616,
+  "sentence": "餅は餅屋。",
+  "compounds": [
+   {
+    "word": "小屋",
+    "reading": "こや",
+    "accent": "2,0",
+    "meaning": "hut, cabin, shed"
+   },
+   {
+    "word": "屋上",
+    "reading": "おくじょう",
+    "accent": "0",
+    "meaning": "rooftop"
+   },
+   {
+    "word": "料理屋",
+    "reading": "りょうりや",
+    "accent": "3",
+    "meaning": "restaurant"
+   },
+   {
+    "word": "屋外",
+    "reading": "おくがい",
+    "accent": "2",
+    "meaning": "outdoors"
+   },
+   {
+    "word": "屋内",
+    "reading": "おくない",
+    "accent": "2",
+    "meaning": "indoors"
+   },
+   {
+    "word": "飲み屋",
+    "reading": "のみや",
+    "accent": "2",
+    "meaning": "bar, pub"
+   }
+  ]
+ },
+ {
+  "kanji": "工",
+  "onyomi": [
+   "こう",
+   "く",
+   "ぐ"
+  ],
+  "kunyomi": [],
+  "readings": [
+   "こう",
+   "く",
+   "ぐ"
+  ],
+  "meaning": "craft, construction",
+  "strokes": 3,
+  "freq": 299,
+  "sentence": "「道路工事中」",
+  "compounds": [
+   {
+    "word": "工場",
+    "reading": "こうじょう",
+    "accent": "3",
+    "meaning": "factory, workshop"
+   },
+   {
+    "word": "人工",
+    "reading": "じんこう",
+    "accent": "0",
+    "meaning": "artificial, man-made"
+   },
+   {
+    "word": "工学",
+    "reading": "こうがく",
+    "accent": "0,1",
+    "meaning": "engineering"
+   },
+   {
+    "word": "木工",
+    "reading": "もっこう",
+    "accent": "0",
+    "meaning": "woodworking, woodworker"
+   },
+   {
+    "word": "工員",
+    "reading": "こういん",
+    "accent": "0",
+    "meaning": "factory worker"
+   }
+  ]
+ },
+ {
+  "kanji": "市",
+  "onyomi": [
+   "し"
+  ],
+  "kunyomi": [
+   "いち"
+  ],
+  "readings": [
+   "し",
+   "いち"
+  ],
+  "meaning": "city, town",
+  "strokes": 5,
+  "freq": 42,
+  "sentence": "大都市は嫌いです。",
+  "compounds": [
+   {
+    "word": "市",
+    "reading": "し",
+    "accent": "1",
+    "meaning": "city, town"
+   },
+   {
+    "word": "市民",
+    "reading": "しみん",
+    "accent": "1",
+    "meaning": "citizen, townspeople"
+   },
+   {
+    "word": "市内",
+    "reading": "しない",
+    "accent": "1",
+    "meaning": "within a city"
+   },
+   {
+    "word": "市部",
+    "reading": "しぶ",
+    "accent": "1",
+    "meaning": "urban areas"
+   }
+  ]
+ },
+ {
+  "kanji": "帰",
+  "onyomi": [
+   "き"
+  ],
+  "kunyomi": [
+   "かえ.る",
+   "かえ.す",
+   "おく.る",
+   "とつ.ぐ"
+  ],
+  "readings": [
+   "き",
+   "かえ.る",
+   "かえ.す",
+   "おく.る",
+   "とつ.ぐ"
+  ],
+  "meaning": "return",
+  "strokes": 10,
+  "freq": 504,
+  "sentence": "家に帰るよ。",
+  "compounds": [
+   {
+    "word": "帰る",
+    "reading": "かえる",
+    "accent": "1",
+    "meaning": "to return, to go back, to go home"
+   },
+   {
+    "word": "帰す",
+    "reading": "かえす",
+    "accent": "1",
+    "meaning": "to send back"
+   },
+   {
+    "word": "お帰り",
+    "reading": "おかえり",
+    "accent": "0",
+    "meaning": "return, welcome"
+   },
+   {
+    "word": "持ち帰り",
+    "reading": "もちかえり",
+    "accent": "0",
+    "meaning": "takeout (ie food)"
+   },
+   {
+    "word": "復帰",
+    "reading": "ふっき",
+    "accent": null,
+    "meaning": "return, comeback"
+   }
+  ]
+ },
+ {
+  "kanji": "広",
+  "onyomi": [
+   "こう"
+  ],
+  "kunyomi": [
+   "ひろ.い",
+   "ひろ.まる",
+   "ひろ.める",
+   "ひろ.がる",
+   "ひろ.げる"
+  ],
+  "readings": [
+   "こう",
+   "ひろ.い",
+   "ひろ.まる",
+   "ひろ.める",
+   "ひろ.がる",
+   "ひろ.げる"
+  ],
+  "meaning": "wide, broad, spacious",
+  "strokes": 5,
+  "freq": 263,
+  "sentence": "広いな！",
+  "compounds": [
+   {
+    "word": "広い",
+    "reading": "ひろい",
+    "accent": "2",
+    "meaning": "spacious, wide"
+   },
+   {
+    "word": "広める",
+    "reading": "ひろめる",
+    "accent": "3",
+    "meaning": "to broaden, to propogate"
+   },
+   {
+    "word": "広場",
+    "reading": "ひろば",
+    "accent": "1",
+    "meaning": "plaza"
+   },
+   {
+    "word": "広大",
+    "reading": "こうだい",
+    "accent": "0",
+    "meaning": "huge, very large"
+   }
+  ]
+ },
+ {
+  "kanji": "度",
+  "onyomi": [
+   "ど",
+   "と",
+   "たく"
+  ],
+  "kunyomi": [
+   "たび",
+   "-た.い"
+  ],
+  "readings": [
+   "ど",
+   "と",
+   "たく",
+   "たび"
+  ],
+  "meaning": "degrees, occurrence",
+  "strokes": 9,
+  "freq": 110,
+  "sentence": "また、今度な！",
+  "compounds": [
+   {
+    "word": "何度",
+    "reading": "なんど",
+    "accent": "1",
+    "meaning": "how many times? how often?"
+   },
+   {
+    "word": "度",
+    "reading": "ど",
+    "accent": "0",
+    "meaning": "counter for occurrences"
+   },
+   {
+    "word": "度合い",
+    "reading": "どあい",
+    "accent": "0",
+    "meaning": "extent, degree"
+   },
+   {
+    "word": "強度",
+    "reading": "きょうど",
+    "accent": "1",
+    "meaning": "strength, intensity"
+   },
+   {
+    "word": "一度に",
+    "reading": "いちどに",
+    "accent": "3",
+    "meaning": "all at once"
+   }
+  ]
+ },
+ {
+  "kanji": "建",
+  "onyomi": [
+   "けん",
+   "こん"
+  ],
+  "kunyomi": [
+   "た.てる",
+   "た.て",
+   "-だ.て",
+   "た.つ"
+  ],
+  "readings": [
+   "けん",
+   "こん",
+   "た.てる",
+   "た.て",
+   "た.つ"
+  ],
+  "meaning": "build",
+  "strokes": 9,
+  "freq": 300,
+  "sentence": "あの建物を見て。",
+  "compounds": [
+   {
+    "word": "建物",
+    "reading": "たてもの",
+    "accent": "2,3",
+    "meaning": "building"
+   },
+   {
+    "word": "建てる",
+    "reading": "たてる",
+    "accent": "2",
+    "meaning": "to build, to construct"
+   },
+   {
+    "word": "建前",
+    "reading": "たてまえ",
+    "accent": "0,3,2",
+    "meaning": "official stance, public position"
+   }
+  ]
+ },
+ {
+  "kanji": "引",
+  "onyomi": [
+   "いん"
+  ],
+  "kunyomi": [
+   "ひ.く",
+   "ひ.き",
+   "ひ.き-",
+   "-び.き",
+   "ひ.ける"
+  ],
+  "readings": [
+   "いん",
+   "ひ.く",
+   "ひ.き",
+   "ひ.ける"
+  ],
+  "meaning": "pull, tug, quote, refer to",
+  "strokes": 4,
+  "freq": 218,
+  "sentence": "引き返そう。",
+  "compounds": [
+   {
+    "word": "引く",
+    "reading": "ひく",
+    "accent": "0",
+    "meaning": "to pull"
+   },
+   {
+    "word": "引き出す",
+    "reading": "ひきだす",
+    "accent": "3",
+    "meaning": "to pull out, to withdraw"
+   },
+   {
+    "word": "引き出し",
+    "reading": "ひきだし",
+    "accent": "0",
+    "meaning": "drawer"
+   },
+   {
+    "word": "引用",
+    "reading": "いによう",
+    "accent": "0",
+    "meaning": "quotation, citation"
+   },
+   {
+    "word": "手引書",
+    "reading": "てびきしょ",
+    "accent": "0,4",
+    "meaning": "handbook, manual, guide"
+   }
+  ]
+ },
+ {
+  "kanji": "弟",
+  "onyomi": [
+   "てい",
+   "だい",
+   "で"
+  ],
+  "kunyomi": [
+   "おとうと"
+  ],
+  "readings": [
+   "てい",
+   "だい",
+   "で",
+   "おとうと"
+  ],
+  "meaning": "younger brother",
+  "strokes": 7,
+  "freq": 1161,
+  "sentence": "弟のです。",
+  "compounds": [
+   {
+    "word": "弟",
+    "reading": "おとうと",
+    "accent": "4",
+    "meaning": "younger brother"
+   },
+   {
+    "word": "子弟",
+    "reading": "してい",
+    "accent": "2,1",
+    "meaning": "younger people"
+   },
+   {
+    "word": "弟妹",
+    "reading": "ていまい",
+    "accent": "0",
+    "meaning": "younger brother and sister"
+   },
+   {
+    "word": "兄弟",
+    "reading": "きょうだい",
+    "accent": "1",
+    "meaning": "siblings"
+   }
+  ]
+ },
+ {
+  "kanji": "弱",
+  "onyomi": [
+   "じゃく"
+  ],
+  "kunyomi": [
+   "よわ.い",
+   "よわ.る",
+   "よわ.まる",
+   "よわ.める"
+  ],
+  "readings": [
+   "じゃく",
+   "よわ.い",
+   "よわ.る",
+   "よわ.まる",
+   "よわ.める"
+  ],
+  "meaning": "weak, frail",
+  "strokes": 10,
+  "freq": 958,
+  "sentence": "地理は弱い。",
+  "compounds": [
+   {
+    "word": "弱い",
+    "reading": "よわい",
+    "accent": "2",
+    "meaning": "weak, frail, delicate"
+   },
+   {
+    "word": "弱者",
+    "reading": "じゃくしゃ",
+    "accent": "1",
+    "meaning": "the weak"
+   },
+   {
+    "word": "弱み",
+    "reading": "よわみ",
+    "accent": "3",
+    "meaning": "weakness"
+   },
+   {
+    "word": "弱虫",
+    "reading": "よわむし",
+    "accent": "2",
+    "meaning": "weakling, coward"
+   },
+   {
+    "word": "弱気",
+    "reading": "よわき",
+    "accent": "0",
+    "meaning": "timid, faint-hearted"
+   }
+  ]
+ },
+ {
+  "kanji": "強",
+  "onyomi": [
+   "きょう",
+   "ごう"
+  ],
+  "kunyomi": [
+   "つよ.い",
+   "つよ.まる",
+   "つよ.める",
+   "し.いる",
+   "こわ.い"
+  ],
+  "readings": [
+   "きょう",
+   "ごう",
+   "つよ.い",
+   "つよ.まる",
+   "つよ.める",
+   "し.いる",
+   "こわ.い"
+  ],
+  "meaning": "strong",
+  "strokes": 11,
+  "freq": 112,
+  "sentence": "彼は強い。",
+  "compounds": [
+   {
+    "word": "強い",
+    "reading": "つよい",
+    "accent": "2",
+    "meaning": "strong"
+   },
+   {
+    "word": "強まる",
+    "reading": "つよまる",
+    "accent": "3",
+    "meaning": "to get strong"
+   },
+   {
+    "word": "勉強",
+    "reading": "べんきょう",
+    "accent": "0",
+    "meaning": "study, diligence"
+   },
+   {
+    "word": "強気",
+    "reading": "つよき",
+    "accent": "0",
+    "meaning": "firm, strong"
+   },
+   {
+    "word": "強引",
+    "reading": "ごういん",
+    "accent": "0",
+    "meaning": "overbearing, coercive, pushy"
+   }
+  ]
+ },
+ {
+  "kanji": "待",
+  "onyomi": [
+   "たい"
+  ],
+  "kunyomi": [
+   "ま.つ",
+   "-ま.ち"
+  ],
+  "readings": [
+   "たい",
+   "ま.つ"
+  ],
+  "meaning": "wait",
+  "strokes": 9,
+  "freq": 391,
+  "sentence": "待ってあげる。",
+  "compounds": [
+   {
+    "word": "待つ",
+    "reading": "まつ",
+    "accent": "1",
+    "meaning": "to wait"
+   },
+   {
+    "word": "待合",
+    "reading": "まちあい",
+    "accent": "0",
+    "meaning": "meeting place"
+   },
+   {
+    "word": "心待ち",
+    "reading": "こころまち",
+    "accent": "0,5",
+    "meaning": "anticipation, expectation"
+   }
+  ]
+ },
+ {
+  "kanji": "心",
+  "onyomi": [
+   "しん"
+  ],
+  "kunyomi": [
+   "こころ",
+   "-ごころ"
+  ],
+  "readings": [
+   "しん",
+   "こころ"
+  ],
+  "meaning": "heart, mind, spirit",
+  "strokes": 4,
+  "freq": 157,
+  "sentence": "始めが肝心。",
+  "compounds": [
+   {
+    "word": "心",
+    "reading": "こころ",
+    "accent": "3,2",
+    "meaning": "heart, mind, spirit"
+   },
+   {
+    "word": "安心",
+    "reading": "あんしん",
+    "accent": "0",
+    "meaning": "relief, peace of mind"
+   },
+   {
+    "word": "心理学",
+    "reading": "しんりがく",
+    "accent": "3",
+    "meaning": "psychology"
+   },
+   {
+    "word": "心中",
+    "reading": "しんちゅう",
+    "accent": "1,0",
+    "meaning": "in one's heart, true motives"
+   },
+   {
+    "word": "心地",
+    "reading": "ここち",
+    "accent": "0",
+    "meaning": "feeling, sensation, mood"
+   }
+  ]
+ },
+ {
+  "kanji": "思",
+  "onyomi": [
+   "し"
+  ],
+  "kunyomi": [
+   "おも.う",
+   "おもえら.く",
+   "おぼ.す"
+  ],
+  "readings": [
+   "し",
+   "おも.う",
+   "おもえら.く",
+   "おぼ.す"
+  ],
+  "meaning": "think",
+  "strokes": 9,
+  "freq": 132,
+  "sentence": "どう思う？",
+  "compounds": [
+   {
+    "word": "思う",
+    "reading": "おもう",
+    "accent": "2",
+    "meaning": "to think, to feel"
+   },
+   {
+    "word": "思い",
+    "reading": "おもい",
+    "accent": "2",
+    "meaning": "thought"
+   },
+   {
+    "word": "思い出す",
+    "reading": "おもいだす",
+    "accent": "4,0",
+    "meaning": "to recall, to remember"
+   },
+   {
+    "word": "思わず",
+    "reading": "おもわず",
+    "accent": "2",
+    "meaning": "spontaneous, unintentional"
+   },
+   {
+    "word": "意思",
+    "reading": "いし",
+    "accent": null,
+    "meaning": "intention, will"
+   }
+  ]
+ },
+ {
+  "kanji": "急",
+  "onyomi": [
+   "きゅう"
+  ],
+  "kunyomi": [
+   "いそ.ぐ",
+   "いそ.ぎ",
+   "せ.く"
+  ],
+  "readings": [
+   "きゅう",
+   "いそ.ぐ",
+   "いそ.ぎ",
+   "せ.く"
+  ],
+  "meaning": "hurry, sudden",
+  "strokes": 9,
+  "freq": 309,
+  "sentence": "緊急室へ。",
+  "compounds": [
+   {
+    "word": "急",
+    "reading": "きゅう",
+    "accent": "0",
+    "meaning": "urgent, sudden, steep"
+   },
+   {
+    "word": "急ぐ",
+    "reading": "いそぐ",
+    "accent": "2",
+    "meaning": "to hurry, to rush"
+   },
+   {
+    "word": "急行",
+    "reading": "きゅうこう",
+    "accent": "0",
+    "meaning": "express train"
+   },
+   {
+    "word": "急死",
+    "reading": "きゅうし",
+    "accent": "0",
+    "meaning": "sudden death"
+   }
+  ]
+ },
+ {
+  "kanji": "悪",
+  "onyomi": [
+   "あく",
+   "お"
+  ],
+  "kunyomi": [
+   "わる.い",
+   "わる-",
+   "あ.し",
+   "にく.い",
+   "-にく.い",
+   "ああ",
+   "いずくに",
+   "いずくんぞ",
+   "にく.む"
+  ],
+  "readings": [
+   "あく",
+   "お",
+   "わる.い",
+   "あ.し",
+   "にく.い",
+   "ああ",
+   "いずくに",
+   "いずくんぞ",
+   "にく.む"
+  ],
+  "meaning": "bad, evil, wrong",
+  "strokes": 11,
+  "freq": 530,
+  "sentence": "悪かった。",
+  "compounds": [
+   {
+    "word": "悪い",
+    "reading": "わるい",
+    "accent": "2",
+    "meaning": "bad, inferior"
+   },
+   {
+    "word": "最悪",
+    "reading": "さいあく",
+    "accent": "0",
+    "meaning": "the worst"
+   },
+   {
+    "word": "悪質",
+    "reading": "あくしつ",
+    "accent": "0",
+    "meaning": "bad quality"
+   },
+   {
+    "word": "悪さ",
+    "reading": "わるさ",
+    "accent": "1",
+    "meaning": "badness"
+   }
+  ]
+ },
+ {
+  "kanji": "意",
+  "onyomi": [
+   "い"
+  ],
+  "kunyomi": [],
+  "readings": [
+   "い"
+  ],
+  "meaning": "idea, mind, thought",
+  "strokes": 13,
+  "freq": 99,
+  "sentence": "スリに注意。",
+  "compounds": [
+   {
+    "word": "意味",
+    "reading": "いみ",
+    "accent": "1",
+    "meaning": "meaning"
+   },
+   {
+    "word": "意見",
+    "reading": "いけん",
+    "accent": "1",
+    "meaning": "opinion, view"
+   },
+   {
+    "word": "注意",
+    "reading": "ちゅうい",
+    "accent": "1",
+    "meaning": "caution, being careful"
+   },
+   {
+    "word": "意外",
+    "reading": "いがい",
+    "accent": "0,1",
+    "meaning": "unexpected, surprising"
+   },
+   {
+    "word": "民意",
+    "reading": "みんい",
+    "accent": "1",
+    "meaning": "popular will"
+   }
+  ]
+ },
+ {
+  "kanji": "所",
+  "onyomi": [
+   "しょ"
+  ],
+  "kunyomi": [
+   "ところ",
+   "-ところ",
+   "どころ",
+   "とこ"
+  ],
+  "readings": [
+   "しょ",
+   "ところ",
+   "どころ",
+   "とこ"
+  ],
+  "meaning": "place",
+  "strokes": 8,
+  "freq": 221,
+  "sentence": "この場所に？",
+  "compounds": [
+   {
+    "word": "所",
+    "reading": "ところ",
+    "accent": "0",
+    "meaning": "place"
+   },
+   {
+    "word": "場所",
+    "reading": "ばしょ",
+    "accent": "0",
+    "meaning": "place, location"
+   },
+   {
+    "word": "研究所",
+    "reading": "けんきゅうじょ",
+    "accent": "0,5",
+    "meaning": "research place, laboratory"
+   },
+   {
+    "word": "住所",
+    "reading": "じゅうしょ",
+    "accent": "1",
+    "meaning": "address, residence"
+   },
+   {
+    "word": "高所",
+    "reading": "こうしょ",
+    "accent": "1",
+    "meaning": "heights, high altitude"
+   }
+  ]
+ },
+ {
+  "kanji": "持",
+  "onyomi": [
+   "じ"
+  ],
+  "kunyomi": [
+   "も.つ",
+   "-も.ち",
+   "も.てる"
+  ],
+  "readings": [
+   "じ",
+   "も.つ",
+   "も.てる"
+  ],
+  "meaning": "hold, have",
+  "strokes": 9,
+  "freq": 119,
+  "sentence": "彼は金持ちだ。",
+  "compounds": [
+   {
+    "word": "持つ",
+    "reading": "もつ",
+    "accent": "1",
+    "meaning": "to have, to hold, to carry"
+   },
+   {
+    "word": "気持ち",
+    "reading": "きもち",
+    "accent": "0",
+    "meaning": "feeling, sensation, mood"
+   },
+   {
+    "word": "持ち出す",
+    "reading": "もちだす",
+    "accent": "0,3",
+    "meaning": "to take out"
+   },
+   {
+    "word": "持ち味",
+    "reading": "もちあじ",
+    "accent": "2,0",
+    "meaning": "inherent flavour, distinctive characteristic"
+   },
+   {
+    "word": "持ち帰る",
+    "reading": "もちかえる",
+    "accent": "3,0",
+    "meaning": "to carry back/home, to take out (food)"
+   },
+   {
+    "word": "保持",
+    "reading": "ほじ",
+    "accent": null,
+    "meaning": "retention, holding"
+   }
+  ]
+ },
+ {
+  "kanji": "教",
+  "onyomi": [
+   "きょう"
+  ],
+  "kunyomi": [
+   "おし.える",
+   "おそ.わる"
+  ],
+  "readings": [
+   "きょう",
+   "おし.える",
+   "おそ.わる"
+  ],
+  "meaning": "teach, faith",
+  "strokes": 11,
+  "freq": 166,
+  "sentence": "彼は教師です。",
+  "compounds": [
+   {
+    "word": "教える",
+    "reading": "おしえる",
+    "accent": "0",
+    "meaning": "to teach, to inform"
+   },
+   {
+    "word": "教え",
+    "reading": "おしえ",
+    "accent": "0",
+    "meaning": "teaching, lesson"
+   },
+   {
+    "word": "文教",
+    "reading": "ぶんきょう",
+    "accent": "0",
+    "meaning": "education"
+   }
+  ]
+ },
+ {
+  "kanji": "文",
+  "onyomi": [
+   "ぶん",
+   "もん"
+  ],
+  "kunyomi": [
+   "ふみ",
+   "あや"
+  ],
+  "readings": [
+   "ぶん",
+   "もん",
+   "ふみ",
+   "あや"
+  ],
+  "meaning": "sentence, literature, decoration",
+  "strokes": 4,
+  "freq": 190,
+  "sentence": "文は人なり。",
+  "compounds": [
+   {
+    "word": "文",
+    "reading": "ぶん",
+    "accent": "1",
+    "meaning": "sentence"
+   },
+   {
+    "word": "文学",
+    "reading": "ぶんがく",
+    "accent": "1",
+    "meaning": "literature"
+   },
+   {
+    "word": "文書",
+    "reading": "ぶんしょ",
+    "accent": "1",
+    "meaning": "document, writings, paperwork, records"
+   },
+   {
+    "word": "注文",
+    "reading": "ちゅうもん",
+    "accent": "0",
+    "meaning": "order, request"
+   },
+   {
+    "word": "文学者",
+    "reading": "ぶんがくしゃ",
+    "accent": "3,4",
+    "meaning": "literary person"
+   }
+  ]
+ },
+ {
+  "kanji": "料",
+  "onyomi": [
+   "りょう"
+  ],
+  "kunyomi": [],
+  "readings": [
+   "りょう"
+  ],
+  "meaning": "fee, materials",
+  "strokes": 10,
+  "freq": 295,
+  "sentence": "入場無料。",
+  "compounds": [
+   {
+    "word": "料理",
+    "reading": "りょうり",
+    "accent": "1",
+    "meaning": "cooking, cuisine"
+   },
+   {
+    "word": "料金",
+    "reading": "りょうきん",
+    "accent": "1",
+    "meaning": "fee, charge"
+   },
+   {
+    "word": "料理屋",
+    "reading": "りょうりや",
+    "accent": "3",
+    "meaning": "restaurant"
+   },
+   {
+    "word": "試料",
+    "reading": "しりょう",
+    "accent": "1",
+    "meaning": "sample, test piece"
+   }
+  ]
+ },
+ {
+  "kanji": "方",
+  "onyomi": [
+   "ほう"
+  ],
+  "kunyomi": [
+   "かた",
+   "-かた",
+   "-がた"
+  ],
+  "readings": [
+   "ほう",
+   "かた"
+  ],
+  "meaning": "direction, person, alternative",
+  "strokes": 4,
+  "freq": 46,
+  "sentence": "嘘も方便。",
+  "compounds": [
+   {
+    "word": "方",
+    "reading": "かた",
+    "accent": "2",
+    "meaning": "(1) person, (2) way of doing"
+   },
+   {
+    "word": "考え方",
+    "reading": "かんがえかた",
+    "accent": "5,6",
+    "meaning": "way of thinking"
+   },
+   {
+    "word": "見方",
+    "reading": "みかた",
+    "accent": "3,2",
+    "meaning": "viewpoint"
+   },
+   {
+    "word": "味方",
+    "reading": "みかた",
+    "accent": "0",
+    "meaning": "friend, person on side"
+   }
+  ]
+ },
+ {
+  "kanji": "旅",
+  "onyomi": [
+   "りょ"
+  ],
+  "kunyomi": [
+   "たび"
+  ],
+  "readings": [
+   "りょ",
+   "たび"
+  ],
+  "meaning": "trip, travel",
+  "strokes": 10,
+  "freq": 783,
+  "sentence": "安全な旅を。",
+  "compounds": [
+   {
+    "word": "旅",
+    "reading": "たび",
+    "accent": "2",
+    "meaning": "travel, trip, journey"
+   },
+   {
+    "word": "旅行",
+    "reading": "りょこう",
+    "accent": "0",
+    "meaning": "travel, trip"
+   },
+   {
+    "word": "旅館",
+    "reading": "りょかん",
+    "accent": "0",
+    "meaning": "Japanese-style hotel"
+   },
+   {
+    "word": "旅人",
+    "reading": "たびびと",
+    "accent": "0",
+    "meaning": "traveller"
+   },
+   {
+    "word": "旅先",
+    "reading": "たびさき",
+    "accent": "0",
+    "meaning": "destination, goal"
+   }
+  ]
+ },
+ {
+  "kanji": "族",
+  "onyomi": [
+   "ぞく"
+  ],
+  "kunyomi": [],
+  "readings": [
+   "ぞく"
+  ],
+  "meaning": "tribe, family",
+  "strokes": 11,
+  "freq": 393,
+  "sentence": "彼は大家族だ。",
+  "compounds": [
+   {
+    "word": "家族",
+    "reading": "かぞく",
+    "accent": "1",
+    "meaning": "family, members of family"
+   },
+   {
+    "word": "民族",
+    "reading": "みんぞく",
+    "accent": "1",
+    "meaning": "people, race"
+   },
+   {
+    "word": "水族館",
+    "reading": "すいぞくかん",
+    "accent": "4,3",
+    "meaning": "aquarium"
+   },
+   {
+    "word": "王族",
+    "reading": "おうぞく",
+    "accent": "0",
+    "meaning": "royalty"
+   }
+  ]
+ },
+ {
+  "kanji": "早",
+  "onyomi": [
+   "そう",
+   "さっ"
+  ],
+  "kunyomi": [
+   "はや.い",
+   "はや",
+   "はや-",
+   "はや.まる",
+   "はや.める",
+   "さ-"
+  ],
+  "readings": [
+   "そう",
+   "さっ",
+   "はや.い",
+   "はや",
+   "はや.まる",
+   "はや.める"
+  ],
+  "meaning": "early, fast",
+  "strokes": 6,
+  "freq": 402,
+  "sentence": "早く来い。",
+  "compounds": [
+   {
+    "word": "早い",
+    "reading": "はやい",
+    "accent": "2",
+    "meaning": "early"
+   },
+   {
+    "word": "早める",
+    "reading": "はやめる",
+    "accent": "3",
+    "meaning": "to quicken, to expedite"
+   },
+   {
+    "word": "早口",
+    "reading": "はやくち",
+    "accent": "2",
+    "meaning": "fast talking"
+   },
+   {
+    "word": "早起き",
+    "reading": "はやおき",
+    "accent": "2,3",
+    "meaning": "early rising"
+   }
+  ]
+ },
+ {
+  "kanji": "明",
+  "onyomi": [
+   "めい",
+   "みょう",
+   "みん"
+  ],
+  "kunyomi": [
+   "あ.かり",
+   "あか.るい",
+   "あか.るむ",
+   "あか.らむ",
+   "あき.らか",
+   "あ.ける",
+   "-あ.け",
+   "あ.く",
+   "あ.くる",
+   "あ.かす"
+  ],
+  "readings": [
+   "めい",
+   "みょう",
+   "みん",
+   "あ.かり",
+   "あか.るい",
+   "あか.るむ",
+   "あか.らむ",
+   "あき.らか",
+   "あ.ける",
+   "あ.く",
+   "あ.くる",
+   "あ.かす"
+  ],
+  "meaning": "bright, light",
+  "strokes": 8,
+  "freq": 67,
+  "sentence": "また明日。",
+  "compounds": [
+   {
+    "word": "明るい",
+    "reading": "あかるい",
+    "accent": "0,3",
+    "meaning": "bright, cheerful"
+   },
+   {
+    "word": "説明",
+    "reading": "せつめい",
+    "accent": "0",
+    "meaning": "explanation"
+   },
+   {
+    "word": "不明",
+    "reading": "ふめい",
+    "accent": "0",
+    "meaning": "unknown, ambiguous"
+   },
+   {
+    "word": "明日",
+    "reading": "あした",
+    "accent": "3",
+    "meaning": "tomorrow"
+   }
+  ]
+ },
+ {
+  "kanji": "映",
+  "onyomi": [
+   "えい"
+  ],
+  "kunyomi": [
+   "うつ.る",
+   "うつ.す",
+   "は.える",
+   "-ば.え"
+  ],
+  "readings": [
+   "えい",
+   "うつ.る",
+   "うつ.す",
+   "は.える"
+  ],
+  "meaning": "reflect, reflection, projection",
+  "strokes": 9,
+  "freq": 404,
+  "sentence": "映画に行くの？",
+  "compounds": [
+   {
+    "word": "映画",
+    "reading": "えいが",
+    "accent": "1,0",
+    "meaning": "movie, film"
+   },
+   {
+    "word": "映る",
+    "reading": "うつる",
+    "accent": "2",
+    "meaning": "to be reflected, to harmonize with"
+   },
+   {
+    "word": "映画館",
+    "reading": "えいがかん",
+    "accent": "3",
+    "meaning": "movie theatre, cinema"
+   },
+   {
+    "word": "映える",
+    "reading": "はえる",
+    "accent": "2",
+    "meaning": "to shine, to look attractive, to look pretty"
+   }
+  ]
+ },
+ {
+  "kanji": "春",
+  "onyomi": [
+   "しゅん"
+  ],
+  "kunyomi": [
+   "はる"
+  ],
+  "readings": [
+   "しゅん",
+   "はる"
+  ],
+  "meaning": "spring",
+  "strokes": 9,
+  "freq": 579,
+  "sentence": "今年は春が遅い。",
+  "compounds": [
+   {
+    "word": "春",
+    "reading": "はる",
+    "accent": "1",
+    "meaning": "spring"
+   },
+   {
+    "word": "青春",
+    "reading": "せいしゅん",
+    "accent": null,
+    "meaning": "youth, springtime of life"
+   }
+  ]
+ },
+ {
+  "kanji": "昼",
+  "onyomi": [
+   "ちゅう"
+  ],
+  "kunyomi": [
+   "ひる"
+  ],
+  "readings": [
+   "ちゅう",
+   "ひる"
+  ],
+  "meaning": "daytime, noon",
+  "strokes": 9,
+  "freq": 1115,
+  "sentence": "お昼にね。",
+  "compounds": [
+   {
+    "word": "昼食",
+    "reading": "ちゅうしょく",
+    "accent": "0",
+    "meaning": "lunch, midday meal"
+   }
+  ]
+ },
+ {
+  "kanji": "暑",
+  "onyomi": [
+   "しょ"
+  ],
+  "kunyomi": [
+   "あつ.い"
+  ],
+  "readings": [
+   "しょ",
+   "あつ.い"
+  ],
+  "meaning": "hot",
+  "strokes": 12,
+  "freq": 1442,
+  "sentence": "今日は暑い。",
+  "compounds": [
+   {
+    "word": "暑い",
+    "reading": "あつい",
+    "accent": "2",
+    "meaning": "hot"
+   },
+   {
+    "word": "暑さ",
+    "reading": "あつさ",
+    "accent": "1",
+    "meaning": "heat"
+   },
+   {
+    "word": "暑中",
+    "reading": "しょちゅう",
+    "accent": "0",
+    "meaning": "mid-summer"
+   }
+  ]
+ },
+ {
+  "kanji": "暗",
+  "onyomi": [
+   "あん"
+  ],
+  "kunyomi": [
+   "くら.い",
+   "くら.む",
+   "くれ.る"
+  ],
+  "readings": [
+   "あん",
+   "くら.い",
+   "くら.む",
+   "くれ.る"
+  ],
+  "meaning": "darkness, disappear",
+  "strokes": 13,
+  "freq": 1040,
+  "sentence": "外は暗い。",
+  "compounds": [
+   {
+    "word": "暗い",
+    "reading": "くらい",
+    "accent": "0",
+    "meaning": "dark, gloomy"
+   },
+   {
+    "word": "真っ暗",
+    "reading": "まっくら",
+    "accent": "3",
+    "meaning": "total darkness, pitch dark"
+   },
+   {
+    "word": "暗に",
+    "reading": "あんに",
+    "accent": "1",
+    "meaning": "implicitly"
+   },
+   {
+    "word": "明暗",
+    "reading": "めいあん",
+    "accent": null,
+    "meaning": "light and darkness, prospects"
+   }
+  ]
+ },
+ {
+  "kanji": "曜",
+  "onyomi": [
+   "よう"
+  ],
+  "kunyomi": [],
+  "readings": [
+   "よう"
+  ],
+  "meaning": "weekday",
+  "strokes": 18,
+  "freq": 940,
+  "sentence": "土曜日だよ。",
+  "compounds": [
+   {
+    "word": "曜日",
+    "reading": "ようび",
+    "accent": "0",
+    "meaning": "day of week"
+   },
+   {
+    "word": "木曜日",
+    "reading": "もくようび",
+    "accent": "3",
+    "meaning": "thursday"
+   },
+   {
+    "word": "火曜日",
+    "reading": "かようび",
+    "accent": "2",
+    "meaning": "tuesday"
+   },
+   {
+    "word": "水曜日",
+    "reading": "すいようび",
+    "accent": "3",
+    "meaning": "wednesday"
+   }
+  ]
+ },
+ {
+  "kanji": "有",
+  "onyomi": [
+   "ゆう",
+   "う"
+  ],
+  "kunyomi": [
+   "あ.る"
+  ],
+  "readings": [
+   "ゆう",
+   "う",
+   "あ.る"
+  ],
+  "meaning": "possess, have, exist",
+  "strokes": 6,
+  "freq": 282,
+  "sentence": "それは有難い。",
+  "compounds": [
+   {
+    "word": "有名",
+    "reading": "ゆうめい",
+    "accent": "0",
+    "meaning": "famous"
+   },
+   {
+    "word": "有用",
+    "reading": "ゆうよう",
+    "accent": "0",
+    "meaning": "useful, helpful"
+   },
+   {
+    "word": "有事",
+    "reading": "ゆうじ",
+    "accent": "1",
+    "meaning": "emergency"
+   }
+  ]
+ },
+ {
+  "kanji": "服",
+  "onyomi": [
+   "ふく"
+  ],
+  "kunyomi": [],
+  "readings": [
+   "ふく"
+  ],
+  "meaning": "clothing",
+  "strokes": 8,
+  "freq": 873,
+  "sentence": "いい服を買え。",
+  "compounds": [
+   {
+    "word": "服",
+    "reading": "ふく",
+    "accent": "2",
+    "meaning": "clothes"
+   },
+   {
+    "word": "洋服",
+    "reading": "ようふく",
+    "accent": "0",
+    "meaning": "western clothes"
+   }
+  ]
+ },
+ {
+  "kanji": "朝",
+  "onyomi": [
+   "ちょう"
+  ],
+  "kunyomi": [
+   "あさ"
+  ],
+  "readings": [
+   "ちょう",
+   "あさ"
+  ],
+  "meaning": "morning, period",
+  "strokes": 12,
+  "freq": 248,
+  "sentence": "あなたは朝型？",
+  "compounds": [
+   {
+    "word": "朝",
+    "reading": "あさ",
+    "accent": "1",
+    "meaning": "morning"
+   },
+   {
+    "word": "毎朝",
+    "reading": "まいあさ",
+    "accent": "1,0",
+    "meaning": "every morning"
+   },
+   {
+    "word": "朝日",
+    "reading": "あさひ",
+    "accent": "1",
+    "meaning": "morning sun"
+   },
+   {
+    "word": "朝食",
+    "reading": "ちょうしょく",
+    "accent": "0",
+    "meaning": "breakfast (formal)"
+   },
+   {
+    "word": "朝ご飯",
+    "reading": "あさご飯",
+    "accent": "3",
+    "meaning": "breakfast"
+   },
+   {
+    "word": "今朝",
+    "reading": "けさ",
+    "accent": "1",
+    "meaning": "this morning"
+   }
+  ]
+ },
+ {
+  "kanji": "村",
+  "onyomi": [
+   "そん"
+  ],
+  "kunyomi": [
+   "むら"
+  ],
+  "readings": [
+   "そん",
+   "むら"
+  ],
+  "meaning": "town, village",
+  "strokes": 7,
+  "freq": 253,
+  "sentence": "村には娯楽がない。",
+  "compounds": [
+   {
+    "word": "村",
+    "reading": "むら",
+    "accent": "2",
+    "meaning": "village"
+   },
+   {
+    "word": "山村",
+    "reading": "さんそん",
+    "accent": "0",
+    "meaning": "mountain village"
+   },
+   {
+    "word": "村人",
+    "reading": "むらびと",
+    "accent": "0",
+    "meaning": "villager"
+   }
+  ]
+ },
+ {
+  "kanji": "林",
+  "onyomi": [
+   "りん"
+  ],
+  "kunyomi": [
+   "はやし"
+  ],
+  "readings": [
+   "りん",
+   "はやし"
+  ],
+  "meaning": "forest",
+  "strokes": 8,
+  "freq": 656,
+  "sentence": "林に竹が目立つ。",
+  "compounds": [
+   {
+    "word": "林",
+    "reading": "はやし",
+    "accent": "3,0",
+    "meaning": "woods, forest"
+   },
+   {
+    "word": "森林",
+    "reading": "しんりん",
+    "accent": "0",
+    "meaning": "forest"
+   },
+   {
+    "word": "林業",
+    "reading": "りんぎょう",
+    "accent": "1,0",
+    "meaning": "forestry"
+   }
+  ]
+ },
+ {
+  "kanji": "森",
+  "onyomi": [
+   "しん"
+  ],
+  "kunyomi": [
+   "もり"
+  ],
+  "readings": [
+   "しん",
+   "もり"
+  ],
+  "meaning": "forest, woods",
+  "strokes": 12,
+  "freq": 609,
+  "sentence": "彼は森で迷った。",
+  "compounds": [
+   {
+    "word": "森",
+    "reading": "もり",
+    "accent": "0",
+    "meaning": "forest"
+   },
+   {
+    "word": "森林",
+    "reading": "しんりん",
+    "accent": "0",
+    "meaning": "forest"
+   }
+  ]
+ },
+ {
+  "kanji": "業",
+  "onyomi": [
+   "ぎょう",
+   "ごう"
+  ],
+  "kunyomi": [
+   "わざ"
+  ],
+  "readings": [
+   "ぎょう",
+   "ごう",
+   "わざ"
+  ],
+  "meaning": "business, performance",
+  "strokes": 13,
+  "freq": 43,
+  "sentence": "彼は失業した。",
+  "compounds": [
+   {
+    "word": "業者",
+    "reading": "ぎょうしゃ",
+    "accent": "1",
+    "meaning": "trader"
+   },
+   {
+    "word": "工業",
+    "reading": "こうぎょう",
+    "accent": "1",
+    "meaning": "manufacturing industry"
+   },
+   {
+    "word": "休業",
+    "reading": "きゅうぎょう",
+    "accent": "0",
+    "meaning": "closed (store), shutdown"
+   },
+   {
+    "word": "開業",
+    "reading": "かいぎょう",
+    "accent": "0",
+    "meaning": "opening of business"
+   }
+  ]
+ },
+ {
+  "kanji": "楽",
+  "onyomi": [
+   "がく",
+   "らく",
+   "ごう"
+  ],
+  "kunyomi": [
+   "たの.しい",
+   "たの.しむ",
+   "この.む"
+  ],
+  "readings": [
+   "がく",
+   "らく",
+   "ごう",
+   "たの.しい",
+   "たの.しむ",
+   "この.む"
+  ],
+  "meaning": "music, comfort, ease",
+  "strokes": 13,
+  "freq": 373,
+  "sentence": "楽勝だよ。",
+  "compounds": [
+   {
+    "word": "音楽",
+    "reading": "おんがく",
+    "accent": "1",
+    "meaning": "music"
+   },
+   {
+    "word": "楽しむ",
+    "reading": "たのしむ",
+    "accent": "3",
+    "meaning": "to enjoy"
+   },
+   {
+    "word": "楽しい",
+    "reading": "たのしい",
+    "accent": "3",
+    "meaning": "enjoyable, fun"
+   }
+  ]
+ },
+ {
+  "kanji": "歌",
+  "onyomi": [
+   "か"
+  ],
+  "kunyomi": [
+   "うた",
+   "うた.う"
+  ],
+  "readings": [
+   "か",
+   "うた",
+   "うた.う"
+  ],
+  "meaning": "song, sing",
+  "strokes": 14,
+  "freq": 519,
+  "sentence": "一曲歌いたい。",
+  "compounds": [
+   {
+    "word": "歌",
+    "reading": "うた",
+    "accent": "2",
+    "meaning": "song, poetry"
+   },
+   {
+    "word": "歌う",
+    "reading": "うたう",
+    "accent": "0",
+    "meaning": "to sing"
+   },
+   {
+    "word": "歌手",
+    "reading": "かしゅ",
+    "accent": "1",
+    "meaning": "singer"
+   },
+   {
+    "word": "国歌",
+    "reading": "こっか",
+    "accent": "1,0",
+    "meaning": "national anthem"
+   },
+   {
+    "word": "歌声",
+    "reading": "うたごえ",
+    "accent": "0,3",
+    "meaning": "singing voice"
+   }
+  ]
+ },
+ {
+  "kanji": "止",
+  "onyomi": [
+   "し"
+  ],
+  "kunyomi": [
+   "と.まる",
+   "-ど.まり",
+   "と.める",
+   "-と.める",
+   "-ど.め",
+   "とど.める",
+   "とど.め",
+   "とど.まる",
+   "や.める",
+   "や.む",
+   "-や.む",
+   "よ.す",
+   "-さ.す",
+   "-さ.し"
+  ],
+  "readings": [
+   "し",
+   "と.まる",
+   "と.める",
+   "とど.める",
+   "とど.め",
+   "とど.まる",
+   "や.める",
+   "や.む",
+   "よ.す"
+  ],
+  "meaning": "stop, halt",
+  "strokes": 4,
+  "freq": 310,
+  "sentence": "雨が止んだ。",
+  "compounds": [
+   {
+    "word": "中止",
+    "reading": "ちゅうし",
+    "accent": "0",
+    "meaning": "suspension, stoppage, interruption"
+   },
+   {
+    "word": "止める",
+    "reading": "とめる",
+    "accent": "0",
+    "meaning": "to stop (something)"
+   },
+   {
+    "word": "止まる",
+    "reading": "とまる",
+    "accent": "0",
+    "meaning": "to remain, to stay"
+   },
+   {
+    "word": "休止",
+    "reading": "きゅうし",
+    "accent": "0",
+    "meaning": "pause, rest"
+   },
+   {
+    "word": "止む",
+    "reading": "やむ",
+    "accent": "0",
+    "meaning": "to cease, to stop, be over"
+   }
+  ]
+ },
+ {
+  "kanji": "正",
+  "onyomi": [
+   "せい",
+   "しょう"
+  ],
+  "kunyomi": [
+   "ただ.しい",
+   "ただ.す",
+   "まさ",
+   "まさ.に"
+  ],
+  "readings": [
+   "せい",
+   "しょう",
+   "ただ.しい",
+   "ただ.す",
+   "まさ",
+   "まさ.に"
+  ],
+  "meaning": "correct, justice, righteous",
+  "strokes": 5,
+  "freq": 143,
+  "sentence": "大体正しい。",
+  "compounds": [
+   {
+    "word": "正しい",
+    "reading": "ただしい",
+    "accent": "3",
+    "meaning": "correct, truthful, righteous"
+   },
+   {
+    "word": "正月",
+    "reading": "しょうがつ",
+    "accent": "4",
+    "meaning": "New Year's Day, the first month"
+   },
+   {
+    "word": "正す",
+    "reading": "ただす",
+    "accent": "2",
+    "meaning": "to correct, to amend"
+   },
+   {
+    "word": "正体",
+    "reading": "しょうたい",
+    "accent": "1",
+    "meaning": "natural shape, one's true character"
+   },
+   {
+    "word": "正道",
+    "reading": "せいどう",
+    "accent": "0",
+    "meaning": "the right path, path of righteousness"
+   }
+  ]
+ },
+ {
+  "kanji": "歩",
+  "onyomi": [
+   "ほ",
+   "ぶ",
+   "ふ"
+  ],
+  "kunyomi": [
+   "ある.く",
+   "あゆ.む"
+  ],
+  "readings": [
+   "ほ",
+   "ぶ",
+   "ふ",
+   "ある.く",
+   "あゆ.む"
+  ],
+  "meaning": "walk, counter for steps",
+  "strokes": 8,
+  "freq": 554,
+  "sentence": "彼女は歩く。",
+  "compounds": [
+   {
+    "word": "歩く",
+    "reading": "あるく",
+    "accent": "2",
+    "meaning": "to walk"
+   },
+   {
+    "word": "進歩",
+    "reading": "しんぽ",
+    "accent": "1",
+    "meaning": "to progress, to develop"
+   },
+   {
+    "word": "牛歩",
+    "reading": "ぎゅうほ",
+    "accent": "1",
+    "meaning": "snail's pace, slow progress"
+   },
+   {
+    "word": "初歩",
+    "reading": "しょほ",
+    "accent": "1",
+    "meaning": "rudiments, elements, ABC's of..."
+   }
+  ]
+ },
+ {
+  "kanji": "死",
+  "onyomi": [
+   "し"
+  ],
+  "kunyomi": [
+   "し.ぬ",
+   "し.に-"
+  ],
+  "readings": [
+   "し",
+   "し.ぬ"
+  ],
+  "meaning": "death, die",
+  "strokes": 6,
+  "freq": 229,
+  "sentence": "死ね！",
+  "compounds": [
+   {
+    "word": "死ぬ",
+    "reading": "しぬ",
+    "accent": "0",
+    "meaning": "to die"
+   },
+   {
+    "word": "死人",
+    "reading": "しにん",
+    "accent": "0",
+    "meaning": "corpse, dead person"
+   },
+   {
+    "word": "死語",
+    "reading": "しご",
+    "accent": "1",
+    "meaning": "dead language, obsolete word"
+   },
+   {
+    "word": "病死",
+    "reading": "びょうし",
+    "accent": "0",
+    "meaning": "natural death"
+   },
+   {
+    "word": "安楽死",
+    "reading": "あんらくし",
+    "accent": "4,3",
+    "meaning": "euthanasia"
+   }
+  ]
+ },
+ {
+  "kanji": "民",
+  "onyomi": [
+   "みん"
+  ],
+  "kunyomi": [
+   "たみ"
+  ],
+  "readings": [
+   "みん",
+   "たみ"
+  ],
+  "meaning": "people, nation, subjects",
+  "strokes": 5,
+  "freq": 28,
+  "sentence": "民の声は神の声。",
+  "compounds": [
+   {
+    "word": "民",
+    "reading": "たみ",
+    "accent": "1",
+    "meaning": "nation, people"
+   },
+   {
+    "word": "民間",
+    "reading": "みんかん",
+    "accent": "0",
+    "meaning": "private, unofficial, civilian"
+   },
+   {
+    "word": "民族",
+    "reading": "みんぞく",
+    "accent": "1",
+    "meaning": "people, race, nation"
+   },
+   {
+    "word": "民家",
+    "reading": "みんか",
+    "accent": "1",
+    "meaning": "private house"
+   },
+   {
+    "word": "民主",
+    "reading": "みんしゅ",
+    "accent": "1,0",
+    "meaning": "democratic, head of nation"
+   }
+  ]
+ },
+ {
+  "kanji": "池",
+  "onyomi": [
+   "ち"
+  ],
+  "kunyomi": [
+   "いけ"
+  ],
+  "readings": [
+   "ち",
+   "いけ"
+  ],
+  "meaning": "pond, pool, reservoir",
+  "strokes": 6,
+  "freq": 827,
+  "sentence": "池が干上がった。",
+  "compounds": [
+   {
+    "word": "池",
+    "reading": "いけ",
+    "accent": "2",
+    "meaning": "pond"
+   },
+   {
+    "word": "電池",
+    "reading": "でんち",
+    "accent": "1",
+    "meaning": "battery"
+   }
+  ]
+ },
+ {
+  "kanji": "注",
+  "onyomi": [
+   "ちゅう"
+  ],
+  "kunyomi": [
+   "そそ.ぐ",
+   "さ.す",
+   "つ.ぐ"
+  ],
+  "readings": [
+   "ちゅう",
+   "そそ.ぐ",
+   "さ.す",
+   "つ.ぐ"
+  ],
+  "meaning": "pour, concentrate",
+  "strokes": 8,
+  "freq": 497,
+  "sentence": "スリに注意。",
+  "compounds": [
+   {
+    "word": "注ぐ",
+    "reading": "そそぐ",
+    "accent": "0,2",
+    "meaning": "to pour, to fill, to feed (a fire)"
+   },
+   {
+    "word": "注文",
+    "reading": "ちゅうもん",
+    "accent": "0",
+    "meaning": "order, request"
+   },
+   {
+    "word": "注意",
+    "reading": "ちゅうい",
+    "accent": "1",
+    "meaning": "attention, being careful"
+   },
+   {
+    "word": "注進",
+    "reading": "ちゅうしん",
+    "accent": "0",
+    "meaning": "information"
+   }
+  ]
+ },
+ {
+  "kanji": "洋",
+  "onyomi": [
+   "よう"
+  ],
+  "kunyomi": [],
+  "readings": [
+   "よう"
+  ],
+  "meaning": "ocean, western style",
+  "strokes": 9,
+  "freq": 763,
+  "sentence": "太平洋は非常に広大だ。",
+  "compounds": [
+   {
+    "word": "海洋",
+    "reading": "かいよう",
+    "accent": "0",
+    "meaning": "ocean"
+   },
+   {
+    "word": "西洋",
+    "reading": "せいよう",
+    "accent": "1",
+    "meaning": "west, western countries"
+   },
+   {
+    "word": "洋風",
+    "reading": "ようふう",
+    "accent": "0",
+    "meaning": "western style"
+   },
+   {
+    "word": "洋食",
+    "reading": "ようしょく",
+    "accent": "0",
+    "meaning": "western style meal"
+   }
+  ]
+ },
+ {
+  "kanji": "洗",
+  "onyomi": [
+   "せん"
+  ],
+  "kunyomi": [
+   "あら.う"
+  ],
+  "readings": [
+   "せん",
+   "あら.う"
+  ],
+  "meaning": "wash",
+  "strokes": 9,
+  "freq": 1168,
+  "sentence": "血で血を洗う。",
+  "compounds": [
+   {
+    "word": "洗う",
+    "reading": "あらう",
+    "accent": "0",
+    "meaning": "to wash"
+   },
+   {
+    "word": "洗濯",
+    "reading": "せんたく",
+    "accent": "0",
+    "meaning": "washing, laundry"
+   },
+   {
+    "word": "手洗い",
+    "reading": "てあらい",
+    "accent": "2",
+    "meaning": "washroom, lavatory"
+   },
+   {
+    "word": "洗車",
+    "reading": "せんしゃ",
+    "accent": "0",
+    "meaning": "car wash"
+   }
+  ]
+ },
+ {
+  "kanji": "海",
+  "onyomi": [
+   "かい"
+  ],
+  "kunyomi": [
+   "うみ"
+  ],
+  "readings": [
+   "かい",
+   "うみ"
+  ],
+  "meaning": "sea, ocean",
+  "strokes": 9,
+  "freq": 200,
+  "sentence": "たこは海にいる。",
+  "compounds": [
+   {
+    "word": "海",
+    "reading": "うみ",
+    "accent": "1",
+    "meaning": "sea, beach"
+   },
+   {
+    "word": "海外",
+    "reading": "かいがい",
+    "accent": "1",
+    "meaning": "overseas, abroad"
+   },
+   {
+    "word": "海鳥",
+    "reading": "うみどり",
+    "accent": "2",
+    "meaning": "sea bird"
+   },
+   {
+    "word": "北海道",
+    "reading": "ほっかいどう",
+    "accent": "3",
+    "meaning": "hokkaido (most northern of 4 main islands of Japan)"
+   }
+  ]
+ },
+ {
+  "kanji": "漢",
+  "onyomi": [
+   "かん"
+  ],
+  "kunyomi": [],
+  "readings": [
+   "かん"
+  ],
+  "meaning": "china",
+  "strokes": 13,
+  "freq": 1487,
+  "sentence": "彼は大食漢だ。",
+  "compounds": [
+   {
+    "word": "漢字",
+    "reading": "かんじ",
+    "accent": "0",
+    "meaning": "chinese character"
+   }
+  ]
+ },
+ {
+  "kanji": "牛",
+  "onyomi": [
+   "ぎゅう"
+  ],
+  "kunyomi": [
+   "うし"
+  ],
+  "readings": [
+   "ぎゅう",
+   "うし"
+  ],
+  "meaning": "cow",
+  "strokes": 4,
+  "freq": 1202,
+  "sentence": "牛は乳が出る。",
+  "compounds": [
+   {
+    "word": "牛",
+    "reading": "うし",
+    "accent": "0",
+    "meaning": "cow"
+   },
+   {
+    "word": "牛肉",
+    "reading": "ぎゅうにく",
+    "accent": "0",
+    "meaning": "beef"
+   },
+   {
+    "word": "牛歩",
+    "reading": "ぎゅうほ",
+    "accent": "1",
+    "meaning": "snail's pace"
+   },
+   {
+    "word": "和牛",
+    "reading": "わぎゅう",
+    "accent": "0",
+    "meaning": "Japanese beef cow"
+   },
+   {
+    "word": "水牛",
+    "reading": "すいぎゅう",
+    "accent": "0",
+    "meaning": "water buffalo"
+   }
+  ]
+ },
+ {
+  "kanji": "物",
+  "onyomi": [
+   "ぶつ",
+   "もつ"
+  ],
+  "kunyomi": [
+   "もの",
+   "もの-"
+  ],
+  "readings": [
+   "ぶつ",
+   "もつ",
+   "もの"
+  ],
+  "meaning": "thing, object, matter",
+  "strokes": 8,
+  "freq": 215,
+  "sentence": "物は試し。",
+  "compounds": [
+   {
+    "word": "物",
+    "reading": "もの",
+    "accent": "2,0",
+    "meaning": "thing, object"
+   },
+   {
+    "word": "建物",
+    "reading": "たてもの",
+    "accent": "2,3",
+    "meaning": "building"
+   },
+   {
+    "word": "物語",
+    "reading": "ものがたり",
+    "accent": "3",
+    "meaning": "tale, legend, story"
+   },
+   {
+    "word": "買い物",
+    "reading": "かいもの",
+    "accent": "0",
+    "meaning": "shopping"
+   },
+   {
+    "word": "動物",
+    "reading": "どうぶつ",
+    "accent": "0",
+    "meaning": "animal"
+   }
+  ]
+ },
+ {
+  "kanji": "特",
+  "onyomi": [
+   "とく"
+  ],
+  "kunyomi": [],
+  "readings": [
+   "とく"
+  ],
+  "meaning": "special",
+  "strokes": 10,
+  "freq": 234,
+  "sentence": "いや特にないわ。",
+  "compounds": [
+   {
+    "word": "特別",
+    "reading": "とくべつ",
+    "accent": "0",
+    "meaning": "special"
+   },
+   {
+    "word": "特に",
+    "reading": "とくに",
+    "accent": "1",
+    "meaning": "particularly, especially"
+   },
+   {
+    "word": "特集",
+    "reading": "とくしゅう",
+    "accent": "0",
+    "meaning": "special feature, special edition"
+   },
+   {
+    "word": "特急",
+    "reading": "とっきゅう",
+    "accent": "0",
+    "meaning": "limited express train"
+   }
+  ]
+ },
+ {
+  "kanji": "犬",
+  "onyomi": [
+   "けん"
+  ],
+  "kunyomi": [
+   "いぬ",
+   "いぬ-"
+  ],
+  "readings": [
+   "けん",
+   "いぬ"
+  ],
+  "meaning": "dog",
+  "strokes": 4,
+  "freq": 1326,
+  "sentence": "猛犬に注意！",
+  "compounds": [
+   {
+    "word": "犬",
+    "reading": "いぬ",
+    "accent": "2",
+    "meaning": "dog"
+   },
+   {
+    "word": "野犬",
+    "reading": "やけん",
+    "accent": "0",
+    "meaning": "stray dog"
+   }
+  ]
+ },
+ {
+  "kanji": "理",
+  "onyomi": [
+   "り"
+  ],
+  "kunyomi": [
+   "ことわり"
+  ],
+  "readings": [
+   "り",
+   "ことわり"
+  ],
+  "meaning": "logic, reason, justice",
+  "strokes": 11,
+  "freq": 86,
+  "sentence": "地理は弱い。",
+  "compounds": [
+   {
+    "word": "理",
+    "reading": "り",
+    "accent": "1,0",
+    "meaning": "reason"
+   },
+   {
+    "word": "料理",
+    "reading": "りょうり",
+    "accent": "1",
+    "meaning": "cooking, cuisine"
+   },
+   {
+    "word": "物理",
+    "reading": "ぶつり",
+    "accent": "1",
+    "meaning": "physics"
+   },
+   {
+    "word": "地理",
+    "reading": "ちり",
+    "accent": "1",
+    "meaning": "geography"
+   },
+   {
+    "word": "真理",
+    "reading": "しんり",
+    "accent": "1",
+    "meaning": "truth"
+   }
+  ]
+ },
+ {
+  "kanji": "産",
+  "onyomi": [
+   "さん"
+  ],
+  "kunyomi": [
+   "う.む",
+   "う.まれる",
+   "うぶ-",
+   "む.す"
+  ],
+  "readings": [
+   "さん",
+   "う.む",
+   "う.まれる",
+   "む.す"
+  ],
+  "meaning": "products, give birth",
+  "strokes": 11,
+  "freq": 161,
+  "sentence": "彼は資産家だ。",
+  "compounds": [
+   {
+    "word": "産業",
+    "reading": "さんぎょう",
+    "accent": "0",
+    "meaning": "industry"
+   },
+   {
+    "word": "不動産",
+    "reading": "ふどうさん",
+    "accent": "2,0",
+    "meaning": "real estate"
+   },
+   {
+    "word": "産む",
+    "reading": "うむ",
+    "accent": "0",
+    "meaning": "to give birth, to produce"
+   }
+  ]
+ },
+ {
+  "kanji": "用",
+  "onyomi": [
+   "よう"
+  ],
+  "kunyomi": [
+   "もち.いる"
+  ],
+  "readings": [
+   "よう",
+   "もち.いる"
+  ],
+  "meaning": "use, employ, utilise",
+  "strokes": 5,
+  "freq": 107,
+  "sentence": "ご用件は？",
+  "compounds": [
+   {
+    "word": "用",
+    "reading": "よう",
+    "accent": "1",
+    "meaning": "task, business, use"
+   },
+   {
+    "word": "信用",
+    "reading": "しんよう",
+    "accent": "0",
+    "meaning": "confidence"
+   },
+   {
+    "word": "起用",
+    "reading": "きよう",
+    "accent": "0",
+    "meaning": "appointment, promotion"
+   },
+   {
+    "word": "用地",
+    "reading": "ようち",
+    "accent": "1",
+    "meaning": "site"
+   },
+   {
+    "word": "用紙",
+    "reading": "ようし",
+    "accent": "0,1",
+    "meaning": "blank form"
+   }
+  ]
+ },
+ {
+  "kanji": "田",
+  "onyomi": [
+   "でん"
+  ],
+  "kunyomi": [
+   "た"
+  ],
+  "readings": [
+   "でん",
+   "た"
+  ],
+  "meaning": "rice field, rice paddy",
+  "strokes": 5,
+  "freq": 90,
+  "sentence": "この田舎者めが。",
+  "compounds": [
+   {
+    "word": "田",
+    "reading": "た",
+    "accent": "1",
+    "meaning": "rice field"
+   },
+   {
+    "word": "新田",
+    "reading": "しんでん",
+    "accent": "0",
+    "meaning": "a new rice field"
+   }
+  ]
+ },
+ {
+  "kanji": "町",
+  "onyomi": [
+   "ちょう"
+  ],
+  "kunyomi": [
+   "まち"
+  ],
+  "readings": [
+   "ちょう",
+   "まち"
+  ],
+  "meaning": "town, village, town",
+  "strokes": 7,
+  "freq": 292,
+  "sentence": "町は眠っていた。",
+  "compounds": [
+   {
+    "word": "町",
+    "reading": "まち",
+    "accent": "2",
+    "meaning": "town, street, road"
+   },
+   {
+    "word": "町中",
+    "reading": "まちなか",
+    "accent": "0",
+    "meaning": "downtown"
+   }
+  ]
+ },
+ {
+  "kanji": "画",
+  "onyomi": [
+   "が",
+   "かく",
+   "え",
+   "かい"
+  ],
+  "kunyomi": [
+   "えが.く",
+   "かく.する",
+   "かぎ.る",
+   "はかりごと",
+   "はか.る"
+  ],
+  "readings": [
+   "が",
+   "かく",
+   "え",
+   "かい",
+   "えが.く",
+   "かく.する",
+   "かぎ.る",
+   "はかりごと",
+   "はか.る"
+  ],
+  "meaning": "brush stroke, picture",
+  "strokes": 8,
+  "freq": 199,
+  "sentence": "彼は画家だ。",
+  "compounds": [
+   {
+    "word": "映画",
+    "reading": "えいが",
+    "accent": "1,0",
+    "meaning": "movie, film"
+   },
+   {
+    "word": "計画",
+    "reading": "けいかく",
+    "accent": "0",
+    "meaning": "plan, schedule"
+   },
+   {
+    "word": "画家",
+    "reading": "がか",
+    "accent": "0",
+    "meaning": "painter, artist"
+   },
+   {
+    "word": "映画館",
+    "reading": "えいがかん",
+    "accent": "3",
+    "meaning": "cinema, movie theatre"
+   },
+   {
+    "word": "区画",
+    "reading": "くかく",
+    "accent": "0",
+    "meaning": "division, section"
+   }
+  ]
+ },
+ {
+  "kanji": "界",
+  "onyomi": [
+   "かい"
+  ],
+  "kunyomi": [],
+  "readings": [
+   "かい"
+  ],
+  "meaning": "world",
+  "strokes": 9,
+  "freq": 158,
+  "sentence": "新世界だからな。",
+  "compounds": [
+   {
+    "word": "世界",
+    "reading": "せかい",
+    "accent": "1",
+    "meaning": "world"
+   },
+   {
+    "word": "学界",
+    "reading": "がっかい",
+    "accent": "0",
+    "meaning": "academic world"
+   },
+   {
+    "word": "外界",
+    "reading": "がいかい",
+    "accent": "0",
+    "meaning": "physical world, the externals"
+   }
+  ]
+ },
+ {
+  "kanji": "病",
+  "onyomi": [
+   "びょう",
+   "へい"
+  ],
+  "kunyomi": [
+   "や.む",
+   "-や.み",
+   "やまい"
+  ],
+  "readings": [
+   "びょう",
+   "へい",
+   "や.む",
+   "やまい"
+  ],
+  "meaning": "ill, sick",
+  "strokes": 10,
+  "freq": 384,
+  "sentence": "病は気から。",
+  "compounds": [
+   {
+    "word": "病院",
+    "reading": "びょういん",
+    "accent": "0",
+    "meaning": "hospital"
+   },
+   {
+    "word": "病気",
+    "reading": "びょうき",
+    "accent": "0",
+    "meaning": "sick"
+   },
+   {
+    "word": "病死",
+    "reading": "びょうし",
+    "accent": "0",
+    "meaning": "(dying a) natural death"
+   },
+   {
+    "word": "病人",
+    "reading": "びょうにん",
+    "accent": "0",
+    "meaning": "sick person"
+   }
+  ]
+ },
+ {
+  "kanji": "発",
+  "onyomi": [
+   "はつ",
+   "ほつ"
+  ],
+  "kunyomi": [
+   "た.つ",
+   "あば.く",
+   "おこ.る",
+   "つか.わす",
+   "はな.つ"
+  ],
+  "readings": [
+   "はつ",
+   "ほつ",
+   "た.つ",
+   "あば.く",
+   "おこ.る",
+   "つか.わす",
+   "はな.つ"
+  ],
+  "meaning": "departure, emit, disclose",
+  "strokes": 9,
+  "freq": 32,
+  "sentence": "再発しますか。",
+  "compounds": [
+   {
+    "word": "発表",
+    "reading": "はっぴょう",
+    "accent": "0",
+    "meaning": "announcement, publication"
+   },
+   {
+    "word": "発言",
+    "reading": "はつげん",
+    "accent": "0",
+    "meaning": "proposal, speech"
+   },
+   {
+    "word": "発",
+    "reading": "はつ",
+    "accent": "1",
+    "meaning": "counter for gunshots"
+   },
+   {
+    "word": "出発",
+    "reading": "しゅっぱつ",
+    "accent": "0",
+    "meaning": "departure"
+   },
+   {
+    "word": "発見",
+    "reading": "はっけん",
+    "accent": "0",
+    "meaning": "discovery, detection"
+   }
+  ]
+ },
+ {
+  "kanji": "県",
+  "onyomi": [
+   "けん"
+  ],
+  "kunyomi": [
+   "か.ける"
+  ],
+  "readings": [
+   "けん",
+   "か.ける"
+  ],
+  "meaning": "prefecture",
+  "strokes": 9,
+  "freq": 140,
+  "sentence": "私は兵庫県に住んでいる。",
+  "compounds": [
+   {
+    "word": "県",
+    "reading": "けん",
+    "accent": "1",
+    "meaning": "prefecture"
+   },
+   {
+    "word": "県内",
+    "reading": "けんない",
+    "accent": "1",
+    "meaning": "within the prefecture"
+   },
+   {
+    "word": "県外",
+    "reading": "けんがい",
+    "accent": "1",
+    "meaning": "outside the prefecture"
+   }
+  ]
+ },
+ {
+  "kanji": "真",
+  "onyomi": [
+   "しん"
+  ],
+  "kunyomi": [
+   "ま",
+   "ま-",
+   "まこと"
+  ],
+  "readings": [
+   "しん",
+   "ま",
+   "まこと"
+  ],
+  "meaning": "true, reality",
+  "strokes": 10,
+  "freq": 279,
+  "sentence": "真っ暗闇だ。",
+  "compounds": [
+   {
+    "word": "写真",
+    "reading": "しゃしん",
+    "accent": "0",
+    "meaning": "photograph"
+   },
+   {
+    "word": "真中",
+    "reading": "まんなか",
+    "accent": "0",
+    "meaning": "centre, mid-way"
+   },
+   {
+    "word": "真理",
+    "reading": "しんり",
+    "accent": "1",
+    "meaning": "truth"
+   },
+   {
+    "word": "真っ白",
+    "reading": "まっしろ",
+    "accent": "3",
+    "meaning": "pure white"
+   }
+  ]
+ },
+ {
+  "kanji": "着",
+  "onyomi": [
+   "ちゃく",
+   "じゃく"
+  ],
+  "kunyomi": [
+   "き.る",
+   "-ぎ",
+   "き.せる",
+   "-き.せ",
+   "つ.く",
+   "つ.ける"
+  ],
+  "readings": [
+   "ちゃく",
+   "じゃく",
+   "き.る",
+   "き.せる",
+   "つ.く",
+   "つ.ける"
+  ],
+  "meaning": "arrive, wear",
+  "strokes": 12,
+  "freq": 376,
+  "sentence": "着てみない？",
+  "compounds": [
+   {
+    "word": "着る",
+    "reading": "きる",
+    "accent": "0",
+    "meaning": "to wear"
+   },
+   {
+    "word": "着く",
+    "reading": "つく",
+    "accent": "1,2",
+    "meaning": "to arrive"
+   },
+   {
+    "word": "着物",
+    "reading": "きもの",
+    "accent": "0",
+    "meaning": "kimono (Japanese-style dress)"
+   },
+   {
+    "word": "下着",
+    "reading": "したぎ",
+    "accent": "0",
+    "meaning": "underwear"
+   }
+  ]
+ },
+ {
+  "kanji": "知",
+  "onyomi": [
+   "ち"
+  ],
+  "kunyomi": [
+   "し.る",
+   "し.らせる"
+  ],
+  "readings": [
+   "ち",
+   "し.る",
+   "し.らせる"
+  ],
+  "meaning": "know, wisdom",
+  "strokes": 8,
+  "freq": 205,
+  "sentence": "先刻承知。",
+  "compounds": [
+   {
+    "word": "知る",
+    "reading": "しる",
+    "accent": "0",
+    "meaning": "to know"
+   },
+   {
+    "word": "知恵",
+    "reading": "ちえ",
+    "accent": "2",
+    "meaning": "wisdom, wit"
+   },
+   {
+    "word": "知らせる",
+    "reading": "しらせる",
+    "accent": "0",
+    "meaning": "to notice, to advise"
+   },
+   {
+    "word": "知らせ",
+    "reading": "しらせ",
+    "accent": "0",
+    "meaning": "notice"
+   },
+   {
+    "word": "人見知り",
+    "reading": "ひとみしり",
+    "accent": "0,3",
+    "meaning": "shyness"
+   }
+  ]
+ },
+ {
+  "kanji": "短",
+  "onyomi": [
+   "たん"
+  ],
+  "kunyomi": [
+   "みじか.い"
+  ],
+  "readings": [
+   "たん",
+   "みじか.い"
+  ],
+  "meaning": "short, fault, defect",
+  "strokes": 12,
+  "freq": 689,
+  "sentence": "彼は短気だ。",
+  "compounds": [
+   {
+    "word": "短い",
+    "reading": "みじかい",
+    "accent": "3",
+    "meaning": "short"
+   },
+   {
+    "word": "短気",
+    "reading": "たんき",
+    "accent": "1",
+    "meaning": "short temper"
+   }
+  ]
+ },
+ {
+  "kanji": "研",
+  "onyomi": [
+   "けん"
+  ],
+  "kunyomi": [
+   "と.ぐ"
+  ],
+  "readings": [
+   "けん",
+   "と.ぐ"
+  ],
+  "meaning": "polish, sharpen, study",
+  "strokes": 9,
+  "freq": 336,
+  "sentence": "彼は研究に夢中だ。",
+  "compounds": [
+   {
+    "word": "研究",
+    "reading": "けんきゅう",
+    "accent": "0",
+    "meaning": "research"
+   },
+   {
+    "word": "研究者",
+    "reading": "けんきゅうしゃ",
+    "accent": "3",
+    "meaning": "researcher"
+   },
+   {
+    "word": "研ぐ",
+    "reading": "とぐ",
+    "accent": "1",
+    "meaning": "to sharpen, to grind"
+   }
+  ]
+ },
+ {
+  "kanji": "私",
+  "onyomi": [
+   "し"
+  ],
+  "kunyomi": [
+   "わたくし",
+   "わたし"
+  ],
+  "readings": [
+   "し",
+   "わたくし",
+   "わたし"
+  ],
+  "meaning": "private, I, me",
+  "strokes": 7,
+  "freq": 242,
+  "sentence": "私も。",
+  "compounds": [
+   {
+    "word": "私",
+    "reading": "わたし",
+    "accent": "0",
+    "meaning": "Me, I"
+   },
+   {
+    "word": "私学",
+    "reading": "しがく",
+    "accent": "1,0",
+    "meaning": "private school"
+   },
+   {
+    "word": "私服",
+    "reading": "しふく",
+    "accent": "0",
+    "meaning": "plain clothes"
+   },
+   {
+    "word": "私見",
+    "reading": "しけん",
+    "accent": "0",
+    "meaning": "personal opinion"
+   }
+  ]
+ },
+ {
+  "kanji": "秋",
+  "onyomi": [
+   "しゅう"
+  ],
+  "kunyomi": [
+   "あき",
+   "とき"
+  ],
+  "readings": [
+   "しゅう",
+   "あき",
+   "とき"
+  ],
+  "meaning": "autumn",
+  "strokes": 9,
+  "freq": 635,
+  "sentence": "男心と秋の空。",
+  "compounds": [
+   {
+    "word": "秋",
+    "reading": "あき",
+    "accent": "1",
+    "meaning": "autumn"
+   },
+   {
+    "word": "秋風",
+    "reading": "あきかぜ",
+    "accent": "2,3",
+    "meaning": "autumn breeze"
+   },
+   {
+    "word": "春秋",
+    "reading": "しゅんじゅう",
+    "accent": "0,1",
+    "meaning": "spring and autumn"
+   }
+  ]
+ },
+ {
+  "kanji": "究",
+  "onyomi": [
+   "きゅう",
+   "く"
+  ],
+  "kunyomi": [
+   "きわ.める"
+  ],
+  "readings": [
+   "きゅう",
+   "く",
+   "きわ.める"
+  ],
+  "meaning": "research, study",
+  "strokes": 7,
+  "freq": 368,
+  "sentence": "彼は研究に夢中だ。",
+  "compounds": [
+   {
+    "word": "研究",
+    "reading": "けんきゅう",
+    "accent": "0",
+    "meaning": "research, study"
+   },
+   {
+    "word": "学究",
+    "reading": "がっきゅう",
+    "accent": "0",
+    "meaning": "scholar"
+   },
+   {
+    "word": "究明",
+    "reading": "きゅうめい",
+    "accent": "0",
+    "meaning": "scientific investigation"
+   },
+   {
+    "word": "研究員",
+    "reading": "けんきゅういん",
+    "accent": "3",
+    "meaning": "researcher"
+   }
+  ]
+ },
+ {
+  "kanji": "答",
+  "onyomi": [
+   "とう"
+  ],
+  "kunyomi": [
+   "こた.える",
+   "こた.え"
+  ],
+  "readings": [
+   "とう",
+   "こた.える",
+   "こた.え"
+  ],
+  "meaning": "solution, answer",
+  "strokes": 12,
+  "freq": 486,
+  "sentence": "何て答えたの？",
+  "compounds": [
+   {
+    "word": "答え",
+    "reading": "こたえ",
+    "accent": "2",
+    "meaning": "answer"
+   },
+   {
+    "word": "問答",
+    "reading": "もんどう",
+    "accent": "3",
+    "meaning": "questions and answers"
+   },
+   {
+    "word": "口答え",
+    "reading": "くちごたえ",
+    "accent": "3,0",
+    "meaning": "retort"
+   }
+  ]
+ },
+ {
+  "kanji": "紙",
+  "onyomi": [
+   "し"
+  ],
+  "kunyomi": [
+   "かみ"
+  ],
+  "readings": [
+   "し",
+   "かみ"
+  ],
+  "meaning": "paper",
+  "strokes": 10,
+  "freq": 559,
+  "sentence": "紙がほしい。",
+  "compounds": [
+   {
+    "word": "紙",
+    "reading": "かみ",
+    "accent": "2",
+    "meaning": "paper"
+   },
+   {
+    "word": "手紙",
+    "reading": "てがみ",
+    "accent": "0",
+    "meaning": "letter"
+   },
+   {
+    "word": "用紙",
+    "reading": "ようし",
+    "accent": "0,1",
+    "meaning": "blank form, answer sheet"
+   }
+  ]
+ },
+ {
+  "kanji": "終",
+  "onyomi": [
+   "しゅう"
+  ],
+  "kunyomi": [
+   "お.わる",
+   "-お.わる",
+   "おわ.る",
+   "お.える",
+   "つい",
+   "つい.に"
+  ],
+  "readings": [
+   "しゅう",
+   "お.わる",
+   "おわ.る",
+   "お.える",
+   "つい",
+   "つい.に"
+  ],
+  "meaning": "end, finish",
+  "strokes": 11,
+  "freq": 256,
+  "sentence": "いつ終わるの？",
+  "compounds": [
+   {
+    "word": "終わる",
+    "reading": "おわる",
+    "accent": "0",
+    "meaning": "to finish, to close"
+   },
+   {
+    "word": "終わり",
+    "reading": "おわり",
+    "accent": "0",
+    "meaning": "the end"
+   },
+   {
+    "word": "始終",
+    "reading": "しじゅう",
+    "accent": "1",
+    "meaning": "from beginning to end"
+   }
+  ]
+ },
+ {
+  "kanji": "習",
+  "onyomi": [
+   "しゅう",
+   "じゅ"
+  ],
+  "kunyomi": [
+   "なら.う",
+   "なら.い"
+  ],
+  "readings": [
+   "しゅう",
+   "じゅ",
+   "なら.う",
+   "なら.い"
+  ],
+  "meaning": "learn",
+  "strokes": 11,
+  "freq": 706,
+  "sentence": "六十の手習い。",
+  "compounds": [
+   {
+    "word": "習う",
+    "reading": "ならう",
+    "accent": "2",
+    "meaning": "to learn"
+   },
+   {
+    "word": "教習",
+    "reading": "きょうしゅう",
+    "accent": "0",
+    "meaning": "training, instruction"
+   },
+   {
+    "word": "見習う",
+    "reading": "みならう",
+    "accent": "3,0",
+    "meaning": "to follow another's example"
+   }
+  ]
+ },
+ {
+  "kanji": "考",
+  "onyomi": [
+   "こう"
+  ],
+  "kunyomi": [
+   "かんが.える",
+   "かんが.え"
+  ],
+  "readings": [
+   "こう",
+   "かんが.える",
+   "かんが.え"
+  ],
+  "meaning": "consider, think over",
+  "strokes": 6,
+  "freq": 196,
+  "sentence": "考えとくよ。",
+  "compounds": [
+   {
+    "word": "考える",
+    "reading": "かんがえる",
+    "accent": "4,3",
+    "meaning": "to think, to consider"
+   },
+   {
+    "word": "考え",
+    "reading": "かんがえ",
+    "accent": "3",
+    "meaning": "thought, idea"
+   },
+   {
+    "word": "考え方",
+    "reading": "かんがえかた",
+    "accent": "5,6",
+    "meaning": "way of thinking"
+   },
+   {
+    "word": "参考",
+    "reading": "さんこう",
+    "accent": null,
+    "meaning": "reference"
+   }
+  ]
+ },
+ {
+  "kanji": "者",
+  "onyomi": [
+   "しゃ"
+  ],
+  "kunyomi": [
+   "もの"
+  ],
+  "readings": [
+   "しゃ",
+   "もの"
+  ],
+  "meaning": "somone, person",
+  "strokes": 8,
+  "freq": 38,
+  "sentence": "似た者夫婦。",
+  "compounds": [
+   {
+    "word": "者",
+    "reading": "もの",
+    "accent": "2",
+    "meaning": "person"
+   },
+   {
+    "word": "業者",
+    "reading": "ぎょうしゃ",
+    "accent": "1",
+    "meaning": "trader, merchant"
+   },
+   {
+    "word": "死者",
+    "reading": "ししゃ",
+    "accent": "1,2",
+    "meaning": "casualty, deceased (person)"
+   },
+   {
+    "word": "医者",
+    "reading": "いしゃ",
+    "accent": "0",
+    "meaning": "doctor"
+   },
+   {
+    "word": "科学者",
+    "reading": "かがくしゃ",
+    "accent": "2,3",
+    "meaning": "scientist"
+   }
+  ]
+ },
+ {
+  "kanji": "肉",
+  "onyomi": [
+   "にく"
+  ],
+  "kunyomi": [
+   "しし"
+  ],
+  "readings": [
+   "にく",
+   "しし"
+  ],
+  "meaning": "meat",
+  "strokes": 6,
+  "freq": 986,
+  "sentence": "全身筋肉痛だ。",
+  "compounds": [
+   {
+    "word": "肉",
+    "reading": "にく",
+    "accent": "2",
+    "meaning": "meat"
+   },
+   {
+    "word": "牛肉",
+    "reading": "ぎゅうにく",
+    "accent": "0",
+    "meaning": "beef"
+   },
+   {
+    "word": "肉親",
+    "reading": "にくしん",
+    "accent": "0",
+    "meaning": "blood relative"
+   },
+   {
+    "word": "肉屋",
+    "reading": "にくや",
+    "accent": "2",
+    "meaning": "butcher"
+   }
+  ]
+ },
+ {
+  "kanji": "自",
+  "onyomi": [
+   "じ",
+   "し"
+  ],
+  "kunyomi": [
+   "みずか.ら",
+   "おの.ずから",
+   "おの.ずと"
+  ],
+  "readings": [
+   "じ",
+   "し",
+   "みずか.ら",
+   "おの.ずから",
+   "おの.ずと"
+  ],
+  "meaning": "oneself",
+  "strokes": 6,
+  "freq": 19,
+  "sentence": "俺は自由な男。",
+  "compounds": [
+   {
+    "word": "自分",
+    "reading": "じぶん",
+    "accent": "0",
+    "meaning": "oneself"
+   },
+   {
+    "word": "自動",
+    "reading": "じどう",
+    "accent": "0",
+    "meaning": "automatic"
+   },
+   {
+    "word": "自転車",
+    "reading": "じてんしゃ",
+    "accent": "2,0",
+    "meaning": "bicycle"
+   },
+   {
+    "word": "自国",
+    "reading": "じこく",
+    "accent": "0,1",
+    "meaning": "one's home country"
+   }
+  ]
+ },
+ {
+  "kanji": "色",
+  "onyomi": [
+   "しょく",
+   "しき"
+  ],
+  "kunyomi": [
+   "いろ"
+  ],
+  "readings": [
+   "しょく",
+   "しき",
+   "いろ"
+  ],
+  "meaning": "colour",
+  "strokes": 6,
+  "freq": 621,
+  "sentence": "色盲です。",
+  "compounds": [
+   {
+    "word": "色",
+    "reading": "いろ",
+    "accent": "2",
+    "meaning": "colour"
+   },
+   {
+    "word": "特色",
+    "reading": "とくしょく",
+    "accent": "0",
+    "meaning": "characteristic"
+   },
+   {
+    "word": "黄色",
+    "reading": "きいろ",
+    "accent": "0",
+    "meaning": "yellow"
+   },
+   {
+    "word": "色々",
+    "reading": "いろいろ",
+    "accent": "0",
+    "meaning": "various"
+   }
+  ]
+ },
+ {
+  "kanji": "英",
+  "onyomi": [
+   "えい"
+  ],
+  "kunyomi": [
+   "はなぶさ"
+  ],
+  "readings": [
+   "えい",
+   "はなぶさ"
+  ],
+  "meaning": "England, english",
+  "strokes": 8,
+  "freq": 430,
+  "sentence": "俺は英雄。",
+  "compounds": [
+   {
+    "word": "英語",
+    "reading": "えいご",
+    "accent": "0",
+    "meaning": "the English language"
+   },
+   {
+    "word": "英文",
+    "reading": "えいぶん",
+    "accent": "0",
+    "meaning": "sentence in English"
+   },
+   {
+    "word": "英明",
+    "reading": "えいめい",
+    "accent": "0",
+    "meaning": "intelligent, wise, bright"
+   },
+   {
+    "word": "英知",
+    "reading": "えいち",
+    "accent": "1",
+    "meaning": "intelligence"
+   }
+  ]
+ },
+ {
+  "kanji": "茶",
+  "onyomi": [
+   "ちゃ",
+   "さ"
+  ],
+  "kunyomi": [],
+  "readings": [
+   "ちゃ",
+   "さ"
+  ],
+  "meaning": "tea",
+  "strokes": 9,
+  "freq": 1116,
+  "sentence": "あれは茶番だ。",
+  "compounds": [
+   {
+    "word": "お茶",
+    "reading": "おちゃ",
+    "accent": "0",
+    "meaning": "(green) tea"
+   },
+   {
+    "word": "茶色",
+    "reading": "ちゃいろ",
+    "accent": "0",
+    "meaning": "brown"
+   },
+   {
+    "word": "茶道",
+    "reading": "さどう",
+    "accent": "1",
+    "meaning": "Tea Ceremony"
+   }
+  ]
+ },
+ {
+  "kanji": "菜",
+  "onyomi": [
+   "さい"
+  ],
+  "kunyomi": [
+   "な"
+  ],
+  "readings": [
+   "さい",
+   "な"
+  ],
+  "meaning": "vegetable, greens",
+  "strokes": 11,
+  "freq": 1327,
+  "sentence": "青菜に塩。",
+  "compounds": [
+   {
+    "word": "野菜",
+    "reading": "やさい",
+    "accent": "0",
+    "meaning": "vegetables"
+   },
+   {
+    "word": "白菜",
+    "reading": "はくさい",
+    "accent": "3,0",
+    "meaning": "Chinese cabbage, white rape"
+   },
+   {
+    "word": "菜食",
+    "reading": "さいしょく",
+    "accent": "0",
+    "meaning": "vegetable diet"
+   }
+  ]
+ },
+ {
+  "kanji": "薬",
+  "onyomi": [
+   "やく"
+  ],
+  "kunyomi": [
+   "くすり"
+  ],
+  "readings": [
+   "やく",
+   "くすり"
+  ],
+  "meaning": "medicine",
+  "strokes": 16,
+  "freq": 702,
+  "sentence": "お薬飲んだ？",
+  "compounds": [
+   {
+    "word": "薬",
+    "reading": "くすり",
+    "accent": "0",
+    "meaning": "medicine, pharmaceuticals"
+   },
+   {
+    "word": "火薬",
+    "reading": "かやく",
+    "accent": "0",
+    "meaning": "gun powder"
+   },
+   {
+    "word": "薬学",
+    "reading": "やくがく",
+    "accent": "0,2",
+    "meaning": "study of pharmacy"
+   }
+  ]
+ },
+ {
+  "kanji": "親",
+  "onyomi": [
+   "しん"
+  ],
+  "kunyomi": [
+   "おや",
+   "おや-",
+   "した.しい",
+   "した.しむ"
+  ],
+  "readings": [
+   "しん",
+   "おや",
+   "した.しい",
+   "した.しむ"
+  ],
+  "meaning": "parent, relative, intimacy",
+  "strokes": 16,
+  "freq": 406,
+  "sentence": "ご親切に。",
+  "compounds": [
+   {
+    "word": "親",
+    "reading": "おや",
+    "accent": "2",
+    "meaning": "parents"
+   },
+   {
+    "word": "両親",
+    "reading": "りょうしん",
+    "accent": "1",
+    "meaning": "parents"
+   },
+   {
+    "word": "親しい",
+    "reading": "したしい",
+    "accent": "3",
+    "meaning": "intimate, close (eg friend)"
+   },
+   {
+    "word": "親切",
+    "reading": "しんせつ",
+    "accent": "1,0",
+    "meaning": "kindness, gentleness"
+   },
+   {
+    "word": "親友",
+    "reading": "しんゆう",
+    "accent": "0",
+    "meaning": "close friend"
+   }
+  ]
+ },
+ {
+  "kanji": "計",
+  "onyomi": [
+   "けい"
+  ],
+  "kunyomi": [
+   "はか.る",
+   "はか.らう"
+  ],
+  "readings": [
+   "けい",
+   "はか.る",
+   "はか.らう"
+  ],
+  "meaning": "plot, plan, scheme, measure",
+  "strokes": 9,
+  "freq": 228,
+  "sentence": "体温を計る。",
+  "compounds": [
+   {
+    "word": "計画",
+    "reading": "けいかく",
+    "accent": "0",
+    "meaning": "plan, project, program"
+   },
+   {
+    "word": "時計",
+    "reading": "とけい",
+    "accent": "0",
+    "meaning": "watch, clock"
+   },
+   {
+    "word": "計る",
+    "reading": "はかる",
+    "accent": "2",
+    "meaning": "to measure"
+   }
+  ]
+ },
+ {
+  "kanji": "試",
+  "onyomi": [
+   "し"
+  ],
+  "kunyomi": [
+   "こころ.みる",
+   "ため.す"
+  ],
+  "readings": [
+   "し",
+   "こころ.みる",
+   "ため.す"
+  ],
+  "meaning": "test, try, attempt",
+  "strokes": 13,
+  "freq": 392,
+  "sentence": "物は試し。",
+  "compounds": [
+   {
+    "word": "試合",
+    "reading": "しあい",
+    "accent": "0",
+    "meaning": "match"
+   },
+   {
+    "word": "試験",
+    "reading": "しけん",
+    "accent": "2",
+    "meaning": "exam, test"
+   },
+   {
+    "word": "試み",
+    "reading": "こころみ",
+    "accent": "0,4",
+    "meaning": "trial, experiment"
+   },
+   {
+    "word": "試食",
+    "reading": "ししょく",
+    "accent": "0",
+    "meaning": "sampling food"
+   }
+  ]
+ },
+ {
+  "kanji": "説",
+  "onyomi": [
+   "せつ",
+   "ぜい"
+  ],
+  "kunyomi": [
+   "と.く"
+  ],
+  "readings": [
+   "せつ",
+   "ぜい",
+   "と.く"
+  ],
+  "meaning": "rumour, opinion, theory",
+  "strokes": 14,
+  "freq": 326,
+  "sentence": "釈迦に説法。",
+  "compounds": [
+   {
+    "word": "説明",
+    "reading": "せつめい",
+    "accent": "0",
+    "meaning": "explanation"
+   },
+   {
+    "word": "小説",
+    "reading": "しょうせつ",
+    "accent": "0",
+    "meaning": "novel, short story"
+   },
+   {
+    "word": "説",
+    "reading": "せつ",
+    "accent": "1",
+    "meaning": "theory"
+   },
+   {
+    "word": "学説",
+    "reading": "がくせつ",
+    "accent": "0",
+    "meaning": "theory"
+   }
+  ]
+ },
+ {
+  "kanji": "貸",
+  "onyomi": [
+   "たい"
+  ],
+  "kunyomi": [
+   "か.す",
+   "か.し-",
+   "かし-"
+  ],
+  "readings": [
+   "たい",
+   "か.す"
+  ],
+  "meaning": "lend",
+  "strokes": 12,
+  "freq": 995,
+  "sentence": "貸し間あり。",
+  "compounds": [
+   {
+    "word": "貸す",
+    "reading": "かす",
+    "accent": "0",
+    "meaning": "to lend"
+   },
+   {
+    "word": "貸し",
+    "reading": "かし",
+    "accent": "0",
+    "meaning": "loan"
+   },
+   {
+    "word": "貸借",
+    "reading": "たいしゃく",
+    "accent": null,
+    "meaning": "lending and borrowing, loan"
+   }
+  ]
+ },
+ {
+  "kanji": "質",
+  "onyomi": [
+   "しつ",
+   "しち",
+   "ち"
+  ],
+  "kunyomi": [
+   "たち",
+   "ただ.す",
+   "もと",
+   "わりふ"
+  ],
+  "readings": [
+   "しつ",
+   "しち",
+   "ち",
+   "たち",
+   "ただ.す",
+   "もと",
+   "わりふ"
+  ],
+  "meaning": "substance, quality, matter",
+  "strokes": 15,
+  "freq": 389,
+  "sentence": "よい質問だ。",
+  "compounds": [
+   {
+    "word": "質",
+    "reading": "しつ",
+    "accent": "0,2",
+    "meaning": "quality"
+   },
+   {
+    "word": "質問",
+    "reading": "しつもん",
+    "accent": "0",
+    "meaning": "question, inquiry"
+   },
+   {
+    "word": "水質",
+    "reading": "すいしつ",
+    "accent": "0",
+    "meaning": "water quality"
+   },
+   {
+    "word": "悪質",
+    "reading": "あくしつ",
+    "accent": "0",
+    "meaning": "bad quality, malignant"
+   }
+  ]
+ },
+ {
+  "kanji": "赤",
+  "onyomi": [
+   "せき",
+   "しゃく"
+  ],
+  "kunyomi": [
+   "あか",
+   "あか-",
+   "あか.い",
+   "あか.らむ",
+   "あか.らめる"
+  ],
+  "readings": [
+   "せき",
+   "しゃく",
+   "あか",
+   "あか.い",
+   "あか.らむ",
+   "あか.らめる"
+  ],
+  "meaning": "red",
+  "strokes": 7,
+  "freq": 584,
+  "sentence": "赤丸で囲む。",
+  "compounds": [
+   {
+    "word": "赤い",
+    "reading": "あかい",
+    "accent": "0",
+    "meaning": "red"
+   },
+   {
+    "word": "赤ちゃん",
+    "reading": "あかちゃん",
+    "accent": "1",
+    "meaning": "baby"
+   },
+   {
+    "word": "赤道",
+    "reading": "せきどう",
+    "accent": "0",
+    "meaning": "equator"
+   }
+  ]
+ },
+ {
+  "kanji": "走",
+  "onyomi": [
+   "そう"
+  ],
+  "kunyomi": [
+   "はし.る"
+  ],
+  "readings": [
+   "そう",
+   "はし.る"
+  ],
+  "meaning": "run",
+  "strokes": 7,
+  "freq": 626,
+  "sentence": "彼は走る。",
+  "compounds": [
+   {
+    "word": "走る",
+    "reading": "はしる",
+    "accent": "2",
+    "meaning": "to run"
+   },
+   {
+    "word": "走り書き",
+    "reading": "はしりがき",
+    "accent": "0",
+    "meaning": "scribble"
+   },
+   {
+    "word": "競走",
+    "reading": "きょうそう",
+    "accent": null,
+    "meaning": "race"
+   }
+  ]
+ },
+ {
+  "kanji": "起",
+  "onyomi": [
+   "き"
+  ],
+  "kunyomi": [
+   "お.きる",
+   "お.こる",
+   "お.こす",
+   "おこ.す",
+   "た.つ"
+  ],
+  "readings": [
+   "き",
+   "お.きる",
+   "お.こる",
+   "お.こす",
+   "おこ.す",
+   "た.つ"
+  ],
+  "meaning": "wake, get up",
+  "strokes": 10,
+  "freq": 374,
+  "sentence": "早く起きろ。",
+  "compounds": [
+   {
+    "word": "起きる",
+    "reading": "おきる",
+    "accent": "2",
+    "meaning": "to wake up"
+   },
+   {
+    "word": "起こる",
+    "reading": "おこる",
+    "accent": "2",
+    "meaning": "to occur, to happen"
+   },
+   {
+    "word": "起床",
+    "reading": "きしょう",
+    "accent": null,
+    "meaning": "getting up, rising"
+   }
+  ]
+ },
+ {
+  "kanji": "転",
+  "onyomi": [
+   "てん"
+  ],
+  "kunyomi": [
+   "ころ.がる",
+   "ころ.げる",
+   "ころ.がす",
+   "ころ.ぶ",
+   "まろ.ぶ",
+   "うたた",
+   "うつ.る",
+   "くる.めく"
+  ],
+  "readings": [
+   "てん",
+   "ころ.がる",
+   "ころ.げる",
+   "ころ.がす",
+   "ころ.ぶ",
+   "まろ.ぶ",
+   "うたた",
+   "うつ.る",
+   "くる.めく"
+  ],
+  "meaning": "revolve, turn around, change",
+  "strokes": 11,
+  "freq": 327,
+  "sentence": "転ばぬ先の杖。",
+  "compounds": [
+   {
+    "word": "転じる",
+    "reading": "てんじる",
+    "accent": "0,3",
+    "meaning": "to turn, to shift"
+   },
+   {
+    "word": "自転車",
+    "reading": "じてんしゃ",
+    "accent": "2,0",
+    "meaning": "bicycle"
+   },
+   {
+    "word": "転ぶ",
+    "reading": "ころぶ",
+    "accent": "0",
+    "meaning": "to fall down, to fall over"
+   },
+   {
+    "word": "転売",
+    "reading": "てんばい",
+    "accent": "0",
+    "meaning": "resale"
+   }
+  ]
+ },
+ {
+  "kanji": "軽",
+  "onyomi": [
+   "けい",
+   "きょう",
+   "きん"
+  ],
+  "kunyomi": [
+   "かる.い",
+   "かろ.やか",
+   "かろ.んじる"
+  ],
+  "readings": [
+   "けい",
+   "きょう",
+   "きん",
+   "かる.い",
+   "かろ.やか",
+   "かろ.んじる"
+  ],
+  "meaning": "light, unimportant",
+  "strokes": 12,
+  "freq": 790,
+  "sentence": "彼は口が軽い。",
+  "compounds": [
+   {
+    "word": "軽い",
+    "reading": "かるい",
+    "accent": "0",
+    "meaning": "light, non-serious"
+   },
+   {
+    "word": "手軽",
+    "reading": "てがる",
+    "accent": "0",
+    "meaning": "easy, simple, informal"
+   },
+   {
+    "word": "気軽",
+    "reading": "きがる",
+    "accent": "0",
+    "meaning": "cheerful, lighthearted"
+   },
+   {
+    "word": "軽々",
+    "reading": "かるがる",
+    "accent": "3",
+    "meaning": "lightly, easily"
+   },
+   {
+    "word": "軽口",
+    "reading": "かるくち",
+    "accent": "0",
+    "meaning": "talkative, loose-lipped"
+   },
+   {
+    "word": "軽音楽",
+    "reading": "けいおんがく",
+    "accent": "3",
+    "meaning": "light music"
+   }
+  ]
+ },
+ {
+  "kanji": "近",
+  "onyomi": [
+   "きん",
+   "こん"
+  ],
+  "kunyomi": [
+   "ちか.い"
+  ],
+  "readings": [
+   "きん",
+   "こん",
+   "ちか.い"
+  ],
+  "meaning": "near",
+  "strokes": 7,
+  "freq": 194,
+  "sentence": "最近どうだ？",
+  "compounds": [
+   {
+    "word": "近い",
+    "reading": "ちかい",
+    "accent": "2",
+    "meaning": "near, close by"
+   },
+   {
+    "word": "近所",
+    "reading": "きんじょ",
+    "accent": "1",
+    "meaning": "neighbourhood"
+   },
+   {
+    "word": "近道",
+    "reading": "ちかみち",
+    "accent": "2",
+    "meaning": "shortcut, short way"
+   }
+  ]
+ },
+ {
+  "kanji": "送",
+  "onyomi": [
+   "そう"
+  ],
+  "kunyomi": [
+   "おく.る"
+  ],
+  "readings": [
+   "そう",
+   "おく.る"
+  ],
+  "meaning": "send",
+  "strokes": 9,
+  "freq": 311,
+  "sentence": "誰に送るの？",
+  "compounds": [
+   {
+    "word": "送る",
+    "reading": "おくる",
+    "accent": "0",
+    "meaning": "to send, to see off (person)"
+   },
+   {
+    "word": "先送り",
+    "reading": "さきおくり",
+    "accent": "0",
+    "meaning": "postpone"
+   },
+   {
+    "word": "送電",
+    "reading": "そうでん",
+    "accent": "0",
+    "meaning": "electric supply"
+   },
+   {
+    "word": "送別",
+    "reading": "そうべつ",
+    "accent": "0",
+    "meaning": "farewell, send off"
+   }
+  ]
+ },
+ {
+  "kanji": "通",
+  "onyomi": [
+   "つう",
+   "つ"
+  ],
+  "kunyomi": [
+   "とお.る",
+   "とお.り",
+   "-とお.り",
+   "-どお.り",
+   "とお.す",
+   "とお.し",
+   "-どお.し",
+   "かよ.う"
+  ],
+  "readings": [
+   "つう",
+   "つ",
+   "とお.る",
+   "とお.り",
+   "とお.す",
+   "とお.し",
+   "かよ.う"
+  ],
+  "meaning": "pass through, commute",
+  "strokes": 10,
+  "freq": 80,
+  "sentence": "その通り！",
+  "compounds": [
+   {
+    "word": "通う",
+    "reading": "かよう",
+    "accent": "0",
+    "meaning": "to commute, to go back and forth"
+   },
+   {
+    "word": "通る",
+    "reading": "とおる",
+    "accent": "1",
+    "meaning": "to pass by, to walk along"
+   },
+   {
+    "word": "通い",
+    "reading": "かよい",
+    "accent": "0",
+    "meaning": "coming and going, commuting"
+   },
+   {
+    "word": "通す",
+    "reading": "とおす",
+    "accent": "1",
+    "meaning": "to let pass, to overlook"
+   },
+   {
+    "word": "通信社",
+    "reading": "つうしんしゃ",
+    "accent": "3",
+    "meaning": "newsagency"
+   }
+  ]
+ },
+ {
+  "kanji": "進",
+  "onyomi": [
+   "しん"
+  ],
+  "kunyomi": [
+   "すす.む",
+   "すす.める"
+  ],
+  "readings": [
+   "しん",
+   "すす.む",
+   "すす.める"
+  ],
+  "meaning": "advance, proceed, progress",
+  "strokes": 11,
+  "freq": 142,
+  "sentence": "全速前進。",
+  "compounds": [
+   {
+    "word": "進む",
+    "reading": "すすむ",
+    "accent": "0",
+    "meaning": "to make progress"
+   },
+   {
+    "word": "進歩",
+    "reading": "しんぽ",
+    "accent": "1",
+    "meaning": "progress, development"
+   }
+  ]
+ },
+ {
+  "kanji": "運",
+  "onyomi": [
+   "うん"
+  ],
+  "kunyomi": [
+   "はこ.ぶ"
+  ],
+  "readings": [
+   "うん",
+   "はこ.ぶ"
+  ],
+  "meaning": "transport, progress, luck, fate",
+  "strokes": 12,
+  "freq": 255,
+  "sentence": "悪運が強い。",
+  "compounds": [
+   {
+    "word": "運",
+    "reading": "うん",
+    "accent": "1",
+    "meaning": "fortune, luck, (運がいい=to have good luck)"
+   },
+   {
+    "word": "運ぶ",
+    "reading": "はこぶ",
+    "accent": "0",
+    "meaning": "to transport"
+   },
+   {
+    "word": "運動",
+    "reading": "うんどう",
+    "accent": "0",
+    "meaning": "exercise"
+   },
+   {
+    "word": "運転",
+    "reading": "うんてん",
+    "accent": "0",
+    "meaning": "driving, motion"
+   }
+  ]
+ },
+ {
+  "kanji": "遠",
+  "onyomi": [
+   "えん",
+   "おん"
+  ],
+  "kunyomi": [
+   "とお.い"
+  ],
+  "readings": [
+   "えん",
+   "おん",
+   "とお.い"
+  ],
+  "meaning": "distant, far",
+  "strokes": 13,
+  "freq": 887,
+  "sentence": "遠慮しないで。",
+  "compounds": [
+   {
+    "word": "遠い",
+    "reading": "とおい",
+    "accent": "0",
+    "meaning": "far, distant"
+   },
+   {
+    "word": "遠足",
+    "reading": "えんそく",
+    "accent": "0",
+    "meaning": "trip, hike, picnic"
+   },
+   {
+    "word": "遠まわし",
+    "reading": "とおまわし",
+    "accent": "3,0",
+    "meaning": "indirect (roundabout) expression"
+   },
+   {
+    "word": "遠心力",
+    "reading": "えんしんりょく",
+    "accent": "3",
+    "meaning": "centrifugal force"
+   }
+  ]
+ },
+ {
+  "kanji": "都",
+  "onyomi": [
+   "と",
+   "つ"
+  ],
+  "kunyomi": [
+   "みやこ"
+  ],
+  "readings": [
+   "と",
+   "つ",
+   "みやこ"
+  ],
+  "meaning": "metropolis, capital",
+  "strokes": 11,
+  "freq": 123,
+  "sentence": "住めば都。",
+  "compounds": [
+   {
+    "word": "都",
+    "reading": "みやこ",
+    "accent": "0",
+    "meaning": "capital"
+   },
+   {
+    "word": "京都",
+    "reading": "きょうと",
+    "accent": "1",
+    "meaning": "Kyoto (city)"
+   },
+   {
+    "word": "都会",
+    "reading": "とかい",
+    "accent": "0",
+    "meaning": "city"
+   }
+  ]
+ },
+ {
+  "kanji": "重",
+  "onyomi": [
+   "じゅう",
+   "ちょう"
+  ],
+  "kunyomi": [
+   "え",
+   "おも.い",
+   "おも.り",
+   "おも.なう",
+   "かさ.ねる",
+   "かさ.なる",
+   "おも"
+  ],
+  "readings": [
+   "じゅう",
+   "ちょう",
+   "え",
+   "おも.い",
+   "おも.り",
+   "おも.なう",
+   "かさ.ねる",
+   "かさ.なる",
+   "おも"
+  ],
+  "meaning": "heavy, pile up",
+  "strokes": 9,
+  "freq": 193,
+  "sentence": "頭が重い。",
+  "compounds": [
+   {
+    "word": "重い",
+    "reading": "おもい",
+    "accent": "0",
+    "meaning": "heavy"
+   },
+   {
+    "word": "重ねる",
+    "reading": "かさねる",
+    "accent": "0",
+    "meaning": "to pile up, to heap"
+   },
+   {
+    "word": "重大",
+    "reading": "じゅうだい",
+    "accent": "0",
+    "meaning": "serious, important, grave"
+   },
+   {
+    "word": "体重",
+    "reading": "たいじゅう",
+    "accent": "0",
+    "meaning": "one's body weight"
+   },
+   {
+    "word": "重さ",
+    "reading": "おもさ",
+    "accent": "0",
+    "meaning": "weight"
+   }
+  ]
+ },
+ {
+  "kanji": "野",
+  "onyomi": [
+   "や",
+   "しょ"
+  ],
+  "kunyomi": [
+   "の",
+   "の-"
+  ],
+  "readings": [
+   "や",
+   "しょ",
+   "の"
+  ],
+  "meaning": "plains, field, civilian life",
+  "strokes": 11,
+  "freq": 120,
+  "sentence": "この野郎！",
+  "compounds": [
+   {
+    "word": "野菜",
+    "reading": "やさい",
+    "accent": "0",
+    "meaning": "vegetable"
+   },
+   {
+    "word": "野鳥",
+    "reading": "やちょう",
+    "accent": "0",
+    "meaning": "(wild) bird"
+   },
+   {
+    "word": "野外",
+    "reading": "やがい",
+    "accent": "1,0",
+    "meaning": "suburbs, outskirts"
+   }
+  ]
+ },
+ {
+  "kanji": "銀",
+  "onyomi": [
+   "ぎん"
+  ],
+  "kunyomi": [
+   "しろがね"
+  ],
+  "readings": [
+   "ぎん",
+   "しろがね"
+  ],
+  "meaning": "silver",
+  "strokes": 14,
+  "freq": 395,
+  "sentence": "彼は銀行員です。",
+  "compounds": [
+   {
+    "word": "銀行",
+    "reading": "ぎんこう",
+    "accent": "0",
+    "meaning": "bank"
+   },
+   {
+    "word": "銀色",
+    "reading": "ぎんいろ",
+    "accent": "0",
+    "meaning": "silver"
+   },
+   {
+    "word": "水銀",
+    "reading": "すいぎん",
+    "accent": "0",
+    "meaning": "mercury"
+   }
+  ]
+ },
+ {
+  "kanji": "門",
+  "onyomi": [
+   "もん"
+  ],
+  "kunyomi": [
+   "かど",
+   "と"
+  ],
+  "readings": [
+   "もん",
+   "かど",
+   "と"
+  ],
+  "meaning": "gates",
+  "strokes": 8,
+  "freq": 452,
+  "sentence": "口は禍の門。",
+  "compounds": [
+   {
+    "word": "門",
+    "reading": "もん",
+    "accent": "1",
+    "meaning": "gate"
+   },
+   {
+    "word": "門下",
+    "reading": "もんか",
+    "accent": "1",
+    "meaning": "one's pupil or follower"
+   },
+   {
+    "word": "門外漢",
+    "reading": "もんがいかん",
+    "accent": "3",
+    "meaning": "amateur, outsider, layman"
+   },
+   {
+    "word": "入門",
+    "reading": "にゅうもん",
+    "accent": "0",
+    "meaning": "primer, manual"
+   }
+  ]
+ },
+ {
+  "kanji": "開",
+  "onyomi": [
+   "かい"
+  ],
+  "kunyomi": [
+   "ひら.く",
+   "ひら.き",
+   "-びら.き",
+   "ひら.ける",
+   "あ.く",
+   "あ.ける"
+  ],
+  "readings": [
+   "かい",
+   "ひら.く",
+   "ひら.き",
+   "ひら.ける",
+   "あ.く",
+   "あ.ける"
+  ],
+  "meaning": "open, unseal",
+  "strokes": 12,
+  "freq": 59,
+  "sentence": "本を開くな。",
+  "compounds": [
+   {
+    "word": "開く",
+    "reading": "あく",
+    "accent": "0",
+    "meaning": "to open"
+   },
+   {
+    "word": "公開",
+    "reading": "こうかい",
+    "accent": null,
+    "meaning": "public release, opening to the public"
+   }
+  ]
+ },
+ {
+  "kanji": "院",
+  "onyomi": [
+   "いん"
+  ],
+  "kunyomi": [],
+  "readings": [
+   "いん"
+  ],
+  "meaning": "institution, school",
+  "strokes": 10,
+  "freq": 150,
+  "sentence": "ここは病院だ。",
+  "compounds": [
+   {
+    "word": "病院",
+    "reading": "びょういん",
+    "accent": "0",
+    "meaning": "hospital"
+   },
+   {
+    "word": "学院",
+    "reading": "がくいん",
+    "accent": "0",
+    "meaning": "institute, academy"
+   },
+   {
+    "word": "大学院",
+    "reading": "だいがくいん",
+    "accent": "4",
+    "meaning": "graduate school"
+   },
+   {
+    "word": "入院",
+    "reading": "にゅういん",
+    "accent": "0",
+    "meaning": "hospital admission"
+   }
+  ]
+ },
+ {
+  "kanji": "集",
+  "onyomi": [
+   "しゅう"
+  ],
+  "kunyomi": [
+   "あつ.まる",
+   "あつ.める",
+   "つど.う"
+  ],
+  "readings": [
+   "しゅう",
+   "あつ.まる",
+   "あつ.める",
+   "つど.う"
+  ],
+  "meaning": "gather, meet, congregate",
+  "strokes": 12,
+  "freq": 210,
+  "sentence": "がは灯に集まる。",
+  "compounds": [
+   {
+    "word": "集める",
+    "reading": "あつめる",
+    "accent": "3",
+    "meaning": "to gather, to assemble"
+   },
+   {
+    "word": "集まる",
+    "reading": "あつまる",
+    "accent": "3",
+    "meaning": "to gather, to assemble"
+   },
+   {
+    "word": "集中",
+    "reading": "しゅうちゅう",
+    "accent": "0",
+    "meaning": "concentration"
+   },
+   {
+    "word": "集",
+    "reading": "しゅう",
+    "accent": "1",
+    "meaning": "collection"
+   }
+  ]
+ },
+ {
+  "kanji": "青",
+  "onyomi": [
+   "せい",
+   "しょう"
+  ],
+  "kunyomi": [
+   "あお",
+   "あお-",
+   "あお.い"
+  ],
+  "readings": [
+   "せい",
+   "しょう",
+   "あお",
+   "あお.い"
+  ],
+  "meaning": "blue, green",
+  "strokes": 8,
+  "freq": 589,
+  "sentence": "空は青い。",
+  "compounds": [
+   {
+    "word": "青",
+    "reading": "あお",
+    "accent": "1",
+    "meaning": "blue"
+   },
+   {
+    "word": "青空",
+    "reading": "あおぞら",
+    "accent": "3",
+    "meaning": "blue sky"
+   }
+  ]
+ },
+ {
+  "kanji": "音",
+  "onyomi": [
+   "おん",
+   "いん",
+   "-のん"
+  ],
+  "kunyomi": [
+   "おと",
+   "ね"
+  ],
+  "readings": [
+   "おん",
+   "いん",
+   "おと",
+   "ね"
+  ],
+  "meaning": "sound, noise",
+  "strokes": 9,
+  "freq": 491,
+  "sentence": "音楽は好き？",
+  "compounds": [
+   {
+    "word": "音楽",
+    "reading": "おんがく",
+    "accent": "1",
+    "meaning": "music"
+   },
+   {
+    "word": "音",
+    "reading": "おと",
+    "accent": "2",
+    "meaning": "sound"
+   },
+   {
+    "word": "音質",
+    "reading": "おんしつ",
+    "accent": "0",
+    "meaning": "tone quality"
+   },
+   {
+    "word": "足音",
+    "reading": "あしおと",
+    "accent": "3,4",
+    "meaning": "sound of footsteps"
+   },
+   {
+    "word": "物音",
+    "reading": "ものおと",
+    "accent": "3,4",
+    "meaning": "sounds"
+   }
+  ]
+ },
+ {
+  "kanji": "頭",
+  "onyomi": [
+   "とう",
+   "ず",
+   "と"
+  ],
+  "kunyomi": [
+   "あたま",
+   "かしら",
+   "-がしら",
+   "かぶり"
+  ],
+  "readings": [
+   "とう",
+   "ず",
+   "と",
+   "あたま",
+   "かしら",
+   "かぶり"
+  ],
+  "meaning": "head, chief, top",
+  "strokes": 16,
+  "freq": 433,
+  "sentence": "頭が痛い。",
+  "compounds": [
+   {
+    "word": "頭",
+    "reading": "あたま",
+    "accent": "3,2",
+    "meaning": "head"
+   },
+   {
+    "word": "先頭",
+    "reading": "せんとう",
+    "accent": null,
+    "meaning": "head, front, lead"
+   }
+  ]
+ },
+ {
+  "kanji": "題",
+  "onyomi": [
+   "だい"
+  ],
+  "kunyomi": [],
+  "readings": [
+   "だい"
+  ],
+  "meaning": "topic, subject",
+  "strokes": 18,
+  "freq": 96,
+  "sentence": "問題だなあ。",
+  "compounds": [
+   {
+    "word": "問題",
+    "reading": "もんだい",
+    "accent": "0",
+    "meaning": "problem, question"
+   },
+   {
+    "word": "宿題",
+    "reading": "しゅくだい",
+    "accent": "0",
+    "meaning": "homework"
+   }
+  ]
+ },
+ {
+  "kanji": "顔",
+  "onyomi": [
+   "がん"
+  ],
+  "kunyomi": [
+   "かお"
+  ],
+  "readings": [
+   "がん",
+   "かお"
+  ],
+  "meaning": "face, expression",
+  "strokes": 18,
+  "freq": 676,
+  "sentence": "顔が赤いよ。",
+  "compounds": [
+   {
+    "word": "顔",
+    "reading": "かお",
+    "accent": "0",
+    "meaning": "face (person)"
+   },
+   {
+    "word": "笑顔",
+    "reading": "えがお",
+    "accent": "1",
+    "meaning": "smiling face"
+   },
+   {
+    "word": "顔色",
+    "reading": "かおいろ",
+    "accent": "0",
+    "meaning": "complexion, expression"
+   },
+   {
+    "word": "新顔",
+    "reading": "しんがお",
+    "accent": "0",
+    "meaning": "newcomer, new face"
+   }
+  ]
+ },
+ {
+  "kanji": "風",
+  "onyomi": [
+   "ふう",
+   "ふ"
+  ],
+  "kunyomi": [
+   "かぜ",
+   "かざ-",
+   "-かぜ"
+  ],
+  "readings": [
+   "ふう",
+   "ふ",
+   "かぜ"
+  ],
+  "meaning": "wind, manner",
+  "strokes": 9,
+  "freq": 558,
+  "sentence": "風が凪いだ。",
+  "compounds": [
+   {
+    "word": "風",
+    "reading": "かぜ",
+    "accent": "0",
+    "meaning": "wind"
+   },
+   {
+    "word": "台風",
+    "reading": "たいふう",
+    "accent": "3",
+    "meaning": "typhoon"
+   },
+   {
+    "word": "洋風",
+    "reading": "ようふう",
+    "accent": "0",
+    "meaning": "western style"
+   },
+   {
+    "word": "風習",
+    "reading": "ふうしゅう",
+    "accent": "0",
+    "meaning": "custom"
+   }
+  ]
+ },
+ {
+  "kanji": "飯",
+  "onyomi": [
+   "はん"
+  ],
+  "kunyomi": [
+   "めし"
+  ],
+  "readings": [
+   "はん",
+   "めし"
+  ],
+  "meaning": "food",
+  "strokes": 12,
+  "freq": 1046,
+  "sentence": "夕飯をせかせる。",
+  "compounds": [
+   {
+    "word": "赤飯",
+    "reading": "せきはん",
+    "accent": "0,3",
+    "meaning": "red rice"
+   },
+   {
+    "word": "夕飯",
+    "reading": "ゆうはん",
+    "accent": "0",
+    "meaning": "evening meal"
+   },
+   {
+    "word": "ご飯",
+    "reading": "ごはん",
+    "accent": "1",
+    "meaning": "meal, rice"
+   },
+   {
+    "word": "朝ご飯",
+    "reading": "あさごはん",
+    "accent": "3",
+    "meaning": "breakfast"
+   }
+  ]
+ },
+ {
+  "kanji": "館",
+  "onyomi": [
+   "かん"
+  ],
+  "kunyomi": [
+   "やかた",
+   "たて"
+  ],
+  "readings": [
+   "かん",
+   "やかた",
+   "たて"
+  ],
+  "meaning": "large building, palace",
+  "strokes": 16,
+  "freq": 613,
+  "sentence": "明日図書館でね。",
+  "compounds": [
+   {
+    "word": "図書館",
+    "reading": "としょかん",
+    "accent": "2",
+    "meaning": "library"
+   },
+   {
+    "word": "旅館",
+    "reading": "りょかん",
+    "accent": "0",
+    "meaning": "Japanese-style inn"
+   },
+   {
+    "word": "映画館",
+    "reading": "えいがかん",
+    "accent": "3",
+    "meaning": "cinema, movie theatre"
+   },
+   {
+    "word": "本館",
+    "reading": "ほんかん",
+    "accent": "0,1",
+    "meaning": "main building"
+   }
+  ]
+ },
+ {
+  "kanji": "首",
+  "onyomi": [
+   "しゅ"
+  ],
+  "kunyomi": [
+   "くび"
+  ],
+  "readings": [
+   "しゅ",
+   "くび"
+  ],
+  "meaning": "neck",
+  "strokes": 9,
+  "freq": 98,
+  "sentence": "おまえは首だ。",
+  "compounds": [
+   {
+    "word": "首",
+    "reading": "くび",
+    "accent": "0",
+    "meaning": "neck"
+   },
+   {
+    "word": "足首",
+    "reading": "あしくび",
+    "accent": "2,3",
+    "meaning": "ankle"
+   },
+   {
+    "word": "手首",
+    "reading": "てくび",
+    "accent": "1",
+    "meaning": "wrist"
+   },
+   {
+    "word": "自首",
+    "reading": "じしゅ",
+    "accent": "0,1",
+    "meaning": "to surrender, to give oneself up"
+   }
+  ]
+ },
+ {
+  "kanji": "験",
+  "onyomi": [
+   "けん",
+   "げん"
+  ],
+  "kunyomi": [
+   "あかし",
+   "しるし",
+   "ため.す",
+   "ためし"
+  ],
+  "readings": [
+   "けん",
+   "げん",
+   "あかし",
+   "しるし",
+   "ため.す",
+   "ためし"
+  ],
+  "meaning": "verify, test",
+  "strokes": 18,
+  "freq": 410,
+  "sentence": "受験に落ちた。",
+  "compounds": [
+   {
+    "word": "試験",
+    "reading": "しけん",
+    "accent": "2",
+    "meaning": "test, exam"
+   },
+   {
+    "word": "体験",
+    "reading": "たいけん",
+    "accent": "0",
+    "meaning": "personal experience"
+   }
+  ]
+ },
+ {
+  "kanji": "鳥",
+  "onyomi": [
+   "ちょう"
+  ],
+  "kunyomi": [
+   "とり"
+  ],
+  "readings": [
+   "ちょう",
+   "とり"
+  ],
+  "meaning": "bird",
+  "strokes": 11,
+  "freq": 1043,
+  "sentence": "鳥が囀る。",
+  "compounds": [
+   {
+    "word": "鳥",
+    "reading": "とり",
+    "accent": "0",
+    "meaning": "bird"
+   },
+   {
+    "word": "小鳥",
+    "reading": "ことり",
+    "accent": "0",
+    "meaning": "small bird"
+   },
+   {
+    "word": "野鳥",
+    "reading": "やちょう",
+    "accent": "0",
+    "meaning": "wild bird"
+   },
+   {
+    "word": "一石二鳥",
+    "reading": "いっせきにちょう",
+    "accent": "0,5",
+    "meaning": "two birds with one stone"
+   }
+  ]
+ },
+ {
+  "kanji": "黒",
+  "onyomi": [
+   "こく"
+  ],
+  "kunyomi": [
+   "くろ",
+   "くろ.ずむ",
+   "くろ.い"
+  ],
+  "readings": [
+   "こく",
+   "くろ",
+   "くろ.ずむ",
+   "くろ.い"
+  ],
+  "meaning": "black",
+  "strokes": 11,
+  "freq": 573,
+  "sentence": "彼は腹黒い。",
+  "compounds": [
+   {
+    "word": "黒",
+    "reading": "くろ",
+    "accent": "1",
+    "meaning": "black"
+   },
+   {
+    "word": "黒字",
+    "reading": "くろじ",
+    "accent": "0",
+    "meaning": "to be in the black"
+   },
+   {
+    "word": "白黒",
+    "reading": "しろくろ",
+    "accent": "0,1",
+    "meaning": "black and white"
+   },
+   {
+    "word": "黒っぽい",
+    "reading": "くろっぽい",
+    "accent": "4",
+    "meaning": "dark, blackish"
+   }
+  ]
+ }
+]
