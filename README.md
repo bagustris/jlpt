@@ -15,11 +15,10 @@ Three quiz modes:
   confusability — homophones sharing the exact reading, then same-first-mora
   and same-meaning kanji.
 
-An optional **読み上げ (Speak the reading aloud)** setting reads the reading
-via the browser's built-in speech synthesis — off by default in an installed/
-offline PWA (where a Japanese voice is often network-dependent), on in a
-browser tab. A kanji you keep missing is flagged a **にがて (weak spot)** and
-its meaning is shown as a hint even when "show meaning" is off.
+An optional **読み上げ (Speak the reading aloud)** setting — **off by default**
+— reads the reading via the browser's built-in speech synthesis. A kanji you
+keep missing is flagged a **にがて (weak spot)** and its meaning is shown as a
+hint even when "show meaning" is off.
 
 Each level (N5/N4/N3/N2/N1) can be drilled on its own, plus a cumulative
 **ふくしゅう Review** round across every level you've already studied.
@@ -33,10 +32,9 @@ beyond the reading itself:
 - Compound mode: the word's pitch-accent number and which kanji (from this
   level) it's built from.
 
-By default the app waits for you to tap the card or press any key before
-moving to the next question, rather than advancing on a fixed timer, so
-there's no rush reading the detail panel. Turn on 自動で次へ進む (Auto-advance)
-in Settings to switch back to the old timed behavior.
+By default the app advances to the next question after a short timed pause.
+Turn **off** 自動で次へ進む (Auto-advance) in Settings to wait for a tap or
+key press instead, so there's no rush reading the detail panel.
 
 ## Running locally
 

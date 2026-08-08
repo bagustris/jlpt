@@ -4,18 +4,14 @@
 
 const SettingsManager = (() => {
   const STORAGE_KEY = 'jlpt-quiz-settings';
-  // autoNext defaults to off: the post-answer detail panel (on'yomi/kun'yomi,
-  // compounds, pitch accent) is worth reading, and a fixed timer is always
-  // wrong for someone — too short for an N1 kanji with several compounds,
-  // too long for a one-line N5 entry. Off means the learner taps/presses a
-  // key to advance instead.
-  // playAudio is tri-state: `null` = "never chosen", which app.js resolves at
-  // read time (off in an installed/standalone PWA, where a ja-JP speech voice
-  // is often network-dependent and unavailable offline; on in a browser tab).
-  // An explicit toggle writes a real boolean and wins from then on. Note the
-  // load() spread means get('playAudio') returns `null`, not `undefined`,
-  // until toggled — see audioEnabled() in app.js.
-  const DEFAULTS = { showMeaning: true, roundSize: 10, autoNext: false, playAudio: null };
+  // autoNext defaults to true: after answering, the quiz advances after a short
+  // timed pause. Turning it off makes it wait for a tap/keypress instead, which
+  // suits the post-answer detail panel (on'yomi/kun'yomi, compounds, pitch
+  // accent) when you want unlimited time to read it.
+  // playAudio defaults to false (spoken readings off); turning it on speaks the
+  // reading. It stays a real boolean here (audioEnabled() in app.js still
+  // treats a legacy `null` from earlier versions as "never chosen").
+  const DEFAULTS = { showMeaning: true, roundSize: 10, autoNext: true, playAudio: false };
 
   function load() {
     try {
