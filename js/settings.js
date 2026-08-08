@@ -9,7 +9,13 @@ const SettingsManager = (() => {
   // wrong for someone — too short for an N1 kanji with several compounds,
   // too long for a one-line N5 entry. Off means the learner taps/presses a
   // key to advance instead.
-  const DEFAULTS = { showMeaning: true, roundSize: 10, autoNext: false };
+  // playAudio is tri-state: `null` = "never chosen", which app.js resolves at
+  // read time (off in an installed/standalone PWA, where a ja-JP speech voice
+  // is often network-dependent and unavailable offline; on in a browser tab).
+  // An explicit toggle writes a real boolean and wins from then on. Note the
+  // load() spread means get('playAudio') returns `null`, not `undefined`,
+  // until toggled — see audioEnabled() in app.js.
+  const DEFAULTS = { showMeaning: true, roundSize: 10, autoNext: false, playAudio: null };
 
   function load() {
     try {

@@ -34,6 +34,24 @@ const DistractorConfig = {
     frequency: 5, // nearby KANJIDIC corpus frequency rank (kanji mode only)
   },
 
+  // Reverse mode (reading + meaning shown -> pick the kanji) needs its own
+  // weights, NOT the forward `weights` above. Reversing the direction inverts
+  // what a *graded* reading similarity means: forward, せい-vs-せき is hard
+  // (you must know the exact reading); reverse, a candidate whose reading is
+  // せき is trivially eliminable once you half-know the prompt reading せい.
+  // So the only reading signal that makes a hard reverse distractor is an
+  // *exact* homophone (a binary match in DistractorGenerator, not a
+  // Levenshtein gradient), alongside meaning overlap (a same-meaning kanji is
+  // hard precisely because the meaning is on screen) and this learner's own
+  // past wrong kanji picks. firstMora is a mild plausibility nudge.
+  reverseWeights: {
+    homophone: 60, // candidate kanji shares the exact prompt reading
+    meaning: 30, // overlapping English gloss tokens with the target
+    confusion: 40, // this learner has picked this kanji wrong for this question before
+    firstMora: 12, // candidate reading starts with the same mora as the prompt
+    frequency: 5, // nearby KANJIDIC corpus frequency rank (kanji mode carries `freq`)
+  },
+
   selection: {
     distractorCount: 3, // number of wrong options to generate (OPTIONS_COUNT - 1 in app.js)
     // Set well above the largest real candidate pool so this never truncates

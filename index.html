@@ -41,6 +41,14 @@
       </label>
     </div>
 
+    <div class="settings-row">
+      <span class="settings-row-label" id="setting-play-audio-label">読み上げ<span>Speak the reading aloud</span></span>
+      <label class="switch">
+        <input type="checkbox" id="setting-play-audio" aria-labelledby="setting-play-audio-label">
+        <span class="switch-slider"></span>
+      </label>
+    </div>
+
     <div class="settings-row settings-row-column">
       <span class="settings-row-label">1回の問題数<span>Questions per round</span></span>
       <div id="setting-round-size" class="settings-segmented" role="radiogroup" aria-label="Questions per round">
@@ -76,6 +84,7 @@
     <div class="mode-toggle" role="tablist">
       <button class="mode-btn active" data-mode="kanji"><span class="key-badge key-badge-corner">K</span>漢字<span>Kanji</span></button>
       <button class="mode-btn" data-mode="word"><span class="key-badge key-badge-corner">W</span>熟語<span>Compound Words</span></button>
+      <button class="mode-btn" data-mode="reverse"><span class="key-badge key-badge-corner">G</span>逆引き<span>Reverse</span></button>
     </div>
 
     <h3 class="grade-section-heading">JLPTレベル<span>JLPT Level</span></h3>
@@ -117,6 +126,7 @@
       <div id="quiz-progress" class="quiz-progress"></div>
     </div>
     <div class="quiz-card">
+      <div id="quiz-leech-badge" class="quiz-leech-badge hidden">にがて<span>Weak spot</span></div>
       <div id="quiz-kanji" class="quiz-kanji">漢</div>
       <p id="quiz-meaning" class="quiz-meaning"></p>
       <p id="quiz-instruction" class="quiz-instruction">正しい読み方は？<span>Choose the correct reading</span></p>
@@ -139,6 +149,7 @@
 </main>
 
 <script src="js/settings.js"></script>
+<script src="js/audio.js"></script>
 <script src="js/progress.js"></script>
 <script src="js/progress-view.js"></script>
 <script src="js/learning/QuestionSelectionStrategy.js"></script>

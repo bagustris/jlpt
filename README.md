@@ -4,11 +4,22 @@ A static, browser-only multiple-choice quiz for JLPT kanji and compound
 words (熟語), levels N5 through N1. Plain HTML/CSS/JS, no framework, no
 build step — designed to run as-is on GitHub Pages.
 
-Two quiz modes:
+Three quiz modes:
 
 - **漢字 Kanji** — given a kanji, choose its correct reading.
 - **熟語 Compound Words** — given a compound word, choose its correct
   reading.
+- **逆引き Reverse** — the mirror direction: given a reading **and** its
+  meaning, choose the matching kanji from four. Tracked as its own skill
+  (a separate progress schedule), with distractors picked for reverse
+  confusability — homophones sharing the exact reading, then same-first-mora
+  and same-meaning kanji.
+
+An optional **読み上げ (Speak the reading aloud)** setting reads the reading
+via the browser's built-in speech synthesis — off by default in an installed/
+offline PWA (where a Japanese voice is often network-dependent), on in a
+browser tab. A kanji you keep missing is flagged a **にがて (weak spot)** and
+its meaning is shown as a hint even when "show meaning" is off.
 
 Each level (N5/N4/N3/N2/N1) can be drilled on its own, plus a cumulative
 **ふくしゅう Review** round across every level you've already studied.

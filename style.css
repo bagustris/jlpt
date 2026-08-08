@@ -742,6 +742,40 @@ html, body {
   font-size: 2.6rem;
 }
 
+/* Reverse mode prompts a reading (kana), not a single glyph — size it down so
+   a multi-mora reading fits the card width. */
+.quiz-kanji.is-reverse {
+  font-size: 2.6rem;
+}
+
+/* Reverse options are kanji; bump them up from the reading-option size. */
+.quiz-options.is-reverse .option-btn {
+  font-size: 2rem;
+}
+
+/* "Weak spot" marker for a leech (an item the learner keeps missing). Subtle,
+   amber, self-explaining — signals the meaning is shown as extra help. */
+.quiz-leech-badge {
+  display: inline-block;
+  margin: 0 auto 0.6rem;
+  padding: 0.1rem 0.55rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #9a6a00;
+  background: #fdf0d5;
+  border: 1px solid #e6c886;
+  border-radius: 999px;
+}
+
+.quiz-leech-badge span {
+  font-weight: normal;
+  font-size: 0.65rem;
+  margin-left: 0.3rem;
+  opacity: 0.8;
+}
+
+.quiz-leech-badge.hidden { display: none; }
+
 .quiz-meaning {
   color: #8a8378;
   font-size: 1rem;
@@ -780,7 +814,9 @@ html, body {
 
 .option-btn {
   position: relative;
-  padding: 0.9rem 0.4rem;
+  /* Symmetric side gutter reserves room for the corner key-badge so long
+     readings never sit under it, while keeping the text optically centered. */
+  padding: 0.9rem 1.7rem;
   font-size: 1.15rem;
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -805,8 +841,8 @@ html, body {
 
 .key-badge-corner {
   position: absolute;
-  top: 0.35rem;
-  left: 0.45rem;
+  bottom: 0.35rem;
+  right: 0.45rem;
 }
 
 .option-btn.correct .key-badge,

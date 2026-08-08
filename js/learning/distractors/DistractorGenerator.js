@@ -111,5 +111,94 @@ const DistractorGenerator = (() => {
     return selectTopDistractors(ranked, config.selection.distractorCount);
   }
 
-  return { generate };
+  // Reverse-mode candidate pool: one candidate per *other* kanji. Unlike the
+  // forward pool, same-reading candidates are NOT excluded — a homophone of the
+  // prompt reading is the strongest reverse distractor. `confusionCount` is
+  // keyed by the candidate *kanji* here (the wrong thing picked in reverse mode
+  // is a kanji, not a reading), symmetric with the forward pool keying it by
+  // reading. `entry.freq` is the KANJIDIC corpus rank (kanji entries carry it).
+  function buildKanjiCandidatePool(question, itemList, confusions) {
+    const candidates = [];
+    itemList.forEach((entry) => {
+      const text = itemText(entry);
+      if (text === question.text) return;
+      candidates.push({
+        text,
+        readings: entry.readings,
+        meaning: entry.meaning,
+        frequency: entry.freq,
+        confusionCount: confusions[text] || 0,
+      });
+    });
+    return candidates;
+  }
+
+  // Deterministic sub-weight jitter in [0, 0.5) from the exact (question,
+  // candidate) pairing. When no homophone/first-mora match exists every
+  // candidate lands on the same score and a plain sort falls back to file
+  // order, surfacing the same filler kanji in every question (learnable by
+  // elimination). This breaks those exact ties per-question without ever
+  // outweighing a real signal, staying a pure function of its inputs.
+  function tiebreakJitter(questionText, candidateText) {
+    let hash = 0;
+    const seed = `${questionText} ${candidateText}`;
+    for (let i = 0; i < seed.length; i++) hash = (hash * 31 + seed.charCodeAt(i)) | 0;
+    return (Math.abs(hash) % 1000) / 2000; // [0, 0.5)
+  }
+
+  // Reverse score for one candidate kanji: best across its readings (a kanji
+  // with several readings is a homophone if *any* of them matches). See
+  // DistractorConfig.reverseWeights for why exactReading is a binary homophone
+  // flag here, not the graded similarity the forward strategy weights.
+  function scoreKanjiCandidate(question, candidate, config) {
+    const w = config.reverseWeights;
+    let best = 0;
+    candidate.readings.forEach((reading) => {
+      const f = SimilarityFeatures.compute(question, { ...candidate, reading });
+      const score =
+        w.homophone * (f.exactReadingSimilarity === 1 ? 1 : 0) +
+        w.meaning * f.meaningSimilarity +
+        w.confusion * f.confusionSimilarity +
+        w.firstMora * f.firstMoraSimilarity +
+        w.frequency * f.frequencySimilarity;
+      if (score > best) best = score;
+    });
+    return best + tiebreakJitter(question.text, candidate.text);
+  }
+
+  /**
+   * Generates plausible distractor *kanji* for a reverse question (prompt is a
+   * reading + meaning, learner picks the matching kanji). Mirrors generate()'s
+   * pool -> score -> rank -> take-top-N shape, but returns kanji strings scored
+   * for reverse confusability (see reverseWeights).
+   *
+   * @param {{text: string, reading: string, meaning: string, frequency?: number,
+   *   id?: string}} question - `text` is the correct kanji, `reading` the
+   *   prompt reading.
+   * @param {Array<Object>} itemList - the full level kanji pool.
+   * @param {Object} [options]
+   * @param {Object} [options.config=DistractorConfig]
+   * @returns {string[]} up to config.selection.distractorCount unique kanji.
+   */
+  function generateKanji(question, itemList, options = {}) {
+    const config = options.config || DistractorConfig;
+    const confusions = question.id ? ProgressManager.getConfusions(question.id) : {};
+    const pool = buildKanjiCandidatePool(question, itemList, confusions).slice(0, config.selection.maxCandidates);
+
+    const ranked = pool
+      .map((candidate) => ({ candidate, score: scoreKanjiCandidate(question, candidate, config) }))
+      .sort((a, b) => b.score - a.score);
+
+    const picked = [];
+    const used = new Set();
+    for (const { candidate } of ranked) {
+      if (picked.length >= config.selection.distractorCount) break;
+      if (used.has(candidate.text)) continue;
+      used.add(candidate.text);
+      picked.push(candidate.text);
+    }
+    return picked;
+  }
+
+  return { generate, generateKanji };
 })();

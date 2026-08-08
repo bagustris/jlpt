@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'jlpt-quiz-v2';
+const CACHE_VERSION = 'jlpt-quiz-v4';
 
 const CORE_ASSETS = [
   '.',
@@ -6,6 +6,7 @@ const CORE_ASSETS = [
   'style.css',
   'manifest.json',
   'js/settings.js',
+  'js/audio.js',
   'js/progress.js',
   'js/progress-view.js',
   'js/learning/QuestionSelectionStrategy.js',

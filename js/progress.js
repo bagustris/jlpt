@@ -22,7 +22,14 @@ const ProgressManager = (() => {
   // measurement of anything. Clamping would silently record a fake 30s
   // "answer"; dropping keeps the median honest.
   const MAX_LATENCY_MS = 30000;
-  const MODE_PREFIX = { kanji: 'kanji-n', word: 'compounds-n' };
+  // Reverse mode drills the same kanji as `kanji` mode but is a distinct skill
+  // (recall the kanji from its reading, vs. recall the reading from the kanji),
+  // so it gets its own namespace — otherwise gradeKey() would fall back to
+  // 'kanji-n' and merge the two modes' schedules and level totals into one
+  // corrupted record. This is the progress-key namespace, separate from
+  // app.js's MODE_FILE_PREFIX (which maps reverse -> 'kanji-n' for loading the
+  // same data file).
+  const MODE_PREFIX = { kanji: 'kanji-n', word: 'compounds-n', reverse: 'reverse-n' };
 
   // Reuses the existing per-mode/level key naming (kanji-nN / compounds-nN)
   // as the namespace for a question's stable ID, so we don't invent a new
@@ -282,6 +289,17 @@ const ProgressManager = (() => {
     return stats.seen === 0 ? 0 : stats.correct / stats.seen;
   }
 
+  // A "leech": a question the learner keeps missing — seen enough times to be
+  // a pattern, yet still answered right less than half the time. Callers use it
+  // to give the item extra scaffolding (e.g. always show its meaning) the way a
+  // teacher spends more time on a stubborn kanji.
+  const LEECH_MIN_SEEN = 3;
+  const LEECH_MAX_ACCURACY = 0.5;
+  function isLeech(id) {
+    const stats = getQuestionStats(id);
+    return stats.seen >= LEECH_MIN_SEEN && stats.correct / stats.seen < LEECH_MAX_ACCURACY;
+  }
+
   // One-decimal accuracy percentage (e.g. 89.6), 0 when nothing answered yet.
   function getAccuracy(stats) {
     if (!stats || stats.answered === 0) return 0;
@@ -379,6 +397,7 @@ const ProgressManager = (() => {
     getConfusions,
     getErrorRate,
     getMastery,
+    isLeech,
     getGradeStats,
     getGradeStatus,
     getOverallStats,

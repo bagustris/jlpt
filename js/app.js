@@ -50,6 +50,7 @@ const el = {
   quizInstruction: document.getElementById('quiz-instruction'),
   quizOptions: document.getElementById('quiz-options'),
   quizDetail: document.getElementById('quiz-detail'),
+  quizLeechBadge: document.getElementById('quiz-leech-badge'),
   btnReview: document.getElementById('btn-review'),
   reviewCount: document.getElementById('review-count'),
   summaryScore: document.getElementById('summary-score'),
@@ -63,6 +64,7 @@ const el = {
   settingsOverlay: document.getElementById('settings-overlay'),
   settingShowMeaning: document.getElementById('setting-show-meaning'),
   settingAutoNext: document.getElementById('setting-auto-next'),
+  settingPlayAudio: document.getElementById('setting-play-audio'),
   settingRoundSizeButtons: document.querySelectorAll('#setting-round-size .segmented-btn'),
   installButton: document.getElementById('btn-install'),
   installHint: document.getElementById('settings-install-hint'),
@@ -75,7 +77,9 @@ const el = {
 
 // data-*-count attributes hold the exact label text to display (e.g.
 // "739字") — see registerTotalQuestionCounts() below.
-const COUNT_ATTR = { kanji: 'kanjiCount', word: 'wordCount' };
+// Reverse mode drills the same kanji files as kanji mode, so it reuses the
+// kanji counts.
+const COUNT_ATTR = { kanji: 'kanjiCount', word: 'wordCount', reverse: 'kanjiCount' };
 
 el.modeButtons.forEach((btn) => {
   btn.addEventListener('click', () => {
@@ -121,6 +125,9 @@ function registerTotalQuestionCounts() {
     const counts = btn.querySelector('.grade-count');
     ProgressManager.setTotalQuestions('kanji', grade, parseInt(counts.dataset.kanjiCount, 10));
     ProgressManager.setTotalQuestions('word', grade, parseInt(counts.dataset.wordCount, 10));
+    // Reverse mode covers the same kanji set, so its per-level total matches
+    // kanji mode — needed for the dashboard's completion percentage.
+    ProgressManager.setTotalQuestions('reverse', grade, parseInt(counts.dataset.kanjiCount, 10));
   });
 }
 
@@ -151,6 +158,23 @@ function renderDashboard() {
 // behave, without the added complexity of a full focus trap.
 function applyMeaningVisibility() {
   el.quizMeaning.classList.toggle('hidden', !SettingsManager.get('showMeaning'));
+}
+
+// Resolves the tri-state playAudio preference (see settings.js): an explicit
+// user choice wins; `null` (never chosen) falls back to off in an installed/
+// standalone PWA (where a ja-JP voice is often network-dependent and offline-
+// unavailable) and on in a browser tab.
+function audioEnabled() {
+  const pref = SettingsManager.get('playAudio');
+  return pref === null ? !isStandaloneDisplay() : pref;
+}
+
+// Speaks a reading when audio is enabled and supported; a silent no-op
+// otherwise. The okurigana dot (e.g. "ひと.つ") is a display marker, not
+// something to pronounce, so it's stripped before speaking.
+function speakReading(reading) {
+  if (!reading) return;
+  if (audioEnabled() && AudioPlayer.isSupported()) AudioPlayer.speak(reading.replace(/\./g, ''));
 }
 
 function isSettingsOpen() {
@@ -229,6 +253,13 @@ function initSettingsPanel() {
     SettingsManager.set('autoNext', el.settingAutoNext.checked);
   });
 
+  // Init from the resolved default (audioEnabled()), not the raw tri-state
+  // preference, so a never-chosen `null` renders on/off per context.
+  el.settingPlayAudio.checked = audioEnabled();
+  el.settingPlayAudio.addEventListener('change', () => {
+    SettingsManager.set('playAudio', el.settingPlayAudio.checked);
+  });
+
   el.settingRoundSizeButtons.forEach((btn) => {
     btn.addEventListener('click', () => {
       el.settingRoundSizeButtons.forEach((b) => b.classList.toggle('active', b === btn));
@@ -279,16 +310,38 @@ function showScreen(name) {
   // (e.g. quitting mid-reveal) and re-render a question the learner just
   // backed out of. See armContinue()/onContinueClick().
   cancelContinue();
+  // Also cancel a pending autoNext timer, so quitting mid-pause doesn't fire
+  // advanceQuestion() against the screen we're navigating to.
+  clearAdvanceTimer();
+  // Cut off any reading still being spoken so it can't play over the next
+  // screen when the user quits mid-reveal or lands on the summary.
+  AudioPlayer.stop();
   state.screen = name;
   Object.entries(el.screens).forEach(([key, section]) => {
     section.classList.toggle('hidden', key !== name);
   });
 }
 
+// The pending autoNext advance-to-next-question timeout, tracked so it can be
+// cancelled if the learner quits mid-pause — otherwise a stale timer from an
+// abandoned question fires later and calls advanceQuestion() against whatever
+// screen is active by then (state.index/renderQuestion are shared module
+// state), re-rendering a question the learner just backed out of. Only used
+// when autoNext is on; the manual-continue path has no timer.
+let advanceTimer = null;
+
+function clearAdvanceTimer() {
+  if (advanceTimer !== null) {
+    clearTimeout(advanceTimer);
+    advanceTimer = null;
+  }
+}
+
 // Advances past the current question, whether triggered by the autoNext
 // timer or by armContinue()'s tap/keypress gate — both paths funnel through
 // here so there's exactly one place that decides "next question vs. summary".
 function advanceQuestion() {
+  clearAdvanceTimer();
   state.index++;
   if (state.index < state.roundTotal) renderQuestion();
   else showSummary();
@@ -402,7 +455,37 @@ function buildQuestion(target, itemList, mode) {
   };
 }
 
-const MODE_FILE_PREFIX = { kanji: 'kanji-n', word: 'compounds-n' };
+// Builds a reverse question: the prompt is a reading + meaning and the four
+// options are kanji (one correct, three confusable distractors). The correct
+// kanji is stored in the same `correctReading` slot the forward modes use, so
+// handleAnswer's matching/recording stays mode-agnostic — only rendering and
+// the summary row branch on state.mode.
+function buildReverseQuestion(target, itemList) {
+  const kanji = itemText(target);
+  const reading = shuffle(target.readings)[0];
+  const question = {
+    id: ProgressManager.getQuestionId('reverse', target.sourceGrade, kanji),
+    text: kanji,
+    reading,
+    meaning: target.meaning,
+    frequency: target.freq,
+  };
+  const distractors = DistractorGenerator.generateKanji(question, itemList);
+  const options = shuffle([kanji, ...distractors]);
+  return {
+    text: kanji,
+    sourceGrade: target.sourceGrade,
+    reading,
+    meaning: target.meaning,
+    correctReading: kanji,
+    options,
+    detail: target,
+    isReverse: true,
+  };
+}
+
+// Reverse mode loads the same kanji files as kanji mode.
+const MODE_FILE_PREFIX = { kanji: 'kanji-n', word: 'compounds-n', reverse: 'kanji-n' };
 
 // Every entry is tagged with the JLPT level whose file it came from, in both
 // single-level and review rounds, so nothing downstream needs to branch on
@@ -483,6 +566,9 @@ function startRound() {
   renderQuestion();
 }
 
+const INSTRUCTION_TEXT = {
+  reverse: ['この読み方の漢字は？', 'Choose the kanji for this reading'],
+};
 const DEFAULT_INSTRUCTION = ['正しい読み方は？', 'Choose the correct reading'];
 
 // Picks and builds exactly one question — including its distractor set —
@@ -493,29 +579,57 @@ function renderQuestion() {
   const choice = QuestionSelector.select(state.remainingPool);
   if (!choice) { showSummary(); return; }
   state.remainingPool.splice(state.remainingPool.findIndex((p) => p.id === choice.id), 1);
-  const q = buildQuestion(choice.entry, state.itemList, state.mode);
+  const isReverse = state.mode === 'reverse';
+  const q = isReverse
+    ? buildReverseQuestion(choice.entry, state.itemList)
+    : buildQuestion(choice.entry, state.itemList, state.mode);
   state.currentQuestion = q;
+
+  // Cut off any reading still being spoken from the previous reveal so audio
+  // never bleeds across questions.
+  AudioPlayer.stop();
 
   // Flagged in review mode: the pool spans levels there, so without this a
   // higher-level kanji surfacing mid-round just looks like a bug.
   const counter = `${state.index + 1} / ${state.roundTotal}`;
   el.quizProgress.textContent = state.isReview ? `ふくしゅう ${counter}` : counter;
   el.quizKanji.classList.toggle('is-word', state.mode === 'word');
-  el.quizKanji.textContent = q.text;
+  el.quizKanji.classList.toggle('is-reverse', isReverse);
+  // Reverse prompts a reading (through readingHTML so an okurigana dot renders
+  // as the styled span); forward modes prompt the kanji/word.
+  if (isReverse) el.quizKanji.innerHTML = readingHTML(q.reading);
+  else el.quizKanji.textContent = q.text;
   el.quizMeaning.textContent = q.meaning;
-  const [instructionMain, instructionSub] = DEFAULT_INSTRUCTION;
+
+  // A leech (a kanji/word this learner keeps missing) gets extra scaffolding:
+  // its meaning is shown even when the setting is off, and a "weak spot" marker
+  // appears. Reverse mode always shows the meaning too (it disambiguates
+  // homophone kanji).
+  const leech = ProgressManager.isLeech(ProgressManager.getQuestionId(state.mode, q.sourceGrade, q.text));
+  el.quizLeechBadge.classList.toggle('hidden', !leech);
+  if (isReverse || leech) el.quizMeaning.classList.remove('hidden');
+  else applyMeaningVisibility();
+
+  const [instructionMain, instructionSub] = INSTRUCTION_TEXT[state.mode] || DEFAULT_INSTRUCTION;
   el.quizInstruction.innerHTML = `${instructionMain}<span>${instructionSub}</span>`;
+  el.quizOptions.classList.toggle('is-reverse', isReverse);
   el.quizOptions.innerHTML = '';
-  q.options.forEach((reading, i) => {
+  q.options.forEach((option, i) => {
     const btn = document.createElement('button');
     btn.className = 'option-btn';
-    btn.innerHTML = `<span class="key-badge key-badge-corner">${i + 1}</span>${readingHTML(reading)}`;
-    btn.dataset.reading = reading;
-    btn.addEventListener('click', () => handleAnswer(reading, btn));
+    // Reverse options are kanji; readingHTML leaves a dot-free kanji untouched.
+    btn.innerHTML = `<span class="key-badge key-badge-corner">${i + 1}</span>${readingHTML(option)}`;
+    btn.dataset.reading = option;
+    btn.addEventListener('click', () => handleAnswer(option, btn));
     el.quizOptions.appendChild(btn);
   });
   el.quizDetail.innerHTML = '';
   el.quizDetail.classList.add('hidden');
+
+  // Reverse speaks the reading up front (it's already on screen, leaks
+  // nothing); forward modes wait until the answer is revealed (see
+  // handleAnswer), since the reading is the answer there.
+  if (isReverse) speakReading(q.reading);
 
   // Stamped last, once the options are actually on screen, so the measured
   // latency is time-to-answer rather than time-to-answer plus render.
@@ -550,7 +664,7 @@ function renderDetail(q) {
   const entry = q.detail;
   let html = '';
 
-  if (state.mode === 'kanji') {
+  if (state.mode === 'kanji' || state.mode === 'reverse') {
     html += detailRow('音読み', "On'yomi", (entry.onyomi || []).map(readingHTML).join('、'));
     html += detailRow('訓読み', "Kun'yomi", (entry.kunyomi || []).map(readingHTML).join('、'));
     if (entry.strokes) html += detailRow('画数', 'Strokes', `${entry.strokes}`);
@@ -696,6 +810,10 @@ document.addEventListener('keydown', (e) => {
       document.querySelector('.mode-btn[data-mode="word"]').click();
       return;
     }
+    if (key === 'g') {
+      document.querySelector('.mode-btn[data-mode="reverse"]').click();
+      return;
+    }
     if (key === 'r') {
       if (!el.btnReview.disabled) el.btnReview.click();
       return;
@@ -739,6 +857,10 @@ function handleAnswer(selected, btnEl) {
 
   renderDetail(q);
 
+  // Forward modes speak the reading now that it's revealed (it's the answer, in
+  // correctReading). Reverse mode already spoke it at render time.
+  if (state.mode !== 'reverse') speakReading(q.correctReading);
+
   // q.sourceGrade, not state.grade — in review mode state.grade is null and
   // each question belongs to its own level's progress record.
   ProgressManager.recordAnswer(state.mode, q.sourceGrade, q.text, isCorrect, selected, latencyMs);
@@ -750,10 +872,19 @@ function handleAnswer(selected, btnEl) {
   if (SettingsManager.get('autoNext')) {
     // A wrong answer gets a longer pause than a correct one: that's the
     // moment the revealed reading and detail panel actually need to be read.
-    setTimeout(advanceQuestion, isCorrect ? 900 : 2400);
+    // Tracked so quitting mid-pause can cancel it (see clearAdvanceTimer).
+    advanceTimer = setTimeout(advanceQuestion, isCorrect ? 900 : 2400);
   } else {
     armContinue();
   }
+}
+
+// One review row. Reverse mode's "answer" is a reading (correctReading holds
+// the kanji there — see buildReverseQuestion), so it shows the kanji as the
+// prompt and the reading as the answer, the mirror of the forward rows.
+function summaryRowHTML(q) {
+  const answer = state.mode === 'reverse' ? q.reading : q.correctReading;
+  return `<span>${escapeHTML(q.text)}</span><span class="missed-item-meaning">${escapeHTML(q.meaning)}</span><span>${readingHTML(answer)}</span>`;
 }
 
 function showSummary() {
@@ -770,7 +901,7 @@ function showSummary() {
     state.missed.forEach((q) => {
       const row = document.createElement('div');
       row.className = 'missed-item';
-      row.innerHTML = `<span>${escapeHTML(q.text)}</span><span class="missed-item-meaning">${escapeHTML(q.meaning)}</span><span>${readingHTML(q.correctReading)}</span>`;
+      row.innerHTML = summaryRowHTML(q);
       el.summaryMissed.appendChild(row);
     });
   }
@@ -785,7 +916,7 @@ function showSummary() {
     state.correctItems.forEach((q) => {
       const row = document.createElement('div');
       row.className = 'missed-item';
-      row.innerHTML = `<span>${escapeHTML(q.text)}</span><span class="missed-item-meaning">${escapeHTML(q.meaning)}</span><span>${readingHTML(q.correctReading)}</span>`;
+      row.innerHTML = summaryRowHTML(q);
       details.appendChild(row);
     });
     el.summaryCorrect.appendChild(details);
