@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'jlpt-quiz-v7';
+const CACHE_VERSION = 'jlpt-quiz-v8';
 
 const CORE_ASSETS = [
   '.',

@@ -172,9 +172,25 @@ function audioEnabled() {
 // Speaks a reading when audio is enabled and supported; a silent no-op
 // otherwise. The okurigana dot (e.g. "ひと.つ") is a display marker, not
 // something to pronounce, so it's stripped before speaking.
-function speakReading(reading) {
-  if (!reading) return;
-  if (audioEnabled() && AudioPlayer.isSupported()) AudioPlayer.speak(reading.replace(/\./g, ''));
+function speakReading(reading, onEnd) {
+  const text = reading ? reading.replace(/\./g, '') : '';
+  if (text && audioEnabled() && AudioPlayer.isSupported()) {
+    AudioPlayer.speak(text, onEnd);
+  } else if (onEnd) {
+    onEnd();
+  }
+}
+
+// How long the revealed answer stays on screen before auto-advancing, scaled to
+// how much there is to read: a short reading needs less time than a long word or
+// compound. `text` is the reading being shown/spoken; a wrong answer gets a
+// larger base, and the result is clamped so nothing is instant or interminable.
+// With audio on this is only the floor — the advance also waits for the
+// utterance to finish (see handleAnswer).
+function advanceDelayMs(text, isCorrect) {
+  const len = (text || '').length;
+  const ms = (isCorrect ? 900 : 1600) + len * 120;
+  return Math.min(isCorrect ? 6000 : 8000, Math.max(isCorrect ? 900 : 2400, ms));
 }
 
 function isSettingsOpen() {
@@ -330,6 +346,12 @@ function showScreen(name) {
 // when autoNext is on; the manual-continue path has no timer.
 let advanceTimer = null;
 
+// Bumped every time a question renders. An audio-gated auto-advance captures
+// this at answer time and only fires if it still matches — so a spoken reading
+// that finishes (or is cancelled) after the learner has moved on, quit, or
+// started a new round can't trigger a stray skip.
+let renderGen = 0;
+
 function clearAdvanceTimer() {
   if (advanceTimer !== null) {
     clearTimeout(advanceTimer);
@@ -341,6 +363,7 @@ function clearAdvanceTimer() {
 // timer or by armContinue()'s tap/keypress gate — both paths funnel through
 // here so there's exactly one place that decides "next question vs. summary".
 function advanceQuestion() {
+  if (state.screen !== 'quiz') return; // guards a late audio callback after quitting
   clearAdvanceTimer();
   state.index++;
   if (state.index < state.roundTotal) renderQuestion();
@@ -576,6 +599,7 @@ const DEFAULT_INSTRUCTION = ['正しい読み方は？', 'Choose the correct rea
 // comment on state.remainingPool for why: this is a real fix for a real
 // freeze, not premature optimization.
 function renderQuestion() {
+  renderGen++;
   const choice = QuestionSelector.select(state.remainingPool);
   if (!choice) { showSummary(); return; }
   state.remainingPool.splice(state.remainingPool.findIndex((p) => p.id === choice.id), 1);
@@ -857,10 +881,6 @@ function handleAnswer(selected, btnEl) {
 
   renderDetail(q);
 
-  // Forward modes speak the reading now that it's revealed (it's the answer, in
-  // correctReading). Reverse mode already spoke it at render time.
-  if (state.mode !== 'reverse') speakReading(q.correctReading);
-
   // q.sourceGrade, not state.grade — in review mode state.grade is null and
   // each question belongs to its own level's progress record.
   ProgressManager.recordAnswer(state.mode, q.sourceGrade, q.text, isCorrect, selected, latencyMs);
@@ -869,12 +889,36 @@ function handleAnswer(selected, btnEl) {
 
   renderDashboard();
 
+  // Forward modes speak the reading now that it's revealed (it's the answer, in
+  // correctReading). Reverse mode already spoke it at render time.
+  const spokenText = state.mode !== 'reverse' ? q.correctReading : '';
+  const readText = state.mode === 'reverse' ? q.reading : q.correctReading;
+
   if (SettingsManager.get('autoNext')) {
-    // A wrong answer gets a longer pause than a correct one: that's the
-    // moment the revealed reading and detail panel actually need to be read.
-    // Tracked so quitting mid-pause can cancel it (see clearAdvanceTimer).
-    advanceTimer = setTimeout(advanceQuestion, isCorrect ? 900 : 2400);
+    // A wrong answer gets a longer pause than a correct one: that's the moment
+    // the revealed reading and detail panel actually need to be read. Length-
+    // adaptive so a long word/compound gets more time than a short reading.
+    const delay = advanceDelayMs(readText, isCorrect);
+    const willSpeak = !!spokenText && audioEnabled() && AudioPlayer.isSupported();
+    if (willSpeak) {
+      // With audio on, don't cut the spoken reading off: advance only once BOTH
+      // the reading pause has elapsed AND the utterance has finished. renderGen
+      // + the screen check guard against a late speech callback (from quitting
+      // or retrying mid-reading) triggering a stray skip.
+      const gen = renderGen;
+      let waited = false;
+      let spoken = false;
+      const maybeAdvance = () => {
+        if (waited && spoken && gen === renderGen && state.screen === 'quiz') advanceQuestion();
+      };
+      advanceTimer = setTimeout(() => { advanceTimer = null; waited = true; maybeAdvance(); }, delay);
+      speakReading(spokenText, () => { spoken = true; maybeAdvance(); });
+    } else {
+      advanceTimer = setTimeout(advanceQuestion, delay);
+    }
   } else {
+    // Manual advance: speak the reading (forward modes), then wait.
+    if (spokenText) speakReading(spokenText);
     armContinue();
   }
 }
