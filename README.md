@@ -58,14 +58,16 @@ These cover the reused adaptive-learning engine (`ReviewScheduler`,
 
 ## Data
 
-`data/kanji-n{1-5}.json` and `data/compounds-n{1-5}.json` are generated
-from the [kanji-slideshow](../kanji-slideshow) repo's JLPT CSVs and
-`kanji_metadata.json`, via `kanji-slideshow/export_jlpt_web.py`. To
+`data/kanji-n{1-5}.json` and `data/compounds-n{1-5}.json` are generated from
+the [kanji-data](https://github.com/bagustris/kanji-data) repo (checked out
+here as a submodule at `vendor/kanji-data`) — its JLPT CSVs and
+`kanji_metadata.json`, via `vendor/kanji-data/scripts/export_jlpt_web.py`. To
 regenerate after updating the source data:
 
 ```bash
-cd ../kanji-slideshow
-python3 export_jlpt_web.py
+git submodule update --remote vendor/kanji-data   # pick up upstream changes
+python3 vendor/kanji-data/scripts/export_jlpt_web.py \
+  --src-dir vendor/kanji-data/kanji --output-dir data
 ```
 
 This overwrites everything under `data/` here. The script prints fill-rate

@@ -177,7 +177,7 @@ and `quiz-meaning` use it and are fine as-is), route it through
 returns pre-built markup (a `<span class="okurigana">` wrapper), so escape
 the raw pieces before wrapping, not the assembled result.
 
-### Data shape (see kanji-slideshow/export_jlpt_web.py)
+### Data shape (see vendor/kanji-data/scripts/export_jlpt_web.py)
 
 `data/kanji-nN.json`: `{ kanji, onyomi: [...], kunyomi: [...], readings: [...],
 meaning, strokes, freq, sentence, compounds: [{word, reading, accent, meaning}] }`.
