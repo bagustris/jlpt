@@ -26,6 +26,13 @@ source of truth for the app version.
   without already knowing the convention. The digit itself is no longer
   shown anywhere on screen.
 
+### Added
+- Kanji-mode quiz prompts now show an animated stroke-order diagram (from
+  KanjiVG data mirrored into kanji-data) instead of a static character —
+  tap/click it to replay. Falls back silently to the plain character for
+  the handful of kanji outside jōyō. Word and reverse-mode prompts are
+  unchanged.
+
 ## [1.1.0] - 2026-08-11
 
 ### Added
