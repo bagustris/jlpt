@@ -11,6 +11,13 @@ source of truth for the app version.
 
 ## [Unreleased]
 
+### Changed
+- `data/kanji-n{1-5}.json` and `data/compounds-n{1-5}.json` are now
+  generated from the shared [kanji-data](https://github.com/bagustris/kanji-data)
+  repo (`vendor/kanji-data` submodule) instead of a sibling checkout of
+  kanji-slideshow, via `vendor/kanji-data/scripts/export_jlpt_web.py`. No
+  data changed — the regenerated files are byte-identical to before.
+
 ## [1.1.0] - 2026-08-11
 
 ### Added
