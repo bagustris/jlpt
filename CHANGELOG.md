@@ -29,9 +29,12 @@ source of truth for the app version.
 ### Added
 - Kanji-mode quiz prompts now show an animated stroke-order diagram (from
   KanjiVG data mirrored into kanji-data) instead of a static character —
-  tap/click it to replay. Falls back silently to the plain character for
-  the handful of kanji outside jōyō. Word and reverse-mode prompts are
-  unchanged.
+  bold, in the app's accent red, larger than the old plain-character size,
+  and drawn in twice as fast as a typical stroke-order reference diagram
+  since this is a quiz prompt, not a lookup view. Tap/click it to replay.
+  Falls back to a bold accent-red plain character (same styling, so there's
+  no visual jump) for the handful of kanji outside jōyō. Word and
+  reverse-mode prompts are unchanged.
 
 ## [1.1.0] - 2026-08-11
 
