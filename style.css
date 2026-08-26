@@ -210,6 +210,18 @@ html, body {
   outline-offset: 2px;
 }
 
+/* Auto-advance is suppressed (and its switch disabled) while the post-answer
+   detail panel is shown — dim both the toggle and its label to show why it
+   can't be changed. See syncAutoNextAvailability() in app.js. */
+.switch input:disabled + .switch-slider {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+.settings-row:has(.switch input:disabled) .settings-row-label {
+  opacity: 0.6;
+}
+
 .settings-segmented {
   display: flex;
   gap: 0.4rem;

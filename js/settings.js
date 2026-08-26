@@ -4,14 +4,18 @@
 
 const SettingsManager = (() => {
   const STORAGE_KEY = 'jlpt-quiz-settings';
-  // autoNext defaults to true: after answering, the quiz advances after a short
-  // timed pause. Turning it off makes it wait for a tap/keypress instead, which
-  // suits the post-answer detail panel (on'yomi/kun'yomi, compounds, pitch
-  // accent) when you want unlimited time to read it.
+  // autoNext defaults to false: after answering, the quiz waits for a
+  // tap/keypress before moving on, which suits the post-answer detail panel
+  // (on'yomi/kun'yomi, compounds, pitch accent) when you want unlimited time
+  // to read it. Turning it on advances after a short timed pause instead.
+  // showDetail defaults to true: after answering, the detail panel reveals
+  // on'yomi/kun'yomi, strokes, an example sentence and compound words (kanji
+  // mode) or pitch accent and source kanji (compound mode) — see renderDetail
+  // in app.js.
   // playAudio defaults to false (spoken readings off); turning it on speaks the
   // reading. It stays a real boolean here (audioEnabled() in app.js still
   // treats a legacy `null` from earlier versions as "never chosen").
-  const DEFAULTS = { showMeaning: true, roundSize: 10, autoNext: true, playAudio: false };
+  const DEFAULTS = { showMeaning: true, roundSize: 10, autoNext: false, playAudio: false, showDetail: true };
 
   function load() {
     try {
@@ -31,8 +35,17 @@ const SettingsManager = (() => {
     }
   }
 
+  // The post-answer detail panel (on'yomi/kun'yomi, compounds, pitch accent —
+  // see renderDetail in app.js) takes real reading time, but auto-advance's
+  // timed pause is sized only for the reading itself, not that panel, so a fast
+  // auto-advance would cut it off before it can be read. showDetail therefore
+  // always suppresses autoNext. Applied here at read time only (never
+  // persisted) so a user's underlying autoNext preference survives turning the
+  // detail panel back off later, instead of being silently overwritten.
   function get(key) {
-    return load()[key];
+    const settings = load();
+    if (key === 'autoNext' && settings.showDetail) return false;
+    return settings[key];
   }
 
   function set(key, value) {

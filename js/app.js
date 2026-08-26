@@ -64,10 +64,12 @@ const el = {
   settingsOverlay: document.getElementById('settings-overlay'),
   settingShowMeaning: document.getElementById('setting-show-meaning'),
   settingAutoNext: document.getElementById('setting-auto-next'),
+  settingShowDetail: document.getElementById('setting-show-detail'),
   settingPlayAudio: document.getElementById('setting-play-audio'),
   settingRoundSizeButtons: document.querySelectorAll('#setting-round-size .segmented-btn'),
   installButton: document.getElementById('btn-install'),
   installHint: document.getElementById('settings-install-hint'),
+  aboutVersion: document.getElementById('about-version'),
 };
 
 // Core screen navigation is wired up first, before dashboard rendering or
@@ -253,8 +255,6 @@ function initSettingsPanel() {
   el.settingShowMeaning.checked = SettingsManager.get('showMeaning');
   applyMeaningVisibility();
 
-  el.settingAutoNext.checked = SettingsManager.get('autoNext');
-
   const roundSize = String(SettingsManager.get('roundSize'));
   el.settingRoundSizeButtons.forEach((btn) => {
     btn.classList.toggle('active', btn.dataset.value === roundSize);
@@ -267,6 +267,43 @@ function initSettingsPanel() {
 
   el.settingAutoNext.addEventListener('change', () => {
     SettingsManager.set('autoNext', el.settingAutoNext.checked);
+  });
+
+  // The post-answer detail panel needs real reading time that auto-advance's
+  // timer doesn't account for (see SettingsManager.get's autoNext/showDetail
+  // note), so showing it always suppresses auto-advance. Reflect that as a
+  // disabled, synced checkbox rather than leaving it interactive-but-
+  // ineffective: the underlying autoNext preference is untouched in storage and
+  // reappears (checkbox included) the moment the detail panel is turned off.
+  function syncAutoNextAvailability() {
+    const suppressed = SettingsManager.get('showDetail');
+    el.settingAutoNext.disabled = suppressed;
+    el.settingAutoNext.checked = SettingsManager.get('autoNext');
+    el.settingAutoNext.title = suppressed
+      ? '読み方などの表示中は自動で次へを使えません — Not available while details are shown'
+      : '';
+  }
+  syncAutoNextAvailability();
+
+  el.settingShowDetail.checked = SettingsManager.get('showDetail');
+  el.settingShowDetail.addEventListener('change', () => {
+    SettingsManager.set('showDetail', el.settingShowDetail.checked);
+    syncAutoNextAvailability();
+    // If this question is already answered (options disabled), reflect the
+    // change on the live panel. Toggling the setting on before answering must
+    // not reveal the details early and give the reading away.
+    const answered = state.screen === 'quiz'
+      && el.quizOptions.children[0] && el.quizOptions.children[0].disabled;
+    if (answered) {
+      renderDetail(state.currentQuestion);
+      // Turning the panel on now suppresses autoNext, but a timed advance may
+      // already be pending from when it was off — cancel it and wait for a
+      // manual continue so the just-revealed panel isn't skipped past.
+      if (SettingsManager.get('showDetail') && advanceTimer !== null) {
+        clearAdvanceTimer();
+        if (!state.awaitingContinue) armContinue();
+      }
+    }
   });
 
   // Init from the resolved default (audioEnabled()), not the raw tri-state
@@ -300,7 +337,24 @@ function initSettingsPanel() {
   renderInstallRow();
 }
 
+// The About panel's version is read from CHANGELOG.md (the single source of
+// truth — see its header) rather than duplicated here: parse the newest
+// `## [x.y.z]` heading and show it. The static v-number in index.html is the
+// offline/pre-fetch fallback, so a failed fetch just leaves that in place.
+async function loadAppVersion() {
+  try {
+    const res = await fetch('CHANGELOG.md');
+    if (!res.ok) return;
+    const text = await res.text();
+    const match = text.match(/^##\s*\[(\d+\.\d+\.\d+)\]/m);
+    if (match && el.aboutVersion) el.aboutVersion.textContent = `v${match[1]}`;
+  } catch {
+    // offline / fetch blocked — keep the static fallback from index.html
+  }
+}
+
 initSettingsPanel();
+loadAppVersion();
 registerTotalQuestionCounts();
 ProgressView.init();
 renderDashboard();
@@ -375,16 +429,24 @@ function advanceQuestion() {
 // than directly in handleAnswer — the click that answered the question is
 // still bubbling up to `document` at that point, and attaching synchronously
 // would let that same click immediately satisfy its own "continue" gate.
-function onContinueClick() {
+function onContinueClick(e) {
   if (!state.awaitingContinue) return;
+  // A click that opens/uses the settings overlay must not double as the
+  // "continue" tap — otherwise opening settings mid-reveal advances past the
+  // question underneath (and the detail panel the learner may be reading). Bail
+  // without consuming the gate so the next real tap still advances. Registered
+  // without { once: true } precisely so this early return can leave the
+  // listener armed; it's removed explicitly once it actually advances.
+  if (isSettingsOpen() || (e && e.target && e.target.closest('#settings-overlay'))) return;
   state.awaitingContinue = false;
+  document.removeEventListener('click', onContinueClick);
   advanceQuestion();
 }
 
 function armContinue() {
   state.awaitingContinue = true;
   el.quizInstruction.innerHTML = 'タップして次へ<span>Tap or press any key to continue</span>';
-  setTimeout(() => document.addEventListener('click', onContinueClick, { once: true }), 0);
+  setTimeout(() => document.addEventListener('click', onContinueClick), 0);
 }
 
 function cancelContinue() {
@@ -685,6 +747,12 @@ function detailRow(labelJa, labelEn, valueHTML) {
 // number would otherwise give the reading away before the question is
 // answered.
 function renderDetail(q) {
+  if (!SettingsManager.get('showDetail')) {
+    el.quizDetail.innerHTML = '';
+    el.quizDetail.classList.add('hidden');
+    return;
+  }
+
   const entry = q.detail;
   let html = '';
 

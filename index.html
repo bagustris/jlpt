@@ -34,6 +34,14 @@
     </div>
 
     <div class="settings-row">
+      <span class="settings-row-label" id="setting-show-detail-label">解答後に読み方などを表示<span>Show readings &amp; details after answering</span></span>
+      <label class="switch">
+        <input type="checkbox" id="setting-show-detail" aria-labelledby="setting-show-detail-label">
+        <span class="switch-slider"></span>
+      </label>
+    </div>
+
+    <div class="settings-row">
       <span class="settings-row-label" id="setting-auto-next-label">自動で次へ進む<span>Auto-advance after answering</span></span>
       <label class="switch">
         <input type="checkbox" id="setting-auto-next" aria-labelledby="setting-auto-next-label">
@@ -67,7 +75,7 @@
 
     <div class="settings-row settings-row-column settings-about">
       <span class="settings-row-label">このアプリについて<span>About</span></span>
-      <p class="about-app">JLPTドリル — JLPT Drill <span class="about-version">v1.0.0</span></p>
+      <p class="about-app">JLPTドリル — JLPT Drill <span class="about-version" id="about-version">v1.1.0</span></p>
       <a class="about-link" href="https://github.com/bagustris/jlpt" target="_blank" rel="noopener noreferrer">貢献・問題報告<span>Contribute / report an issue on GitHub</span></a>
     </div>
   </div>

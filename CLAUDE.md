@@ -203,7 +203,11 @@ reintroduce a `kanji` field on compound entries.
 
 - `jlpt-quiz-progress` — per-question stats, per-level totals, answer
   history, per-question confusion counts.
-- `jlpt-quiz-settings` — `showMeaning`, `roundSize`, `autoNext`.
+- `jlpt-quiz-settings` — `showMeaning`, `roundSize`, `autoNext`, `playAudio`,
+  `showDetail`. `showDetail` (default on) gates the post-answer detail panel
+  (see `renderDetail`); while it's on, `SettingsManager.get('autoNext')`
+  resolves to `false` at read time (never persisted), since the panel needs
+  more reading time than auto-advance's timer allows.
 
 Both are versioned, defensively-parsed JSON blobs (see `load()` in each
 file) — preserve that pattern when extending either shape.

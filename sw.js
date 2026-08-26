@@ -1,10 +1,11 @@
-const CACHE_VERSION = 'jlpt-quiz-v8';
+const CACHE_VERSION = 'jlpt-quiz-v9';
 
 const CORE_ASSETS = [
   '.',
   'index.html',
   'style.css',
   'manifest.json',
+  'CHANGELOG.md',
   'js/settings.js',
   'js/audio.js',
   'js/progress.js',
