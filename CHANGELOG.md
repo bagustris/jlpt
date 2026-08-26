@@ -11,6 +11,8 @@ source of truth for the app version.
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-08-26
+
 ### Changed
 - `data/kanji-n{1-5}.json` and `data/compounds-n{1-5}.json` are now
   generated from the shared [kanji-data](https://github.com/bagustris/kanji-data)
@@ -34,8 +36,13 @@ source of truth for the app version.
   this is a quiz prompt, not a lookup view. Tap/click it to replay. Falls
   back to a plain accent-red character (not bold — a bold system-font
   glyph next to the KanjiVG brush-stroke look read as two mismatched
-  fonts) for the handful of kanji outside jōyō. Word and reverse-mode
-  prompts are unchanged.
+  fonts) for kanji without stroke data. Word and reverse-mode prompts are
+  unchanged.
+- N1's stroke-order coverage gap closed: 247 of N1's 1,232 kanji (mostly
+  人名用漢字 name-kanji, e.g. 伊, 柚, 鴻) were outside kanji-data's
+  jōyō-only mirror and fell back to the plain character. Those 247 are now
+  fetched directly from KanjiVG upstream into kanji-data — every kanji at
+  every level (N5-N1) now animates.
 
 ## [1.1.0] - 2026-08-11
 
