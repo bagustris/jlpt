@@ -136,8 +136,29 @@ surfaces on'yomi/kun'yomi (shown separately, unlike the combined `readings`
 array used for quizzing), stroke count, an example sentence, and a handful
 of pitch-accented compounds for kanji mode; pitch accent and source kanji
 for compound mode. It only renders *after* an answer is graded — on'yomi/
-kun'yomi or the accent number would otherwise give the correct choice away
+kun'yomi or the accent pattern would otherwise give the correct choice away
 before the question is answered.
+
+Pitch accent is never shown as the raw kanjium number (see "Pitch accent
+plot" below) — `pitchAccentHTML()` renders a dot diagram instead, so this
+doesn't leak anything an unrevealed number wouldn't either, but the escaping
+rule above still gates it on grading, same as on'yomi/kun'yomi.
+
+### Pitch accent plot
+
+`accent` in the dataset (see "Data shape" below) is a kanjium pattern number
+— meaningless to a learner without already knowing the convention — so
+`pitchAccentHTML()`/`pitchAccentSVG()` in `app.js` plot it instead of ever
+printing the digit. `moraSplit()` breaks the reading into morae (a yōon
+small-kana merges into the preceding mora; っ/ん/ー are their own morae —
+see `PITCH_SMALL_KANA`), `pitchLevels()` maps each mora plus one trailing
+pseudo-mora to high/low per the standard rule. The trailing pseudo-mora is
+what visually distinguishes heiban (accent 0) from odaka (accent === mora
+count) — the two patterns are identical across the word's own morae and
+differ only in whether the pitch stays high or falls right after the word,
+which is exactly what that extra dot encodes (filled=word mora,
+hollow=trailing). A comma-separated `accent` (e.g. `"0,3"`, more than one
+accepted pattern) gets one small plot per pattern, via `pitchAccentHTML()`.
 
 ### Auto-advance vs. tap/press-to-continue
 
@@ -145,13 +166,14 @@ before the question is answered.
 moving past a graded answer:
 
 - **On**: the original kanji-drill behavior — `setTimeout(advanceQuestion,
-  isCorrect ? 900 : 2400)`.
+  isCorrect ? 900 : 2400)`, floored to `DETAIL_READ_MS` (10s) whenever the
+  detail panel is also showing (`showDetail`) — see `handleAnswer`. The two
+  settings can be combined; `showDetail` no longer force-disables `autoNext`.
 - **Off** (default): `armContinue()` swaps the instruction line to a
   "tap/press any key to continue" prompt and waits — `state.awaitingContinue`
   gates a keydown check (top of the global `keydown` listener) and a
-  document-level one-shot click listener (`onContinueClick`). Added because
-  a fixed timer is always wrong for someone: too short to read the detail
-  panel's compound list, too long for a bare N5 kanji.
+  document-level one-shot click listener (`onContinueClick`). Useful when
+  even the 10s detail-panel floor isn't enough — unlimited reading time.
 
 The click listener is registered via `setTimeout(..., 0)`, not directly
 inside `armContinue()` — the click that answered the question is still
@@ -205,9 +227,10 @@ reintroduce a `kanji` field on compound entries.
   history, per-question confusion counts.
 - `jlpt-quiz-settings` — `showMeaning`, `roundSize`, `autoNext`, `playAudio`,
   `showDetail`. `showDetail` (default on) gates the post-answer detail panel
-  (see `renderDetail`); while it's on, `SettingsManager.get('autoNext')`
-  resolves to `false` at read time (never persisted), since the panel needs
-  more reading time than auto-advance's timer allows.
+  (see `renderDetail`) — it no longer force-disables `autoNext`; the two
+  combine, with `handleAnswer`'s auto-advance delay floored to
+  `DETAIL_READ_MS` while the panel is showing instead (see "Auto-advance vs.
+  tap/press-to-continue" above).
 
 Both are versioned, defensively-parsed JSON blobs (see `load()` in each
 file) — preserve that pattern when extending either shape.

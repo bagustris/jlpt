@@ -195,6 +195,11 @@ function advanceDelayMs(text, isCorrect) {
   return Math.min(isCorrect ? 6000 : 8000, Math.max(isCorrect ? 900 : 2400, ms));
 }
 
+// Auto-advance's floor while the post-answer detail panel is on screen (see
+// handleAnswer) — on'yomi/kun'yomi, compounds, pitch accent, etc. need more
+// reading time than the reading-length formula above accounts for.
+const DETAIL_READ_MS = 10000;
+
 function isSettingsOpen() {
   return !el.settingsOverlay.classList.contains('hidden');
 }
@@ -265,30 +270,14 @@ function initSettingsPanel() {
     applyMeaningVisibility();
   });
 
+  el.settingAutoNext.checked = SettingsManager.get('autoNext');
   el.settingAutoNext.addEventListener('change', () => {
     SettingsManager.set('autoNext', el.settingAutoNext.checked);
   });
 
-  // The post-answer detail panel needs real reading time that auto-advance's
-  // timer doesn't account for (see SettingsManager.get's autoNext/showDetail
-  // note), so showing it always suppresses auto-advance. Reflect that as a
-  // disabled, synced checkbox rather than leaving it interactive-but-
-  // ineffective: the underlying autoNext preference is untouched in storage and
-  // reappears (checkbox included) the moment the detail panel is turned off.
-  function syncAutoNextAvailability() {
-    const suppressed = SettingsManager.get('showDetail');
-    el.settingAutoNext.disabled = suppressed;
-    el.settingAutoNext.checked = SettingsManager.get('autoNext');
-    el.settingAutoNext.title = suppressed
-      ? '読み方などの表示中は自動で次へを使えません — Not available while details are shown'
-      : '';
-  }
-  syncAutoNextAvailability();
-
   el.settingShowDetail.checked = SettingsManager.get('showDetail');
   el.settingShowDetail.addEventListener('change', () => {
     SettingsManager.set('showDetail', el.settingShowDetail.checked);
-    syncAutoNextAvailability();
     // If this question is already answered (options disabled), reflect the
     // change on the live panel. Toggling the setting on before answering must
     // not reveal the details early and give the reading away.
@@ -296,12 +285,12 @@ function initSettingsPanel() {
       && el.quizOptions.children[0] && el.quizOptions.children[0].disabled;
     if (answered) {
       renderDetail(state.currentQuestion);
-      // Turning the panel on now suppresses autoNext, but a timed advance may
-      // already be pending from when it was off — cancel it and wait for a
-      // manual continue so the just-revealed panel isn't skipped past.
+      // A timed advance may already be pending from before the panel was
+      // turned on, sized for the bare reading — extend it to the full
+      // detail-reading floor so the just-revealed panel isn't skipped past.
       if (SettingsManager.get('showDetail') && advanceTimer !== null) {
         clearAdvanceTimer();
-        if (!state.awaitingContinue) armContinue();
+        advanceTimer = setTimeout(advanceQuestion, DETAIL_READ_MS);
       }
     }
   });
@@ -722,12 +711,84 @@ function renderQuestion() {
   state.questionShownAt = performance.now();
 }
 
+// --- Pitch accent plot ------------------------------------------------
+//
+// `accent` in the dataset is a kanjium pattern number (or comma-separated
+// list of accepted patterns, e.g. "0,3") — meaningless to a learner who
+// doesn't already know the convention, so instead of printing the digit we
+// plot it as the high/low dot-and-line diagram Japanese pitch-accent
+// references (OJAD, kanjium itself) use.
+
+// A small-kana yōon (ゃゅょぁぃぅぇぉ and katakana equivalents) merges into the
+// preceding mora instead of counting as its own — っ/ん/ー are real morae on
+// their own and are deliberately NOT in this set.
+const PITCH_SMALL_KANA = new Set([...'ゃゅょぁぃぅぇぉャュョァィゥェォ']);
+
+function moraSplit(reading) {
+  const moras = [];
+  for (const ch of reading || '') {
+    if (PITCH_SMALL_KANA.has(ch) && moras.length > 0) moras[moras.length - 1] += ch;
+    else moras.push(ch);
+  }
+  return moras;
+}
+
+// One 'H'/'L' per mora, standard Japanese pitch-accent rule, plus one
+// trailing pseudo-mora for whatever follows the word: high only for heiban
+// (accentNum 0), the one pattern where the pitch never falls. That trailing
+// dot is what visually tells heiban apart from odaka (accentNum === mora
+// count) — the two are identical across the word's own morae and differ
+// only in what happens right after it.
+function pitchLevels(moraCount, accentNum) {
+  const levels = [];
+  for (let i = 0; i < moraCount; i++) {
+    if (accentNum === 0) levels.push(i === 0 ? 'L' : 'H');
+    else if (accentNum === 1) levels.push(i === 0 ? 'H' : 'L');
+    else levels.push(i === 0 ? 'L' : (i < accentNum ? 'H' : 'L'));
+  }
+  levels.push(accentNum === 0 ? 'H' : 'L');
+  return levels;
+}
+
+// One accepted pattern as a small inline dot-and-line SVG: filled dots for
+// the word's own morae, one hollow trailing dot for the pseudo-mora after it.
+function pitchAccentSVG(reading, accentNum) {
+  const moras = moraSplit(reading);
+  if (moras.length === 0) return '';
+  const levels = pitchLevels(moras.length, accentNum);
+  const stepX = 14;
+  const padX = 6;
+  const topY = 6;
+  const bottomY = 18;
+  const width = padX * 2 + stepX * moras.length;
+  const height = 24;
+  const xAt = (i) => padX + stepX * i;
+  const yAt = (level) => (level === 'H' ? topY : bottomY);
+  const path = levels.map((level, i) => `${i === 0 ? 'M' : 'L'}${xAt(i)},${yAt(level)}`).join(' ');
+  const dots = levels.map((level, i) => {
+    const cls = i < moras.length ? 'pitch-dot' : 'pitch-dot pitch-dot-trailing';
+    return `<circle cx="${xAt(i)}" cy="${yAt(level)}" r="${i < moras.length ? 3 : 2.5}" class="${cls}" />`;
+  }).join('');
+  return `<svg class="pitch-plot" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="${escapeHTML(accentNum)}型">` +
+    `<path d="${path}" class="pitch-line" fill="none" />${dots}</svg>`;
+}
+
+// `accent` is a comma-separated list when a word has more than one accepted
+// pattern (e.g. "0,3") — one small plot per accepted pattern, never the raw
+// digits themselves.
+function pitchAccentHTML(reading, accent) {
+  if (!accent) return '';
+  const patterns = String(accent).split(',').map((s) => parseInt(s, 10)).filter(Number.isInteger);
+  if (patterns.length === 0) return '';
+  return `<span class="pitch-accent-group">${patterns.map((n) => pitchAccentSVG(reading, n)).join('')}</span>`;
+}
+
 // Up to `limit` compound examples with kanjium pitch accent, shown in the
 // post-answer detail panel (kanji mode) — see renderDetail().
 function renderCompoundList(compounds, limit) {
   if (!compounds || compounds.length === 0) return '';
   const items = compounds.slice(0, limit).map((c) => {
-    const accent = c.accent ? `<span class="detail-accent">${escapeHTML(c.accent)}</span>` : '';
+    const accent = pitchAccentHTML(c.reading, c.accent);
     return `<li><span class="detail-word">${escapeHTML(c.word)}</span><span class="detail-reading">${readingHTML(c.reading)}</span>${accent}<span class="detail-gloss">${escapeHTML(c.meaning)}</span></li>`;
   }).join('');
   const rest = compounds.length - limit;
@@ -763,7 +824,7 @@ function renderDetail(q) {
     if (entry.sentence) html += detailRow('例文', 'Example', escapeHTML(entry.sentence));
     html += renderCompoundList(entry.compounds, 4);
   } else {
-    html += detailRow('アクセント', 'Pitch accent', entry.accent ? escapeHTML(entry.accent) : null);
+    html += detailRow('アクセント', 'Pitch accent', pitchAccentHTML(entry.reading, entry.accent) || null);
     if (entry.sourceKanji && entry.sourceKanji.length) html += detailRow('漢字', 'Kanji', entry.sourceKanji.map(escapeHTML).join('、'));
   }
 
@@ -948,6 +1009,7 @@ function handleAnswer(selected, btnEl) {
   });
 
   renderDetail(q);
+  const detailShown = !el.quizDetail.classList.contains('hidden');
 
   // q.sourceGrade, not state.grade — in review mode state.grade is null and
   // each question belongs to its own level's progress record.
@@ -965,8 +1027,11 @@ function handleAnswer(selected, btnEl) {
   if (SettingsManager.get('autoNext')) {
     // A wrong answer gets a longer pause than a correct one: that's the moment
     // the revealed reading and detail panel actually need to be read. Length-
-    // adaptive so a long word/compound gets more time than a short reading.
-    const delay = advanceDelayMs(readText, isCorrect);
+    // adaptive so a long word/compound gets more time than a short reading —
+    // floored to DETAIL_READ_MS when the detail panel is also on screen, since
+    // that needs its own reading time the reading-length formula doesn't know
+    // about.
+    const delay = Math.max(advanceDelayMs(readText, isCorrect), detailShown ? DETAIL_READ_MS : 0);
     const willSpeak = !!spokenText && audioEnabled() && AudioPlayer.isSupported();
     if (willSpeak) {
       // With audio on, don't cut the spoken reading off: advance only once BOTH

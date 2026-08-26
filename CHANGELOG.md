@@ -17,6 +17,14 @@ source of truth for the app version.
   repo (`vendor/kanji-data` submodule) instead of a sibling checkout of
   kanji-slideshow, via `vendor/kanji-data/scripts/export_jlpt_web.py`. No
   data changed — the regenerated files are byte-identical to before.
+- Auto-advance can now be combined with "Show readings & details after
+  answering" instead of being force-disabled while it's on. The timed pause
+  is held to at least 10 seconds whenever the detail panel is showing, giving
+  enough time to read it before the quiz moves on.
+- Pitch accent is now plotted as a high/low dot diagram instead of shown as
+  the raw kanjium pattern number (e.g. "0" or "0,3"), which meant nothing
+  without already knowing the convention. The digit itself is no longer
+  shown anywhere on screen.
 
 ## [1.1.0] - 2026-08-11
 

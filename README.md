@@ -28,13 +28,21 @@ beyond the reading itself:
 
 - Kanji mode: on'yomi vs. kun'yomi (shown separately), stroke count, an
   example sentence, and a few compound words that use this kanji — each
-  with its kanjium pitch-accent number.
-- Compound mode: the word's pitch-accent number and which kanji (from this
-  level) it's built from.
+  with its pitch accent plotted as a high/low dot diagram.
+- Compound mode: the word's pitch accent (same dot diagram) and which kanji
+  (from this level) it's built from.
+
+Pitch accent is plotted rather than shown as the raw kanjium pattern number
+(e.g. "0" or "0,3") — that digit means nothing without already knowing the
+convention, so it's never shown on screen.
 
 By default the app advances to the next question after a short timed pause.
 Turn **off** 自動で次へ進む (Auto-advance) in Settings to wait for a tap or
 key press instead, so there's no rush reading the detail panel.
+> [!NOTE]
+> When the detail panel is also on, the pause is held to at least 10 seconds
+> (`DETAIL_READ_MS` in `js/app.js`) instead of the usual reading-length-scaled
+> delay, so there's time to read it before the quiz moves on.
 
 ## Running locally
 

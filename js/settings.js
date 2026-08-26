@@ -35,16 +35,8 @@ const SettingsManager = (() => {
     }
   }
 
-  // The post-answer detail panel (on'yomi/kun'yomi, compounds, pitch accent —
-  // see renderDetail in app.js) takes real reading time, but auto-advance's
-  // timed pause is sized only for the reading itself, not that panel, so a fast
-  // auto-advance would cut it off before it can be read. showDetail therefore
-  // always suppresses autoNext. Applied here at read time only (never
-  // persisted) so a user's underlying autoNext preference survives turning the
-  // detail panel back off later, instead of being silently overwritten.
   function get(key) {
     const settings = load();
-    if (key === 'autoNext' && settings.showDetail) return false;
     return settings[key];
   }
 

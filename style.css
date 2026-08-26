@@ -1006,21 +1006,36 @@ html, body {
   font-size: 0.8rem;
 }
 
-/* Pitch-accent number, e.g. "(4)" — deliberately not a bordered box like
-   .key-badge, so it doesn't read as another selectable option. */
-.detail-accent {
-  font-variant-numeric: tabular-nums;
-  font-size: 0.75rem;
-  font-style: italic;
-  color: var(--accent);
+/* Pitch-accent plot: filled dots trace the word's own morae at high/low
+   pitch, connected by a line; one hollow trailing dot stands for whatever
+   follows the word (it only stays high for heiban — see pitchLevels() in
+   app.js). A plot instead of the raw kanjium number, which means nothing to
+   a learner who doesn't already know the convention. A word with more than
+   one accepted pattern (accent "0,3") gets one small plot per pattern. */
+.pitch-accent-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
 }
 
-.detail-accent::before {
-  content: "(";
+.pitch-plot {
+  overflow: visible;
+  vertical-align: middle;
 }
 
-.detail-accent::after {
-  content: ")";
+.pitch-line {
+  stroke: var(--accent);
+  stroke-width: 1.5;
+}
+
+.pitch-dot {
+  fill: var(--accent);
+}
+
+.pitch-dot-trailing {
+  fill: var(--card-bg);
+  stroke: var(--accent);
+  stroke-width: 1.5;
 }
 
 .detail-gloss {
